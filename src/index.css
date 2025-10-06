@@ -1,0 +1,4 @@
+    /* This will import Google Fonts directly in CSS */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Poppins:wght@400;500;700&display=swap');
+
+    @import "tailwindcss"; /* This is a simplified Tailwind import for v4 with Vite plugin */

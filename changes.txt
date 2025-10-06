@@ -1,0 +1,30 @@
+gasigwa-portfolio changes
+
+Day 18th September 2025
+
+1. I have added Computer Basics card
+
+Day 21st September 2025
+
+1. I have finalized adding all the cards (9 cards so far)
+
+2. Now, it is time to build the Lesson pages:
+
+- Step 1: npm install react-router-dom: 
+   We start with planning "routing" (or plumbing); this process allows a user to click on a lesson card and be taken to a dedicated page for that lesson.
+- Step 2: setup router:
+   The router needs to wrap your entire application so it can control the URLs. The best place to do this is in the main entry file, 
+   which is src/main.jsx (sometimes it can go inside src/index.js).
+- Step 3: defining the application routes:
+   Now, we need to tell the router which components to show for which URLs. We'll modify our main App.js file to define a route for the homepage (/) 
+   and a dynamic route for the lessons (/lessons/:lessonSlug).
+   
+- Step n: created lessons.jsx: This will hold all the information for our lesson cards, including the all-important slug for the URL.
+
+3. Here's a quick breakdown of what's happening so far:
+
+When I click the <Link>: In the LessonCard.jsx, the <Link to={'/lessons/computer-basics'}> tells React Router to change the URL.
+React Router finds a match: my App.jsx sees the new URL and matches it with the route <Route path="/lessons/:lessonSlug" ... />.
+The correct page is rendered: Because it found a match, it renders the LessonPage component.
+The placeholder is displayed: my LessonPage.jsx is currently a placeholder. It correctly grabs the lessonSlug from the URL (like "computer-basics") 
+and displays it. The "nothing" you're seeing is actually this placeholder page, which is exactly what we want for now.
