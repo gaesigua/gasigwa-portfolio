@@ -22,7 +22,6 @@ const Layout = ({ children }) => (
         >
           home
         </Link>
-<<<<<<< HEAD
         {/* I am commenting out the links, for now we will use a to use href;  `a` tags for now because they are in-page links */}
         {/* <Link to="/lessons" className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium">
           lessons
@@ -57,18 +56,15 @@ const Layout = ({ children }) => (
         </Link> */}
       {/* Add more links as needed */}
       {/* </nav> */}
-=======
-        <Link to="/lessons" className="text-neutral-300 hover:text-blue-400">
-          learn
-        </Link>
-        <Link to="/projects" className="text-neutral-300 hover:text-blue-400">
-          projects
-        </Link>
+        {/* <Link to="/lessons" className="text-neutral-300 hover:text-blue-400"> */}
+          {/* learn */}
+        {/* </Link> */}
+        {/* <Link to="/projects" className="text-neutral-300 hover:text-blue-400"> */}
+          {/* projects */}
+        {/* </Link> */}
         {/* Add more links as needed */}
-      </nav>
-      
->>>>>>> 89c2891 (trying to commit)
-    </header>
+      {/* </nav>*/}
+      </header>
 
     {/* Main Content */}
     <main className="flex-1 container mx-auto px-4 py-8 md:py-16">

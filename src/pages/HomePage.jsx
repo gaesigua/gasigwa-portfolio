@@ -22,44 +22,40 @@ const HomePage = () => {
               />
             </Link> */}
             {/* <ul className="flex space-x-2 md:space-x-4">
-              <li>
-                <Link to="/" className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium">
-                  home
-                </Link>
-              </li>
-              <li>
-                <a
-                  href="#learn-with-me"
-                  className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium"
-                >
-                  learn
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#projects"
-                  className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium"
-                >
-                  {/* This can remain an `a` tag for now as it's an in-page link */}
-                  {/* projects
-                </a>
-              </li>
-<<<<<<< HEAD
-              <li>
-                <a
-                  href="#learn-with-me"
-                  className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium"
-                >
-                  learn
-                </a>
-              </li>
-            </ul> */}
-          {/* </nav> */}
-=======
-              
-            </ul>
-          </nav>
->>>>>>> 89c2891 (trying to commit)
+              // <li>
+              //   <Link to="/" className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium">
+              //     home
+              //   </Link>
+              // </li>
+              // <li>
+              //   <a
+              //     href="#learn-with-me"
+              //     className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium"
+              //   >
+              //     learn
+              //   </a>
+              // </li>
+              // <li>
+              //   <a
+              //     href="#projects"
+              //     className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium"
+              //   >
+              //     {/* This can remain an `a` tag for now as it's an in-page link */}
+              {/* projects */}
+                 {/* </a> */}
+              {/* </li> */}
+              {/* <li> */}
+              {/* <a */}
+                   {/* href="#learn-with-me" */}
+                   {/* className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium" */}
+                 {/* > */}
+                   {/* learn */}
+                 {/* </a> */}
+               {/* </li> */}
+               {/* </ul> */}
+               {/* </nav> */}
+               {/* </ul> */}
+               {/* </nav> */}
 
           {/* Home/Hero Section */}
           <section id="home" className="text-center mb-24 md:mb-36 pt-16">

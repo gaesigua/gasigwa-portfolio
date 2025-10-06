@@ -108,7 +108,7 @@ export const lessons = [
           "Beginner level focusing on basic phrases and expressions related to programming.",
         pages: [
           {slug: "introduction-at-the-office", title: "Introduction at the Office", summary: "Learn how to introduce yourself and others in a professional setting." },
-          {slug: "your-first-online-meeting", title: "Your First Online Meeting", summary: "Get comfortable with the vocabulary and phrases used in virtual meetings." },
+          {slug: "your-first-online-meeting", title: "Your First Online Meeting", summary: "Learn how to introduce yourself and others, and get comfortable with the vocabulary and phrases used in virtual meetings." },
           {slug: "daily-routine", title: "Daily Routine", summary: "Learn to describe your daily work routine and common tasks." },
           {slug: "describing-your-job", title: "Describing Your Job", summary: "Learn how to talk about your job responsibilities and tasks." },
           { slug: "programming-languages", title: "Programming Languages", summary: "Learn vocabulary related to popular programming languages." },
