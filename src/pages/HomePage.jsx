@@ -60,18 +60,18 @@ const HomePage = () => {
           {/* Home/Hero Section */}
           <section id="home" className="text-center mb-24 md:mb-36 pt-16">
             <h1 className="text-4xl md:text-6xl font-extrabold text-neutral-50 mb-6 leading-tight">
-              hello, i'm <span className="text-blue-400">gasigwa</span>.
+              Hello, I'm <span className="text-blue-400">Gasigwa</span>.
             </h1>
             <p className="text-lg md:text-2xl text-neutral-400 max-w-3xl mx-auto mb-8">
-              a java & springboot developer with a passion for building robust
-              applications and teaching programming in Rwanda.
+              A Java & Springboot Developer with a passion for building robust
+              applications and sharing programming knowledge in Rwanda.
             </p>
             <div className="flex justify-center space-x-4">
               <a
                 href="#projects"
                 className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-300 transform hover:-translate-y-1 flex items-center group"
               >
-                view my projects
+                View my projects
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
               </a>
               {/* Removed 'Get in Touch' button as Contact section was removed as well */}
@@ -81,7 +81,7 @@ const HomePage = () => {
           {/* Learn to Code Section */}
           <section id="learn-with-me" className="mb-24 md:mb-36 py-12 md:py-16">
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-50 text-center mb-12">
-              learn
+              I want to learn ...
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {lessons.map((lesson) => (
@@ -92,13 +92,13 @@ const HomePage = () => {
           {/* Projects Section */}
           <section id="projects" className="mb-24 md:mb-36 py-12 md:py-16">
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-50 text-center mb-12">
-              my projects
+              My Projects
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Project Card 1 */}
               <div className="bg-neutral-900 p-8 rounded-xl shadow-lg border border-neutral-800 flex flex-col h-full">
                 <h3 className="text-2xl font-semibold text-neutral-50 mb-3">
-                  bank of kicukiro
+                  Bank of Kicukiro
                 </h3>
                 <p className="text-neutral-400 mb-4 flex-grow">
                   Spring Boot API backend: a robust RESTful API built with
@@ -121,17 +121,17 @@ const HomePage = () => {
               {/* Project Card 2 */}
               <div className="bg-neutral-900 p-8 rounded-xl shadow-lg border border-neutral-800 flex flex-col h-full">
                 <h3 className="text-2xl font-semibold text-neutral-50 mb-3">
-                  college student management system
+                  College Student Management System
                 </h3>
                 <p className="text-neutral-400 mb-4 flex-grow">
-                  a system designed to manage college student data, built with
+                  A system designed to manage college student data, built with
                   Spring Boot for a robust RESTful API. It includes
                   functionalities for student enrollment, course management, and
                   uses Postman for API testing.
                 </p>
                 <div className="mt-auto flex justify-between items-center text-neutral-400">
                   <span className="text-sm">
-                    java, Spring Boot, REST API, Postman
+                    Java, Spring Boot, REST API, Postman
                   </span>
                   <a
                     href="https://github.com/gaesigua/college-student-management-system-springboot"
@@ -147,7 +147,7 @@ const HomePage = () => {
               {/* Project Card 3 */}
               <div className="bg-neutral-900 p-8 rounded-xl shadow-lg border border-neutral-800 flex flex-col h-full">
                 <h3 className="text-2xl font-semibold text-neutral-50 mb-3">
-                  ijisho
+                  Ijisho
                 </h3>
                 <p className="text-neutral-400 mb-4 flex-grow">
                   React frontend application: a responsive single-page
@@ -169,10 +169,10 @@ const HomePage = () => {
               {/* Project Card 4 */}
               <div className="bg-neutral-900 p-8 rounded-xl shadow-lg border border-neutral-800 flex flex-col h-full">
                 <h3 className="text-2xl font-semibold text-neutral-50 mb-3">
-                  kinyarwandAI voice translator
+                  KinyarwandAI Voice Translator
                 </h3>
                 <p className="text-neutral-400 mb-4 flex-grow">
-                  an ongoing Python project to develop an AI-powered voice
+                  An ongoing Python project to develop an AI-powered voice
                   translator focusing on Kinyarwanda. this system transcribes
                   spoken kinyarwanda, translates it into english, and then
                   converts the english text into speech in multiple languages,
@@ -196,10 +196,10 @@ const HomePage = () => {
               {/* Project Card 5 - To add more as needed */}
               <div className="bg-neutral-900 p-8 rounded-xl shadow-lg border border-neutral-800 flex flex-col h-full">
                 <h3 className="text-2xl font-semibold text-neutral-50 mb-3">
-                  urugo
+                  Urugo
                 </h3>
                 <p className="text-neutral-400 mb-4 flex-grow">
-                  e-commerce front & backend service: a microservice for an
+                  E-commerce front & backend service: a microservice for an
                   e-commerce platform handling product catalog and order
                   management, focusing on scalability and transaction integrity.
                 </p>
@@ -219,10 +219,10 @@ const HomePage = () => {
               {/* Project Card 6 - To add more as needed */}
               <div className="bg-neutral-900 p-8 rounded-xl shadow-lg border border-neutral-800 flex flex-col h-full">
                 <h3 className="text-2xl font-semibold text-neutral-50 mb-3">
-                  underSchool
+                  UnderSchool
                 </h3>
                 <p className="text-neutral-400 mb-4 flex-grow">
-                  teaching platform prototype: an early prototype for a learning
+                  Teaching platform prototype: an early prototype for a learning
                   platform designed for aspiring programmers in Rwanda,
                   featuring course progress tracking and interactive lessons.
                 </p>
@@ -242,10 +242,10 @@ const HomePage = () => {
               {/* Project Card 7 - To add more as needed */}
               <div className="bg-neutral-900 p-8 rounded-xl shadow-lg border border-neutral-800 flex flex-col h-full">
                 <h3 className="text-2xl font-semibold text-neutral-50 mb-3">
-                  iwacu java library
+                  Iwacu Java Library
                 </h3>
                 <p className="text-neutral-400 mb-4 flex-grow">
-                  a custom Java utility library, inspired by Google's Guava.
+                  A custom Java utility library, inspired by Google's Guava.
                   this project aims to provide a collection of common helper
                   functions and data structures to streamline development,
                   focusing on robust, reusable, and efficient code patterns.
@@ -266,16 +266,16 @@ const HomePage = () => {
               {/* Project Card 8 */}
               <div className="bg-neutral-900 p-8 rounded-xl shadow-lg border border-neutral-800 flex flex-col h-full">
                 <h3 className="text-2xl font-semibold text-neutral-50 mb-3">
-                  hangman game
+                  Hangman Game
                 </h3>
                 <p className="text-neutral-400 mb-4 flex-grow">
-                  a classic hangman game implementation, developed in Java. this
+                  A classic hangman game implementation, developed in Java. this
                   project features a command-line interface for interactive
                   gameplay, including word selection, guess tracking, and
                   win/loss conditions.
                 </p>
                 <div className="mt-auto flex justify-between items-center text-neutral-400">
-                  <span className="text-sm">Java, command-line interface</span>
+                  <span className="text-sm">Java, Command-Line Interface</span>
                   <a
                     href="https://github.com/gaesigua/HangmanGame"
                     target="_blank"
@@ -289,17 +289,17 @@ const HomePage = () => {
               {/* Project Card 9 */}
               <div className="bg-neutral-900 p-8 rounded-xl shadow-lg border border-neutral-800 flex flex-col h-full">
                 <h3 className="text-2xl font-semibold text-neutral-50 mb-3">
-                  wordle game
+                  Wordle Game
                 </h3>
                 <p className="text-neutral-400 mb-4 flex-grow">
-                  a Java implementation of the popular word-guessing game,
+                  A Java implementation of the popular word-guessing game,
                   Wordle. this project features interactive gameplay where users
                   attempt to guess a hidden five-letter word within a limited
                   number of tries, providing feedback on letter correctness and
                   placement.
                 </p>
                 <div className="mt-auto flex justify-between items-center text-neutral-400">
-                  <span className="text-sm">Java, command-line interface</span>
+                  <span className="text-sm">Java, Command-Line Interface</span>
                   <a
                     href="https://github.com/gaesigua/Wordle-Game"
                     target="_blank"

@@ -34,6 +34,7 @@ _**N <sub>Base</sub> = (d<sub>n</sub> . Base<sup>n</sup>) + (d<sub>n-1</sub> . B
 
 
 **- Example 2:** The number **11010110** is calculated as:
+
 **(1. 2<sup>7</sup>) + (1. 2<sup>6</sup>) + (0. 2<sup>5</sup>) + (1. 2<sup>4</sup>) + (0. 2<sup>3</sup>) + (1. 2<sup>2</sup>) + (1. 2<sup>1</sup>) + (0. 2<sup>0</sup>) = 128 + 64 + 0 + 16 + 0 + 4 + 2 + 0 = 214**
 
 In the 8-bit binary number **11010110**, the **leftmost bit** is **1** (first number on the left side). This 1 is the **MSB** and has the highest value, representing **2<sup>7</sup>** (**128** in **decimal**). The **rightmost bit**, **0**, is the **LSB** and represents **0. 2<sup>0</sup>** (**0** in **decimal**).
@@ -61,10 +62,7 @@ If the bit were changed from 1 to 0, the number would become **11010100**, chang
 
 **-Use Case:** The most common shorthand in computing. **Four** binary bits (a **nibble**) map directly to **one hexadecimal** digit (e.g., 1101<sub>2</sub> = D<sub>16</sub>).
 
-**-Example:**
-* **A<sub>16</sub>**
-* **F<sub>16</sub>**
-* **A4D15<sub>16</sub>**
+**-Example:** The numbers **A<sub>16</sub>**, **F<sub>16</sub>**, **A4D15<sub>16</sub>**
 
 
 <!-- * **A<sub>16</sub> = 10<sub>10</sub>**

@@ -20,7 +20,7 @@ const Layout = ({ children }) => (
           to="/"
           className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium"
         >
-          home
+          Home
         </Link>
         {/* I am commenting out the links, for now we will use a to use href;  `a` tags for now because they are in-page links */}
         {/* <Link to="/lessons" className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium">
@@ -30,7 +30,7 @@ const Layout = ({ children }) => (
           href="/#learn-with-me"
           className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium"
         >
-          learn
+          Learn
         </a>
         {/* <Link
           to="/projects"
@@ -42,7 +42,7 @@ const Layout = ({ children }) => (
           href="/#projects"
           className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium"
         >
-          projects
+          Projects
         </a>
       </nav>
 

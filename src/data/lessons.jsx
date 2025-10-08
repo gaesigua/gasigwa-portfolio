@@ -1,7 +1,7 @@
 export const lessons = [
   {
     slug: "computer-basics",
-    title: "computer basics",
+    title: "Computer Basics",
     summary:
       "start your programming journey with computer basics, understand foundational concepts of computer hardware, software, electronic devices, operating systems, and more.",
     tags: "history, parts of a computer, internet basics",
@@ -29,7 +29,7 @@ export const lessons = [
   },
   {
     slug: "touch-typing",
-    title: "touch typing",
+    title: "Touch Typing",
     summary:
       "learn to touch type with all your fingers and become a typing pro and write code faster.",
     tags: "typing tests, typing lessons, games",
@@ -37,7 +37,7 @@ export const lessons = [
   },
   {
     slug: "effective-communication",
-    title: "effective communication",
+    title: "Effective Communication",
     summary:
       "learn to communicate appropriately with your peers, colleagues, friends, and family and build better relationships with your team and the world around you.",
     tags: "oral communication, writing, listening, visual communication",
@@ -45,7 +45,7 @@ export const lessons = [
   },
   {
     slug: "digital-electronics-and-electrical-circuits",
-    title: "digital electronics and electrical circuits",
+    title: "Digital Electronics and Electrical Circuits",
     summary:
       "before you dive deep into programming, first learn core concepts of digital electronics and electrical circuits.",
     tags: "logic gates, digital systems, circuits, signals",
@@ -219,7 +219,7 @@ export const lessons = [
   },
   {
     slug: "english-for-programmers",
-    title: "english for programmers",
+    title: "English for Programmers",
     summary:
       "learn the english language with a focus on programming and technology-related vocabulary and concepts.",
     tags: "grammar, vocabulary, reading, writing",
@@ -596,7 +596,7 @@ export const lessons = [
   },
   {
     slug: "german-for-programmers",
-    title: "german for programmers",
+    title: "German for Programmers",
     summary:
       "learn the german language with a focus on programming and technology-related vocabulary and concepts.",
     tags: "grammar, vocabulary, reading, writing",
@@ -973,7 +973,7 @@ export const lessons = [
   },
   {
     slug: "html-fundamentals",
-    title: "html fundamentals",
+    title: "HTML Fundamentals",
     summary:
       "learn the basics of HyperText Markup Language (HTML), and build your first website.",
     tags: "html basics, webpages, tutorials",
@@ -981,7 +981,7 @@ export const lessons = [
   },
   {
     slug: "css-fundamentals",
-    title: "css fundamentals",
+    title: "CSS Fundamentals",
     summary:
       "learn the basics of cascading style sheets (css), and style your first html website.",
     tags: "css basics, css flexbox, css grid",
@@ -989,7 +989,7 @@ export const lessons = [
   },
   {
     slug: "java-programming-fundamentals",
-    title: "java programming fundamentals",
+    title: "Java Programming Fundamentals",
     summary:
       "start your programming journey with Java, a powerful and versatile language. learn core concepts, object-oriented programming, and build your first applications.",
     tags: "java, springboot, tutorials",
@@ -997,7 +997,7 @@ export const lessons = [
   },
   {
     slug: "python-programming-fundamentals",
-    title: "python programming fundamentals",
+    title: "Python Programming Fundamentals",
     summary:
       "dive into Python, a highly versatile language perfect for web development, data science, and automation. learn syntax, data structures, and foundational programming concepts.",
     tags: "python, beginners, scripting",
@@ -1005,7 +1005,7 @@ export const lessons = [
   },
   {
     slug: "mysql-fundamentals",
-    title: "mysql fundamentals",
+    title: "MySQL Fundamentals",
     summary:
       "we will explore the fundamentals of MySQL, a popular relational database management system. this section covers database design, SQL queries, data manipulation, and basic administration for effective data storage and retrieval.",
     tags: "mysql, sql, dbm",
