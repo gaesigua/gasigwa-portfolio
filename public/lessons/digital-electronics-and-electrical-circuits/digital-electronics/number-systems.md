@@ -3,10 +3,24 @@
 In digital electronics, information is represented and processed using the **binary** system. 
 However, for humans to efficiently read and write this information, we use other number systems like **Decimal**, **Octal**, and **Hexadecimal**.
 
-## The Concept of Base (Radix)
+![Alt Binary]( /images/binary1.png "Binary System")
+
+<strong>💡 Important:</strong> The subscript number indicates the base of the number system. For example, 101₂ means 101 in binary (base 2).
+
+<!-- <div style="border: 1px solid #1b65b9ff; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 10px; border-radius: 0px; color: white">
+    **NOTE:** The subscript number indicates the base of the number system. For example, 101₂ means 101 in binary (base 2).
+</div> -->
+
+
+<!-- <div style="border: 1px solid #1b65b9ff; background-color: #595e6dff; padding: 10px; border-radius: 0px; color: white">
+    **NOTE:** This action is irreversible and may result in data loss. Proceed with caution.
+</div> -->
+
+## The Concept of Base (or Radix)
 ---
 
-Every number system has a **base** (or **radix**), which determines the number of unique digits used in that system.
+A number system is a way of representing numbers using a specific set of symbols or digits. The number of unique digits used in a number system is called **base** or **radix**.
+Every number system must have a **base**, and this base will determine the number of unique digits used in that system.
 
 For any number, its value is determined by the sum of its digits multiplied by the base raised to the power of the digit's position.
 
@@ -67,3 +81,5 @@ If the bit were changed from 1 to 0, the number would become **11010100**, chang
 
 <!-- * **A<sub>16</sub> = 10<sub>10</sub>**
 * **F<sub>16</sub> = 15<sub>10</sub>** -->
+
+In the next lesson, we'll learn how to convert numbers between different number systems. Understanding these conversions is essential for computer science, programming, and digital electronics.

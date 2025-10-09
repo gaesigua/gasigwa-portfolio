@@ -1,4 +1,15 @@
-# Number System Conversions
+# Converting FROM DECIMAL
+
+In this lesson, let's learn how to convert numbers between different number systems. Understanding these conversions is essential for computer science, programming, and digital electronics.
+As we mentioned in our previous lesson, the four main number systems we'll cover are: 
+
+**- Binary (Base 2)**: Uses digits 0 and 1
+
+**- Octal (Base 8)**: Uses digits 0-7
+
+**- Decimal (Base 10)**: Uses digits 0-9
+
+**- Hexadecimal (Base 16)**: Uses digits 0-9 and A-F
 
 ## 1. Decimal to Any Base (The Division Method)
 ---

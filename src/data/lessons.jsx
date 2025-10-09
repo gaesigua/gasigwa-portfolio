@@ -70,10 +70,28 @@ export const lessons = [
               "Understanding different number systems such as binary, decimal, octal, and hexadecimal.",
           },
           {
-            slug: "number-systems-conversions",
-            title: "Number System Conversions",
+            slug: "number-systems-conversions-from-decimal",
+            title: "Converting FROM DECIMAL",
             summary:
-              "Techniques for converting numbers between different bases.",
+              "Techniques for converting decimal numbers to binary, octal, and hexadecimal systems.",
+          },
+          {
+            slug: "number-systems-conversions-from-binary",
+            title: "Converting FROM BINARY",
+            summary:
+              "Techniques for converting binary numbers to decimal, octal, and hexadecimal systems.",
+          },
+          {
+            slug: "number-systems-conversions-from-octal",
+            title: "Converting FROM OCTAL",
+            summary:
+              "Techniques for converting octal numbers to decimal, binary, and hexadecimal systems.",
+          },
+          {
+            slug: "number-systems-conversions-from-hexadecimal",
+            title: "Converting FROM HEXADECIMAL",
+            summary:
+              "Techniques for converting hexadecimal numbers to decimal, binary, and octal systems.",
           },
           {
             slug: "logic-gates",
@@ -989,7 +1007,7 @@ export const lessons = [
   },
   {
     slug: "java-programming-fundamentals",
-    title: "Java Programming Fundamentals",
+    title: "Java Fundamentals",
     summary:
       "start your programming journey with Java, a powerful and versatile language. learn core concepts, object-oriented programming, and build your first applications.",
     tags: "java, springboot, tutorials",
@@ -997,7 +1015,7 @@ export const lessons = [
   },
   {
     slug: "python-programming-fundamentals",
-    title: "Python Programming Fundamentals",
+    title: "Python Fundamentals",
     summary:
       "dive into Python, a highly versatile language perfect for web development, data science, and automation. learn syntax, data structures, and foundational programming concepts.",
     tags: "python, beginners, scripting",
