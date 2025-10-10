@@ -1,113 +1,155 @@
-# Converting FROM DECIMAL
+# 🔄Converting FROM OCTAL
 
-In this lesson, let's learn how to convert numbers between different number systems. Understanding these conversions is essential for computer science, programming, and digital electronics.
-As we mentioned in our previous lesson, the four main number systems we'll cover are: 
+In this lesson, let's learn how to convert numbers from **Octal** to other number systems (**Decimal**,**Binary**,**Hexadecimal**).
 
-**- Binary (Base 2)**: Uses digits 0 and 1
+## 1. Octal to Decimal
 
-**- Octal (Base 8)**: Uses digits 0-7
-
-**- Decimal (Base 10)**: Uses digits 0-9
-
-**- Hexadecimal (Base 16)**: Uses digits 0-9 and A-F
-
-## 1. Decimal to Any Base (The Division Method)
 ---
 
-To convert a Decimal number to any base (Base _B_), repeatedly divide the decimal number by _B_ and record the **remainders** until the quotient is **0**. The result is the sequence of remainders, read from bottom to top.
+**Method:** Multiply each digit by 8 raised to its position power (from right, starting at 0) and sum.
+                    
+<div class="formula"> Result = (digit × 8ⁿ) + (digit × 8ⁿ⁻¹) + ... + (digit × 8⁰) </div>
+                    
+<div class="steps">
+    <div class="step"><strong>Step 1:</strong> Write the octal number</div>
+    <div class="step"><strong>Step 2:</strong> Number positions from right to left starting with 0</div>
+    <div class="step"><strong>Step 3:</strong> Multiply each digit by 8^(position)</div>
+    <div class="step"><strong>Step 4:</strong> Add all the results</div>
+</div>
 
-**Example:** **Convert 25<sub>10</sub> to Binary**
+**Example 1:** **Convert 157₈ to Decimal**                    
 
-| **Division** | **Quotient** | **Remainder (Bit)** |
-| :---- | :------ | :---- |
-|**25/2**| **12** | **1(LSB)** |
-|**12/2**| **6** | **0** |
-|**6/2**| **3** | **0** |
-|**3/2**| **1** | **1** |
-|**1/2**| **0** | **1(MSB)** |
-Reading the remainders bottom-up: **25<sub>10</sub> = 11001<sub>2</sub>**
+<div class="example">
+    <div class="calculation">
+Position:  2  1  0
+Octal:     1  5  7
 
+Calculation:
+(1 × 8²) + (5 × 8¹) + (7 × 8⁰)
+= (1 × 64) + (5 × 8) + (7 × 1)
+= 64 + 40 + 7
+= <strong>111</strong>
 
-## 2. Binary to Octal and Hexadecimal (The Grouping Method)
+<strong>Answer: 157₈ = 111₁₀</strong>
+    </div>
+</div>
+                    
+**Example 2:** **Convert 742₈ to Decimal**
+
+<div class="example">
+    <div class="calculation">
+Position:  2  1  0
+Octal:     7  4  2
+
+Calculation:
+(7 × 8²) + (4 × 8¹) + (2 × 8⁰)
+= (7 × 64) + (4 × 8) + (2 × 1)
+= 448 + 32 + 2
+= <strong>482</strong>
+
+<strong>Answer: 742₈ = 482₁₀</strong>
+    </div>
+</div>
+                    
+## 2. Octal to Binary
+
 ---
 
-These conversions are the easiest due to the relationship between the bases: **2<sup>3</sup> = 8** and **2<sup>4</sup> = 16**.
+**Method:** Convert each octal digit to its 3-bit binary equivalent.
+                    
+<div class="steps">
+    <div class="step"><strong>Step 1:</strong> Take each octal digit separately</div>
+    <div class="step"><strong>Step 2:</strong> Convert it to 3-bit binary</div>
+    <div class="step"><strong>Step 3:</strong> Combine all binary groups</div>
+    <div class="step"><strong>Step 4:</strong> Remove leading zeros if desired</div>
+</div>
 
-**Binary to Octal:** Group the binary bits in sets of **three** starting from the LSB.
+**Example 1:** **Convert 347₈ to Binary**
 
-**Example:** **Convert 11010110<sub>2</sub>** to **Octal**
+<div class="example">
+    <div class="calculation">
+Octal digits: 3    4    7
 
-**1.** Add leading zero to make the groups complete: **011 010 110**
+Convert each to 3-bit binary:
+3₈ = 011₂
+4₈ = 100₂
+7₈ = 111₂
 
-**2.** Convert each group to its Octal equivalent: **3 2 6**
+Combine: 011 100 111
 
-**3.** Result: **11010110<sub>2</sub>** = **326<sub>8</sub>** 
+<strong>Answer: 347₈ = 011100111₂ or 11100111₂</strong>
+    </div>
+</div>
+                    
+**Example 2:** **Convert 625₈ to Binary**
 
-**Binary to Hexadecimal:** Group the binary bits in sets of **four** starting from the LSB.
+<div class="example">
+    <div class="calculation">
+Octal digits: 6    2    5
 
-**Example:** **Convert 11010110<sub>2</sub>** to **Hexadecimal**
+Convert each:
+6₈ = 110₂
+2₈ = 010₂
+5₈ = 101₂
 
-**1.** Group the bits: **1101 0110**
+Combine: 110 010 101
 
-**2.** Convert each group to its Hex equivalent: 
+<strong>Answer: 625₈ = 110010101₂</strong>
+    </div>
+</div>
+                    
 
-**- 1101<sub>2</sub> = 13<sub>10</sub> = D<sub>16</sub>**
+## 3. Octal to Hexadecimal
 
-**- 0110<sub>2</sub> = 6<sub>10</sub> = 6<sub>16</sub>**
-
-**3.** Result: **11010110<sub>2</sub>** = **D6<sub>16</sub>**
-​
-  
-
-## Binary Arithmetic: 2's Complement
 ---
 
-Digital circuits need a way to perform subtraction. Instead of direct subtraction, which is complex, we use **addition** combined with the **2's Complement** method.
+**Method:** Convert octal to binary first, then binary to hexadecimal.
+                    
+<div class="steps">
+    <div class="step"><strong>Step 1:</strong> Convert octal to binary (each digit → 3 bits)</div>
+    <div class="step"><strong>Step 2:</strong> Group binary into sets of 4 from right</div>
+    <div class="step"><strong>Step 3:</strong> Convert each 4-bit group to hexadecimal</div>
+</div>
 
-**1. 1's Complement**
+**Example 1:** **Convert 157₈ to Hexadecimal**
 
-The **1's complement** of a binary number is found by simply *inverting every* bit (**0** -> **1** and **1** -> **0**).
+<div class="example">
+    <div class="calculation">
+Step 1 - Octal to Binary:
+1₈ = 001₂
+5₈ = 101₂
+7₈ = 111₂
+Binary: 001101111
 
-**Example:** **10101<sub>2</sub>** ---------**1’s Complement**---------> **01010<sub>2</sub>**
+Step 2 - Group into 4s from right:
+0110 1111
 
+Step 3 - Convert to hex:
+0110₂ = 6₁₆
+1111₂ = 15 = F₁₆
 
-**2. 2's Complement**
+<strong>Answer: 157₈ = 6F₁₆</strong>
+    </div>
+</div>
 
-The **2's complement** is found by *adding 1* to the 1's complement.
+**Example 2:** **Convert 764₈ to Hexadecimal**
+                    
+<div class="example">
+    <div class="calculation">
+Step 1 - Octal to Binary:
+7₈ = 111₂
+6₈ = 110₂
+4₈ = 100₂
+Binary: 111110100
 
-**2's Complement = 1's Complement + 1**
+Step 2 - Group into 4s:
+0001 1111 0100
 
-**Example:** **Find** the **2's Complement of 10101<sub>2</sub>**
+Step 3 - Convert to hex:
+0001₂ = 1₁₆
+1111₂ = F₁₆
+0100₂ = 4₁₆
 
-**1.** 1's Complement: **01010**
-
-**2.** **Add 1**:  &emsp;**+1**
-
-**3.** 2's Complement: **01011<sub>2</sub>**
-
-**Subtraction using 2's Complement**
-
-To calculate **_A_ − _B_**:
-
-**1.** Find the 2's Complement of **_B_**.
-
-**2.** Add **_A_** to the 2's Complement of **_B_**.
-
-**3.** If a final **carry-out** is generated, it is **ignored** (this means the result is **positive**).
-
-**4.** If no carry-out is generated, the result is **negative** and is given by the 2's Complement of the final sum.
-
-**Example:** 6<sub>10</sub> − 4<sub>10​</sub>(**using 4 bits**: 6<sub>10</sub> = 0110<sub>2</sub>, 4<sub>10</sub> = 0100<sub>2</sub>)
-
-**1.** **_B_** = **0100<sub>2</sub>**. 2's Complement of **_B_**: **1011+1=1100<sub>2</sub>**.
-
-**2.** Add **_A_** and 2's Comp(**_B_**):
-
-          0110    (6)
-        + 1100    (-4)
-        -------------
-        1 0010    (2)
-
-
-**3. The final carry-out (1)** is ignored. The result is **0010<sub>2</sub>** = **2<sub>10</sub>**
-
+<strong>Answer: 764₈ = 1F4₁₆</strong>
+    </div>
+</div>

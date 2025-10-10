@@ -94,6 +94,24 @@ export const lessons = [
               "Techniques for converting hexadecimal numbers to decimal, binary, and octal systems.",
           },
           {
+            slug: "number-systems-conversions-reference",
+            title: "Conversion Reference Guide",
+            summary:
+              "A quick reference guide for converting numbers between different bases.",
+          },
+          {
+            slug: "number-systems-conversions-exercises",
+            title: "Conversion Exercises",
+            summary:
+              "Practice exercises to reinforce your understanding of number system conversions.",
+          },
+          {
+            slug: "number-systems-conversions-binary-coded-decimal-basics",
+            title: "Binary Coded Decimal (BCD) Basics",
+            summary:
+              "Understanding the BCD Encoding and Conversions.",
+          },
+          {
             slug: "logic-gates",
             title: "Logic Gates",
             summary:

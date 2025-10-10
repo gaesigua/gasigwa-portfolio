@@ -1,4 +1,4 @@
-# Converting FROM DECIMAL
+# 🔄Converting FROM DECIMAL
 
 In this lesson, let's learn how to convert numbers from **Decimal** to other number systems (**Binary**,**Octal**,**Hexadecimal**).
 
