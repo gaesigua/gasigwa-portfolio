@@ -59,9 +59,15 @@ export const lessons = [
         pages: [
           {
             slug: "introduction",
-            title: "Introduction and Evolution",
+            title: "Introduction to Digital Electronics",
             summary:
               "Digital Electronics is the field of electronics that deals with electronic circuits that operate using discrete, typically two, voltage levels.",
+          },
+          {
+            slug: "evolution",
+            title: "Evolution of Digital Electronics",
+            summary:
+              "A brief history of the development and advancements in digital electronics over the years.",
           },
           {
             slug: "number-systems",
