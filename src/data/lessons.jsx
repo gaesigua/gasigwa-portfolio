@@ -1,49 +1,5 @@
 export const lessons = [
   {
-    slug: "computer-basics",
-    title: "Computer Basics",
-    summary:
-      "start your programming journey with computer basics, understand foundational concepts of computer hardware, software, electronic devices, operating systems, and more.",
-    tags: "history, parts of a computer, internet basics",
-    logo: "/computer-basics-logo.png",
-    sections: [
-      {
-        slug: "what-is-a-computer",
-        title: "What is a Computer?",
-        summary:
-          "Learn the definition of a computer and its basic functions: storing, retrieving, and processing data.",
-      },
-      {
-        slug: "hardware-and-software",
-        title: "Hardware and Software",
-        summary:
-          "Discover the difference between the physical components (hardware) and the instructions that run on them (software).",
-      },
-      {
-        slug: "operating-systems",
-        title: "Operating Systems",
-        summary:
-          "An introduction to the most important software on a computer, which manages all other programs.",
-      },
-    ],
-  },
-  {
-    slug: "touch-typing",
-    title: "Touch Typing",
-    summary:
-      "learn to touch type with all your fingers and become a typing pro and write code faster.",
-    tags: "typing tests, typing lessons, games",
-    logo: "/touch-typing-logo.png",
-  },
-  {
-    slug: "effective-communication",
-    title: "Effective Communication",
-    summary:
-      "learn to communicate appropriately with your peers, colleagues, friends, and family and build better relationships with your team and the world around you.",
-    tags: "oral communication, writing, listening, visual communication",
-    logo: "/effective-communication-logo.png",
-  },
-  {
     slug: "digital-electronics-and-electrical-circuits",
     title: "Digital Electronics and Electrical Circuits",
     summary:
@@ -114,8 +70,7 @@ export const lessons = [
           {
             slug: "number-systems-conversions-binary-coded-decimal-basics",
             title: "Binary Coded Decimal (BCD) Basics",
-            summary:
-              "Understanding the BCD Encoding and Conversions.",
+            summary: "Understanding the BCD Encoding and Conversions.",
           },
           {
             slug: "number-systems-conversions-binary-coded-decimal-conversions-decimal-to-bcd",
@@ -123,10 +78,11 @@ export const lessons = [
             summary:
               "Techniques for converting decimal numbers to Binary Coded Decimal (BCD).",
           },
-          {slug: "number-systems-conversions-binary-coded-decimal-conversions-bcd-to-decimal",
+          {
+            slug: "number-systems-conversions-binary-coded-decimal-conversions-bcd-to-decimal",
             title: "BCD Conversions: BCD to Decimal",
             summary:
-              "Techniques for converting Binary Coded Decimal (BCD) numbers to decimal.", 
+              "Techniques for converting Binary Coded Decimal (BCD) numbers to decimal.",
           },
           {
             slug: "logic-gates",
@@ -269,6 +225,50 @@ export const lessons = [
         ],
       },
     ],
+  },
+  {
+    slug: "computer-basics",
+    title: "Computer Basics",
+    summary:
+      "start your programming journey with computer basics, understand foundational concepts of computer hardware, software, electronic devices, operating systems, and more.",
+    tags: "history, parts of a computer, internet basics",
+    logo: "/computer-basics-logo.png",
+    sections: [
+      {
+        slug: "what-is-a-computer",
+        title: "What is a Computer?",
+        summary:
+          "Learn the definition of a computer and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "hardware-and-software",
+        title: "Hardware and Software",
+        summary:
+          "Discover the difference between the physical components (hardware) and the instructions that run on them (software).",
+      },
+      {
+        slug: "operating-systems",
+        title: "Operating Systems",
+        summary:
+          "An introduction to the most important software on a computer, which manages all other programs.",
+      },
+    ],
+  },
+  {
+    slug: "touch-typing",
+    title: "Touch Typing",
+    summary:
+      "learn to touch type with all your fingers and become a typing pro and write code faster.",
+    tags: "typing tests, typing lessons, games",
+    logo: "/touch-typing-logo.png",
+  },
+  {
+    slug: "effective-communication",
+    title: "Effective Communication",
+    summary:
+      "learn to communicate appropriately with your peers, colleagues, friends, and family and build better relationships with your team and the world around you.",
+    tags: "oral communication, writing, listening, visual communication",
+    logo: "/effective-communication-logo.png",
   },
   {
     slug: "english-for-programmers",

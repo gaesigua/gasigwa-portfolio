@@ -1,6 +1,6 @@
 # Combinational Logic Circuits
 
-A **Combinational Logic Circuit** is a type of digital circuit where the output is _purely a function of the current inputs_. It has no memory; the past history of inputs does not affect the current output.
+<!-- A **Combinational Logic Circuit** is a type of digital circuit where the output is _purely a function of the current inputs_. It has no memory; the past history of inputs does not affect the current output.
 
 ## Characteristics
 
@@ -88,4 +88,4 @@ Inputs: Single data input (), and  select lines ( to ).
 
 Outputs:  output lines ( to ).
 
-Operation: The single input  is routed to the output line specified by the  select lines.
+Operation: The single input  is routed to the output line specified by the  select lines. -->

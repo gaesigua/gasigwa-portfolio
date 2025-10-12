@@ -7,11 +7,11 @@ Digital circuits are built using fundamental switching devices called **Logic Ga
 
 |**Gate Name**|**Operation**|**Boolean Expression**|**Graphic Symbol**|**Truth Table**|
 |:-----|:-----|:-------|:------|:------|
-|**AND**| Output is HIGH only if all inputs are HIGH. (Logical Multiplication) | Y = A . B (or Y = AB) | empty | $\begin{array}{ |
-|**OR**| Output is HIGH if any input is HIGH. (Logical Addition) | Y = A + B | empty | $\begin{array}{ |
-|**NOT**| Output is the inverse of the input. (Inversion/Complement) | Y = incomplete | empty | $\begin{array}{ |
+|**AND**| Output is HIGH only if all inputs are HIGH. (Logical Multiplication) | Y = A . B (or Y = AB) | |
+|**OR**| Output is HIGH if any input is HIGH. (Logical Addition) | Y = A + B |  |  |
+|**NOT**| Output is the inverse of the input. (Inversion/Complement) |  |  |  |
 
-## Universal Gates (NAND and NOR)
+<!-- ## Universal Gates (NAND and NOR)
 
 These gates are called **Universal** because any other logic function (including AND, OR, and NOT) can be constructed solely by using multiple instances of just one of them.
 
@@ -86,4 +86,4 @@ The sub-expression  can be factored using :
 
 **4.** Substitute back:
 
-The original circuit, requiring two AND gates, one NOT gate, one NAND gate, and one OR gate, can be replaced by a single NOR gate ( is equivalent to  by De Morgan's) or an OR gate with inverted inputs.
+The original circuit, requiring two AND gates, one NOT gate, one NAND gate, and one OR gate, can be replaced by a single NOR gate ( is equivalent to  by De Morgan's) or an OR gate with inverted inputs. -->

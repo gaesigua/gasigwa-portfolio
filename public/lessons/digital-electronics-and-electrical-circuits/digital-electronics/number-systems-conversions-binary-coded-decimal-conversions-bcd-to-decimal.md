@@ -1,42 +1,46 @@
 # 🔓 BCD to Decimal Conversion
 
+## Conversion Process
+
+---
+
 <div id="decoding" class="section">
-                <div class="module">                    
-<h3>Conversion Process</h3>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-content">
-                                <strong>Group the bits into sets of 4</strong><br>
-                                Starting from the right, divide into 4-bit groups
-                            </div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-content">
-                                <strong>Validate each group</strong><br>
-                                Ensure each group represents 0-9 (no invalid codes)
-                            </div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-content">
-                                <strong>Convert each group to decimal</strong><br>
-                                Translate each 4-bit code to its decimal digit
-                            </div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-content">
-                                <strong>Write digits together</strong><br>
+    <div class="module">                    
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                    <div class="step-content">
+                        <strong>Group the bits into sets of 4</strong><br>
+                            Starting from the right, divide into 4-bit groups
+                    </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                    <div class="step-content">
+                        <strong>Validate each group</strong><br>
+                            Ensure each group represents 0-9 (no invalid codes)
+                    </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                    <div class="step-content">
+                        <strong>Convert each group to decimal</strong><br>
+                            Translate each 4-bit code to its decimal digit
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                        <div class="step-content">
+                            <strong>Write digits together</strong><br>
                                 Combine all decimal digits to form the final number
-                            </div>
                         </div>
                     </div>
+                </div>
                     
+**Example 1:** **Convert 0110 0011 (BCD) to Decimal**
+
 <div class="example">
-                        <h4>Example 1: Convert 0110 0011 (BCD) to Decimal</h4>
-                        <div class="calculation">
+    <div class="calculation">
 <strong>Step 1 - Groups are already formed:</strong>
 Group 1: 0110
 Group 2: 0011
@@ -54,9 +58,10 @@ Answer: 63₁₀
                         </div>
                     </div>
                     
+**Example 2:** **Convert 1000 0101 0110 (BCD) to Decimal**
+
 <div class="example">
-                        <h4>Example 2: Convert 1000 0101 0110 (BCD) to Decimal</h4>
-                        <div class="calculation">
+    <div class="calculation">
 <strong>Step 1 - Groups:</strong>
 Group 1: 1000
 Group 2: 0101
@@ -77,9 +82,10 @@ Answer: 856₁₀
                         </div>
                     </div>
                     
+**Example 3:** **Convert 0100 0010 1001 0111 (BCD) to Decimal**
+
 <div class="example">
-                        <h4>Example 3: Convert 0100 0010 1001 0111 (BCD) to Decimal</h4>
-                        <div class="calculation">
+    <div class="calculation">
 <strong>Step 1 - Groups:</strong>
 0100 | 0010 | 1001 | 0111
 
@@ -110,17 +116,21 @@ The code 1011 cannot exist in BCD.
                         </div>
                     </div>
                     
-<h3>Practice Problems</h3>
-                    <div class="key-points">
-                        <h4>🎯 Try Converting These BCD Codes:</h4>
-                        <ul>
-                            <li>0111 1000 (BCD) → ?</li>
-                            <li>0001 0101 0010 (BCD) → ?</li>
-                            <li>1001 0000 0100 0011 (BCD) → ?</li>
-                            <li>0010 0110 0011 (BCD) → ?</li>
-                            <li>Is 1100 0101 a valid BCD code?</li>
-                        </ul>
-                    </div>
+## Practice Problems
+
+---
+
+## 🎯 Try Converting These BCD Codes:
+
+<div class="key-points">
+    <ul>
+            <li>1. 0111 1000 (BCD) → ?</li>
+            <li>2. 0001 0101 0010 (BCD) → ?</li>
+            <li>3. 1001 0000 0100 0011 (BCD) → ?</li>
+            <li>4. 0010 0110 0011 (BCD) → ?</li>
+            <li>5. Is 1100 0101 a valid BCD code?</li>
+        </ul>
+</div>
                     
 <div class="success">
                         <strong>✓ Answers:</strong>

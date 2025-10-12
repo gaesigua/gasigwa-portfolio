@@ -1,35 +1,39 @@
 # 📝 Decimal to BCD Conversion
 
+## Conversion Process
+
+---
+
 <div id="encoding" class="section">
     <div class="module">
-            <h3>Conversion Process</h3>
-                <div class="steps">
-                    <div class="step">
-                        <div class="step-number">1</div>
-                        <div class="step-content">
-                            <strong>Separate the decimal digits</strong><br>
-                                Break the decimal number into individual digits
-                            </div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-content">
-                                <strong>Convert each digit to 4-bit binary</strong><br>
-                                Use the BCD table to find the 4-bit code for each digit
-                            </div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-content">
-                                <strong>Combine the codes</strong><br>
-                                Write all 4-bit codes together (with spaces for clarity)
-                            </div>
-                        </div>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                    <div class="step-content">
+                        <strong>Separate the decimal digits</strong><br>
+                            Break the decimal number into individual digits
                     </div>
-                    
-                    <div class="example">
-                        <h4>Example 1: Convert 47₁₀ to BCD</h4>
-                        <div class="calculation">
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                    <div class="step-content">
+                        <strong>Convert each digit to 4-bit binary</strong><br>
+                            Use the BCD table to find the 4-bit code for each digit
+                    </div>
+            </div>
+            <div class="step">
+            <div class="step-number">3</div>
+                    <div class="step-content">
+                        <strong>Combine the codes</strong><br>
+                            Write all 4-bit codes together (with spaces for clarity)
+                    </div>
+            </div>
+    </div>
+
+**Example 1:** **Convert 47₁₀ to BCD**
+
+<div class="example">
+    <div class="calculation">
 <strong>Step 1 - Separate digits:</strong>
 Digits: 4 and 7
 
@@ -46,9 +50,11 @@ Digits: 4 and 7
 Result: 47 ✓
                         </div>
                     </div>
+
+**Example 2:** **Convert 139₁₀ to BCD**
+
 <div class="example">
-                        <h4>Example 2: Convert 139₁₀ to BCD</h4>
-                        <div class="calculation">
+    <div class="calculation">
 <strong>Step 1 - Separate digits:</strong>
 Digits: 1, 3, and 9
 
@@ -68,9 +74,10 @@ Result: 139 ✓
                         </div>
                     </div>
                     
+**Example 3:** **Convert 2024₁₀ to BCD**
+
 <div class="example">
-                        <h4>Example 3: Convert 2024₁₀ to BCD</h4>
-                        <div class="calculation">
+    <div class="calculation">
 <strong>Step 1 - Separate digits:</strong>
 Digits: 2, 0, 2, and 4
 
@@ -85,9 +92,10 @@ Digits: 2, 0, 2, and 4
                         </div>
                     </div>
                     
+**Example 4:** **Convert 9876₁₀ to BCD**
+
 <div class="example">
-                        <h4>Example 4: Convert 9876₁₀ to BCD</h4>
-                        <div class="calculation">
+    <div class="calculation">
 <strong>Step 1 - Separate digits:</strong>
 Digits: 9, 8, 7, and 6
 
@@ -102,9 +110,12 @@ Digits: 9, 8, 7, and 6
                         </div>
                     </div>
                     
-<h3>Comparison: BCD vs Pure Binary</h3>
-                    <table class="comparison-table">
-                        <tr>
+## Comparison: BCD vs Pure Binary
+
+---
+
+<table class="comparison-table">
+    <tr>
                             <th>Decimal</th>
                             <th>BCD Code</th>
                             <th>Pure Binary</th>
@@ -149,7 +160,7 @@ Digits: 9, 8, 7, and 6
                     </table>
                     
 <div class="note">
-                        <strong>💡 Quick Tip:</strong> To quickly check if a BCD code is valid, ensure that no 4-bit group has a value greater than 9 (1001). If you see 1010, 1011, 1100, 1101, 1110, or 1111, it's an invalid BCD code!
-                    </div>
-                </div>
-            </div>
+    <strong>💡 Quick Tip:</strong> To quickly check if a BCD code is valid, ensure that no 4-bit group has a value greater than 9 (1001). If you see 1010, 1011, 1100, 1101, 1110, or 1111, it's an invalid BCD code!
+</div>
+</div>
+</div>
