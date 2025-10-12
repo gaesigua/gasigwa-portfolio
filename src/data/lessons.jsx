@@ -118,6 +118,17 @@ export const lessons = [
               "Understanding the BCD Encoding and Conversions.",
           },
           {
+            slug: "number-systems-conversions-binary-coded-decimal-conversions-decimal-to-bcd",
+            title: "BCD Conversions: Decimal to BCD",
+            summary:
+              "Techniques for converting decimal numbers to Binary Coded Decimal (BCD).",
+          },
+          {slug: "number-systems-conversions-binary-coded-decimal-conversions-bcd-to-decimal",
+            title: "BCD Conversions: BCD to Decimal",
+            summary:
+              "Techniques for converting Binary Coded Decimal (BCD) numbers to decimal.", 
+          },
+          {
             slug: "logic-gates",
             title: "Logic Gates",
             summary:

@@ -58,21 +58,21 @@ Let's understand the key difference between BCD and the pure binary we studied i
     <div class="advantage-box">
         <h4>✅ Advantages</h4>
             <ul style="margin-left: 20px;">
-                <li>Easy conversion to/from decimal</li>
-                <li>No rounding errors in decimal operations</li>
-                <li>Simple to display on decimal devices</li>
-                <li>Each digit is independent</li>
-                <li>Better for financial calculations</li>
+                <li>1. Easy conversion to/from decimal</li>
+                <li>2. No rounding errors in decimal operations</li>
+                <li>3. Simple to display on decimal devices</li>
+                <li>4. Each digit is independent</li>
+                <li>5. Better for financial calculations</li>
             </ul>
     </div>
     <div class="disadvantage-box">
         <h4>❌ Disadvantages</h4>
             <ul style="margin-left: 20px;">
-                <li>Uses more bits than pure binary</li>
-                <li>Arithmetic is more complex</li>
-                <li>Wastes 6 out of 16 possible codes</li>
-                <li>Less efficient storage</li>
-                <li>Slower processing</li>
+                <li>1. Uses more bits than pure binary</li>
+                <li>2. Arithmetic is more complex</li>
+                <li>3. Wastes 6 out of 16 possible codes</li>
+                <li>4. Less efficient storage</li>
+                <li>5. Slower processing</li>
             </ul>
     </div>
 </div>

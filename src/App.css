@@ -234,76 +234,78 @@ tr:hover {
 }
 
 .advantages-disadvantages {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin: 20px 0;
-        }
-        
-        .advantage-box {
-            background: #e8f5e9;
-            padding: 20px;
-            border-radius: 10px;
-            border-left: 5px solid #4caf50;
-        }
-        
-        .advantage-box h4 {
-            color: #2e7d32;
-            margin-bottom: 15px;
-        }
-        
-        .disadvantage-box {
-            background: #ffebee;
-            padding: 20px;
-            border-radius: 10px;
-            border-left: 5px solid #f44336;
-        }
-        
-        .disadvantage-box h4 {
-            color: #c62828;
-            margin-bottom: 15px;
-        }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 20px 0;
+}
 
-        .key-points {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-        
-        .key-points h4 {
-            color: #f5576c;
-            margin-bottom: 15px;
-            font-size: 1.2em;
-        }
-        
-        .key-points ul {
-            margin-left: 25px;
-        }
-        
-        .key-points li {
-            margin: 10px 0;
-            line-height: 1.8;
-        }
+.advantage-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #4caf50;
+}
 
-         @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2em;
-            }
-            
-            .content {
-                padding: 20px;
-            }
-            
-            .nav-tabs {
-                flex-direction: column;
-            }
-            
-            .tab-btn {
-                width: 100%;
-            }
-            
-            .advantages-disadvantages {
-                grid-template-columns: 1fr;
-            }
-        }
+.advantage-box ul {
+  margin-left: 25px;
+  color: #000;
+}
+
+.advantage-box h4 {
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+.disadvantage-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #f44336;
+}
+.disadvantage-box ul {
+  margin-left: 25px;
+  color: #000;
+}
+
+.disadvantage-box h4 {
+  color: #c62828;
+  margin-bottom: 15px;
+}
+
+.key-points {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.key-points h4 {
+  color: #f5576c;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.key-points ul {
+  margin-left: 25px;
+  color: #000;
+}
+
+.key-points li {
+  margin: 10px 0;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2em;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .advantages-disadvantages {
+    grid-template-columns: 1fr;
+  }
+}

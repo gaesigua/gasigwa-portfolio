@@ -1,9 +1,8 @@
-# Logic Gates and Boolean Algebra
+# Logic Gates
 
 Digital circuits are built using fundamental switching devices called **Logic Gates**. These gates perform basic logic operations on one or more binary inputs and produce a single binary output.
 
 ## The Three Basic Logic Gates
-
 
 
 |**Gate Name**|**Operation**|**Boolean Expression**|**Graphic Symbol**|**Truth Table**|

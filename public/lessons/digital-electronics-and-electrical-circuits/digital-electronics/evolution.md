@@ -11,6 +11,8 @@ These were digital systems as they represented numbers discretely, but they were
 
 ## 2. Vacuum Tubes (First Generation Electronics: 1940s - 1950s)
 
+---
+
 **- Key Devices:** **Vacuum Tubes** (bulky glass tubes that acted as electronic switches).
 
 **- Landmark:** **ENIAC** (Electronic Numerical Integrator and Computer) was the first large-scale, general-purpose electronic digital computer, built in the mid-1940s.
