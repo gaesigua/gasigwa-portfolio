@@ -85,10 +85,16 @@ export const lessons = [
               "Techniques for converting Binary Coded Decimal (BCD) numbers to decimal.",
           },
           {
-            slug: "logic-gates",
-            title: "Logic Gates",
+            slug: "logic-gates-introduction",
+            title: "Logic Gates Introduction",
             summary:
               "Basic building blocks of digital circuits that perform logical operations.",
+          },
+          {
+            slug: "basic-logic-gates",
+            title: "Basic Logic Gates",
+            summary:
+              "Introduction to basic logic gates: AND, OR, NOT, NAND, NOR, XOR, and XNOR.",
           },
           {
             slug: "combinational-circuits",
@@ -157,7 +163,7 @@ export const lessons = [
           "Introduction to electrical circuits, understanding electric current, Ohm's law, types of current, electric charge, and more ",
         pages: [
           {
-            slug: "introduction",
+            slug: "introduction-to-electrical-circuits",
             title: "Introduction to Electrical Circuits",
             summary:
               "An electrical circuit is a path in which electrons from a voltage or current source flow.",
