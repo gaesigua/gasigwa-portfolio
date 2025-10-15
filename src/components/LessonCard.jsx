@@ -13,7 +13,7 @@ const LessonCard = ({ lesson }) => {
       </p>
       <div className='mt-auto flex justify-between items-center text-neutral-400'>
         <span className='text-sm'>{lesson.tags}</span>
-        <Link to={`/lessons/${lesson.slug}`} className='text-blue-400 hover:text-blue-300 hover:underline flex items-center'>
+        <Link to={`/lessons/${lesson.slug}`} className='text-blue-300 hover:text-blue-300 hover:underline flex items-center'>
           Start Lesson <ArrowRight className='ml-1 w-4 h-4' />
         </Link>
       </div>

@@ -73,7 +73,7 @@ const LessonSectionPage = () => {
         <div className="max-w-4xl mx-auto px-4 py-8">
           <Link 
           to={`/lessons/${lessonSlug}/${sectionSlug}`} 
-          className="text-blue-400 hover:underline mb-8 inline-block"
+          className="text-blue-300 hover:underline mb-8 inline-block"
           >
             &larr; Back to {section?.title}
           </Link>
@@ -93,7 +93,7 @@ const LessonSectionPage = () => {
           <div className="flex justify-end mt-8">
             {nextPage ? (
               <button 
-                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow transition"
+                className="bg-blue-400 hover:bg-blue-500 text-white font-semibold py-2 px-6 rounded-lg shadow transition"
                 onClick={() => 
                   navigate(
                     `/lessons/${lessonSlug}/${sectionSlug}/${nextPage.slug}`

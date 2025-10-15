@@ -60,7 +60,7 @@ const HomePage = () => {
           {/* Home/Hero Section */}
           <section id="home" className="text-center mb-24 md:mb-36 pt-16">
             <h1 className="text-4xl md:text-6xl font-extrabold text-neutral-50 mb-6 leading-tight">
-              Hello, I'm <span className="text-blue-400">Gasigwa</span>.
+              Hello, I'm <span className="text-blue-300">Gasigwa</span>.
             </h1>
             <p className="text-lg md:text-2xl text-neutral-400 max-w-3xl mx-auto mb-8">
               A Java & Springboot Developer with a passion for building robust
@@ -69,7 +69,7 @@ const HomePage = () => {
             <div className="flex justify-center space-x-4">
               <a
                 href="#projects"
-                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-300 transform hover:-translate-y-1 flex items-center group"
+                className="bg-blue-400 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-300 transform hover:-translate-y-1 flex items-center group"
               >
                 View my projects
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />

@@ -4,7 +4,7 @@ export const lessons = [
     title: "Digital Electronics and Electrical Circuits",
     summary:
       "before you dive deep into programming, first learn core concepts of digital electronics and electrical circuits.",
-    tags: "logic gates, digital systems, circuits, signals",
+    tags: "digital systems, electric circuits",
     logo: "/digital-electronics-logo.png",
     sections: [
       {
@@ -14,22 +14,58 @@ export const lessons = [
           "Introduction to digital systems, number systems, code conversion, binary addition and subtraction, and more",
         pages: [
           {
-            slug: "introduction",
+            slug: "introduction-to-digital-electronics",
             title: "Introduction to Digital Electronics",
             summary:
               "Digital Electronics is the field of electronics that deals with electronic circuits that operate using discrete, typically two, voltage levels.",
           },
           {
-            slug: "evolution",
+            slug: "analog-vs-digital-systems",
+            title: "Analog vs Digital Systems",
+            summary:
+              "Understanding the differences between analog and digital systems, including their advantages and disadvantages.",
+          },
+          {
+            slug: "evolution-of-digital-electronics",
             title: "Evolution of Digital Electronics",
             summary:
               "A brief history of the development and advancements in digital electronics over the years.",
           },
           {
-            slug: "number-systems",
+            slug: "advantages-of-digital-technology",
+            title: "Advantages of Digital Technology",
+            summary:
+              "Exploring the benefits of digital technology, such as noise immunity, data compression, and ease of storage and transmission.",
+          },
+          {
+            slug: "number-systems-introduction",
             title: "Number Systems",
             summary:
-              "Understanding different number systems such as binary, decimal, octal, and hexadecimal.",
+              "Understanding different number systems used in digital electronics, including binary, decimal, octal, and hexadecimal.",
+          },
+          {
+            slug: "number-systems-types-decimal",
+            title: "Types of Number Systems: Decimal",
+            summary:
+              "Detailed overview of the decimal (base-10) number system.",
+          },
+          {
+            slug: "number-systems-types-binary",
+            title: "Types of Number Systems: Binary",
+            summary:
+              "Detailed overview of the binary (base-2) number system.", 
+          },
+          {
+            slug: "number-systems-types-octal",
+            title: "Types of Number Systems: Octal",
+            summary:
+              "Detailed overview of the octal (base-8) number system.",
+          },
+          {
+            slug: "number-systems-types-hexadecimal",
+            title: "Types of Number Systems: Hexadecimal",
+            summary:
+              "Detailed overview of the hexadecimal (base-16) number system.",
           },
           {
             slug: "number-systems-conversions-from-decimal",
@@ -237,7 +273,7 @@ export const lessons = [
     title: "Computer Basics",
     summary:
       "start your programming journey with computer basics, understand foundational concepts of computer hardware, software, electronic devices, operating systems, and more.",
-    tags: "history, parts of a computer, internet basics",
+    tags: "computer parts, internet basics",
     logo: "/computer-basics-logo.png",
     sections: [
       {
