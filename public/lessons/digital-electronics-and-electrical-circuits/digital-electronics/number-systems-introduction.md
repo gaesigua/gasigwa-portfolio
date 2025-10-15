@@ -64,6 +64,10 @@ Every number system must have a **base**, and this base will determine the numbe
 
 For any number, its value is determined by the sum of its digits multiplied by the base raised to the power of the digit's position.
 
+<div class="formula">
+
 _**N <sub>Base</sub> = (d<sub>n</sub> . Base<sup>n</sup>) + (d<sub>n-1</sub> . Base<sup>n-1</sup>) + ... + (d<sub>0</sub> . Base<sup>0</sup>)**_
+
+</div>
 
 Don't worry if you don't understand this formula now, we will learn more about it in the coming sections.

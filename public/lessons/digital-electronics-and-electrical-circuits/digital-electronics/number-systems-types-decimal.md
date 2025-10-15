@@ -20,18 +20,26 @@ The value of each digit depends on its position in the number.
 
 Starting from the left, 
 
+<div class="steps">
+
 - **1** is in the thousands place (1 × 10³ = 1000),
 - **2** is in the hundreds place (2 × 10² = 200), 
 - **3** is in the tens place (3 × 10¹ = 30),
 - **4** is in the ones place (4 × 10⁰ = 4). 
 
-The decimal point is used to separate the whole number from the fractional part of a number. To the left of the decimal point is the whole number. To the right of the decimal point is the fractional part, (**567**), which represents a value less than 1.
+</div>
+
+The decimal point is used to separate the whole number from the fractional part of a number.
 
 After the decimal point, 
+
+<div class="steps">
 
 - **5** is in the tenths place (5 × 10⁻¹ = 0.5),
 - **6** is in the hundredths place (6 × 10⁻² = 0.06),
 - **7** is in the thousandths place (7 × 10⁻³ = 0.007).
+
+</div>
 
 Adding these together (1000 + 200 + 30 + 4 + 0.5 + 0.06 + 0.007) gives the total value, 1234.567
 
