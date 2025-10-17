@@ -6,7 +6,7 @@
 
 In digital electronics, computers process information using the **binary**. While this is efficient for machines, binary numbers can become long and burdensome for us humans to understand. 
 
-This is why, for humans to efficiently read and write that information (in other words, be able to understand and speak with the computer), we use other number systems like **Decimal**, **Octal**, and **Hexadecimal**.
+This is why, for humans to efficiently read and write that information, in other words to be able to understand the computer, we use other number systems like **Decimal**, **Octal**, and **Hexadecimal**.
 
 
 ## The Concept of Base (or Radix)

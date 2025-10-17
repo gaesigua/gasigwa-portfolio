@@ -52,14 +52,12 @@ export const lessons = [
           {
             slug: "number-systems-types-binary",
             title: "Types of Number Systems: Binary",
-            summary:
-              "Detailed overview of the binary (base-2) number system.", 
+            summary: "Detailed overview of the binary (base-2) number system.",
           },
           {
             slug: "number-systems-types-octal",
             title: "Types of Number Systems: Octal",
-            summary:
-              "Detailed overview of the octal (base-8) number system.",
+            summary: "Detailed overview of the octal (base-8) number system.",
           },
           {
             slug: "number-systems-types-hexadecimal",
@@ -269,6 +267,84 @@ export const lessons = [
     ],
   },
   {
+    slug: "effective-communication",
+    title: "Effective Communication",
+    summary:
+      "learn to communicate appropriately with your peers, colleagues, friends, and family and build better relationships with your team and the world around you.",
+    tags: "communication skills",
+    logo: "/effective-communication-logo.png",
+    sections: [
+      {
+        slug: "communication-skills",
+        title: "Communication Skills",
+        summary:
+          "Learn the fundamentals of effective communication, including its definition, objectives, elements, cycle, qualities, and barriers.",
+        pages: [
+          {
+            slug: "introduction-to-communication",
+            title: "Introduction to Communication",
+            summary:
+              "Communication is the process of exchanging information, ideas, thoughts, and feelings between individuals or groups through verbal, non-verbal, or written means.",
+          },
+          {
+            slug: "administrative-communication",
+            title: "Administrative Communication",
+            summary:
+              "Administrative communication is a process involving the transmission and accurate replication of ideas, ensured by feedback, for the purpose of eliciting actions which will accomplish organizational goals.",
+          },
+          {
+            slug: "main-aspects-of-communication",
+            title: "Main Aspects of Communication",
+            summary:
+              "The main aspects of communication include the sender, message, medium, receiver, feedback, and context.",
+          },
+          {
+            slug: "importance-of-communication",
+            title: "Importance of Communication",
+            summary:
+              "Effective communication is essential for building relationships, resolving conflicts, making decisions, and achieving goals in both personal and professional settings.",    
+          },
+          {
+            slug: "definition-of-communication",
+            title: "Definition of Communication",
+            summary:
+              "Communication is the process of transmitting information and understanding from one person to another.",
+          },
+          {
+            slug: "objectives-of-communication",
+            title: "Objectives of Communication",
+            summary:
+              "The main objectives of communication are to inform, persuade, motivate, and build relationships.",
+          },
+          {
+            slug: "elements-of-communication",
+            title: "Elements of Communication",
+            summary:
+              "The key elements of communication include the sender, message, medium, receiver, feedback, and context.",
+          },
+          {
+            slug: "the-communication-cycle",
+            title: "The Communication Cycle",
+            summary:
+              "The communication cycle consists of the following stages: idea generation, encoding, transmission, decoding, and feedback.",
+          },
+          {
+            slug: "qualities-of-effective-communication-the-6-c",
+            title: "Qualities of Effective Communication: The 6 C's",
+            summary:
+              "The 6 C's of effective communication are clarity, conciseness, coherence, consistency, courtesy, and credibility.",
+          },
+          {
+            slug: "barriers-to-communication",
+            title: "Barriers to Communication",
+            summary:
+              "Common barriers to effective communication include physical barriers, language barriers, emotional barriers, cultural barriers, and perceptual barriers.",
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: "computer-basics",
     title: "Computer Basics",
     summary:
@@ -303,14 +379,6 @@ export const lessons = [
       "learn to touch type with all your fingers and become a typing pro and write code faster.",
     tags: "typing tests, typing lessons, games",
     logo: "/touch-typing-logo.png",
-  },
-  {
-    slug: "effective-communication",
-    title: "Effective Communication",
-    summary:
-      "learn to communicate appropriately with your peers, colleagues, friends, and family and build better relationships with your team and the world around you.",
-    tags: "oral communication, writing, listening, visual communication",
-    logo: "/effective-communication-logo.png",
   },
   {
     slug: "english-for-programmers",

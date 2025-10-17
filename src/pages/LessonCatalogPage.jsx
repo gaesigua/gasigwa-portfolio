@@ -35,7 +35,7 @@ const LessonCatalogPage = () => {
         <p className="text-lg text-neutral-400 mb-12">{lesson.summary}</p>
         <div className="space-y-4">
           {lesson.sections?.map((section, index) => (
-            <Link to={`/lessons/${lesson.slug}/${section.slug}/${section.pages[0].slug}`} className="block bg-neutral-900 p-6 rounded-xl border border-neutral-800 hover:border-blue-500 transition-colors duration-200">
+            <Link to={`/lessons/${lesson.slug}/${section.slug}/${section.pages[0].slug}`} className="block bg-neutral-900 p-6 rounded-xl border border-neutral-800 hover:border-blue-300 transition-colors duration-200">
               <div className="flex justify-between items-center">
                 <div>
                   <p className="text-sm text-neutral-500">Part {index + 1}</p>

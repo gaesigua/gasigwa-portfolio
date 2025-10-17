@@ -1,8 +1,8 @@
 # Types of Number Systems: Decimal
 
-## 1. Decimal System (Base 10)
+## 1. Decimal System (Base-10)
 
-As we have seen previously, numbers are represented using a system defined by its **base** (or radix), which indicates the number of unique digits it uses. 
+As we have seen previously, numbers are represented using a system defined by its **base** (or **radix**), which indicates the number of unique digits it uses. 
 
 The **decimal** number system, also known as **base-10**, is the one most people are familiar with and use for everyday tasks like counting, tracking scores, or voting.
 
