@@ -203,6 +203,84 @@ export const lessons = [
               "An electrical circuit is a path in which electrons from a voltage or current source flow.",
           },
           {
+            slug: "electrical-circuit-definition",
+            title: "Electrical Circuit",
+            summary:
+               "An electric circuit is an interconnection of electrical elements linked together in a closed path so that an electric current may flow continuously."
+          },
+          {
+            slug: "electrical-circuits-four-fundamental-quantities-current",
+            title: "The Four Fundamental Quantities: CURRENT",
+            summary: 
+                 "overview on electrical current",
+          },
+          {
+            slug: "electrical-current-types",
+            title: "Types of Electrical Current",
+            summary:
+              "Understanding the differences between direct current (DC) and alternating current (AC).",
+          },
+          {
+            slug: "electrical-circuits-four-fundamental-quantities-resistance",
+            title: "The Four Fundamental Quantities: RESISTANCE",
+            summary: 
+                 "overview on electrical resistance",
+          },
+          {
+            slug: "electrical-circuits-four-fundamental-quantities-voltage",
+            title: "The Four Fundamental Quantities: VOLTAGE",
+            summary: 
+                 "overview on electrical voltage",
+          },
+          {
+            slug: "electrical-circuits-four-fundamental-quantities-power",
+            title: "The Four Fundamental Quantities: POWER",
+            summary: 
+                 "overview on electrical power",
+          },
+          {
+            slug: "electrical-circuits-circuit-symbols",
+            title: "Circuit Symbols",
+            summary:
+                 "understanding circuit diagrams requires knowing standard symbols"
+          },
+          {
+            slug: "electrical-circuits-calculations-intro",
+            title: "Electrical Circuits Calculations: INTRODUCTION",
+            summary: 
+                   "understanding electrical circuits calculations",
+          },
+          {
+            slug: "electrical-circuits-calculations-current",
+            title: "Electrical Circuits Calculations: CURRENT",
+            summary:
+                   "understanding electrical circuits calculations of current",
+          },
+          {
+            slug: "electrical-circuits-calculations-resistance",
+            title: "Electrical Circuits Calculations: RESISTANCE",
+            summary:
+                  "understanding electrical circuits calculations of resistance",
+          },
+          {
+            slug: "electrical-circuits-calculations-voltage",
+            title: "Electrical Circuits Calculations: VOLTAGE",
+            summary:
+                 "understanding electrical circuits calculations of voltage",
+          },
+          {
+            slug: "electrical-circuits-calculations-power",
+            title: "Electrical Circuits Calculations: POWER",
+            summary: 
+                 "understanding electrical circuits calculations of power",
+          },
+          {
+            slug: "electrical-circuits-definitions",
+            title: "Definitions",
+            summary:
+                "important definitions in electrical circuits",
+          },
+          {
             slug: "electric-current",
             title: "Electric Current",
             summary:
