@@ -2,15 +2,12 @@
 
 ## Why Do We Need Different Number Systems?
 
----
-
 In digital electronics, computers process information using the **binary**. While this is efficient for machines, binary numbers can become long and burdensome for us humans to understand. 
 
 This is why, for humans to efficiently read and write that information, in other words to be able to understand the computer, we use other number systems like **Decimal**, **Octal**, and **Hexadecimal**.
 
 
 ## The Concept of Base (or Radix)
----
 
 A number system is a way of representing numbers using a specific set of symbols or digits. The number of unique digits used in a number system is called **base** or **radix**.
 Every number system must have a **base**, and this base will determine the number of unique digits used in that system.
@@ -24,28 +21,28 @@ Every number system must have a **base**, and this base will determine the numbe
             <th>Example</th>
         </tr>
         <tr>
-            <td>Decimal</td>
+            <td><strong>Decimal</strong></td>
             <td>10</td>
             <td>0, 1, 2, 3, 4, 5, 6, 7, 8, 9</td>
-            <td>87₁₀</td>
+            <td>87<strong>₁₀</strong></td>
         </tr>
         <tr>
-            <td>Binary</td>
+            <td><strong>Binary</strong></td>
             <td>2</td>
             <td>0, 1</td>
-            <td>1011₂</td>
+            <td>1011<strong>₂</strong></td>
         </tr>
         <tr>
-            <td>Octal</td>
+            <td><strong>Octal</strong></td>
             <td>8</td>
             <td>0, 1, 2, 3, 4, 5, 6, 7</td>
-            <td>127₈</td>
+            <td>127<strong>₈</strong></td>
         </tr>
         <tr>
-            <td>Hexadecimal</td>
+            <td><strong>Hexadecimal</strong></td>
             <td>16</td>
             <td>0-9, A, B, C, D, E, F</td>
-            <td>2F₁₆</td>
+            <td>2F<strong>₁₆</strong></td>
         </tr>
     </table>
 </div>

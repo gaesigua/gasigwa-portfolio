@@ -1,4 +1,4 @@
-## Analog vs. Digital Systems
+# Analog vs. Digital Systems
 
 <p>To understand digital systems, it's helpful to compare them to their counterpart: <strong>analog systems</strong>.</p>
 

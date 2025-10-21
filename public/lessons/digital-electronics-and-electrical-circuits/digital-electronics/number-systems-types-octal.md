@@ -2,8 +2,6 @@
 
 ## 3. Octal System (Base-8)
 
----
-
 The word **Octal** comes from the Latin word **octo,** meaning **eight**. The **Octal** number system is a **base-8** system. Octal provides a convenient shorthand (way of writing) for binary because each octal digit corresponds to exactly **three** binary bits (since 2<sup>3</sup>=8). This makes it easier for humans to read, write, and understand long strings of binary information.
 
 In this system, we use **8** unique **_Digits_**: **0**,**1**,**2**,**3**,**4**,**5**,**6**,**7**.

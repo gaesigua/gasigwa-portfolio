@@ -30,8 +30,10 @@ To convert a Decimal number to **any** base, we **REPEATEDLY divide** the decima
    <div class="step"><strong>Step 5:</strong> Write remainders from bottom to top</div>
 </div>
 
+**Example 1:** **Convert 45₁₀ to Binary**
+
 <div class="example">
-    <h4>Example 1: Convert 45₁₀ to Binary</h4>
+    <!-- <h4>Example 1: Convert 45₁₀ to Binary</h4> -->
     <div class="calculation">
 45 ÷ 2 = 22 remainder <strong>1</strong> ←
 22 ÷ 2 = 11 remainder <strong>0</strong> ←

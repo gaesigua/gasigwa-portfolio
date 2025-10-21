@@ -2,16 +2,16 @@
 
 The journey of digital technology from bulky, mechanical calculators to modern smartphones is a story of **miniaturization** and increasing **speed**.
 
-## 1. Mechanical Era (1600s - 1940s)
+<div class="definition-card">
+ <li><strong>1. Mechanical Era (1600s - 1940s)</strong></li>
+ <p>Early calculations were performed using mechanical devices like the <strong>Pascaline</strong> (Blaise Pascal) and <strong>Stepped Reckoner</strong> (Gottfried Leibniz). 
+<p>These were digital systems as they represented numbers discretely, but they were not electronic.</p>
 
----
+</div>
 
-Early calculations were performed using mechanical devices like the **Pascaline** (Blaise Pascal) and **Stepped Reckoner** (Gottfried Leibniz). 
-These were digital systems as they represented numbers discretely, but they were not electronic.
+<div class="definition-card">
+<li><strong>2. Vacuum Tubes (First Generation Electronics: 1940s - 1950s)</strong></li>
 
-## 2. Vacuum Tubes (First Generation Electronics: 1940s - 1950s)
-
----
 
 **- Key Devices:** **Vacuum Tubes** (bulky glass tubes that acted as electronic switches).
 
@@ -19,9 +19,10 @@ These were digital systems as they represented numbers discretely, but they were
 
 **- Drawbacks:** Vacuum tubes consumed massive amounts of power, generated a lot of heat, and failed frequently.
 
-## 3. Transistors (Second Generation: 1950s - 1960s)
+</div>
 
----
+<div class="definition-card">
+<li><strong>3. Transistors (Second Generation: 1950s - 1960s)</strong></li>
 
 **- Key Device:** The **Transistor**, invented at Bell Labs in 1947.
 
@@ -29,15 +30,31 @@ These were digital systems as they represented numbers discretely, but they were
 
 This marked the true beginning of modern digital electronics.
 
-## 4. Integrated Circuits (Third Generation: 1960s - 1970s)
 
----
+</div>
+
+<div class="definition-card">
+<li><strong>4. Integrated Circuits (Third Generation: 1960s - 1970s)</strong></li>
 
 **- Key Device: Integrated Circuit (IC),** invented by Jack Kilby and Robert Noyce.
 
 **- Concept:** Instead of soldering individual transistors onto a circuit board, thousands (and later millions) of transistors, resistors, and capacitors could be fabricated on a single, small silicon chip.
 
 **- Scale:** This era saw the development of **Small-Scale Integration (SSI)** and **Medium-Scale Integration (MSI)**.
+
+</div>
+
+<div class="definition-card">
+<li><strong>5. Microprocessors and VLSI (Fourth Generation: 1970s - Present)</strong></li>
+
+**- Key Technology: Very Large-Scale Integration (VLSI)**.
+
+**- Impact:** VLSI allowed millions or even billions of transistors to be placed on a single chip. This breakthrough led to the invention of the **Microprocessor** (e.g., the Intel 4004 in 1971), a single chip containing the entire Central Processing Unit (CPU) of a computer.
+
+**- Modern Era:** Today, we operate in the **Ultra Large-Scale Integration (ULSI)** era, where a single microchip (like those in your phone or laptop) can contain over 100 billion transistors, powering the entire digital world.
+
+
+<!-- 
 
 ## 5. Microprocessors and VLSI (Fourth Generation: 1970s - Present)
 
@@ -47,4 +64,6 @@ This marked the true beginning of modern digital electronics.
 
 **- Impact:** VLSI allowed millions or even billions of transistors to be placed on a single chip. This breakthrough led to the invention of the **Microprocessor** (e.g., the Intel 4004 in 1971), a single chip containing the entire Central Processing Unit (CPU) of a computer.
 
-**- Modern Era:** Today, we operate in the **Ultra Large-Scale Integration (ULSI)** era, where a single microchip (like those in your phone or laptop) can contain over 100 billion transistors, powering the entire digital world.
+**- Modern Era:** Today, we operate in the **Ultra Large-Scale Integration (ULSI)** era, where a single microchip (like those in your phone or laptop) can contain over 100 billion transistors, powering the entire digital world. 
+
+-->

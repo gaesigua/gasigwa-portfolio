@@ -1,7 +1,7 @@
 <div class="header">
-            <h1>⚡ Electrical Circuits</h1>
-            <p>Master the Fundamentals of Current Electricity and Circuit Analysis</p>
-        </div>
+    <h1>⚡ Electrical Circuits</h1>
+    <p>Master the Fundamentals of Current Electricity and Circuit Analysis</p>
+</div>
 
 <div class="content">        
 <p>Electrical circuits are parts of the basic fabric of modern technology.</p>

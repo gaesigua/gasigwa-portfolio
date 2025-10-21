@@ -472,7 +472,8 @@ tr:hover {
 }
 
 .data-table th {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #667eea 0%, #6ab3ea 100%);
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
   color: white;
   padding: 15px;
   text-align: left;
@@ -482,7 +483,8 @@ tr:hover {
 .data-table td {
   padding: 12px 15px;
   border-bottom: 1px solid #e0e0e0;
-  text-align: center;
+  text-align: left;
+  /* text-align: center; */
 }
 
 .data-table tr:hover {
@@ -633,6 +635,8 @@ tr:hover {
 }
 
 .definition-card {
+  /* background: #1e1e1e; */
+  /* background: white; */
   background: black;
   border: 2px solid #e0e0e0;
   border-radius: 12px;
@@ -648,7 +652,8 @@ tr:hover {
 }
 
 .definition-card h4 {
-  color: #f093fb;
+  color: #6ab3ea;
+  /* color: #f093fb; */
   font-size: 1.4em;
   margin-bottom: 15px;
 }
@@ -844,29 +849,6 @@ tr:hover {
 
 .content {
   padding: 40px;
-}
-
-.definition-card {
-  background: #1e1e1e;
-
-  /* background: white; */
-  border: 2px solid #e0e0e0;
-  border-radius: 12px;
-  padding: 25px;
-  margin: 20px 0;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.definition-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-.definition-card h4 {
-  color: #6ab3ea;
-  font-size: 1.4em;
-  margin-bottom: 15px;
 }
 
 /* ----------------------------------CSS FOR ELECTRICAL CIRCUITS------------------------ */

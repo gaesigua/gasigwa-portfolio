@@ -1,6 +1,4 @@
-## Advantages of Digital Technology
-
----
+# Advantages of Digital Technology
 
 Digital systems became dominant in today's modern world for several critical reasons:
 
