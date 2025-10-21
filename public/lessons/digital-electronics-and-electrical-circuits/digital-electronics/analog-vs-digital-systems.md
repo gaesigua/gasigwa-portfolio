@@ -1,8 +1,6 @@
 ## Analog vs. Digital Systems
 
----
-
-To understand digital systems, it's helpful to compare them to their counterpart: **analog systems**.
+<p>To understand digital systems, it's helpful to compare them to their counterpart: <strong>analog systems</strong>.</p>
 
 |**Feature**|**Analog System**|**Digital System**|
 |:----|:------|:---- |

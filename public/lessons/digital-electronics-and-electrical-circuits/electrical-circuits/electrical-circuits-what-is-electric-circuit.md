@@ -26,7 +26,7 @@ It consists of a power source, conductors (wires), and usually some components t
                     
 <div class="circuit-diagram">
     <div style="font-size: 1.2em; line-height: 2;">
-                            <p>┌─────────[Switch]─────────┐</p>
+                            <p>┌─────────[Switch]──────────┐</p>
                             <p>│                           │</p>
                             <p>[Battery +−]            [Bulb 💡]</p>
                             <p>│                           │</p>

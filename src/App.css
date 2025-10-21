@@ -185,7 +185,8 @@ tr:hover {
 }
 
 .comparison-table th {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #667eea 0%, #6ab3ea 100%);
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
   color: white;
   padding: 15px;
   text-align: left;
@@ -522,7 +523,8 @@ tr:hover {
 }
 
 .header {
-  background: #1d8ec2;
+  background: #6ab3ea;
+  /* background: #1d8ec2; */
   color: white;
   padding: 50px 40px;
   text-align: center;
