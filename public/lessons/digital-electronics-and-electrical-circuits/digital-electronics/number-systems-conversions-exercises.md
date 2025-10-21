@@ -3,7 +3,7 @@
 ## 🎯 Try These Conversions
 
 <div class="example">
-    <div style="background: black; padding: 15px; border-radius: 8px; margin-top: 10px;">
+    <!-- <div style="background: black; padding: 15px; border-radius: 8px; margin-top: 10px;"> -->
         <ol style="line-height: 2;">
             <li>Exercise 1: Convert 89₁₀ to Binary</li>
             <li>Exercise 2: Convert 100₁₀ to Binary</li>

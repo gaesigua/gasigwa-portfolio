@@ -107,17 +107,23 @@ export const lessons = [
             summary: "Understanding the BCD Encoding and Conversions.",
           },
           {
-            slug: "number-systems-conversions-binary-coded-decimal-conversions-decimal-to-bcd",
-            title: "BCD Conversions: Decimal to BCD",
+            slug: "number-systems-conversions-binary-coded-decimal-encoding-table",
+            title: "BCD Digit Encoding Table",
             summary:
-              "Techniques for converting decimal numbers to Binary Coded Decimal (BCD).",
+              "A table showing the BCD representation of decimal digits 0-9.",
           },
-          {
-            slug: "number-systems-conversions-binary-coded-decimal-conversions-bcd-to-decimal",
-            title: "BCD Conversions: BCD to Decimal",
-            summary:
-              "Techniques for converting Binary Coded Decimal (BCD) numbers to decimal.",
-          },
+          // {
+          //   slug: "number-systems-conversions-binary-coded-decimal-conversions-decimal-to-bcd",
+          //   title: "BCD Conversions: Decimal to BCD",
+          //   summary:
+          //     "Techniques for converting decimal numbers to Binary Coded Decimal (BCD).",
+          // },
+          // {
+          //   slug: "number-systems-conversions-binary-coded-decimal-conversions-bcd-to-decimal",
+          //   title: "BCD Conversions: BCD to Decimal",
+          //   summary:
+          //     "Techniques for converting Binary Coded Decimal (BCD) numbers to decimal.",
+          // },
           {
             slug: "logic-gates-introduction",
             title: "Logic Gates Introduction",
@@ -125,7 +131,7 @@ export const lessons = [
               "Basic building blocks of digital circuits that perform logical operations.",
           },
           {
-            slug: "basic-logic-gates",
+            slug: "logic-gates-basic-gates",
             title: "Basic Logic Gates",
             summary:
               "Introduction to basic logic gates: AND, OR, NOT, NAND, NOR, XOR, and XNOR.",

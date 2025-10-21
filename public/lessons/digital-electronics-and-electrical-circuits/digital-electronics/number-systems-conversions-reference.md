@@ -2,8 +2,6 @@
 
 ## 1. Conversion Summary Table
 
----
-
 <div class="table-container">
     <table>
         <tr>
@@ -76,7 +74,6 @@
 
 ## 2. Common Equivalents Reference
 
----
 
 <div class="table-container">
     <table>
@@ -111,8 +108,6 @@
 </div>
 
 ## 3. Important Formulas
-
----
 
 <div class="steps">
     <div class="step"><strong>Any Base to Decimal:</strong> Sum of (digit × base^position)</div>
