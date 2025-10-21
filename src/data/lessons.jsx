@@ -203,22 +203,46 @@ export const lessons = [
               "An electrical circuit is a path in which electrons from a voltage or current source flow.",
           },
           {
-            slug: "electrical-circuit-definition",
-            title: "Electrical Circuit",
+            slug: "electrical-circuits-what-is-electricity",
+            title: "What Is Electricity",
             summary:
-               "An electric circuit is an interconnection of electrical elements linked together in a closed path so that an electric current may flow continuously."
+              "electricity is a form of energy resulting from the presence and flow of electric charge",
+          },
+          {
+            slug: "electrical-circuits-what-is-electric-charge",
+            title: "What Is Electric Charge",
+            summary:
+               "electric charge is a fundamental property of matter",
+          },
+          {
+            slug: "electrical-circuits-conductors-vs-insulators",
+            title: "Conductors vs Insulators",
+            summary:
+               "materials that allow electric charge to flow easily and materials that resist the flow of electric charge",
+          },
+          {
+            slug: "electrical-circuits-semiconductors",
+            title: "Semiconductors",
+            summary:
+                "materials with conductivity between conductors and insulators",
+          },
+          {
+            slug: "electrical-circuits-what-is-electric-circuit",
+            title: "Electric Circuit",
+            summary:
+               "An electric circuit is an interconnection of electrical elements linked together in a closed path so that an electric current may flow continuously.",
+          },
+          {
+            slug: "electrical-circuits-direct-current-vs-alternating-current",
+            title: "Direct Current (DC) vs Alternating Current (AC)",
+            summary:
+               "Understanding the differences between direct current (DC) and alternating current (AC).",
           },
           {
             slug: "electrical-circuits-four-fundamental-quantities-current",
             title: "The Four Fundamental Quantities: CURRENT",
             summary: 
                  "overview on electrical current",
-          },
-          {
-            slug: "electrical-current-types",
-            title: "Types of Electrical Current",
-            summary:
-              "Understanding the differences between direct current (DC) and alternating current (AC).",
           },
           {
             slug: "electrical-circuits-four-fundamental-quantities-resistance",
@@ -243,12 +267,6 @@ export const lessons = [
             title: "Circuit Symbols",
             summary:
                  "understanding circuit diagrams requires knowing standard symbols"
-          },
-          {
-            slug: "electrical-circuits-calculations-intro",
-            title: "Electrical Circuits Calculations: INTRODUCTION",
-            summary: 
-                   "understanding electrical circuits calculations",
           },
           {
             slug: "electrical-circuits-calculations-current",

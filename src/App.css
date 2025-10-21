@@ -501,6 +501,7 @@ tr:hover {
   border-radius: 8px;
   border: 2px solid #e0e0e0;
   text-align: center;
+  color: #000;
 }
 
 .symbol-card svg {
@@ -674,7 +675,8 @@ tr:hover {
 }
 
 .example {
-  background: #8f918f;
+  background: #6ab3ea11;
+  /* background: #4b849e88; */
   border-left: 5px solid #6ab3ea;
   padding: 25px;
   margin: 20px 0;
@@ -786,6 +788,10 @@ tr:hover {
   transition: all 0.3s;
 }
 
+.icon-card p {
+  color: #9e9797;
+} 
+
 .icon-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
@@ -886,20 +892,6 @@ tr:hover {
   color: #bf360c;
   font-family: "Courier New", monospace;
   margin: 15px 0;
-}
-
-.example {
-  background: #e8f5e9;
-  border-left: 5px solid #4caf50;
-  padding: 25px;
-  margin: 20px 0;
-  border-radius: 10px;
-}
-
-.example h4 {
-  color: #2e7d32;
-  margin-bottom: 15px;
-  font-size: 1.3em;
 }
 
 .calculation {
