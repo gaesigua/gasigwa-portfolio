@@ -17,13 +17,24 @@ const LessonSectionPage = () => {
 
   const lesson = lessons.find(l => l.slug === lessonSlug);
   const section = lesson?.sections.find(s => s.slug === sectionSlug);
-  const pageIndex = section?.pages.findIndex(p => p.slug === pageSlug);
-  const page = section?.pages[pageIndex];
 
-  // Find the next page / next section
+  // If no pageSlug is provided -> overview mode
+
+  const isOverview = !pageSlug;
+  
+  // When pageSlug is provided, find the specific page index and page
+  
+  const pageIndex = isOverview ? undefined : section?.pages.findIndex(p => p.slug === pageSlug);
+  const page = isOverview ? null : section?.pages[pageIndex];
+
+  // Next / Prev logic (only relevant in page mode)
+
   let nextPage = null;
   let nextSection = null;
-  if (section && pageIndex !== undefined) {
+  let prevPage = null;
+  let prevSection = null;
+
+  if (!isOverview && section && pageIndex !== undefined) {
     // Next page in current section
     if (pageIndex < section.pages.length - 1) {
       nextPage = section.pages[pageIndex + 1];
@@ -35,13 +46,6 @@ const LessonSectionPage = () => {
         // nextPage = nextSection.pages[0];
       }
     }
-  }
-
-  // Find the Previous page / previous section logic 
-
-  let prevPage = null;
-  let prevSection = null;
-  if (section && pageIndex !== undefined) {
     // Previous page in current section
     if (pageIndex > 0) {
       prevPage = section.pages[pageIndex - 1];
@@ -57,7 +61,19 @@ const LessonSectionPage = () => {
   }
 
 
+  // Fetch content when component mounts or when slugs change
+
+
   useEffect(() => {
+    // reset states
+    setError(null);
+    setContent('');
+    if (isOverview) {
+      setIsLoading(false);
+      return;
+    }
+
+
     if (!lesson || !section || !page) {
       setError('Lesson, section, or page not found.');
       setIsLoading(false);
@@ -66,7 +82,6 @@ const LessonSectionPage = () => {
 
     const fetchContent = async () => {
       setIsLoading(true);
-      setError(null);
       try {
         // Fetch from the new directory structure
         const response = await fetch(`/lessons/${lessonSlug}/${sectionSlug}/${pageSlug}.md`);
@@ -83,7 +98,7 @@ const LessonSectionPage = () => {
     };
 
     fetchContent();
-  }, [lessonSlug, sectionSlug, pageSlug, lesson, section, page]);
+  }, [lessonSlug, sectionSlug, pageSlug, isOverview, lesson, section, page]);
 
   // helpers to build route for previous page
 
@@ -99,17 +114,56 @@ const LessonSectionPage = () => {
     return null;
   };
 
+  // Render component
+
   return (
     <Layout>
       {/* <div className="min-h-screen bg-neutral-950 text-neutral-200 font-mono antialiased"> */}
         <div className="max-w-4xl mx-auto px-4 py-8">
+          {/* Back to lesson (catalog) */}
           <Link 
-          to={`/lessons/${lessonSlug}/${sectionSlug}`} 
-          className="text-blue-300 hover:underline mb-8 inline-block"
+            to={`/lessons/${lessonSlug}`} 
+            className="text-blue-300 hover:underline mb-6 inline-block"
           >
-            &larr; Back to {section?.title}
+            &larr; Back to {lesson?.title}
           </Link>
-          <article className="lesson-content prose prose-invert prose-lg">
+
+          {/* Overview mode: section landing with list of pages */}
+          {isOverview ? (
+            <>
+              <header className="mb-6">
+                <h1 className="text-3xl font-extrabold text-neutral-50">{section?.title}</h1>
+                <p className="text-neutral-400 mt-2">{section?.summary}</p>
+              </header>
+
+              <div className="space-y-4">
+                {section?.pages.map((p, idx) => (
+                  <Link
+                    key={p.slug}
+                    to={`/lessons/${lessonSlug}/${sectionSlug}/${p.slug}`}
+                    className="block bg-neutral-900 p-6 rounded-xl border border-neutral-800 hover:border-blue-400 transition"
+                  >
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <p className="text-sm text-neutral-500">Page {idx + 1}</p>
+                        <h2 className="text-2xl font-semibold text-neutral-50">{p.title}</h2>
+                        <p className="text-neutral-400 mt-1">{p.summary}</p>
+                      </div>
+                      
+                    <div className="text-neutral-500">Start →</div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </>
+          ) : (
+            // Page mode: render markdown content  + previous/next controls
+            <>
+              <Link to={`/lessons/${lessonSlug}/${sectionSlug}`} className="text-blue-300 hover:underline mb-8 inline-block">
+              &larr; Back to {section?.title}
+            </Link>
+
+            <article className="lesson-content prose prose-invert prose-lg">
             {isLoading && <p>Loading...</p>}
             {error && <p style={{ color: 'red' }}>Error: {error}</p>}
             {!isLoading && !error && (
@@ -122,21 +176,18 @@ const LessonSectionPage = () => {
             )}
           </article>
 
-          {/* Previous / Next controls */}
           <div className="flex justify-between mt-8">
             {/* Previous button */}
-            {prevPage ? (
+            {getPrevRoute() ? (
               <button 
-                className="bg-neutral-700 hover:bg-neutral-600 text-white py-2 px-5 rounded-lg shadow transition flex items-center"
+                className="bg-neutral-700 hover:bg-neutral-600 text-white py-2 px-5 rounded-lg shadow transition"
                 onClick={() => 
                   navigate(
                     getPrevRoute())}
               >
                 &larr; Previous
               </button>
-            ) : (
-              <div /> /* Empty placeholder div to maintain spacing if no previous page */
-            )}
+            ) : <div /> /* Empty placeholder div to maintain spacing if no previous page */}
 
           {/* Next button */}
           {
@@ -151,11 +202,11 @@ const LessonSectionPage = () => {
               >
                 {nextPage ? 'Next →' : `Next Section: ${nextSection.title} →`}
               </button>
-            ) : (
-              <div /> /* Empty placeholder div to maintain spacing if no next page */
-            )}
+            ) : <div /> /* Empty placeholder div to maintain spacing if no next page */}
           </div>
-        </div>
+            </>
+          )}
+      </div>
     </Layout>
   );
 };
