@@ -251,34 +251,16 @@ export const lessons = [
                  "overview on electrical current",
           },
           {
-            slug: "electrical-circuits-four-fundamental-quantities-resistance",
-            title: "The Four Fundamental Quantities: RESISTANCE",
-            summary: 
-                 "overview on electrical resistance",
-          },
-          {
-            slug: "electrical-circuits-four-fundamental-quantities-voltage",
-            title: "The Four Fundamental Quantities: VOLTAGE",
-            summary: 
-                 "overview on electrical voltage",
-          },
-          {
-            slug: "electrical-circuits-four-fundamental-quantities-power",
-            title: "The Four Fundamental Quantities: POWER",
-            summary: 
-                 "overview on electrical power",
-          },
-          {
-            slug: "electrical-circuits-circuit-symbols",
-            title: "Circuit Symbols",
-            summary:
-                 "understanding circuit diagrams requires knowing standard symbols"
-          },
-          {
             slug: "electrical-circuits-calculations-current",
             title: "Electrical Circuits Calculations: CURRENT",
             summary:
                    "understanding electrical circuits calculations of current",
+          },
+          {
+            slug: "electrical-circuits-four-fundamental-quantities-resistance",
+            title: "The Four Fundamental Quantities: RESISTANCE",
+            summary: 
+                 "overview on electrical resistance",
           },
           {
             slug: "electrical-circuits-calculations-resistance",
@@ -287,16 +269,46 @@ export const lessons = [
                   "understanding electrical circuits calculations of resistance",
           },
           {
+            slug: "electrical-circuits-four-fundamental-quantities-voltage",
+            title: "The Four Fundamental Quantities: VOLTAGE",
+            summary: 
+                 "overview on electrical voltage",
+          },
+          {
             slug: "electrical-circuits-calculations-voltage",
             title: "Electrical Circuits Calculations: VOLTAGE",
             summary:
                  "understanding electrical circuits calculations of voltage",
           },
           {
+            slug: "electrical-circuits-four-fundamental-quantities-power",
+            title: "The Four Fundamental Quantities: POWER",
+            summary: 
+                 "overview on electrical power",
+          },
+          {
             slug: "electrical-circuits-calculations-power",
             title: "Electrical Circuits Calculations: POWER",
             summary: 
                  "understanding electrical circuits calculations of power",
+          },
+          {
+            slug: "electrical-circuits-circuit-symbols",
+            title: "Circuit Symbols",
+            summary:
+                 "understanding circuit diagrams requires knowing standard symbols"
+          },
+          {
+            slug: "electrical-circuits-measurements",
+            title: "Measurements",
+            summary:
+                "various electrical quantities can be measured using different instruments",
+          },
+          {
+            slug: "electrical-circuits-practice-problems",
+            title: "Practice Problems",
+            summary:
+                "solve practice problems on electrical circuits",
           },
           {
             slug: "electrical-circuits-definitions",
