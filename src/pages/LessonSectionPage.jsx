@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom'; // Importing useNavigate to handle navigation (moving to the next section)
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import remarkGfm from 'remark-gfm';
 import { lessons } from '../data/lessons';
 import Layout from '../components/Layout.jsx';
-import { useNavigate } from 'react-router-dom';    // Import useNavigate to handle navigation (moving to the next section)
 
 const LessonSectionPage = () => {
   const { lessonSlug, sectionSlug, pageSlug } = useParams();
@@ -21,7 +20,7 @@ const LessonSectionPage = () => {
   const pageIndex = section?.pages.findIndex(p => p.slug === pageSlug);
   const page = section?.pages[pageIndex];
 
-  // Find the next page within the same section
+  // Find the next page / next section
   let nextPage = null;
   let nextSection = null;
   if (section && pageIndex !== undefined) {
@@ -34,6 +33,25 @@ const LessonSectionPage = () => {
       if (sectionIndex < lesson.sections.length - 1) {
         nextSection = lesson.sections[sectionIndex + 1];
         // nextPage = nextSection.pages[0];
+      }
+    }
+  }
+
+  // Find the Previous page / previous section logic 
+
+  let prevPage = null;
+  let prevSection = null;
+  if (section && pageIndex !== undefined) {
+    // Previous page in current section
+    if (pageIndex > 0) {
+      prevPage = section.pages[pageIndex - 1];
+    } else {
+      // Last page of the previous section (if exists)
+      const sectionIndex = lesson.sections.findIndex(s => s.slug === sectionSlug);
+      if (sectionIndex > 0) {
+        prevSection = lesson.sections[sectionIndex - 1];
+        // previous page should be the last page of the previous section
+         prevPage = prevSection.pages[prevSection.pages.length - 1];
       }
     }
   }
@@ -67,6 +85,20 @@ const LessonSectionPage = () => {
     fetchContent();
   }, [lessonSlug, sectionSlug, pageSlug, lesson, section, page]);
 
+  // helpers to build route for previous page
+
+  const getPrevRoute = () => {
+    if (!prevPage) return null;
+    const targetSectionSlug = prevSection ? prevSection.slug : sectionSlug;
+    return `/lessons/${lessonSlug}/${targetSectionSlug}/${prevPage.slug}`;
+  };
+
+  const getNextRoute = () => {
+    if (nextPage) return `/lessons/${lessonSlug}/${sectionSlug}/${nextPage.slug}`;
+    if (nextSection) return `/lessons/${lessonSlug}/${nextSection.slug}/${nextSection.pages[0].slug}`;
+    return null;
+  };
+
   return (
     <Layout>
       {/* <div className="min-h-screen bg-neutral-950 text-neutral-200 font-mono antialiased"> */}
@@ -89,31 +121,39 @@ const LessonSectionPage = () => {
               </ReactMarkdown>
             )}
           </article>
+
+          {/* Previous / Next controls */}
+          <div className="flex justify-between mt-8">
+            {/* Previous button */}
+            {prevPage ? (
+              <button 
+                className="bg-neutral-700 hover:bg-neutral-600 text-white py-2 px-5 rounded-lg shadow transition flex items-center"
+                onClick={() => 
+                  navigate(
+                    getPrevRoute())}
+              >
+                &larr; Previous
+              </button>
+            ) : (
+              <div /> /* Empty placeholder div to maintain spacing if no previous page */
+            )}
+
           {/* Next button */}
-          <div className="flex justify-end mt-8">
-            {nextPage ? (
+          {
+            getNextRoute() ? (
               <button 
-                className="bg-blue-400 hover:bg-blue-500 text-white font-semibold py-2 px-6 rounded-lg shadow transition"
+                className= {`${
+                  nextPage ? 'bg-blue-400 hover:bg-blue-500' : 'bg-green-600 hover:bg-green-700'
+                } text-white py-2 px-6 rounded-lg shadow transition flex`}
                 onClick={() => 
                   navigate(
-                    `/lessons/${lessonSlug}/${sectionSlug}/${nextPage.slug}`
-                  )
-                }
+                    getNextRoute())}
               >
-                Next &rarr;
+                {nextPage ? 'Next →' : `Next Section: ${nextSection.title} →`}
               </button>
-            ) : nextSection ? (
-              <button 
-                className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded-lg shadow transition"
-                onClick={() => 
-                  navigate(
-                    `/lessons/${lessonSlug}/${nextSection.slug}/${nextSection.pages[0].slug}`
-                  )
-                }
-              >
-                Next Section: {nextSection.title} &rarr;
-              </button>
-            ) : null}
+            ) : (
+              <div /> /* Empty placeholder div to maintain spacing if no next page */
+            )}
           </div>
         </div>
     </Layout>
