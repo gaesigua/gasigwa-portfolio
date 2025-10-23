@@ -299,6 +299,24 @@ export const lessons = [
                  "understanding electrical circuits calculations of voltage",
           },
           {
+            slug: "electrical-circuits-calculations-voltage-ohmic-vs-non-ohmic-materials",
+            title: "Ohmic vs Non-Ohmic Materials",
+            summary:
+               "understanding the difference between ohmic and non-ohmic materials",
+          },
+          {
+            slug: "electrical-circuits-calculations-voltage-examples",
+            title: "Examples - Basic Ohm's Law",
+            summary:
+                "example problems on electrical circuits calculations of voltage",
+          },
+          {
+            slug: "electrical-circuits-calculations-combined-examples",
+            title: "Examples - Combined Problems",
+            summary:
+                "combined example problems on electrical circuits",
+          },
+          {
             slug: "electrical-circuits-four-fundamental-quantities-power",
             title: "The Four Fundamental Quantities: POWER",
             summary: 
