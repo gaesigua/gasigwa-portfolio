@@ -1,7 +1,8 @@
-# Resistors in Series and Parallel - Examples
-                    
+# Exercises - Resistors in Series and Parallel
+
+**Example 1:** **Resistors in Series**
+
 <div class="example">
-    <h4>Example 4: Resistors in Series</h4>
     <p><strong>Problem:</strong> Three resistors of 10 Ω, 20 Ω, and 30 Ω are connected in series. Calculate the total resistance.</p>
                         
 <div class="calculation">
@@ -20,10 +21,11 @@ R_total = 60 Ω
 <strong>Answer: Total resistance is 60 Ohms</strong>
                         </div>
                     </div>
-                    
+
+**Example 2:** **Resistors in Parallel**
+
 <div class="example">
-    <h4>Example 5: Resistors in Parallel</h4>
-                        <p><strong>Problem:</strong> Two resistors of 6 Ω and 3 Ω are connected in parallel. Calculate the total resistance.</p>
+    <p><strong>Problem:</strong> Two resistors of 6 Ω and 3 Ω are connected in parallel. Calculate the total resistance.</p>
                         
 <div class="calculation">
 <strong>Given:</strong>

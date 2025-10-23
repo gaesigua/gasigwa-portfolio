@@ -8,9 +8,11 @@
     <span style="background: #6ab3ea; color: white; padding: 5px 15px; border-radius: 20px; font-weight: bold;">FLOW</span>
 </div>
                         
-<p><strong>Definition:</strong> Current (or electric current) is the rate of flow of electric charge through a conductor. It measures how many electrons pass through a point per second.</p>
+<div class="definition-card">
+<p><strong>Current</strong> (or electric current) is the rate of flow of electric charge through a conductor. It measures how many electrons pass through a point per second.</p>
 
 An **electric current** can also be defined as the flow of electric charge, which is the movement of charged particles like electrons, and is a key property of an electric circuit.
+</div>
                         
 <div class="formula-box">
 Symbol: I<br>
@@ -33,6 +35,13 @@ Named after: André-Marie Ampère<br>
     </ul>
     <p style="margin-top: 10px;">A garden hose might flow 5 liters/minute, while a fire hose flows 500 liters/minute. Similarly, an LED might use 0.02A while an electric heater uses 10A.</p>
 </div>
+
+## Understanding Current Flow
+
+<div class="definition-card">
+  <h4>What Actually Moves?</h4>
+  <p>In metallic conductors, electric current is due to the flow of <strong>free electrons</strong> (negatively charged particles). These electrons drift from the negative terminal through the conductor to the positive terminal.</p>
+</div>
                         
 <table class="data-table">
                             <tr>
@@ -45,16 +54,5 @@ Named after: André-Marie Ampère<br>
                             <tr><td>Laptop</td><td>2-4 A</td><td>Medium</td></tr>
                             <tr><td>Microwave</td><td>8-13 A</td><td>High</td></tr>
                             <tr><td>Electric Heater</td><td>10-15 A</td><td>Very High</td></tr>
-                        </table>
-                        
-<div class="key-points">
-                            <h4>Key Facts About Current</h4>
-                            <ul>
-                                <li>Measured through a conductor (flow through a point)</li>
-                                <li>Direction: Conventional current flows from + to -, electron flow is opposite</li>
-                                <li>Common units: milliamps (mA) = 0.001 A, microamps (μA) = 0.000001 A</li>
-                                <li>Too much current can damage components or cause fires</li>
-                            </ul>
-                        </div>
-                    </div>
+</table>
                     

@@ -1,7 +1,8 @@
-# Examples - Basic Ohm's Law
-                    
+# Exercises - Basic Ohm's Law
+
+**Example 1:** **Calculate Voltage**
+
 <div class="example">
-    <h4>Example 1: Calculate Voltage</h4>
     <p><strong>Problem:</strong> A current of 2 A flows through a 6 Ω resistor. Calculate the voltage across the resistor.</p>
                         
 <div class="calculation">
@@ -22,9 +23,10 @@ V = 12 V
 <strong>Answer: The voltage is 12 Volts</strong>
 </div>
 </div>
-                    
+
+**Example 2:** **Calculate Current**
+
 <div class="example">
-    <h4>Example 2: Calculate Current</h4>
     <p><strong>Problem:</strong> A 9 V battery is connected to a 3 Ω resistor. What current flows through the circuit?</p>
                         
 <div class="calculation">
@@ -45,9 +47,10 @@ I = 3 A
 <strong>Answer: The current is 3 Amperes</strong>
                         </div>
                     </div>
+
+**Example 3:** **Calculate Resistance**
                     
 <div class="example">
-    <h4>Example 3: Calculate Resistance</h4>
     <p><strong>Problem:</strong> A current of 0.5 A flows when a voltage of 10 V is applied. What is the resistance?</p>
                         
 <div class="calculation">

@@ -7,25 +7,47 @@
         <span style="background: #ff9800; color: white; padding: 5px 15px; border-radius: 20px; font-weight: bold;">OPPOSITION</span>
 </div>
                         
-<p><strong>Definition:</strong> Resistance is the opposition to current flow in a circuit. Materials with high resistance make it difficult for current to pass through.</p>
+<div class="definition-card">
+    <p><strong>Resistance</strong> is the opposition to current flow in a circuit. It is a measure of how difficult it is for current to flow through a conductor.</p> 
+    <p>Materials with high resistance make it difficult for current to pass through.</p>
+</div>
                         
 <div class="formula-box">
     Symbol: R<br>
     Unit: Ohm (Ω)<br>
     Named after: Georg Simon Ohm
 </div>
-                        
+
+# What Causes Resistance?
+
+<!-- ## Microscopic View -->
+
+<div class="definition-card">
+    <p>Resistance occurs due to collisions between moving electrons and atoms in the conductor. As electrons drift through the material, they collide with atoms, losing energy in the form of heat.</p>
+</div>
+
 <div class="example">
-                            <h4>💡 Analogy: Pipe Friction</h4>
-                            <p>Think of resistance like friction in a water pipe:</p>
-                            <ul style="margin-left: 20px; margin-top: 10px;">
-                                <li><strong>Wide, smooth pipe (low resistance):</strong> Water flows easily</li>
-                                <li><strong>Narrow, rough pipe (high resistance):</strong> Water flows with difficulty</li>
-                                <li><strong>Blocked pipe (infinite resistance):</strong> No water can flow</li>
-                            </ul>
-                            <p style="margin-top: 10px;">Similarly, copper wire has low resistance (easy for electrons), while rubber has very high resistance (difficult for electrons).</p>
-                        </div>
+    <h4>💡 Analogy 1: Pipe Friction</h4>
+    <p>Think of resistance like friction in a water pipe:</p>
+    <ul style="margin-left: 20px; margin-top: 10px;">
+        <li><strong>Wide, smooth pipe (low resistance):</strong> Water flows easily</li>
+        <li><strong>Narrow, rough pipe (high resistance):</strong> Water flows with difficulty</li>
+        <li><strong>Blocked pipe (infinite resistance):</strong> No water can flow</li>
+    </ul>
+    <p style="margin-top: 10px;">Similarly, copper wire has low resistance (easy for electrons), while rubber has very high resistance (difficult for electrons).</p>
+</div>
                         
+<div class="example" style="margin-top: 15px;">
+    <h4>💡 Analogy 1: Running Through a Crowd</h4>
+    <p>Imagine trying to run through a crowded room:</p>
+    <ul style="margin-left: 20px; margin-top: 10px;">
+        <li>Empty room = Low resistance (easy to move)</li>
+        <li>Crowded room = High resistance (difficult to move, many collisions)</li>
+        <li>Your speed decreases = Current reduces</li>
+        <li>You get tired = Energy converts to heat</li>
+    </ul>
+</div>
+                                                
 <table class="data-table">
                             <tr>
                                 <th>Material</th>
@@ -48,10 +70,21 @@
                             </ul>
                         </div>
                         
-<div class="formula-box" style="background: #74726eff;">
+<!-- <div class="formula-box" style="background: #74726eff;">
                             R = ρ × (L / A)<br><br>
                             ρ (rho) = resistivity of material<br>
                             L = length of conductor<br>
                             A = cross-sectional area
-                        </div>
+</div> -->
+
+<div class="key-points">
+    <h4>Key Characteristics of Resistance</h4>
+    <ul>
+        <li><strong>Symbol:</strong> R</li>
+        <li><strong>Unit:</strong> Ohm (Ω), named after Georg Simon Ohm</li>
+        <li><strong>Measuring Instrument:</strong> Ohmmeter (measures with no current flowing)</li>
+        <li><strong>Effect:</strong> Converts electrical energy into heat</li>
+        <li><strong>Property:</strong> Depends on material, length, area, and temperature</li>
+    </ul>
+</div>
 </div>

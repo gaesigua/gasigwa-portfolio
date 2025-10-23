@@ -1,7 +1,8 @@
-# ⚙️ Resistance - Examples
-                   
+# Exercises
+
+**Example 1:** **Calculate Resistance**
+
 <div class="example">
-    <h4>Example 1: Calculate Resistance</h4>
     <p><strong>Problem:</strong> A voltage of 12 V is applied across a resistor, causing a current of 3 A to flow. Calculate the resistance.</p>
                         
 <div class="calculation">
@@ -22,9 +23,10 @@ R = 4 Ω
 <strong>Answer: The resistance is 4 Ohms</strong>
                         </div>
                     </div>
-                    
+
+**Example 2:** **Resistance from Physical Properties**
+
 <div class="example">
-    <h4>Example 2: Resistance from Physical Properties</h4>
     <p><strong>Problem:</strong> A copper wire (ρ = 1.68 × 10⁻⁸ Ω·m) has a length of 100 m and a cross-sectional area of 2 × 10⁻⁶ m². Calculate its resistance.</p>
                         
 <div class="calculation">
@@ -47,10 +49,11 @@ R = 0.84 Ω
 <strong>Answer: The resistance is 0.84 Ohms</strong>
                         </div>
                     </div>
-                    
+
+**Example 3:** **Effect of Length on Resistance**
+
 <div class="example">
-    <h4>Example 3: Effect of Length on Resistance</h4>
-                        <p><strong>Problem:</strong> A wire has a resistance of 5 Ω. If the wire is stretched to twice its original length (assuming area changes proportionally), what is the new resistance?</p>
+    <p><strong>Problem:</strong> A wire has a resistance of 5 Ω. If the wire is stretched to twice its original length (assuming area changes proportionally), what is the new resistance?</p>
                         
 <div class="calculation">
 <strong>Given:</strong>

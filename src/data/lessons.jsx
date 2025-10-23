@@ -239,6 +239,12 @@ export const lessons = [
                "An electric circuit is an interconnection of electrical elements linked together in a closed path so that an electric current may flow continuously.",
           },
           {
+            slug: "electrical-circuits-circuit-symbols",
+            title: "Circuit Symbols",
+            summary:
+                 "understanding circuit diagrams requires knowing standard symbols"
+          },
+          {
             slug: "electrical-circuits-direct-current-vs-alternating-current",
             title: "Direct Current (DC) vs Alternating Current (AC)",
             summary:
@@ -257,8 +263,8 @@ export const lessons = [
                    "understanding electrical circuits calculations of current",
           },
           {
-            slug: "electrical-circuits-calculations-current-examples",
-            title: "Electric Current Examples",
+            slug: "electrical-circuits-calculations-current-exercises",
+            title: "Electric Current Exercises",
             summary:
                    "example problems on electrical circuits calculations of current",
           },
@@ -275,16 +281,28 @@ export const lessons = [
                   "understanding electrical circuits calculations of resistance",
           },
           {
-            slug: "electrical-circuits-calculations-resistance-examples",
-            title: "Electric Resistance Examples",
+            slug: "electrical-circuits-calculations-resistance-exercises",
+            title: "Electric Resistance Exercises",
             summary:
                   "example problems on electrical circuits calculations of resistance",
+          },
+          {
+            slug: "electrical-circuits-calculations-resistors-types-of-resistors",
+            title: "Types of Resistors",
+            summary:
+                "understand the different types of resistors",
           },
           {
             slug: "electrical-circuits-calculations-resistors-series-and-parallel",
             title: "Resistors in Series and Parallel",
             summary:
                   "understanding how to calculate equivalent resistance for resistors connected in series and parallel configurations",
+          },
+          {
+            slug: "electrical-circuits-calculations-resistors-series-and-parallel-exercises",
+            title: "Exercises - Resistors in Series and Parallel",
+            summary:
+               "example problems on resistors in series and parallel",
           },
           {
             slug: "electrical-circuits-four-fundamental-quantities-voltage",
@@ -305,14 +323,14 @@ export const lessons = [
                "understanding the difference between ohmic and non-ohmic materials",
           },
           {
-            slug: "electrical-circuits-calculations-voltage-examples",
-            title: "Examples - Basic Ohm's Law",
+            slug: "electrical-circuits-calculations-voltage-exercises",
+            title: "Exercises - Basic Ohm's Law",
             summary:
                 "example problems on electrical circuits calculations of voltage",
           },
           {
-            slug: "electrical-circuits-calculations-combined-examples",
-            title: "Examples - Combined Problems",
+            slug: "electrical-circuits-calculations-combined-exercises",
+            title: "Exercises - Combined Problems",
             summary:
                 "combined example problems on electrical circuits",
           },
@@ -323,17 +341,17 @@ export const lessons = [
                  "overview on electrical power",
           },
           {
-            slug: "electrical-circuits-calculations-power",
-            title: "Electrical Circuits Calculations: POWER",
-            summary: 
-                 "understanding electrical circuits calculations of power",
-          },
-          {
-            slug: "electrical-circuits-circuit-symbols",
-            title: "Circuit Symbols",
+            slug: "electrical-circuits-calculations-power-formula-derived-from-ohm-law",
+            title: "Power Formulas (derived from Ohm's Law)",
             summary:
-                 "understanding circuit diagrams requires knowing standard symbols"
+                "understand the formula to calculate electrical power derived from Ohm's Law",
           },
+          // {
+          //   slug: "electrical-circuits-calculations-power",
+          //   title: "Electrical Circuits Calculations: POWER",
+          //   summary: 
+          //        "understanding electrical circuits calculations of power",
+          // },
           {
             slug: "electrical-circuits-measurements",
             title: "Measurements",
@@ -341,22 +359,16 @@ export const lessons = [
                 "various electrical quantities can be measured using different instruments",
           },
           {
-            slug: "electrical-circuits-practice-problems",
-            title: "Practice Problems",
+            slug: "electrical-circuits-measurements-exercises",
+            title: "Measurements Exercises",
             summary:
-                "solve practice problems on electrical circuits",
+                "solve practice problems on electrical measurements",
           },
           {
             slug: "electrical-circuits-definitions",
             title: "Definitions",
             summary:
                 "important definitions in electrical circuits",
-          },
-          {
-            slug: "electric-current",
-            title: "Electric Current",
-            summary:
-              "The flow of electric charge, typically measured in amperes (A).",
           },
           {
             slug: "ohms-law",

@@ -24,16 +24,17 @@ It consists of a power source, conductors (wires), and usually some components t
 
 ## Simple Circuit Diagram
                     
-<div class="circuit-diagram">
+<!-- <div class="circuit-diagram">
     <div style="font-size: 1.2em; line-height: 2;">
-                            <p>┌─────────[Switch]──────────┐</p>
-                            <p>│                           │</p>
-                            <p>[Battery +−]            [Bulb 💡]</p>
-                            <p>│                           │</p>
-                            <p>└───────────────────────────┘</p>
-                        </div>
-                        <p style="margin-top: 20px; color: #666;">When the switch is closed, current flows from the battery through the bulb, making it light up.</p>
-                    </div>
+        <p>┌─────────[Switch]──────────┐</p>
+        <p>│                           │</p>
+        <p>[Battery +−]            [Bulb 💡]</p>
+        <p>│                           │</p>
+        <p>└───────────────────────────┘</p>
+    </div>
+    <p style="margin-top: 20px; color: #666;">When the switch is closed, current flows from the battery through the bulb, making it light up.</p>
+</div> -->
+![Alt Simple Circuit Diagram]( /images/simple_circuit_diagram2.png "Simple Circuit Diagram")
                     
 ## Types of Circuits
 

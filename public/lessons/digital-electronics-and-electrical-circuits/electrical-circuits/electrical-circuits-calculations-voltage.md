@@ -1,5 +1,5 @@
 <!-- <div class="container"> -->
-# Alternative Forms
+# Alternative Formulas
 
 <!-- <h4 style="color: #e65100;">Alternative Forms:</h4> -->
 
@@ -12,19 +12,19 @@
 </div>
                     
 <div class="note">
-                        <strong>💡 Memory Aid - Ohm's Law Triangle:</strong><br>
-                        <div style="text-align: center; font-size: 1.5em; margin: 15px 0; font-family: monospace;">
-                            <div style="margin: 10px 0;">V</div>
-                            <div>───</div>
-                            <div>I × R</div>
-                        </div>
-                        <p>Cover the unknown quantity, and what remains is the formula!</p>
-                        <ul style="margin-left: 20px; margin-top: 10px;">
-                            <li>Cover V → V = I × R</li>
-                            <li>Cover I → I = V / R</li>
-                            <li>Cover R → R = V / I</li>
-                        </ul>
-                    </div>
+    <strong>💡 Memory Aid - Ohm's Law Triangle:</strong><br>
+    <div style="text-align: center; font-size: 1.5em; margin: 15px 0; font-family: monospace;">
+        <div style="margin: 10px 0;">V</div>
+        <div>───</div>
+        <div>I × R</div>
+    </div>
+    <p>Cover the unknown quantity, and what remains is the formula!</p>
+    <ul style="margin-left: 20px; margin-top: 10px;">
+        <li>Cover V → V = I × R</li>
+        <li>Cover I → I = V / R</li>
+        <li>Cover R → R = V / I</li>
+    </ul>
+</div>
                     
 ## Understanding Ohm's Law
 
@@ -46,5 +46,19 @@
         <li><strong>Resistance (R):</strong> Like pipe narrowness - restricts flow</li>
     </ul>
     <p style="margin-top: 10px;">Higher pressure (voltage) → More flow (current)<br>Narrower pipe (higher resistance) → Less flow (current)</p>
+</div>
+</div>
+
+# Limitations of Ohm's Law
+
+<div class="key-points">
+    <h4>Ohm's Law Does NOT Apply To:</h4>
+    <ul>
+        <li><strong>Non-linear devices:</strong> Diodes, transistors, LEDs</li>
+        <li><strong>Unilateral devices:</strong> Components that conduct differently in different directions</li>
+        <li><strong>Temperature-dependent resistors:</strong> When temperature changes significantly</li>
+        <li><strong>Voltage-dependent resistors:</strong> Varistors, Zener diodes</li>
+        <li><strong>Some materials at extreme conditions:</strong> Superconductors, plasmas</li>
+    </ul>
 </div>
 </div>

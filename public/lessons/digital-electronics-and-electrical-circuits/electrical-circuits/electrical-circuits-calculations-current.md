@@ -1,4 +1,7 @@
-# 🔋 Electric Current - Formula
+# How To Calculate Electric Current
+
+
+<!-- # 🔋 Electric Current - Formula -->
 
 <!-- <div class="definition-card">
   <h4>Definition of Electric Current</h4>
@@ -15,29 +18,6 @@
     <p>Q = Charge (Coulombs, C)</p>
     <p>t = Time (seconds, s)</p>
   </div>
-</div>
-<div class="key-points">
-  <h4>Key Characteristics of Electric Current:</h4>
-    <ul>
-      <li><strong>Symbol:</strong> I (for Intensity)</li>
-      <li><strong>Unit:</strong> Ampere (A), named after André-Marie Ampère</li>
-      <li><strong>Measuring Instrument:</strong> Ammeter (connected in series)</li>
-      <li><strong>Conventional Current Direction:</strong> From positive to negative terminal</li>
-      <li><strong>Electron Flow Direction:</strong> From negative to positive terminal (opposite to conventional)</li>
-    </ul>
-</div>
-<div class="note">
-  <strong>💡 Historical Note:</strong> Conventional current direction was
-      established before the discovery of electrons. Scientists assumed positive
-      charges moved, but we now know electrons (negative) actually move. We
-      still use conventional direction for consistency.
-</div>
-
-## Understanding Current Flow
-
-<div class="definition-card">
-  <h4>What Actually Moves?</h4>
-  <p>In metallic conductors, electric current is due to the flow of <strong>free electrons</strong> (negatively charged particles). These electrons drift from the negative terminal through the conductor to the positive terminal.</p>
 </div>
 
 ## Units of Current
@@ -74,3 +54,21 @@
       <td>Industrial equipment, lightning</td>
     </tr>
   </table>
+
+<div class="key-points">
+  <h4>Key Characteristics of Electric Current:</h4>
+    <ul>
+      <li><strong>Symbol:</strong> I (for Intensity)</li>
+      <li><strong>Unit:</strong> Ampere (A), named after André-Marie Ampère</li>
+      <li><strong>Common units:</strong> milliamps (mA) = 0.001 A, microamps (μA) = 0.000001 A</li>
+      <li><strong>Measuring Instrument:</strong> Ammeter (connected in series)</li>
+      <li><strong>Conventional Current Direction:</strong> From + to - terminal</li>
+      <li><strong>Electron Flow Direction:</strong> From - to + terminal (opposite to conventional)</li>
+    </ul>
+</div>
+<div class="note">
+  <strong>💡 Historical Note:</strong> Conventional current direction was
+      established before the discovery of electrons. Scientists assumed positive
+      charges moved, but we now know electrons (negative) actually move. We
+      still use conventional direction for consistency.
+</div>

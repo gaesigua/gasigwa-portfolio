@@ -1,7 +1,8 @@
-# Examples - Combined Problems
-                    
+# Exercises - Combined Problems
+
+**Example 1:** **Series Circuit**
+
 <div class="example">
-    <h4>Example 4: Series Circuit</h4>
     <p><strong>Problem:</strong> Two resistors of 4 Ω and 6 Ω are connected in series to a 20 V battery. Calculate (a) total resistance, (b) current, (c) voltage across each resistor.</p>
                         
 <div class="calculation">
@@ -32,9 +33,10 @@ V₁ + V₂ = 8 + 12 = 20 V ✓ (equals battery voltage)
 (c) V₁ = 8 V, V₂ = 12 V</strong>
 </div>
 </div>
-                    
+
+**Example 2:** **Parallel Circuit**
+
 <div class="example">
-    <h4>Example 5: Parallel Circuit</h4>
     <p><strong>Problem:</strong> Two resistors of 12 Ω and 6 Ω are connected in parallel to a 12 V battery. Calculate (a) total resistance, (b) total current, (c) current through each resistor.</p>
                         
 <div class="calculation">
@@ -67,9 +69,10 @@ I₁ + I₂ = 1 + 2 = 3 A ✓ (equals total current)
 (c) I₁ = 1 A, I₂ = 2 A</strong>
                         </div>
                     </div>
-                    
+
+**Example 3:** **Power Calculations**
+
 <div class="example">
-    <h4>Example 6: Power Calculations</h4>
     <p><strong>Problem:</strong> A 100 Ω resistor has a voltage of 10 V across it. Calculate (a) current, (b) power dissipated.</p>
                         
 <div class="calculation">
@@ -94,43 +97,5 @@ P = V²/R = (10)² / 100 = 100 / 100 = 1 W ✓
 <strong>Answers:
 (a) Current = 0.1 A or 100 mA
 (b) Power = 1 Watt</strong>
-                        </div>
-                    </div>
-                    
-# Power Formulas (derived from Ohm's Law)
-
-<div class="formula-box">
-    <h4>Electrical Power Formulas</h4>
-    <div style="font-size: 1.1em; line-height: 2;">
-    <div class="formula">P = V × I</div>
-    <p>Power = Voltage × Current</p>
-                            
-<div class="formula" style="margin-top: 15px;">P = I² × R</div>
-    <p>Power = Current² × Resistance</p>
-                            
-<div class="formula" style="margin-top: 15px;">P = V² / R</div>
-    <p>Power = Voltage² / Resistance</p>
-                            
-<p style="margin-top: 20px;"><strong>Unit:</strong> Watt (W)</p>
-    <p>1 Watt = 1 Joule per second</p>
-</div>
-</div>
-                    
-<div class="warning">
-    <strong>⚠️ Important Safety Note:</strong> When working with electrical circuits, always ensure power ratings are not exceeded. Excessive power causes heating and can damage components or cause fires.
-</div>
-                    
-# Limitations of Ohm's Law
-
-<div class="key-points">
-    <h4>Ohm's Law Does NOT Apply To:</h4>
-    <ul>
-        <li><strong>Non-linear devices:</strong> Diodes, transistors, LEDs</li>
-        <li><strong>Unilateral devices:</strong> Components that conduct differently in different directions</li>
-        <li><strong>Temperature-dependent resistors:</strong> When temperature changes significantly</li>
-        <li><strong>Voltage-dependent resistors:</strong> Varistors, Zener diodes</li>
-        <li><strong>Some materials at extreme conditions:</strong> Superconductors, plasmas</li>
-    </ul>
-</div>
 </div>
 </div>

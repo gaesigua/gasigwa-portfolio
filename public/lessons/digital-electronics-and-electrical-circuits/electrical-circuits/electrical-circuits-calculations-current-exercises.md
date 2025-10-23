@@ -1,4 +1,4 @@
-# 🔋 Electric Current - Examples
+# Exercises
 
 **Example 1:** **Calculate Current from Charge and Time**
 
