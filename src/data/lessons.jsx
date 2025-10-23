@@ -257,6 +257,12 @@ export const lessons = [
                    "understanding electrical circuits calculations of current",
           },
           {
+            slug: "electrical-circuits-calculations-current-examples",
+            title: "Electric Current Examples",
+            summary:
+                   "example problems on electrical circuits calculations of current",
+          },
+          {
             slug: "electrical-circuits-four-fundamental-quantities-resistance",
             title: "The Four Fundamental Quantities: RESISTANCE",
             summary: 
@@ -267,6 +273,18 @@ export const lessons = [
             title: "Electrical Circuits Calculations: RESISTANCE",
             summary:
                   "understanding electrical circuits calculations of resistance",
+          },
+          {
+            slug: "electrical-circuits-calculations-resistance-examples",
+            title: "Electric Resistance Examples",
+            summary:
+                  "example problems on electrical circuits calculations of resistance",
+          },
+          {
+            slug: "electrical-circuits-calculations-resistors-series-and-parallel",
+            title: "Resistors in Series and Parallel",
+            summary:
+                  "understanding how to calculate equivalent resistance for resistors connected in series and parallel configurations",
           },
           {
             slug: "electrical-circuits-four-fundamental-quantities-voltage",

@@ -21,13 +21,15 @@ Named after: André-Marie Ampère<br>
                         
 <div class="example">
 <h4>💡 Analogy: Water Flow</h4>
-    <p>Let's imagine water flowing through a pipe in our homes:<p>
+    <p>Think of electric current like water flowing through a pipe in our homes:<p>
     <ul style="margin-left: 20px; margin-top: 10px;">
         <li><strong>Pipe</strong> is the electric circuit, or the conductor<li>
-        <li><strong>Current</strong> is the rate at which the water flows through the pipe (e.g, liters per minute).<li>
-        <li><strong>High current (high flow):</strong> Many electrons moving per second</li>
-        <li><strong>Low current (low flow):</strong> Few electrons moving per second</li>
-        <li><strong>No current (no flow):</strong> No electron movement</li>
+        <li><strong>Current (flow rate)</strong> The amount of water flowing through the pipe per second (e.g, liters per minute).<li>
+        <li><strong>High current (high flow):</strong> Many liters moving per second</li>
+        <li><strong>Low current (low flow):</strong> Few liters moving per second</li>
+        <li><strong>No current (no flow):</strong> No water movement</li>
+        <li><strong>Voltage (pressure):</strong> The battery is like a pump creating pressure</li>
+        <li><strong>Resistance (pipe size):</strong> A narrow pipe resists flow more than a wide pipe</li>
     </ul>
     <p style="margin-top: 10px;">A garden hose might flow 5 liters/minute, while a fire hose flows 500 liters/minute. Similarly, an LED might use 0.02A while an electric heater uses 10A.</p>
 </div>
