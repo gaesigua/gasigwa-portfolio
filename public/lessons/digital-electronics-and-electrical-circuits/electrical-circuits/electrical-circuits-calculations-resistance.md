@@ -14,7 +14,7 @@
     </div>
 </div>
                                     
-# Factors Affecting Resistance
+## Factors Affecting Resistance
                     
 <div class="definition-card">
     <h4>1. Material (Resistivity)</h4>

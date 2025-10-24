@@ -29,12 +29,12 @@ Named after: Alessandro Volta
 </div>
                         
 <div class="key-points">
-                            <h4>Key Facts About Voltage</h4>
-                            <ul>
-                                <li>Measured across two points (potential difference)</li>
-                                <li>Common voltages: 1.5V (AA battery), 9V (9V battery), 12V (car battery), 120V (US outlets), 230V (European outlets)</li>
-                                <li>Voltage can be positive or negative (direction matters)</li>
-                                <li>Higher voltage = more "push" for electrons</li>
-                            </ul>
-                        </div>
-                    </div>
+    <h4>Key Facts About Voltage</h4>
+    <ul>
+        <li>Measured across two points (potential difference)</li>
+        <li>Common voltages: 1.5V (AA battery), 9V (9V battery), 12V (car battery), 120V (US outlets), 230V (European outlets)</li>
+        <li>Voltage can be positive or negative (direction matters)</li>
+        <li>Higher voltage = more "push" for electrons</li>
+    </ul>
+</div>
+</div>

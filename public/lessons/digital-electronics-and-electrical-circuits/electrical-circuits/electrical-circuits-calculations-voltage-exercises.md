@@ -7,8 +7,8 @@
                         
 <div class="calculation">
 <strong>Given:</strong>
-I = 2 A
-R = 6 Ω
+I = 2A;
+R = 6Ω
 
 <strong>Required:</strong>
 V = ?
@@ -16,9 +16,9 @@ V = ?
 <strong>Formula:</strong>
 V = I × R
 
-<strong>Solution:</strong>
-V = 2 A × 6 Ω
-V = 12 V
+<strong>Solution:</strong><br>
+V = 2A × 6Ω<br>
+V = 12V
 
 <strong>Answer: The voltage is 12 Volts</strong>
 </div>
@@ -31,8 +31,8 @@ V = 12 V
                         
 <div class="calculation">
 <strong>Given:</strong>
-V = 9 V
-R = 3 Ω
+V = 9V;
+R = 3Ω
 
 <strong>Required:</strong>
 I = ?
@@ -40,9 +40,9 @@ I = ?
 <strong>Formula:</strong>
 I = V / R
 
-<strong>Solution:</strong>
-I = 9 V / 3 Ω
-I = 3 A
+<strong>Solution:</strong><br>
+I = 9V / 3Ω<br>
+I = 3A
 
 <strong>Answer: The current is 3 Amperes</strong>
                         </div>
@@ -55,8 +55,8 @@ I = 3 A
                         
 <div class="calculation">
 <strong>Given:</strong>
-I = 0.5 A
-V = 10 V
+I = 0.5A;
+V = 10V
 
 <strong>Required:</strong>
 R = ?
@@ -64,10 +64,10 @@ R = ?
 <strong>Formula:</strong>
 R = V / I
 
-<strong>Solution:</strong>
-R = 10 V / 0.5 A
-R = 20 Ω
+<strong>Solution:</strong><br>
+R = 10V / 0.5A<br>
+R = 20Ω
 
 <strong>Answer: The resistance is 20 Ohms</strong>
-                        </div>
+</div>
 </div>

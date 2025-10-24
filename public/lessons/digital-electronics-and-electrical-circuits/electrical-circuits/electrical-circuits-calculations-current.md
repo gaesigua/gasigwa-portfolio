@@ -1,4 +1,4 @@
-# How To Calculate Electric Current
+# How To Calculate Current
 
 
 <!-- # 🔋 Electric Current - Formula -->

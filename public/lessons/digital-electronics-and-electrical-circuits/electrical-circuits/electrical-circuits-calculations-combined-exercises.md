@@ -3,99 +3,99 @@
 **Example 1:** **Series Circuit**
 
 <div class="example">
-    <p><strong>Problem:</strong> Two resistors of 4 Ω and 6 Ω are connected in series to a 20 V battery. Calculate (a) total resistance, (b) current, (c) voltage across each resistor.</p>
+    <p><strong>Problem:</strong> Two resistors of 4 Ω and 6 Ω are connected in series to a 20 V battery.<br> Calculate (a) total resistance, (b) current, (c) voltage across each resistor.</p>
                         
 <div class="calculation">
 <strong>Given:</strong>
-R₁ = 4 Ω
-R₂ = 6 Ω
-V_total = 20 V
+R₁ = 4Ω;
+R₂ = 6Ω;
+V_total = 20V
 
-<strong>(a) Total Resistance:</strong>
-R_total = R₁ + R₂
-R_total = 4 + 6 = 10 Ω
+<strong>(a) Total Resistance:</strong><br>
+R_total = R₁ + R₂<br>
+R_total = 4 + 6 = 10Ω
 
-<strong>(b) Current (same through all):</strong>
-I = V_total / R_total
-I = 20 V / 10 Ω
-I = 2 A
+<strong>(b) Current (same through all):</strong><br>
+I = V_total / R_total<br>
+I = 20V / 10Ω<br>
+I = 2A
 
-<strong>(c) Voltage across each resistor:</strong>
-V₁ = I × R₁ = 2 × 4 = 8 V
-V₂ = I × R₂ = 2 × 6 = 12 V
+<strong>(c) Voltage across each resistor:</strong><br>
+V₁ = I × R₁ = 2 × 4 = 8V<br>
+V₂ = I × R₂ = 2 × 6 = 12V
 
 <strong>Verification:</strong>
-V₁ + V₂ = 8 + 12 = 20 V ✓ (equals battery voltage)
+V₁ + V₂ = 8 + 12 = 20V ✓ (equals battery voltage)
 
-<strong>Answers: 
-(a) Total resistance = 10 Ω
-(b) Current = 2 A
-(c) V₁ = 8 V, V₂ = 12 V</strong>
+<strong>Answers:<br> 
+(a) Total resistance = 10Ω<br>
+(b) Current = 2A<br>
+(c) V₁ = 8V, V₂ = 12V</strong>
 </div>
 </div>
 
 **Example 2:** **Parallel Circuit**
 
 <div class="example">
-    <p><strong>Problem:</strong> Two resistors of 12 Ω and 6 Ω are connected in parallel to a 12 V battery. Calculate (a) total resistance, (b) total current, (c) current through each resistor.</p>
+    <p><strong>Problem:</strong> Two resistors of 12 Ω and 6 Ω are connected in parallel to a 12 V battery.<br> Calculate (a) total resistance, (b) total current, (c) current through each resistor.</p>
                         
 <div class="calculation">
 <strong>Given:</strong>
-R₁ = 12 Ω
-R₂ = 6 Ω
-V = 12 V (same across all in parallel)
+R₁ = 12Ω;
+R₂ = 6Ω;
+V = 12V (same across all in parallel)
 
-<strong>(a) Total Resistance:</strong>
-1/R_total = 1/R₁ + 1/R₂
-1/R_total = 1/12 + 1/6
-1/R_total = 1/12 + 2/12 = 3/12 = 1/4
-R_total = 4 Ω
+<strong>(a) Total Resistance:</strong><br>
+1/R_total = 1/R₁ + 1/R₂<br>
+1/R_total = 1/12 + 1/6<br>
+1/R_total = 1/12 + 2/12 = 3/12 = 1/4<br>
+R_total = 4Ω
 
-<strong>(b) Total Current:</strong>
-I_total = V / R_total
-I_total = 12 V / 4 Ω
-I_total = 3 A
+<strong>(b) Total Current:</strong><br>
+I_total = V / R_total<br>
+I_total = 12V / 4Ω<br>
+I_total = 3A
 
-<strong>(c) Current through each resistor:</strong>
-I₁ = V / R₁ = 12 / 12 = 1 A
-I₂ = V / R₂ = 12 / 6 = 2 A
+<strong>(c) Current through each resistor:</strong><br>
+I₁ = V / R₁ = 12 / 12 = 1A<br>
+I₂ = V / R₂ = 12 / 6 = 2A
 
 <strong>Verification:</strong>
-I₁ + I₂ = 1 + 2 = 3 A ✓ (equals total current)
+I₁ + I₂ = 1 + 2 = A ✓ (equals total current)
 
-<strong>Answers:
-(a) Total resistance = 4 Ω
-(b) Total current = 3 A
-(c) I₁ = 1 A, I₂ = 2 A</strong>
-                        </div>
-                    </div>
+<strong>Answers:<br>
+(a) Total resistance = 4Ω<br>
+(b) Total current = 3A<br>
+(c) I₁ = 1 A, I₂ = 2A</strong>
+    </div>
+</div>
 
 **Example 3:** **Power Calculations**
 
 <div class="example">
-    <p><strong>Problem:</strong> A 100 Ω resistor has a voltage of 10 V across it. Calculate (a) current, (b) power dissipated.</p>
+    <p><strong>Problem:</strong> A 100 Ω resistor has a voltage of 10 V across it.<br> Calculate (a) current, (b) power dissipated.</p>
                         
 <div class="calculation">
 <strong>Given:</strong>
-R = 100 Ω
-V = 10 V
+R = 100Ω;
+V = 10V
 
-<strong>(a) Current:</strong>
-I = V / R
-I = 10 / 100
-I = 0.1 A = 100 mA
+<strong>(a) Current:</strong><br>
+I = V / R<br>
+I = 10 / 100<br>
+I = 0.1 A = 100mA
 
-<strong>(b) Power (multiple formulas available):</strong>
-P = V × I
-P = 10 × 0.1
-P = 1 W
+<strong>(b) Power (multiple formulas available):</strong><br>
+P = V × I<br>
+P = 10 × 0.1<br>
+P = 1W
 
-<strong>Alternative methods:</strong>
-P = I²R = (0.1)² × 100 = 0.01 × 100 = 1 W ✓
-P = V²/R = (10)² / 100 = 100 / 100 = 1 W ✓
+<strong>Alternative methods:</strong><br>
+P = I²R = (0.1)² × 100 = 0.01 × 100 = 1W ✓<br>
+P = V²/R = (10)² / 100 = 100 / 100 = 1W ✓
 
-<strong>Answers:
-(a) Current = 0.1 A or 100 mA
-(b) Power = 1 Watt</strong>
+<strong>Answers:<br>
+(a) Current = 0.1A or 100mA<br>
+(b) Power = 1Watt</strong>
 </div>
 </div>

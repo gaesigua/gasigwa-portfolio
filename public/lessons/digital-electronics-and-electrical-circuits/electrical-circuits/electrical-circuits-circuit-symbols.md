@@ -19,21 +19,21 @@
             <rect x="30" y="20" width="40" height="20" fill="none" stroke="#333" stroke-width="2"/>
             <line x1="70" y1="30" x2="90" y2="30" stroke="#333" stroke-width="2"/>
         </svg>
-                            <strong>Resistor</strong><br>
-                            (Opposes current)
-                        </div>
-                        <div class="symbol-card">
-                            <svg viewBox="0 0 100 60">
-                                <line x1="10" y1="30" x2="35" y2="30" stroke="#333" stroke-width="2"/>
-                                <circle cx="50" cy="30" r="15" fill="none" stroke="#333" stroke-width="2"/>
-                                <line x1="65" y1="30" x2="90" y2="30" stroke="#333" stroke-width="2"/>
-                                <line x1="45" y1="25" x2="55" y2="35" stroke="#333" stroke-width="2"/>
-                                <line x1="45" y1="35" x2="55" y2="25" stroke="#333" stroke-width="2"/>
-                            </svg>
-                            <strong>Bulb</strong><br>
-                            (Light source)
-                        </div>
-                        <div class="symbol-card">
+        <strong>Resistor</strong><br>
+        (Opposes current)
+    </div>
+    <div class="symbol-card">
+        <svg viewBox="0 0 100 60">
+            <line x1="10" y1="30" x2="35" y2="30" stroke="#333" stroke-width="2"/>
+            <circle cx="50" cy="30" r="15" fill="none" stroke="#333" stroke-width="2"/>
+            <line x1="65" y1="30" x2="90" y2="30" stroke="#333" stroke-width="2"/>
+            <line x1="45" y1="25" x2="55" y2="35" stroke="#333" stroke-width="2"/>
+            <line x1="45" y1="35" x2="55" y2="25" stroke="#333" stroke-width="2"/>
+        </svg>
+        <strong>Bulb</strong><br>
+        (Light source)
+    </div>
+    <div class="symbol-card">
                             <svg viewBox="0 0 100 60">
                                 <line x1="10" y1="30" x2="40" y2="30" stroke="#333" stroke-width="2"/>
                                 <circle cx="50" cy="30" r="8" fill="none" stroke="#333" stroke-width="2"/>
@@ -41,8 +41,8 @@
                             </svg>
                             <strong>Switch</strong><br>
                             (Control current)
-                        </div>
-                        <div class="symbol-card">
+    </div>
+    <div class="symbol-card">
                             <svg viewBox="0 0 100 60">
                                 <line x1="10" y1="30" x2="40" y2="30" stroke="#333" stroke-width="2"/>
                                 <line x1="40" y1="20" x2="60" y2="20" stroke="#333" stroke-width="2"/>
@@ -51,15 +51,15 @@
                             </svg>
                             <strong>Capacitor</strong><br>
                             (Stores charge)
-                        </div>
-                        <div class="symbol-card">
+    </div>
+    <div class="symbol-card">
                             <svg viewBox="0 0 100 60">
                                 <path d="M 10,30 Q 30,10 50,30 T 90,30" fill="none" stroke="#333" stroke-width="2"/>
                             </svg>
                             <strong>Inductor</strong><br>
                             (Stores energy)
                         </div>
-                    </div>
+    </div>
                     
 <div class="note">
                         <strong>💡 Important:</strong> A complete circuit must form a closed loop for current to flow. If there's a break anywhere (open switch, disconnected wire), current stops flowing throughout the entire circuit.

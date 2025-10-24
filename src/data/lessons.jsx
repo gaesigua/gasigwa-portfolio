@@ -329,12 +329,6 @@ export const lessons = [
                 "example problems on electrical circuits calculations of voltage",
           },
           {
-            slug: "electrical-circuits-calculations-combined-exercises",
-            title: "Exercises - Combined Problems",
-            summary:
-                "combined example problems on electrical circuits",
-          },
-          {
             slug: "electrical-circuits-four-fundamental-quantities-power",
             title: "The Four Fundamental Quantities: POWER",
             summary: 
@@ -346,17 +340,59 @@ export const lessons = [
             summary:
                 "understand the formula to calculate electrical power derived from Ohm's Law",
           },
-          // {
-          //   slug: "electrical-circuits-calculations-power",
-          //   title: "Electrical Circuits Calculations: POWER",
-          //   summary: 
-          //        "understanding electrical circuits calculations of power",
-          // },
           {
-            slug: "electrical-circuits-measurements",
-            title: "Measurements",
+            slug: "electrical-circuits-calculations-combined-exercises",
+            title: "Exercises - Combined Problems",
+            summary:
+                "combined example problems on electrical circuits",
+          },
+          {
+            slug: "electrical-circuits-quiz",
+            title: "Electrical Circuits Quiz",
+            summary:
+                "test your knowledge on electrical circuits concepts",
+          },
+          {
+            slug: "electrical-circuits-measurements-ammeter",
+            title: "Simple Electrical Measurements",
             summary:
                 "various electrical quantities can be measured using different instruments",
+          },
+          {
+            slug: "electrical-circuits-measurements-voltmeter",
+            title: "Voltmeter",
+            summary:
+                "an instrument used for measuring electrical potential difference between two points in an electric circuit",
+          },
+          {
+            slug: "electrical-circuits-measurements-ohmmeter",
+            title: "Ohmmeter",
+            summary:
+                "an instrument used to measure electrical resistance",
+          },
+          {
+            slug: "electrical-circuits-measurements-multimeter",
+            title: "Multimeter",
+            summary:
+                "a versatile instrument that can measure voltage, current, and resistance",
+          },
+          {
+            slug: "electrical-circuits-measurements-comparison-of-measuring-instruments",
+            title: "Comparison of Measuring Instruments",
+            summary:
+                "understanding the differences between ammeter, voltmeter, ohmmeter, and multimeter",
+          },
+          {
+            slug: "electrical-circuits-measurements-safety-guidelines-for-measurements",
+            title: "Safety Guidelines for Measurements",
+            summary:
+                "important safety tips to follow when taking electrical measurements",
+          },
+          {
+            slug: "electrical-circuits-measurements-common-measurement-errors",
+            title: "Common Measurement Errors",
+            summary:
+                "understanding common errors that can occur during electrical measurements",
           },
           {
             slug: "electrical-circuits-measurements-exercises",
@@ -364,66 +400,24 @@ export const lessons = [
             summary:
                 "solve practice problems on electrical measurements",
           },
-          {
-            slug: "electrical-circuits-definitions",
-            title: "Definitions",
-            summary:
-                "important definitions in electrical circuits",
-          },
-          {
-            slug: "ohms-law",
-            title: "Ohm's Law",
-            summary:
-              "A fundamental principle that relates voltage (V), current (I), and resistance (R) in an electrical circuit.",
-          },
-          {
-            slug: "types-of-current",
-            title: "Types of Current",
-            summary:
-              "Understanding the differences between direct current (DC) and alternating current (AC).",
-          },
-          {
-            slug: "electric-charge",
-            title: "Electric Charge",
-            summary:
-              "A property of matter that causes it to experience a force when placed in an electromagnetic field.",
-          },
-          {
-            slug: "resistance",
-            title: "Resistance",
-            summary:
-              "A measure of the opposition to the flow of electric current, measured in ohms (Ω).",
-          },
-          {
-            slug: "capacitance",
-            title: "Capacitance",
-            summary:
-              "The ability of a component or circuit to store and release electrical energy in the form of an electric field.",
-          },
-          {
-            slug: "inductance",
-            title: "Inductance",
-            summary:
-              "The property of a conductor by which a change in current flowing through it induces an electromotive force (voltage) in both the conductor itself and in any nearby conductors.",
-          },
-          {
-            slug: "circuit-elements",
-            title: "Circuit Elements",
-            summary:
-              "Basic components used in electrical circuits, such as resistors, capacitors, inductors, and power sources.",
-          },
-          {
-            slug: "series-and-parallel-circuits",
-            title: "Series and Parallel Circuits",
-            summary:
-              "Understanding how components are connected in series or parallel configurations.",
-          },
-          {
-            slug: "kirchhoffs-laws",
-            title: "Kirchhoff's Laws",
-            summary:
-              "Two fundamental laws that deal with the conservation of charge and energy in electrical circuits.",
-          },
+          // {
+          //   slug: "capacitance",
+          //   title: "Capacitance",
+          //   summary:
+          //     "The ability of a component or circuit to store and release electrical energy in the form of an electric field.",
+          // },
+          // {
+          //   slug: "inductance",
+          //   title: "Inductance",
+          //   summary:
+          //     "The property of a conductor by which a change in current flowing through it induces an electromotive force (voltage) in both the conductor itself and in any nearby conductors.",
+          // },
+          // {
+          //   slug: "kirchhoffs-laws",
+          //   title: "Kirchhoff's Laws",
+          //   summary:
+          //     "Two fundamental laws that deal with the conservation of charge and energy in electrical circuits.",
+          // },
         ],
       },
     ],

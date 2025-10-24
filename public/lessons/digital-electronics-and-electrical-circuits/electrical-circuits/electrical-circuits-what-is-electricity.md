@@ -3,7 +3,7 @@
 <!-- <div id="intro" class="section active"> -->
 <!-- <div class="module"> -->
 
-# Current Electricity
+# Electricity
 
 ## What is Electricity?
 

@@ -7,8 +7,8 @@
                         
 <div class="calculation">
 <strong>Given:</strong>
-V = 12 V
-I = 3 A
+V = 12V
+I = 3A
 
 <strong>Required:</strong>
 R = ?
@@ -16,8 +16,8 @@ R = ?
 <strong>Formula:</strong>
 R = V / I
 
-<strong>Solution:</strong>
-R = 12 V / 3 A
+<strong>Solution:</strong><br>
+R = 12V / 3A<br>
 R = 4 Ω
 
 <strong>Answer: The resistance is 4 Ohms</strong>
@@ -31,8 +31,8 @@ R = 4 Ω
                         
 <div class="calculation">
 <strong>Given:</strong>
-ρ = 1.68 × 10⁻⁸ Ω·m
-L = 100 m
+ρ = 1.68 × 10⁻⁸ Ω·m;
+L = 100m;
 A = 2 × 10⁻⁶ m²
 
 <strong>Required:</strong>
@@ -41,9 +41,9 @@ R = ?
 <strong>Formula:</strong>
 R = ρL / A
 
-<strong>Solution:</strong>
-R = (1.68 × 10⁻⁸ × 100) / (2 × 10⁻⁶)
-R = (1.68 × 10⁻⁶) / (2 × 10⁻⁶)
+<strong>Solution:</strong><br>
+R = (1.68 × 10⁻⁸ × 100) / (2 × 10⁻⁶)<br>
+R = (1.68 × 10⁻⁶) / (2 × 10⁻⁶)<br>
 R = 0.84 Ω
 
 <strong>Answer: The resistance is 0.84 Ohms</strong>
@@ -57,25 +57,25 @@ R = 0.84 Ω
                         
 <div class="calculation">
 <strong>Given:</strong>
-R₁ = 5 Ω
+R₁ = 5Ω;
 L₂ = 2L₁ (length doubles)
 
-<strong>Key Concept:</strong>
+<strong>Key Concept:</strong><br>
 When wire is stretched, volume remains constant
-If length doubles, area becomes half
-V = L₁A₁ = L₂A₂
+If length doubles, area becomes half.<br>
+V = L₁A₁ = L₂A₂<br>
 A₂ = A₁/2
 
-<strong>Resistance Relationship:</strong>
-R = ρL/A
-R₂/R₁ = (L₂/L₁) × (A₁/A₂)
-R₂/R₁ = (2L₁/L₁) × (A₁/(A₁/2))
+<strong>Resistance Relationship:</strong><br>
+R = ρL/A<br>
+R₂/R₁ = (L₂/L₁) × (A₁/A₂)<br>
+R₂/R₁ = (2L₁/L₁) × (A₁/(A₁/2))<br>
 R₂/R₁ = 2 × 2 = 4
 
 <strong>Solution:</strong>
-R₂ = 4 × R₁
-R₂ = 4 × 5 Ω
-R₂ = 20 Ω
+R₂ = 4 × R₁<br>
+R₂ = 4 × 5Ω<br>
+R₂ = 20Ω
 
 <strong>Answer: The new resistance is 20 Ohms</strong>
                         </div>

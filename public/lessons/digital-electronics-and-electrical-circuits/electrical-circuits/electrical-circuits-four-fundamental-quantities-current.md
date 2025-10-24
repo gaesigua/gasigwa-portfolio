@@ -16,7 +16,7 @@ An **electric current** can also be defined as the flow of electric charge, whic
                         
 <div class="formula-box">
 Symbol: I<br>
-Unit: Ampere (A) or Amp<br>
+Unit: Ampere (A)<br>
 Named after: André-Marie Ampère<br>
 1 Ampere = 6.242 × 10¹⁸ electrons per second
 </div>
@@ -30,10 +30,9 @@ Named after: André-Marie Ampère<br>
         <li><strong>High current (high flow):</strong> Many liters moving per second</li>
         <li><strong>Low current (low flow):</strong> Few liters moving per second</li>
         <li><strong>No current (no flow):</strong> No water movement</li>
-        <li><strong>Voltage (pressure):</strong> The battery is like a pump creating pressure</li>
         <li><strong>Resistance (pipe size):</strong> A narrow pipe resists flow more than a wide pipe</li>
     </ul>
-    <p style="margin-top: 10px;">A garden hose might flow 5 liters/minute, while a fire hose flows 500 liters/minute. Similarly, an LED might use 0.02A while an electric heater uses 10A.</p>
+    <p style="margin-top: 10px;">A water tap in our homes might flow 5 liters/minute, while a public water tap flows 50 liters/minute. Similarly, an LED might use 0.02A while an electric heater uses 10A.</p>
 </div>
 
 ## Understanding Current Flow

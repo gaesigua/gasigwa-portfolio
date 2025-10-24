@@ -9,13 +9,13 @@
     </p>
     <div class="calculation">
       <strong>Given:</strong>
-      Q = 120 C t = 30 s
+      Q = 120C t = 30s<br>
       <strong>Required:</strong>
-      I = ?
+      I = ?<br>
       <strong>Formula:</strong>
-      I = Q / t
+      I = Q / t<br>
       <strong>Solution:</strong>
-      I = 120 C / 30 s I = 4 A
+      I = 120C / 30s<br> I = 4 A<br>
       <strong>Answer: The current is 4 Amperes</strong>
     </div>
   </div>
@@ -26,13 +26,13 @@
   <p><strong>Problem:</strong> A current of 2.5 A flows through a conductor for 5 minutes. How much charge passes through the conductor?</p>
   <div class="calculation">
     <strong>Given:</strong>
-      I = 2.5 A t = 5 minutes = 5 × 60 = 300 s
+      I = 2.5A t = 5 minutes = 5 × 60 = 300s<br>
       <strong>Required:</strong>
-      Q = ?
+      Q = ?<br>
       <strong>Formula:</strong>
-      Q = I × t
+      Q = I × t<br>
       <strong>Solution:</strong>
-      Q = 2.5 A × 300 s Q = 750 C
+      Q = 2.5A × 300s<br> Q = 750C<br>
     <strong>Answer: 750 Coulombs of charge passes through</strong>
   </div>
 </div>
@@ -43,13 +43,13 @@
   <p><strong>Problem:</strong> How long will it take for 480 C of charge to pass through a wire if the current is 8 A?</p>
   <div class="calculation">
       <strong>Given:</strong>
-      Q = 480 C I = 8 A
+      Q = 48C I = 8A<br>
       <strong>Required:</strong>
-      t = ?
+      t = ?<br>
       <strong>Formula:</strong>
-      t = Q / I
+      t = Q / I<br>
       <strong>Solution:</strong>
-      t = 480 C / 8 A t = 60 s = 1 minute
+      t = 480C / 8A<br> t = 60s = 1 minute<br>
       <strong>Answer: It will take 60 seconds (1 minute)</strong>
     </div>
   </div>
@@ -60,11 +60,11 @@
   <p><strong>Problem:</strong> A device draws 250 mA of current. Express this in Amperes and calculate how much charge flows in 2 minutes.</p>
   <div class="calculation">
       <strong>Given:</strong>
-      I = 250 mA = 250 × 10⁻³ A = 0.25 A t = 2 minutes = 120 s
-      <strong>Part 1 - Current in Amperes:</strong>
-      I = 0.25 A
-      <strong>Part 2 - Charge:</strong>
-      Q = I × t Q = 0.25 A × 120 s Q = 30 C
-      <strong>Answer: Current = 0.25 A,</strong>
+      I = 250mA = 250 × 10⁻³A = 0.25A t = 2 minutes = 120s<br>
+      <strong>Part 1 - Current in Amperes:</strong><br>
+      I = 0.25A<br>
+      <strong>Part 2 - Charge:</strong><br>
+      Q = I × t<br> Q = 0.25A × 120s<br> Q = 30C<br>
+      <strong>Answer: Current = 0.25A, Charge = 30C</strong>
     </div>
 </div>

@@ -18,7 +18,7 @@
     Named after: Georg Simon Ohm
 </div>
 
-# What Causes Resistance?
+## What Causes Resistance?
 
 <!-- ## Microscopic View -->
 
@@ -38,8 +38,8 @@
 </div>
                         
 <div class="example" style="margin-top: 15px;">
-    <h4>💡 Analogy 1: Running Through a Crowd</h4>
-    <p>Imagine trying to run through a crowded room:</p>
+    <h4>💡 Analogy 2: Running Through a Crowd</h4>
+    <p>Imagine trying to run through a room full of people:</p>
     <ul style="margin-left: 20px; margin-top: 10px;">
         <li>Empty room = Low resistance (easy to move)</li>
         <li>Crowded room = High resistance (difficult to move, many collisions)</li>
@@ -47,6 +47,8 @@
         <li>You get tired = Energy converts to heat</li>
     </ul>
 </div>
+
+## Materials VS Resistance
                                                 
 <table class="data-table">
                             <tr>
