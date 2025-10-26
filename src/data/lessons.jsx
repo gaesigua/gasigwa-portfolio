@@ -241,15 +241,21 @@ export const lessons = [
           {
             slug: "electrical-circuits-circuit-symbols",
             title: "Circuit Symbols",
-            summary:
-                 "understanding circuit diagrams requires knowing standard symbols"
+            summary: "understanding circuit diagrams requires knowing standard symbols",
+            quiz: "basic-concepts",
           },
           {
             slug: "electrical-circuits-direct-current-vs-alternating-current",
             title: "Direct Current (DC) vs Alternating Current (AC)",
-            summary:
-               "Understanding the differences between direct current (DC) and alternating current (AC).",
+            summary: "Understanding the differences between direct current (DC) and alternating current (AC).",
+            quiz: "dc-vs-ac",
           },
+          // {
+          //   slug: "electrical-circuits-quiz-direct-current-vs-alternating-current",
+          //   title: "Quiz - Direct Current (DC) vs Alternating Current (AC)",
+          //   summary:
+          //       "test your knowledge on direct current (DC) and alternating current (AC)",
+          // },
           {
             slug: "electrical-circuits-four-fundamental-quantities-current",
             title: "The Four Fundamental Quantities: CURRENT",

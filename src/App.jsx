@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import LessonCatalogPage from './pages/LessonCatalogPage'; // Renamed for clarity
 import LessonSectionPage from './pages/LessonSectionPage'; // The new page for content
+import QuizPage from './pages/QuizPage';
 
 // Main App Component
 const App = () => {
@@ -19,6 +20,10 @@ const App = () => {
       <Route path="/lessons/:lessonSlug/:sectionSlug" element={<LessonSectionPage />} />
 
       <Route path="/lessons/:lessonSlug/:sectionSlug/:pageSlug" element={<LessonSectionPage />} />
+
+      {/* or for param-based: <Route path="/quiz/:id" element={<QuizPage />} /> */}
+      <Route path="/quiz/:quizId" element={<QuizPage />} />
+      
     </Routes>
   );
 };
