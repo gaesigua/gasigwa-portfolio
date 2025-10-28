@@ -347,6 +347,65 @@ export const lessons = [
                 "understand the formula to calculate electrical power derived from Ohm's Law",
           },
           {
+            slug: "electrical-circuits-conductance-introduction",
+            title: "Conductance Introduction",
+            summary:
+                "understanding electrical conductance",
+          },
+          {
+            slug: "electrical-circuits-conductance-understanding-conductance",
+            title: "Understanding Conductance",
+            summary: "understanding Conductance",
+          },
+          {
+            slug: "electrical-circuits-conductance-formulas",
+            title: "Conductance Formulas",
+            summary:
+                "learn the formulas to calculate electrical conductance",
+          },
+          {
+            slug: "electrical-circuits-conductance-exercises",
+            title: "Conductance Exercises",
+            summary:
+                "example problems on electrical conductance",
+          },
+          {
+            slug: "electrical-circuits-conductance-factors",
+            title: "Conductance Factors",
+            summary:
+                "factors affecting electrical conductance",
+          },
+          {
+            slug: "electrical-circuits-conductance-combined-exercises",
+            title: "Exercises - Conductance",
+            summary:
+                 "example problems on conductance",
+          },
+          {
+            slug: "electrical-circuits-conductance-conductivity",
+            title: "Conductivity",
+            summary:
+                "understanding electrical conductivity",
+          },
+          {
+            slug: "electrical-circuits-conductance-circuit-analysis",
+            title: "Circuit Analysis",
+            summary:
+                "applying conductance concepts in circuit analysis",
+          },
+          {
+            slug: "electrical-circuits-conductance-applications",
+            title: "Conductance Applications",
+            summary:
+                "practical applications of electrical conductance",
+          },
+          {
+            slug: "electrical-circuits-conductance-quizzes",
+            title: "Conductance Quizzes",
+            summary:
+                "test your knowledge on electrical conductance",
+          },
+          {
             slug: "electrical-circuits-calculations-combined-exercises",
             title: "Exercises - Combined Problems",
             summary:
