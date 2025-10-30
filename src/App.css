@@ -95,6 +95,8 @@ issues; I will keep using Tailwind utility classes like container mx-auto px-4 i
   padding: 20px;
   border-radius: 8px;
   margin: 15px 0;
+
+  border: 2px solid black;
 }
 
 .step {

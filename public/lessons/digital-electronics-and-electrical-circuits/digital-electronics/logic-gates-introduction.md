@@ -1,6 +1,6 @@
-# Logic Gates and Boolean Algebra
+# LOGIC GATES
 
-Digital circuits are built using fundamental switching devices called **Logic Gates**. Logic gates are the fundamental building blocks of all digital circuits and computer systems.
+<strong>Logic gates</strong> are the fundamental building blocks of all <strong>digital circuits</strong> and <strong>computer systems</strong>.
 
 These gates perform basic logic operations on one or more binary inputs and produce a single binary output.
 

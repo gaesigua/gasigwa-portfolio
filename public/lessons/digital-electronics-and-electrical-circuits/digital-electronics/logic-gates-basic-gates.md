@@ -1,41 +1,74 @@
 # The Seven Basic Logic Gates
 
-<div class="comparison-grid">
+![Alt 7 Logic Gates]( /images/logic-gates.png "Logic Gates")
+
+## AND Gate
+---
+
+![Alt And Gate]( /images/and-gate.png "And Gate")
+
+<!-- <div class="comparison-grid">
     <div class="comparison-card">
         <h5><strong>AND</strong> Gate</h5>
         <p><strong>Output is 1 only if ALL inputs are 1</strong></p>
         <div style="font-size: 2em; margin: 10px 0;">∧</div>
-    </div>
-    <div class="comparison-card">
+    </div> -->
+
+## OR Gate
+---
+
+<!-- <div class="comparison-card">
         <h5><strong>OR</strong> Gate</h5>
         <p><strong>Output is 1 if ANY input is 1</strong></p>
         <div style="font-size: 2em; margin: 10px 0;">∨</div>
-    </div>
-    <div class="comparison-card">
+</div> -->
+
+## NOT Gate
+---
+
+<!-- <div class="comparison-card">
         <h5><strong>NOT</strong> Gate</h5>
         <p><strong>Inverts the input (0→1, 1→0)</strong></p>
         <div style="font-size: 2em; margin: 10px 0;">¬</div>
-    </div>
-    <div class="comparison-card">
+</div> -->
+    
+## NAND Gate
+---
+
+<!-- <div class="comparison-card">
         <h5><strong>NAND</strong> Gate</h5>
         <p><strong>Opposite of AND (Universal Gate)</strong></p>
         <div style="font-size: 2em; margin: 10px 0;">⊼</div>
-    </div>
-    <div class="comparison-card">
+</div> -->
+    
+    
+## NOR Gate
+---
+
+<!-- <div class="comparison-card">
             <h5><strong>NOR</strong> Gate</h5>
             <p><strong>Opposite of OR (Universal Gate)</strong></p>
             <div style="font-size: 2em; margin: 10px 0;">⊽</div>
-    </div>
-    <div class="comparison-card">
+    </div> -->
+
+## XOR Gate
+---
+
+<!-- <div class="comparison-card">
             <h5><strong>XOR</strong> Gate</h5>
             <p>Output is 1 if inputs are DIFFERENT</p>
             <div style="font-size: 2em; margin: 10px 0;">⊕</div>
-    </div>
-    <div class="comparison-card">
+    </div> -->
+
+## XNOR Gate
+---
+
+<!-- <div class="comparison-card">
             <h5><strong>XNOR</strong> Gate</h5>
             <p><strong>Output is 1 if inputs are SAME<strong></p>
             <div style="font-size: 2em; margin: 10px 0;">⊙</div>
-    </div>
+</div> -->
+
 </div>
                     
 ## Logic Levels

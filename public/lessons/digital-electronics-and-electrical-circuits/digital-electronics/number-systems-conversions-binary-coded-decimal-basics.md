@@ -4,7 +4,11 @@
 
 **Binary Coded Decimal (BCD)** is a method of encoding decimal numbers where each decimal digit is represented by its own 4-bit binary equivalent. Unlike pure binary representation, BCD maintains decimal digit boundaries, making it easier to convert between binary and decimal forms.
 
+<div class="steps">
+
 **Key Concept:** In BCD, we don't convert the entire decimal number to binary. Instead, we convert each decimal digit separately to its 4-bit binary form.
+
+</div>
 
 ## Understanding BCD Fundamentals
 

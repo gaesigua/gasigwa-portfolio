@@ -66,28 +66,76 @@ export const lessons = [
               "Detailed overview of the hexadecimal (base-16) number system.",
           },
           {
-            slug: "number-systems-conversions-from-decimal",
-            title: "Converting FROM DECIMAL",
+            slug: "number-systems-conversions-from-decimal-introduction",
+            title: "Converting FROM DECIMAL - Introduction",
             summary:
-              "Techniques for converting decimal numbers to binary, octal, and hexadecimal systems.",
+              "introduction to converting decimal numbers to binary, octal, and hexadecimal systems.",
           },
           {
-            slug: "number-systems-conversions-from-binary",
-            title: "Converting FROM BINARY",
+            slug: "number-systems-conversions-from-decimal-to-binary",
+            title: "1. Decimal to Binary",
             summary:
-              "Techniques for converting binary numbers to decimal, octal, and hexadecimal systems.",
+               "Techniques for converting decimal numbers to binary system.",
           },
           {
-            slug: "number-systems-conversions-from-octal",
-            title: "Converting FROM OCTAL",
+            slug: "number-systems-conversions-from-decimal-to-octal",
+            title: "2. Decimal to Octal",
             summary:
-              "Techniques for converting octal numbers to decimal, binary, and hexadecimal systems.",
+              "Techniques for converting decimal numbers to octal system.",
           },
           {
-            slug: "number-systems-conversions-from-hexadecimal",
-            title: "Converting FROM HEXADECIMAL",
+            slug: "number-systems-conversions-from-decimal-to-hexadecimal",
+            title: "3. Decimal to Hexadecimal",
             summary:
-              "Techniques for converting hexadecimal numbers to decimal, binary, and octal systems.",
+              "Techniques for converting decimal numbers to hexadecimal",
+          },
+          {
+            slug: "number-systems-conversions-from-octal-introduction",
+            title: "Converting FROM OCTAL - Introduction",
+            summary:
+              "introduction to converting octal numbers to decimal, binary, and hexadecimal systems.",
+          },
+          {
+            slug: "number-systems-conversions-from-octal-to-decimal",
+            title: "1. Octal to Decimal",
+            summary:
+              "Techniques for converting octal numbers to decimal system.",
+          },
+          {
+            slug: "number-systems-conversions-from-octal-to-binary",
+            title: "2. Octal to Binary",
+            summary:
+              "Techniques for converting octal numbers to binary system.",
+          },
+          {
+            slug: "number-systems-conversions-from-octal-to-hexadecimal",
+            title: "3. Octal to Hexadecimal",
+            summary:
+              "Techniques for converting octal numbers to hexadecimal system.",
+          },
+          {
+            slug: "number-systems-conversions-from-hexadecimal-introduction",
+            title: "Converting FROM HEXADECIMAL - Introduction",
+            summary:
+              "introduction for converting hexadecimal numbers to decimal, binary, and octal systems.",
+          },
+          {
+            slug: "number-systems-conversions-from-hexadecimal-to-decimal",
+            title: "1. Hexadecimal to Decimal",
+            summary:
+              "Techniques for converting hexadecimal numbers to decimal system.",
+          },
+          {
+            slug: "number-systems-conversions-from-hexadecimal-to-binary",
+            title: "2. Hexadecimal to Binary",
+            summary:
+              "Techniques for converting hexadecimal numbers to binary system.",
+          },
+          {
+            slug: "number-systems-conversions-from-hexadecimal-to-octal",
+            title: "3. Hexadecimal to Octal",
+            summary:
+              "Techniques for converting hexadecimal numbers to octal system.",
           },
           {
             slug: "number-systems-conversions-reference",
@@ -111,6 +159,12 @@ export const lessons = [
             title: "BCD Digit Encoding Table",
             summary:
               "A table showing the BCD representation of decimal digits 0-9.",
+          },
+          {
+            slug: "number-systems-conversions-binary-coded-decimal-why-use-bcd",
+            title: "Why use Binary-Coded-Decimal (BCD)?",
+            summary:
+              "Advantages and applications of using BCD in digital systems.",
           },
           // {
           //   slug: "number-systems-conversions-binary-coded-decimal-conversions-decimal-to-bcd",
