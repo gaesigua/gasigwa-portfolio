@@ -315,28 +315,6 @@ tr:hover {
   }
 }
 
-/* .module {
-            background: #f9f9f9;
-            border-left: 5px solid #f093fb;
-            padding: 30px;
-            margin-bottom: 30px;
-            border-radius: 10px;
-            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
-        } */
-
-/* .module h2 {
-            color: #f5576c;
-            margin-bottom: 20px;
-            font-size: 2em;
-        } */
-
-/* .module h3 {
-            color: #f093fb;
-            margin-top: 25px;
-            margin-bottom: 15px;
-            font-size: 1.4em;
-        } */
-
 .steps {
   /* background: black; */
   background: #1e1e1e;
@@ -1003,15 +981,27 @@ tr:hover {
 /* CSS For Conductance */
 
 .factor-card {
-            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
-            border-left: 5px solid #2196f3;
+  background: white;
+            /* background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); */
+            border-left: 5px solid #6ab3ea;
             padding: 20px;
             margin: 15px 0;
             border-radius: 8px;
         }
         
         .factor-card h5 {
-            color: #1565c0;
+          color: #6ab3ea;
+            /* color: #1565c0; */
             margin-bottom: 10px;
             font-size: 1.2em;
+        }
+        .factor-card p {
+          color: #333;
+            line-height: 1.6;
+            margin-top: 10px;
+            /* font-size: 1.05em; */
+        }
+        .factor-card ul {
+          margin-left: 20px;
+            color: #000;
         }

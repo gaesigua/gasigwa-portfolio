@@ -1,52 +1,56 @@
 <!-- APPLICATIONS SECTION -->
 
-<div id="applications" class="section">
-                <div class="module">
-                    <h2>🔧 Practical Applications of Conductance</h2>
-                    
-<p style="font-size: 1.1em; margin-bottom: 25px;">Conductance measurements and concepts are used in numerous practical applications across various fields of science and engineering.</p>
+<!-- <div id="applications" class="section"> -->
+<!-- <div class="module"> -->
+
+<h2>🔧 Practical Applications of Conductance</h2>
+
+<p>Conductance measurements and concepts are used in numerous practical applications across various fields of science and engineering.</p>
+
+<!-- <p style="font-size: 1.1em; margin-bottom: 25px;">Conductance measurements and concepts are used in numerous practical applications across various fields of science and engineering.</p> -->
                     
 <div class="icon-grid">
-                        <div class="icon-card">
-                            <div class="icon">💧</div>
-                            <h5>Water Quality Testing</h5>
-                            <p>Conductance meters measure ion concentration in water to assess purity and quality.</p>
-                        </div>
+    <div class="icon-card">
+    <div class="icon">💧</div>
+    <h5>Water Quality Testing</h5>
+    <p>Conductance meters measure ion concentration in water to assess purity and quality.</p>
+</div>
                         
 <div class="icon-card">
-                            <div class="icon">🌱</div>
-                            <h5>Soil Analysis</h5>
-                            <p>Soil conductance indicates moisture content and nutrient levels for agriculture.</p>
-                        </div>
+    <div class="icon">🌱</div>
+    <h5>Soil Analysis</h5>
+    <p>Soil conductance indicates moisture content and nutrient levels for agriculture.</p>
+</div>
 <div class="icon-card">
-                            <div class="icon">🔋</div>
-                            <h5>Battery Technology</h5>
-                            <p>Electrolyte conductance determines battery performance and charge capacity.</p>
-                        </div>
+    <div class="icon">🔋</div>
+    <h5>Battery Technology</h5>
+    <p>Electrolyte conductance determines battery performance and charge capacity.</p>
+</div>
                         
 <div class="icon-card">
-                            <div class="icon">🏭</div>
-                            <h5>Material Testing</h5>
-                            <p>Quality control in manufacturing using conductance measurements.</p>
-                        </div>
+    <div class="icon">🏭</div>
+    <h5>Material Testing</h5>
+    <p>Quality control in manufacturing using conductance measurements.</p>
+</div>
                         
 <div class="icon-card">
-                            <div class="icon">⚡</div>
-                            <h5>Power Systems</h5>
-                            <p>Optimizing conductor selection for transmission lines and distribution.</p>
-                        </div>
+    <div class="icon">⚡</div>
+    <h5>Power Systems</h5>
+    <p>Optimizing conductor selection for transmission lines and distribution.</p>
+</div>
                         
 <div class="icon-card">
-                            <div class="icon">🧪</div>
-                            <h5>Chemical Analysis</h5>
-                            <p>Conductivity sensors in laboratory and industrial processes.</p>
-                        </div>
-                    </div>
+    <div class="icon">🧪</div>
+    <h5>Chemical Analysis</h5>
+    <p>Conductivity sensors in laboratory and industrial processes.</p>
+</div>
+</div>
                     
-<h3>Application 1: Water Quality Monitoring</h3>
-                    <div class="definition-card">
-                        <h4>Conductivity as a Water Quality Indicator</h4>
-                        <p>The electrical conductivity of water is directly related to the concentration of dissolved ions. Pure water has very low conductance, while water with dissolved salts has higher conductance.</p>
+## Application 1: Water Quality Monitoring
+
+<div class="definition-card">
+    <h4>Conductivity as a Water Quality Indicator</h4>
+    <p>The electrical conductivity of water is directly related to the concentration of dissolved ions. Pure water has very low conductance, while water with dissolved salts has higher conductance.</p>
                         
 <p style="margin-top: 15px;"><strong>Typical Values:</strong></p>
                         <ul style="margin-left: 20px; margin-top: 10px;">
@@ -61,8 +65,8 @@
                     </div>
                     
 <div class="example">
-                        <h4>Example: Water Purity Assessment</h4>
-                        <p><strong>Problem:</strong> A conductance meter measures 150 μS/cm in a water sample. If acceptable drinking water should have conductance below 800 μS/cm, is this water suitable for drinking based on this parameter?</p>
+    <h4>Example: Water Purity Assessment</h4>
+    <p><strong>Problem:</strong> A conductance meter measures 150 μS/cm in a water sample. If acceptable drinking water should have conductance below 800 μS/cm, is this water suitable for drinking based on this parameter?</p>
                         
 <div class="calculation">
 <strong>Given:</strong>
@@ -81,8 +85,9 @@ be checked for complete water quality assessment.
                         </div>
                     </div>
                     
-<h3>Application 2: Soil Moisture Sensing</h3>
-                    <div class="definition-card">
+## Application 2: Soil Moisture Sensing
+
+<div class="definition-card">
                         <h4>Conductance in Agriculture</h4>
                         <p>Soil conductance varies with moisture content because water acts as a conductor between soil particles. This principle is used in automated irrigation systems.</p>
                         
@@ -96,8 +101,9 @@ be checked for complete water quality assessment.
 <p style="margin-top: 15px;"><strong>Benefits:</strong> Automated irrigation control, water conservation, optimal plant growth, precision agriculture.</p>
                     </div>
                     
-<h3>Application 3: Material Quality Control</h3>
-                    <div class="definition-card">
+## Application 3: Material Quality Control
+
+<div class="definition-card">
                         <h4>Testing Metal Purity and Alloy Composition</h4>
                         <p>Conductance measurements can detect impurities in metals and verify alloy compositions. Pure metals have predictable conductance values, and deviations indicate contamination or incorrect composition.</p>
                         
@@ -110,8 +116,9 @@ be checked for complete water quality assessment.
                         </ul>
                     </div>
                     
-<h3>Application 4: Semiconductor Devices</h3>
-                    <div class="definition-card">
+## Application 4: Semiconductor Devices
+
+<div class="definition-card">
                         <h4>Conductance in Electronic Components</h4>
                         <p>In semiconductor physics, conductance plays a crucial role in understanding transistor operation, diode behavior, and integrated circuit design.</p>
                         
@@ -123,8 +130,9 @@ be checked for complete water quality assessment.
                         </ul>
                     </div>
                     
-<h3>Application 5: Power Transmission</h3>
-                    <div class="definition-card">
+## Application 5: Power Transmission
+
+<div class="definition-card">
                         <h4>Optimizing Electrical Power Distribution</h4>
                         <p>Conductance considerations are critical in designing efficient power transmission systems. Higher conductance means lower power losses.</p>
                         
@@ -175,8 +183,9 @@ conductance per unit weight than copper.</strong>
                         </div>
                     </div>
                     
-<h3>Application 6: Medical Diagnostics</h3>
-                    <div class="definition-card">
+## Application 6: Medical Diagnostics
+
+<div class="definition-card">
                         <h4>Bioimpedance and Body Composition Analysis</h4>
                         <p>The human body's conductance varies with tissue type, hydration, and composition. Medical devices use conductance measurements for:</p>
                         

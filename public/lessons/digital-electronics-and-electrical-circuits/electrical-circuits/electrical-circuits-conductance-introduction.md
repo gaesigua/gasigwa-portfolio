@@ -4,7 +4,7 @@
                     
 <div class="definition-card">
     <h4>Definition of Conductance</h4>
-    <p><strong>Conductance</strong> is the measure of how easily electric current can flow through a conductor or component. It is the reciprocal (inverse) of resistance and represents the ability of a material to conduct electric current.</p>
+    <p><strong>Conductance</strong> is the measure of how easily electric current can flow through a conductor or component. It is the inverse of resistance and represents the ability of a material to conduct electric current.</p>
     <p style="margin-top: 15px;">The greater the conductance, the easier it is for current to flow through the material.</p>
                     </div>
                     

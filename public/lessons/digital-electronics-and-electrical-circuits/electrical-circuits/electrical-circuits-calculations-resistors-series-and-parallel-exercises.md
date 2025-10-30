@@ -12,11 +12,11 @@ R₂ = 20Ω;
 R₃ = 30Ω
 
 <strong>Formula:</strong>
-R_total = R₁ + R₂ + R₃
+R<sub>Total</sub> = R₁ + R₂ + R₃
 
 <strong>Solution:</strong><br>
-R_total = 10 + 20 + 30 <br>
-R_total = 60Ω
+R<sub>Total</sub> = 10 + 20 + 30 <br>
+R<sub>Total</sub> = 60Ω
 
 <strong>Answer: Total resistance is 60 Ohms</strong>
                         </div>
@@ -33,14 +33,14 @@ R₁ = 6Ω;
 R₂ = 3Ω
 
 <strong>Formula:</strong>
-1/R_total = 1/R₁ + 1/R₂
+1/R<sub>Total</sub> = 1/R₁ + 1/R₂
 
 <strong>Solution:</strong><br>
-1/R_total = 1/6 + 1/3<br>
-1/R_total = 1/6 + 2/6<br>
-1/R_total = 3/6 = 1/2<br>
+1/R<sub>Total</sub> = 1/6 + 1/3<br>
+1/R<sub>Total</sub> = 1/6 + 2/6<br>
+1/R<sub>Total</sub> = 3/6 = 1/2<br>
 
-R_total = 2Ω
+R<sub>Total</sub> = 2Ω
 
 <strong>Answer: Total resistance is 2 Ohms</strong>
 
@@ -50,7 +50,7 @@ R_total = 2Ω
                     
 <div class="note">
     <strong>💡 Quick Tip for Two Parallel Resistors:</strong><br> For two resistors in parallel, you can use the formula:<br>
-    <strong>R_total = (R₁ × R₂) / (R₁ + R₂)</strong><br>
+    <strong>R<sub>Total</sub> = (R₁ × R₂) / (R₁ + R₂)</strong><br>
                         This is often called the "product over sum" formula.
                     </div>
                 </div>

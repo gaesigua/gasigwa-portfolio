@@ -370,10 +370,16 @@ export const lessons = [
                 "example problems on electrical conductance",
           },
           {
-            slug: "electrical-circuits-conductance-factors",
-            title: "Conductance Factors",
+            slug: "electrical-circuits-conductance-factors-affecting-conductance",
+            title: "Factors Affecting Conductance",
             summary:
                 "factors affecting electrical conductance",
+          },
+          {
+            slug: "electrical-circuits-conductance-combined-formula",
+            title: "Combined Conductance Formula",
+            summary:
+                "understanding the combined conductance formula",
           },
           {
             slug: "electrical-circuits-conductance-combined-exercises",
@@ -388,10 +394,16 @@ export const lessons = [
                 "understanding electrical conductivity",
           },
           {
-            slug: "electrical-circuits-conductance-circuit-analysis",
-            title: "Circuit Analysis",
+            slug: "electrical-circuits-conductance-conductivity-vs-conductance",
+            title: "Conductivity Vs Conductance",
             summary:
-                "applying conductance concepts in circuit analysis",
+                "understanding the relationship between conductivity and conductance",
+          },
+          {
+            slug: "electrical-circuits-conductance-conductivity-vs-conductance-exercises",
+            title: "Exercises - Conductivity and Conductance",
+            summary: 
+                "example problems on conductivity and conductance",
           },
           {
             slug: "electrical-circuits-conductance-applications",
@@ -400,10 +412,16 @@ export const lessons = [
                 "practical applications of electrical conductance",
           },
           {
-            slug: "electrical-circuits-conductance-quizzes",
-            title: "Conductance Quizzes",
+            slug: "electrical-circuits-conductance-quiz",
+            title: "Conductance Quiz",
             summary:
                 "test your knowledge on electrical conductance",
+          },
+          {
+            slug: "electrical-circuits-conductance-conductivity-vs-conductance-exercises-part-2",
+            title: "Exercises - Conductivity and Conductance (Part 2)",
+            summary:
+                "example problems on conductivity and conductance",
           },
           {
             slug: "electrical-circuits-calculations-combined-exercises",

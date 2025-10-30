@@ -9,14 +9,14 @@
 <strong>Given:</strong>
 R₁ = 4Ω;
 R₂ = 6Ω;
-V_total = 20V
+V<sub>Total</sub> = 20V
 
 <strong>(a) Total Resistance:</strong><br>
-R_total = R₁ + R₂<br>
-R_total = 4 + 6 = 10Ω
+R<sub>Total</sub> = R₁ + R₂<br>
+R<sub>Total</sub> = 4 + 6 = 10Ω
 
 <strong>(b) Current (same through all):</strong><br>
-I = V_total / R_total<br>
+I = V<sub>Total</sub> / R<sub>Total</sub><br>
 I = 20V / 10Ω<br>
 I = 2A
 
@@ -46,15 +46,15 @@ R₂ = 6Ω;
 V = 12V (same across all in parallel)
 
 <strong>(a) Total Resistance:</strong><br>
-1/R_total = 1/R₁ + 1/R₂<br>
-1/R_total = 1/12 + 1/6<br>
-1/R_total = 1/12 + 2/12 = 3/12 = 1/4<br>
-R_total = 4Ω
+1/R<sub>Total</sub> = 1/R₁ + 1/R₂<br>
+1/R<sub>Total</sub> = 1/12 + 1/6<br>
+1/R<sub>Total</sub> = 1/12 + 2/12 = 3/12 = 1/4<br>
+R<sub>Total</sub> = 4Ω
 
 <strong>(b) Total Current:</strong><br>
-I_total = V / R_total<br>
-I_total = 12V / 4Ω<br>
-I_total = 3A
+I<sub>Total</sub> = V / R<sub>Total</sub><br>
+I<sub>Total</sub> = 12V / 4Ω<br>
+I<sub>Total</sub> = 3A
 
 <strong>(c) Current through each resistor:</strong><br>
 I₁ = V / R₁ = 12 / 12 = 1A<br>

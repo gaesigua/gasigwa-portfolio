@@ -1,48 +1,4 @@
-<!-- CIRCUIT ANALYSIS SECTION -->
-
-# Circuit Analysis with Conductance
-                    
-<p style="font-size: 1.1em; margin-bottom: 25px;">Conductance is particularly useful when analyzing parallel circuits, where conductances add directly - making calculations simpler than using resistance.</p>
-                    
-<h3>Series Circuits</h3>
-                    <div class="formula-box">
-                        <h4>Total Conductance in Series</h4>
-                        <div class="formula">1/G_total = 1/G₁ + 1/G₂ + 1/G₃ + ...</div>
-                        <p style="margin-top: 15px;">For series circuits, conductances combine like resistances in parallel.</p>
-                        
-<div class="formula" style="margin-top: 15px; font-size: 1.3em;">For two conductances:</div>
-                        <div class="formula">G_total = (G₁ × G₂)/(G₁ + G₂)</div>
-                    </div>
-                    
-<div class="note">
-                        <strong>⚠️ Important:</strong> Series conductance calculations are more complex than series resistance. For series circuits, it's usually easier to work with resistance. However, parallel circuits are where conductance really shines!
-                    </div>
-                    
-<h3>Parallel Circuits</h3>
-                    <div class="formula-box">
-                        <h4>Total Conductance in Parallel</h4>
-                        <div class="formula">G_total = G₁ + G₂ + G₃ + ...</div>
-                        <p style="margin-top: 15px;"><strong>This is the main advantage of using conductance!</strong> In parallel circuits, conductances add directly, making calculations much simpler than using resistance.</p>
-                    </div>
-                    
-<div class="key-points">
-                        <h4>Why Conductance is Useful in Parallel Circuits:</h4>
-                        <ul>
-                            <li><strong>Simple Addition:</strong> Just add conductances directly - no reciprocals needed</li>
-                            <li><strong>Intuitive:</strong> More parallel paths = higher total conductance (easier current flow)</li>
-                            <li><strong>Current Division:</strong> Current splits proportionally to conductances</li>
-                            <li><strong>Fewer Calculations:</strong> Eliminates the need for complex fraction manipulation</li>
-                        </ul>
-                    </div>
-                    
-<h3>Current Division in Parallel Circuits</h3>
-                    <div class="formula-box">
-                        <h4>Current Division Using Conductance</h4>
-                        <div class="formula">I₁ = I_total × (G₁/G_total)</div>
-                        <p style="margin-top: 15px;">Current through each branch is proportional to its conductance.</p>
-                    </div>
-                    
-<h3>Worked Examples</h3>
+# Exercises - Conductivity and Conductance (Part 2)
                     
 <div class="example">
                         <h4>Example 1: Two Resistors in Parallel (Using Conductance)</h4>

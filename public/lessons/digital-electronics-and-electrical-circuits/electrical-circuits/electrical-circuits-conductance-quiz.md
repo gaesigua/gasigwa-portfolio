@@ -1,8 +1,10 @@
 <!-- PRACTICE & QUIZZES SECTION -->
 
-# Practice Problems & Quizzes
-                    
-<p style="font-size: 1.1em; margin-bottom: 25px;">Test your understanding of conductance with these practice problems. Try to solve them before checking the answers!</p>
+# Quiz
+
+<p>Test your understanding of conductance with these practice problems. Try to solve them before checking the answers!</p>
+
+<!-- <p style="font-size: 1.1em; margin-bottom: 25px;">Test your understanding of conductance with these practice problems. Try to solve them before checking the answers!</p> -->
                     
 <div class="quiz-box">
                         <h3>Practice Problems - Basic Concepts</h3>
@@ -219,6 +221,7 @@
 <div class="key-points" style="margin-top: 25px;">
                         <h4>Summary of Key Formulas:</h4>
                         <div style="line-height: 2.2; margin-top: 15px;">
+                        <ul>
                             <strong>Basic:</strong> G = 1/R<br>
                             <strong>Ohm's Law:</strong> G = I/V<br>
                             <strong>Physical:</strong> G = σA/L<br>
@@ -226,6 +229,7 @@
                             <strong>Parallel:</strong> G_total = G₁ + G₂ + G₃ + ...<br>
                             <strong>Series:</strong> 1/G_total = 1/G₁ + 1/G₂ + 1/G₃ + ...<br>
                             <strong>Conductivity:</strong> σ = 1/ρ
+                        </ul>
                         </div>
                     </div>
                 </div>

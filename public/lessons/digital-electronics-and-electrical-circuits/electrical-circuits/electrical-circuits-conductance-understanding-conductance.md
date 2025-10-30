@@ -94,13 +94,13 @@
                         </tr>
                         <tr>
                             <td><strong>Series</strong></td>
-                            <td>R_total = R₁ + R₂ + ...</td>
-                            <td>1/G_total = 1/G₁ + 1/G₂ + ...</td>
+                            <td>R<sub>Total</sub> = R₁ + R₂ + ...</td>
+                            <td>1/G<sub>Total</sub> = 1/G₁ + 1/G₂ + ...</td>
                         </tr>
                         <tr>
                             <td><strong>Parallel</strong></td>
-                            <td>1/R_total = 1/R₁ + 1/R₂ + ...</td>
-                            <td>G_total = G₁ + G₂ + ...</td>
+                            <td>1/R<sub>Total</sub> = 1/R₁ + 1/R₂ + ...</td>
+                            <td>G<sub>Total</sub> = G₁ + G₂ + ...</td>
                         </tr>
                     </table>
                     
