@@ -1,4 +1,4 @@
-# 3. Octal to Hexadecimal
+# 3️⃣ Octal to Hexadecimal
 
 **Method:** Convert octal to binary first, then binary to hexadecimal.
                     

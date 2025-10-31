@@ -1,4 +1,4 @@
-# 1. Hexadecimal to Decimal
+# 1️⃣ Hexadecimal to Decimal
 
 **Method:** Multiply each digit by 16 raised to its position power (from right, starting at 0) and sum.
                     

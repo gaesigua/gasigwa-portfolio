@@ -90,6 +90,30 @@ export const lessons = [
               "Techniques for converting decimal numbers to hexadecimal",
           },
           {
+            slug: "number-systems-conversions-from-binary-introduction",
+            title: "Converting FROM BINARY - Introduction",
+            summary:
+              "introduction to converting binary numbers to decimal, octal, and hexadecimal systems.",
+          },
+          {
+            slug: "number-systems-conversions-from-binary-to-decimal",
+            title: "1. Binary to Decimal",
+            summary:
+               "Techniques for converting binary numbers to decimal system.",
+          },
+          {
+            slug: "number-systems-conversions-from-binary-to-octal",
+            title: "2. Binary to Octal",
+            summary:
+              "Techniques for converting binary numbers to octal system.",
+          },
+          {
+            slug: "number-systems-conversions-from-binary-to-hexadecimal",
+            title: "3. Binary to Hexadecimal",
+            summary:
+              "Techniques for converting binary numbers to hexadecimal",
+          },
+          {
             slug: "number-systems-conversions-from-octal-introduction",
             title: "Converting FROM OCTAL - Introduction",
             summary:

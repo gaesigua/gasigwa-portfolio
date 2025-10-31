@@ -1,4 +1,4 @@
-# 2. Hexadecimal to Binary
+# 2️⃣ Hexadecimal to Binary
 
 
 **Method:** Convert each hexadecimal digit to its 4-bit binary equivalent.

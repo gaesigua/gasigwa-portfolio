@@ -1,4 +1,4 @@
-# 3. Decimal to Hexadecimal
+# 3️⃣ Decimal to Hexadecimal
 
 
 **Method:** Repeatedly divide the decimal number by **16** and record the remainders (convert 10-15 to A-F) from bottom to top.
@@ -16,7 +16,7 @@
 
 <div class="example">
      <div class="calculation">
-254 ÷ 16 = 15 remainder <strong>14</strong> = <strong>E</strong> ←
+254 ÷ 16 = 15 remainder <strong>14</strong> = <strong>E</strong> ←<br>
 15  ÷ 16 = 0  remainder <strong>15</strong> = <strong>F</strong> ← (start reading from here)
 
 <strong>Answer: 254₁₀ = FE₁₆</strong>
@@ -26,8 +26,8 @@
 **Example 2:** **Convert 1000₁₀ to Hexadecimal**                    
 <div class="example">
      <div class="calculation">
-1000 ÷ 16 = 62 remainder <strong>8</strong>
-62   ÷ 16 = 3  remainder <strong>14</strong> = <strong>E</strong>
+1000 ÷ 16 = 62 remainder <strong>8</strong><br>
+62   ÷ 16 = 3  remainder <strong>14</strong> = <strong>E</strong><br>
 3    ÷ 16 = 0  remainder <strong>3</strong>
 
 <strong>Answer: 1000₁₀ = 3E8₁₆</strong>

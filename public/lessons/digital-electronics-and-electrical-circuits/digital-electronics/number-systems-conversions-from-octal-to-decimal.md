@@ -1,4 +1,4 @@
-# 1. Octal to Decimal
+# 1️⃣ Octal to Decimal
 
 
 **Method:** Multiply each digit by 8 raised to its position power (from right, starting at 0) and sum.

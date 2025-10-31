@@ -1,4 +1,4 @@
-# 2. Octal to Binary
+# 2️⃣ Octal to Binary
 
 **Method:** Convert each octal digit to its 3-bit binary equivalent.
                     

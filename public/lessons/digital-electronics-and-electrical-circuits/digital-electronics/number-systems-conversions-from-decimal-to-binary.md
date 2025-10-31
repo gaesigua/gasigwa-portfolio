@@ -1,4 +1,4 @@
-# 1. Decimal to Binary
+# 1️⃣ Decimal to Binary
 
 
 To convert a Decimal number to **any** base, we **REPEATEDLY divide** the decimal number by that base and record the **remainders** until the quotient is **0**. The result is the sequence of remainders, read from **bottom to top**.
@@ -18,11 +18,11 @@ To convert a Decimal number to **any** base, we **REPEATEDLY divide** the decima
 <div class="example">
     <!-- <h4>Example 1: Convert 45₁₀ to Binary</h4> -->
     <div class="calculation">
-45 ÷ 2 = 22 remainder <strong>1</strong> ←
-22 ÷ 2 = 11 remainder <strong>0</strong> ←
-11 ÷ 2 = 5  remainder <strong>1</strong> ←
-5  ÷ 2 = 2  remainder <strong>1</strong> ←
-2  ÷ 2 = 1  remainder <strong>0</strong> ←
+45 ÷ 2 = 22 remainder <strong>1</strong> ←<br>
+22 ÷ 2 = 11 remainder <strong>0</strong> ←<br>
+11 ÷ 2 = 5  remainder <strong>1</strong> ←<br>
+5  ÷ 2 = 2  remainder <strong>1</strong> ←<br>
+2  ÷ 2 = 1  remainder <strong>0</strong> ←<br>
 1  ÷ 2 = 0  remainder <strong>1</strong> ← (start reading from here)
 
 <strong>Answer: 45₁₀ = 101101₂</strong>
@@ -34,13 +34,13 @@ To convert a Decimal number to **any** base, we **REPEATEDLY divide** the decima
 
 <div class="example">
 <div class="calculation">
-100 ÷ 2 = 50 remainder <strong>0</strong>
-50 ÷ 2 = 25 remainder <strong>0</strong>
-25 ÷ 2 = 12 remainder <strong>1</strong>
-12 ÷ 2 = 6 remainder <strong>0</strong>
-6 ÷ 2 = 3 remainder <strong>0</strong>
-3 ÷ 2 = 1 remainder <strong>1</strong>
-1 ÷ 2 = 0 remainder <strong>1</strong>
+100 ÷ 2 = 50 remainder <strong>0</strong><br>
+50 ÷ 2 = 25 remainder <strong>0</strong><br>
+25 ÷ 2 = 12 remainder <strong>1</strong><br>
+12 ÷ 2 = 6 remainder <strong>0</strong><br>
+6 ÷ 2 = 3 remainder <strong>0</strong><br>
+3 ÷ 2 = 1 remainder <strong>1</strong><br>
+1 ÷ 2 = 0 remainder <strong>1</strong><br>
 
 <strong>Answer: 100₁₀ = 1100100₂</strong>
 
