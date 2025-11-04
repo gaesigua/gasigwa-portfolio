@@ -698,6 +698,74 @@ export const lessons = [
     logo: "/touch-typing-logo.png",
   },
   {
+    slug: "sdlc",
+    title: "Software Development Lifecycle (SDLC)",
+    summary:
+      "understand the various stages of software development lifecycle (SDLC) including planning, analysis, design, implementation, testing, deployment, and maintenance.",
+    tags: "agile, waterfall",
+    logo: "/sdlc-logo.png",
+    sections: [
+      {
+        slug: "sdlc-overview",
+        title: "SDLC Overview",
+        summary:
+          "An introduction to the Software Development Lifecycle (SDLC) and its importance in software development.",
+        pages: [
+          {
+            slug: "introduction-to-sdlc",
+            title: "Introduction to SDLC",
+            summary:
+              "The Software Development Lifecycle (SDLC) is a systematic process for planning, creating, testing, and deploying software applications.",
+          },
+          {
+            slug: "sdlc-phases",
+            title: "SDLC Phases",
+            summary:
+              "The main phases of the SDLC include Planning, Analysis, Design, Implementation, Testing, Deployment, and Maintenance.",
+          },
+        ],
+      },
+      {
+        slug: "sdlc-models",
+        title: "SDLC Models",
+        summary:
+          "Different models of SDLC, including Waterfall, Agile, Iterative, V-Model, and Spiral.",
+        pages: [
+          {
+            slug: "waterfall-model",
+            title: "Waterfall Model",
+            summary:
+              "A linear and sequential approach to software development where each phase must be completed before the next begins.",
+          },
+          {
+            slug: "agile-model",
+            title: "Agile Model",
+            summary:
+              "An iterative and incremental approach to software development that emphasizes flexibility, collaboration, and customer feedback.",
+          },
+          {
+            slug: "iterative-model",
+            title: "Iterative Model", 
+            summary:
+              "A model that focuses on developing software through repeated cycles (iterations) and smaller portions at a time (increments).",
+          },
+          {
+            slug: "v-model",
+            title: "V-Model",
+            summary:
+              "An extension of the Waterfall model that emphasizes verification and validation at each stage of development.",
+          },
+          {
+            slug: "spiral-model",
+            title: "Spiral Model",
+            summary:
+              "A risk-driven model that combines elements of both iterative and Waterfall models, focusing on risk assessment and mitigation.",
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: "english-for-programmers",
     title: "English for Programmers",
     summary:
