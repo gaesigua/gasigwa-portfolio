@@ -215,6 +215,90 @@ export const lessons = [
               "Introduction to basic logic gates: AND, OR, NOT, NAND, NOR, XOR, and XNOR.",
           },
           {
+            slug: "logic-gates-basic-gates-and-or-not",
+            title: "Basic Logic Gates: AND, OR, NOT Gates",
+            summary:
+              "Understanding the functions and truth tables of AND, OR, and NOT gates.",
+          },
+          {
+            slug: "logic-gates-universal-gates-nand-nor",
+            title: "Universal Gates: NAND and NOR Gates",
+            summary:
+              "Understanding the functions and truth tables of NAND and NOR gates.",
+          },
+          {
+            slug: "logic-gates-special-purpose-gates-xor-xnor",
+            title: "Special Purpose Gates: XOR and XNOR Gates",
+            summary:
+              "Understanding the functions and truth tables of XOR and XNOR gates.",
+          },
+          {
+            slug: "boolean-algebra-and-laws",
+            title: "Boolean Algebra and Laws",
+            summary:
+              "Mathematical framework for analyzing and simplifying digital logic circuits.",
+          },
+          {
+            slug: "boolean-algebra-fundamental-laws",
+            title: "Boolean Algebra Fundamental Laws",
+            summary:
+              "Overview of the fundamental laws of Boolean algebra, including identity, null, complement, idempotent, involution, commutative, associative, distributive, absorption, and De Morgan's theorems.",
+          },
+          {
+            slug: "boolean-algebra-demorgan-theorems",
+            title: "Boolean Algebra: De Morgan Theorems",
+            summary:
+              "Understanding De Morgan's theorems and their applications in simplifying logic expressions.",
+          },
+          {
+            slug: "boolean-algebra-simplification-examples",
+            title: "Boolean Algebra Simplification Examples",
+            summary:
+              "Step-by-step examples of simplifying Boolean expressions using Boolean algebra laws.",
+          },
+          {
+            slug: "logic-gates-combinations-building-complex-functions",
+            title: "Building Complex Functions",
+            summary:
+              "Combining multiple logic gates to create complex digital functions.",
+          },
+          {
+            slug: "logic-gates-implementing-gates-using-universal-gates",
+            title: "Implementing Gates using Universal Gates",
+            summary:
+              "Techniques for implementing any logic gate using only NAND or NOR gates.",
+          },
+          {
+            slug: "logic-gates-real-world-applications",
+            title: "Real-World Applications of Logic Gates",
+            summary:
+              "Exploring practical applications of logic gates in digital systems and devices.",
+          },
+          {
+            slug: "logic-gates-practical-circuit-design-example",
+            title: "Practical Circuit Design Example",
+            summary:
+              "A step-by-step example of designing a digital circuit to meet specific requirements.",
+          },
+          {
+            slug: "logic-gates-integrated-circuits-ics",
+            title: "Integrated Circuits (ICs)",
+            summary:
+              "Understanding the role of integrated circuits in digital electronics and their advantages over discrete components.",
+          },
+          {
+            slug: "logic-gates-modern-applications-in-technology",
+            title: "Modern Applications in Technology",
+            summary:
+              "Exploring the use of logic gates in modern technology, including computers, smartphones, and other digital devices.",
+          },
+          {
+            slug: "logic-gates-exercises",
+            title: "Logic Gates Exercises",
+            summary:
+              "Practice problems to reinforce your understanding of logic gates and Boolean algebra.",
+          },
+          {
             slug: "combinational-circuits",
             title: "Combinational Circuits",
             summary:
