@@ -6,6 +6,7 @@ import remarkGfm from 'remark-gfm';
 import { lessons } from '../data/lessons';
 import Layout from '../components/Layout.jsx';
 import QuizPlayer from '../components/QuizPlayer.jsx';
+import TypingPractice from '../components/TypingPractice.jsx';
 import quizzes from '../data/quizzes'; // adjust path if your quiz file is elsewhere
 
 const LessonSectionPage = () => {
@@ -191,6 +192,10 @@ const LessonSectionPage = () => {
               <div className="mt-8">
                 <QuizPlayer quiz={quizData} onFinish={handleQuizFinish} />
               </div>
+            )}
+
+            {page?.practiceText && (
+               <TypingPractice practiceText={page.practiceText} />
             )}
 
             {/* Navigation buttons */}

@@ -780,6 +780,89 @@ export const lessons = [
       "learn to touch type with all your fingers and become a typing pro and write code faster.",
     tags: "typing tests, typing lessons, games",
     logo: "/touch-typing-logo.png",
+    sections: [
+      {
+        slug: "home-row",
+        title: "Home Row (ASDF and JKL;)",
+        summary:
+          "Learn the basics of touch typing, starting with the home row",
+        pages: [
+          {
+            slug: "home-row",
+            title: "Home Row",
+            summary:
+              "Learn the basics of touch typing, starting with the home row",
+            practiceText: "asdf jkl; asdf jkl; aa ss dd ff jj kk ll ;; asdf jkl; adsl jk;l fjdksla;",
+          },
+        ],
+
+      },
+      {
+        slug: "top-row",
+        title: "Top Row (QWERTY UIOP)",
+        summary:
+          "Learn the basics of touch typing, starting with the top row",
+        pages: [
+          {
+            slug: "top-row",
+            title: "Top Row",
+            summary:
+              "Learn the basics of touch typing, starting with the top row",
+            practiceText: "qwerty uiop qwer tyui op qw er ty ui op qet uo ip qwe rty uiop",
+          },
+        ],
+      },
+      {
+        slug: "bottom-row",
+        title: "Bottom Row (ZXCVB NM,./)",
+        summary:
+          "Learn the basics of touch typing, starting with the bottom row",
+        pages: [
+          {
+            slug: "bottom-row",
+            title: "Bottom Row",
+            summary:
+              "Learn the basics of touch typing, starting with the bottom row",
+            practiceText: "zxcvb nm,./ zxc vb nm ,. / zx cv bn m, ./"
+          },
+        ],
+      },
+      {
+        slug: "coders-row",
+        title: "The Coders Row (Numbers & Symbols)",
+        summary:
+          "Learn the basics of touch typing, starting with the coders row",
+        pages: [
+          {
+            slug: "coders-row",
+            title: "Coders Row",
+            summary:
+              "Learn the basics of touch typing, starting with the coders row",
+            practiceText: "1234567890 !@#$%^&*() 1! 2@ 3# 4$ 5% 6^ 7& 8* 9( 0)"
+          },
+        ],
+      },
+      {
+        slug: "code-snippets",
+        title: "Code Snippets",
+        summary:
+          "Practice typing actual JavaScript & Java & Python code snippets.",
+        pages: [
+          {
+            slug: "javascript-basics",
+            title: "JavaScript Basics",
+            summary: "Type out common JS patterns.",
+            practiceText: "const hello = 'world'; function test() { console.log(hello); } test();"
+          },
+          {
+            slug: "java-basics",
+            title: "Java Basics",
+            summary: "Type out common Java patterns.",
+            practiceText: "public class Main { public static void main(String[] args) { System.out.println('Hello World'); } }"
+          }
+        ]
+      }
+    ]
   },
   {
     slug: "sdlc",
