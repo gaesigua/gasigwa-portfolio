@@ -1,5 +1,121 @@
 export const lessons = [
   {
+    slug: "computer-basics",
+    title: "Computer Basics",
+    summary:
+      "start your programming journey with computer basics, understand foundational concepts of computer hardware, software, electronic devices, operating systems, and more.",
+    tags: "computer parts, internet basics",
+    logo: "/computer-basics-logo.png",
+    sections: [
+      {
+        slug: "what-is-a-computer",
+        title: "What is a Computer?",
+        summary:
+          "Learn the definition of a computer and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "hardware-and-software",
+        title: "Hardware and Software",
+        summary:
+          "Discover the difference between the physical components (hardware) and the instructions that run on them (software).",
+      },
+      {
+        slug: "operating-systems",
+        title: "Operating Systems",
+        summary:
+          "An introduction to the most important software on a computer, which manages all other programs.",
+      },
+    ],
+  },
+  {
+    slug: "computer-programming-basics",
+    title: "Computer Programming Basics",
+    summary:
+      "before you dive deep into programming, first learn core concepts of computer programming.",
+    tags: "programming basics, big O notation",
+    logo: "/computer-programming-logo.png",
+    sections: [
+      {
+        slug: "what-is-computer-programming",
+        title: "What is Computer Programming?",
+        summary:
+          "Learn the definition of computer programming and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "big-o-notation",
+        title: "Big O Notation",
+        summary:
+          "Learn the definition of big O notation and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "time-and-space-complexity",
+        title: "Time and Space Complexity",
+        summary:
+          "Learn the definition of time and space complexity and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "data-structures",
+        title: "Data Structures",
+        summary:
+          "Learn the definition of data structures and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "algorithms",
+        title: "Algorithms",
+        summary:
+          "Learn the definition of algorithms and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "recursion",
+        title: "Recursion",
+        summary:
+          "Learn the definition of recursion and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "sorting-algorithms",
+        title: "Sorting Algorithms",
+        summary:
+          "Learn the definition of sorting algorithms and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "searching-algorithms",
+        title: "Searching Algorithms",
+        summary:
+          "Learn the definition of searching algorithms and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "graph-algorithms",
+        title: "Graph Algorithms",
+        summary:
+          "Learn the definition of graph algorithms and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "dynamic-programming",
+        title: "Dynamic Programming",
+        summary:
+          "Learn the definition of dynamic programming and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "backtracking",
+        title: "Backtracking",
+        summary:
+          "Learn the definition of backtracking and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "greedy-algorithms",
+        title: "Greedy Algorithms",
+        summary:
+          "Learn the definition of greedy algorithms and its basic functions: storing, retrieving, and processing data.",
+      },
+      {
+        slug: "divide-and-conquer",
+        title: "Divide and Conquer",
+        summary:
+          "Learn the definition of divide and conquer and its basic functions: storing, retrieving, and processing data.",
+      },
+    ],
+  },
+  {
     slug: "digital-electronics-and-electrical-circuits",
     title: "Digital Electronics and Electrical Circuits",
     summary:
@@ -746,34 +862,6 @@ export const lessons = [
     ],
   },
   {
-    slug: "computer-basics",
-    title: "Computer Basics",
-    summary:
-      "start your programming journey with computer basics, understand foundational concepts of computer hardware, software, electronic devices, operating systems, and more.",
-    tags: "computer parts, internet basics",
-    logo: "/computer-basics-logo.png",
-    sections: [
-      {
-        slug: "what-is-a-computer",
-        title: "What is a Computer?",
-        summary:
-          "Learn the definition of a computer and its basic functions: storing, retrieving, and processing data.",
-      },
-      {
-        slug: "hardware-and-software",
-        title: "Hardware and Software",
-        summary:
-          "Discover the difference between the physical components (hardware) and the instructions that run on them (software).",
-      },
-      {
-        slug: "operating-systems",
-        title: "Operating Systems",
-        summary:
-          "An introduction to the most important software on a computer, which manages all other programs.",
-      },
-    ],
-  },
-  {
     slug: "touch-typing",
     title: "Touch Typing",
     summary:
@@ -792,7 +880,7 @@ export const lessons = [
             title: "Home Row",
             summary:
               "Learn the basics of touch typing, starting with the home row",
-            practiceText: "asdf jkl; asdf jkl; aa ss dd ff jj kk ll ;; asdf jkl; adsl jk;l fjdksla;",
+            practiceText: "asdf jkl; asdf jkl; aa ss dd ff jj kk ll ;;",
           },
         ],
 
@@ -808,7 +896,7 @@ export const lessons = [
             title: "Top Row",
             summary:
               "Learn the basics of touch typing, starting with the top row",
-            practiceText: "qwerty uiop qwer tyui op qw er ty ui op qet uo ip qwe rty uiop",
+            practiceText: "qwerty uiop qwer tyui op qw er ty ui op",
           },
         ],
       },
@@ -823,7 +911,7 @@ export const lessons = [
             title: "Bottom Row",
             summary:
               "Learn the basics of touch typing, starting with the bottom row",
-            practiceText: "zxcvb nm,./ zxc vb nm ,. / zx cv bn m, ./"
+            practiceText: "zxcvb nm,./ zxc vb nm ,. /"
           },
         ],
       },
@@ -838,7 +926,7 @@ export const lessons = [
             title: "Coders Row",
             summary:
               "Learn the basics of touch typing, starting with the coders row",
-            practiceText: "1234567890 !@#$%^&*() 1! 2@ 3# 4$ 5% 6^ 7& 8* 9( 0)"
+            practiceText: "1234567890 !@#$%^&*() 1! 2@"
           },
         ],
       },
