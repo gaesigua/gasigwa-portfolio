@@ -12,18 +12,21 @@ export const lessons = [
         title: "What is a Computer?",
         summary:
           "Learn the definition of a computer and its basic functions: storing, retrieving, and processing data.",
+        pages: [],
       },
       {
         slug: "hardware-and-software",
         title: "Hardware and Software",
         summary:
           "Discover the difference between the physical components (hardware) and the instructions that run on them (software).",
+        pages: [],
       },
       {
         slug: "operating-systems",
         title: "Operating Systems",
         summary:
           "An introduction to the most important software on a computer, which manages all other programs.",
+        pages: [],
       },
     ],
   },
@@ -36,82 +39,124 @@ export const lessons = [
     logo: "/computer-programming-logo.png",
     sections: [
       {
-        slug: "what-is-computer-programming",
-        title: "What is Computer Programming?",
-        summary:
-          "Learn the definition of computer programming and its basic functions: storing, retrieving, and processing data.",
-      },
-      {
         slug: "big-o-notation",
         title: "Big O Notation",
         summary:
           "Learn the definition of big O notation and its basic functions: storing, retrieving, and processing data.",
-      },
-      {
-        slug: "time-and-space-complexity",
-        title: "Time and Space Complexity",
-        summary:
-          "Learn the definition of time and space complexity and its basic functions: storing, retrieving, and processing data.",
+        pages: [
+          {
+            slug: "introduction-to-big-o-notation",
+            title: "Module 1: Introduction to Big O Notation",
+            summary:
+              "Learn the definition of big O notation and its basic functions: storing, retrieving, and processing data.",
+          },
+          {
+            slug: "understanding-big-o-notation",
+            title: "Module 2: Understanding Big O Notation",
+            summary:
+              "Learn the definition of big O notation and its basic functions: storing, retrieving, and processing data.",
+          },
+          {
+            slug: "time-complexity",
+            title: "Module 3: Time Complexity",
+            summary:
+              "Learn the definition of time complexity and its basic functions: storing, retrieving, and processing data.",
+          },
+          {
+            slug: "space-complexity",
+            title: "Module 4: Space Complexity",
+            summary:
+              "Learn the definition of space complexity and its basic functions: storing, retrieving, and processing data.",
+          },
+          {
+            slug: "practical-applications-and-problems-solving",
+            title: "Module 5: Practical Applications and Problems Solving",
+            summary:
+              "practical applications and problems solving",
+          },
+          {
+            slug: "advanced-topics-and-best-practices",
+            title: "Module 6: Advanced Topics and Best Practices",
+            summary:
+              "advanced topics and best practices",
+          },
+          {
+            slug: "summary-and-resources",
+            title: "Module 7: Summary and Resources",
+            summary:
+              "summary and resources",
+          },
+        ],
       },
       {
         slug: "data-structures",
         title: "Data Structures",
         summary:
           "Learn the definition of data structures and its basic functions: storing, retrieving, and processing data.",
+        pages: [],
       },
       {
         slug: "algorithms",
         title: "Algorithms",
         summary:
           "Learn the definition of algorithms and its basic functions: storing, retrieving, and processing data.",
+        pages: [],
       },
       {
         slug: "recursion",
         title: "Recursion",
         summary:
           "Learn the definition of recursion and its basic functions: storing, retrieving, and processing data.",
+        pages: [],
       },
       {
         slug: "sorting-algorithms",
         title: "Sorting Algorithms",
         summary:
           "Learn the definition of sorting algorithms and its basic functions: storing, retrieving, and processing data.",
+        pages: [],
       },
       {
         slug: "searching-algorithms",
         title: "Searching Algorithms",
         summary:
           "Learn the definition of searching algorithms and its basic functions: storing, retrieving, and processing data.",
+        pages: [],
       },
       {
         slug: "graph-algorithms",
         title: "Graph Algorithms",
         summary:
           "Learn the definition of graph algorithms and its basic functions: storing, retrieving, and processing data.",
+        pages: [],
       },
       {
         slug: "dynamic-programming",
         title: "Dynamic Programming",
         summary:
           "Learn the definition of dynamic programming and its basic functions: storing, retrieving, and processing data.",
+        pages: [],
       },
       {
         slug: "backtracking",
         title: "Backtracking",
         summary:
           "Learn the definition of backtracking and its basic functions: storing, retrieving, and processing data.",
+        pages: [],
       },
       {
         slug: "greedy-algorithms",
         title: "Greedy Algorithms",
         summary:
           "Learn the definition of greedy algorithms and its basic functions: storing, retrieving, and processing data.",
+        pages: [],
       },
       {
         slug: "divide-and-conquer",
         title: "Divide and Conquer",
         summary:
           "Learn the definition of divide and conquer and its basic functions: storing, retrieving, and processing data.",
+        pages: [],
       },
     ],
   },
