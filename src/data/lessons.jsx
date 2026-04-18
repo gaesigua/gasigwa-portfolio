@@ -869,13 +869,152 @@ export const lessons = [
         slug: "data-structures",
         title: "Data Structures",
         summary:
-          "Introduction to data structures and how to use them",
+          "A comprehensive course on data structures and algorithms, covering dynamic linked structures, linking, loading, classic ADTs (stacks, queues, lists, trees, graphs), and algorithmic techniques.",
         pages: [
           {
-            slug: "introduction-to-data-structures",
-            title: "Introduction to Data Structures",
+            slug: "dynamic-linked-structures",
+            title: "1. Dynamic Linked Structures",
             summary:
-              "Introduction to data structures and how to use them",
+              "Understand dynamic linked structures: definition, characteristics, advantages, disadvantages, and how nodes are allocated at runtime using pointers in C.",
+            quiz: "ds-dynamic-linked-structures",
+          },
+          {
+            slug: "compiler-drivers-and-program-linking",
+            title: "2. Compiler Drivers and Program Linking",
+            summary:
+              "Learn how compiler drivers coordinate the full compilation pipeline — preprocessing, compilation, assembly, and linking — to produce an executable.",
+            quiz: "ds-compiler-drivers",
+          },
+          {
+            slug: "static-linking",
+            title: "3. Static Linking",
+            summary:
+              "Explore static linking: how library code is embedded into executables at compile time, its advantages for portability, and how to create and use static libraries.",
+            quiz: "ds-static-linking",
+          },
+          {
+            slug: "symbol-resolution",
+            title: "4. Symbol Resolution",
+            summary:
+              "Understand how the linker resolves global, local, and external symbols across object files, and what causes common linking errors like undefined references.",
+            quiz: "ds-symbol-resolution",
+          },
+          {
+            slug: "relocatable-and-executable-object-files",
+            title: "5. Relocatable and Executable Object Files",
+            summary:
+              "Distinguish between relocatable object files (produced by the assembler) and executable object files (produced by the linker), and understand their contents and role.",
+            quiz: "ds-object-files",
+          },
+          {
+            slug: "loading-executable-files",
+            title: "6. Loading Executable Files",
+            summary:
+              "Learn how the OS loader prepares an executable for execution: memory allocation, copying code, initializing the runtime environment, and transferring control.",
+            quiz: "ds-loading",
+          },
+          {
+            slug: "dynamic-linking-with-shared-libraries",
+            title: "7. Dynamic Linking with Shared Libraries",
+            summary:
+              "Discover how dynamic linking defers library loading to runtime, how shared libraries (.so/.dll) are used, and the trade-offs versus static linking.",
+            quiz: "ds-dynamic-linking",
+          },
+          {
+            slug: "loading-and-linking-shared-libraries",
+            title: "8. Loading and Linking Shared Libraries from Applications",
+            summary:
+              "Learn how applications explicitly load shared libraries at runtime using dlopen/dlsym on Linux and LoadLibrary on Windows, enabling plugin-based architectures.",
+            quiz: "ds-shared-libraries",
+          },
+          {
+            slug: "position-independent-code",
+            title: "9. Position Independent Code (PIC)",
+            summary:
+              "Understand position-independent code: why it is required for shared libraries, how relative addressing works, and the roles of the GOT and PLT.",
+            quiz: "ds-pic",
+          },
+          {
+            slug: "tools-for-manipulating-object-files",
+            title: "10. Tools for Manipulating Object Files",
+            summary:
+              "Master essential binary tools: objdump, nm, ldd, readelf, and ar — for inspecting, debugging, and managing object files and libraries.",
+            quiz: "ds-object-tools",
+          },
+          {
+            slug: "sets",
+            title: "11. Sets",
+            summary:
+              "Explore sets as unordered collections of distinct elements, their operations (union, intersection, difference), and practical applications in programming.",
+            quiz: "ds-sets",
+          },
+          {
+            slug: "information-technologies",
+            title: "12. Information Technologies",
+            summary:
+              "Overview of IT components — hardware, software, data, networks, and people — with practical programming examples for each component.",
+            quiz: "ds-information-technologies",
+          },
+          {
+            slug: "stacks",
+            title: "13. Stacks",
+            summary:
+              "Master the stack (LIFO) data structure: push, pop, peek operations, array and linked-list implementations in C, and key applications like expression evaluation.",
+            quiz: "ds-stacks",
+          },
+          {
+            slug: "queues",
+            title: "14. Queues",
+            summary:
+              "Understand queues (FIFO), their variants (linear, circular, priority), implementations in C, and applications in scheduling and simulation.",
+          },
+          {
+            slug: "lists",
+            title: "15. Lists",
+            summary:
+              "Comprehensively cover singly, doubly, and circular linked lists in C: node structure, insertion, deletion, traversal, and real-world applications.",
+          },
+          {
+            slug: "trees",
+            title: "16. Trees",
+            summary:
+              "Learn tree data structures: binary trees, BSTs, AVL trees, and heaps — with C implementations for insert, search, delete, and all three traversal orders.",
+          },
+          {
+            slug: "graphs",
+            title: "17. Graphs",
+            summary:
+              "Explore graphs: directed, undirected, and weighted graphs, adjacency matrix and list representations in C, and BFS/DFS traversal algorithms.",
+          },
+          {
+            slug: "recursion",
+            title: "18. Recursion",
+            summary:
+              "Master recursion: base cases, recursive cases, the call stack, and classic examples — factorial, Fibonacci, binary search, and tree traversal — in C and Python.",
+          },
+          {
+            slug: "sorting-and-searching",
+            title: "19. Sorting and Searching",
+            summary:
+              "Study and compare sorting algorithms (bubble, insertion, merge, quick sort) and searching algorithms (linear, binary search) with complexity analysis.",
+          },
+          {
+            slug: "greedy-algorithms",
+            title: "20. Greedy Algorithms",
+            summary:
+              "Understand greedy algorithm strategy, the greedy choice property, and classic examples: Kruskal's MST, Prim's MST, Huffman coding, and fractional knapsack.",
+          },
+          {
+            slug: "divide-and-conquer",
+            title: "21. Divide and Conquer",
+            summary:
+              "Learn the divide-and-conquer paradigm with classic examples: merge sort, quick sort, binary search, and maximum subarray sum with step-by-step analysis.",
+          },
+          {
+            slug: "extensive-analysis-of-computer-algorithms",
+            title: "22. Extensive Analysis of Computer Algorithms",
+            summary:
+              "Deep-dive into algorithm analysis: time complexity (best/average/worst case), space complexity, Big-O notation, and comparison tables for major algorithms.",
           },
         ],
       },

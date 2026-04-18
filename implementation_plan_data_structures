@@ -1,0 +1,110 @@
+# Data Structures Course — Implementation Plan
+
+## Background
+
+The user wants to build a **"Data Structures"** course as a follow-up to the completed **Computer Programming** course. The course content comes from `data_structures_lessons_structure.md` (4,644 lines, 23 topics). The architecture is identical to the Computer Programming course.
+
+## Proposed Changes
+
+---
+
+### 1. `src/data/lessons.jsx`
+
+#### [MODIFY] [lessons.jsx](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/lessons.jsx)
+
+Replace the existing placeholder `data-structures` section (currently lines 868–881, with only one stub page) with a full entry containing **23 pages**:
+
+| # | Slug | Title |
+|---|------|-------|
+| 1 | `dynamic-linked-structures` | 1. Dynamic Linked Structures |
+| 2 | `compiler-drivers-and-program-linking` | 2. Compiler Drivers and Program Linking |
+| 3 | `static-linking` | 3. Static Linking |
+| 4 | `symbol-resolution` | 4. Symbol Resolution |
+| 5 | `relocatable-and-executable-object-files` | 5. Relocatable and Executable Object Files |
+| 6 | `loading-executable-files` | 6. Loading Executable Files |
+| 7 | `dynamic-linking-with-shared-libraries` | 7. Dynamic Linking with Shared Libraries |
+| 8 | `loading-and-linking-shared-libraries` | 8. Loading and Linking Shared Libraries from Applications |
+| 9 | `position-independent-code` | 9. Position Independent Code (PIC) |
+| 10 | `tools-for-manipulating-object-files` | 10. Tools for Manipulating Object Files |
+| 11 | `sets` | 11. Sets |
+| 12 | `information-technologies` | 12. Information Technologies |
+| 13 | `stacks` | 13. Stacks |
+| 14 | `queues` | 14. Queues |
+| 15 | `lists` | 15. Lists |
+| 16 | `trees` | 16. Trees |
+| 17 | `programming-examples-trees` | 17. Programming Examples (Trees) |
+| 18 | `graphs` | 18. Graphs |
+| 19 | `recursion` | 19. Recursion |
+| 20 | `sorting-and-searching` | 20. Sorting and Searching |
+| 21 | `greedy-algorithms` | 21. Greedy Algorithms |
+| 22 | `divide-and-conquer` | 22. Divide and Conquer |
+| 23 | `extensive-analysis-of-computer-algorithms` | 23. Extensive Analysis of Computer Algorithms |
+
+Each page will have `quiz: "ds-<topic-slug>"` for topics 1–12 (matched to quiz files we'll create).
+
+---
+
+### 2. Quiz Files — `src/data/quizzes/`
+
+#### [NEW] 12 new quiz files
+
+| File | Quiz ID |
+|------|---------|
+| `ds-dynamic-linked-structures.js` | `ds-dynamic-linked-structures` |
+| `ds-compiler-drivers.js` | `ds-compiler-drivers` |
+| `ds-static-linking.js` | `ds-static-linking` |
+| `ds-symbol-resolution.js` | `ds-symbol-resolution` |
+| `ds-object-files.js` | `ds-object-files` |
+| `ds-loading.js` | `ds-loading` |
+| `ds-dynamic-linking.js` | `ds-dynamic-linking` |
+| `ds-shared-libraries.js` | `ds-shared-libraries` |
+| `ds-pic.js` | `ds-pic` |
+| `ds-object-tools.js` | `ds-object-tools` |
+| `ds-sets.js` | `ds-sets` |
+| `ds-stacks.js` | `ds-stacks` |
+
+#### [MODIFY] [index.js](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/quizzes/index.js)
+
+Import and export all 12 new quiz files.
+
+---
+
+### 3. Markdown Lesson Files — `public/lessons/computer-programming-and-data-structures/data-structures/`
+
+#### [NEW] 23 `.md` files
+
+Each file follows the same structure as the Computer Programming lessons:
+- Topic definition, characteristics, advantages/disadvantages
+- Detailed explanations with code examples in **C** (primary) or Python where the reference uses Python
+- Collapsible `<details>` practice problems with full solutions
+- HTML-in-markdown components (`.cp-note`, `.cp-tip`, `.cp-warning`, `.cp-comparison`)
+- Tables for reference
+
+> [!NOTE]
+> No new CSS is needed — the existing Computer Programming CSS classes in `App.css` apply equally to this course.
+
+---
+
+## Execution Order
+
+1. Update `lessons.jsx` with all 23 pages
+2. Create 12 quiz `.js` files
+3. Update `quizzes/index.js`
+4. Write all 23 markdown lesson files (in batches, 2-3 at a time)
+
+## Verification Plan
+
+- Check that the `data-structures` section loads in the app sidebar
+- Click through several lessons and verify markdown renders correctly
+- Verify quiz button appears on pages with `quiz:` field
+- Run `npm run dev` throughout to catch any import errors
+
+---
+
+## Open Questions
+
+> [!IMPORTANT]
+> **Topics 16 & 17** — The reference file separates "Trees" (definitions/types) and "Programming Examples" (tree code) into two separate numbered sections (16 and 17). Should I keep them as two separate pages, or **merge them into one comprehensive "Trees" page**? Merging would give a better user experience.
+
+> [!NOTE]
+> The reference file uses **Python for most examples** (Stacks, Queues, Trees, Sorting). Since C is the primary language for this course, I will **port all examples to C** and include the original Python version as an additional "Python variant" where educational value is added. Agree?
