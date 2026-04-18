@@ -127,7 +127,7 @@ const LessonSectionPage = () => {
     <Layout>
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Back to lesson (catalog) */}
-        <Link to={`/lessons/${lessonSlug}`} className="text-blue-300 hover:underline mb-6 inline-block">
+        <Link to={`/lessons/${lessonSlug}`} className="text-[#2f7fb5] hover:text-[#21628d] hover:underline mb-6 inline-block">
           &larr; Back to {lesson?.title}
         </Link>
 
@@ -135,8 +135,8 @@ const LessonSectionPage = () => {
         {isOverview ? (
           <>
             <header className="mb-6">
-              <h1 className="text-3xl font-extrabold text-neutral-50">{section?.title}</h1>
-              <p className="text-neutral-400 mt-2">{section?.summary}</p>
+              <h1 className="text-3xl font-extrabold text-slate-900">{section?.title}</h1>
+              <p className="text-slate-600 mt-2">{section?.summary}</p>
             </header>
 
             <div className="space-y-4">
@@ -144,16 +144,16 @@ const LessonSectionPage = () => {
                 <Link
                   key={p.slug}
                   to={`/lessons/${lessonSlug}/${sectionSlug}/${p.slug}`}
-                  className="block bg-neutral-900 p-6 rounded-xl border border-neutral-800 hover:border-blue-400 transition"
+                  className="block bg-white p-6 rounded-xl border border-slate-200 hover:border-[#6ab3ea] hover:shadow-sm transition"
                 >
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-sm text-neutral-500">Page {idx + 1}</p>
-                      <h2 className="text-2xl font-semibold text-neutral-50">{p.title}</h2>
-                      <p className="text-neutral-400 mt-1">{p.summary}</p>
+                      <p className="text-sm text-slate-500">Page {idx + 1}</p>
+                      <h2 className="text-2xl font-semibold text-slate-900">{p.title}</h2>
+                      <p className="text-slate-600 mt-1">{p.summary}</p>
                     </div>
 
-                    <div className="text-neutral-500">Start →</div>
+                    <div className="text-[#4a9ed9]">Start →</div>
                   </div>
                 </Link>
               ))}
@@ -162,11 +162,11 @@ const LessonSectionPage = () => {
         ) : (
           // Page mode: render markdown content + quiz + previous/next controls
           <>
-            <Link to={`/lessons/${lessonSlug}/${sectionSlug}`} className="text-blue-300 hover:underline mb-8 inline-block">
+            <Link to={`/lessons/${lessonSlug}/${sectionSlug}`} className="text-[#2f7fb5] hover:text-[#21628d] hover:underline mb-8 inline-block">
               &larr; Back to {section?.title}
             </Link>
 
-            <article className="lesson-content prose prose-invert prose-lg">
+            <article className="lesson-content prose prose-lg max-w-none">
               {isLoading && <p>Loading...</p>}
               {error && <p style={{ color: 'red' }}>Error: {error}</p>}
               {!isLoading && !error && (
@@ -177,11 +177,11 @@ const LessonSectionPage = () => {
             </article>
 
             {hasQuiz && !showQuiz && quizData && (
-              <div className="mt-8 p-6 bg-neutral-900 border border-neutral-800 rounded-lg">
-                <h2 className="text-xl font-semibold text-neutral-100 mb-4">Ready to test your knowledge?</h2>
+              <div className="mt-8 p-6 bg-[#f8fcff] border border-[#cde6f9] rounded-lg">
+                <h2 className="text-xl font-semibold text-slate-900 mb-4">Ready to test your knowledge?</h2>
                 <button
                   onClick={() => setShowQuiz(true)}
-                  className="bg-blue-400 hover:bg-blue-700 text-white py-2 px-6 rounded-lg"
+                  className="bg-[#6ab3ea] hover:bg-[#4a9ed9] text-white py-2 px-6 rounded-lg"
                 >
                   Start Quiz
                 </button>
@@ -203,7 +203,7 @@ const LessonSectionPage = () => {
               <div className="flex justify-between mt-8">
                 {getPrevRoute() ? (
                   <button
-                    className="bg-neutral-700 hover:bg-neutral-600 text-white py-2 px-5 rounded-lg shadow transition"
+                    className="bg-slate-200 hover:bg-slate-300 text-slate-800 py-2 px-5 rounded-lg shadow-sm transition"
                     onClick={() => navigate(getPrevRoute())}
                   >
                     &larr; Previous
@@ -212,7 +212,7 @@ const LessonSectionPage = () => {
 
                 {getNextRoute() ? (
                   <button
-                    className={`${nextPage ? 'bg-blue-400 hover:bg-blue-500' : 'bg-green-600 hover:bg-green-700'} text-white py-2 px-6 rounded-lg shadow transition`}
+                    className={`${nextPage ? 'bg-[#6ab3ea] hover:bg-[#4a9ed9]' : 'bg-emerald-600 hover:bg-emerald-700'} text-white py-2 px-6 rounded-lg shadow-sm transition`}
                     onClick={() => navigate(getNextRoute())}
                   >
                     {nextPage ? 'Next →' : `Next Section: ${nextSection?.title} →`}

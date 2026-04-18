@@ -74,18 +74,18 @@ const TypingPractice = ({ practiceText, onComplete }) => {
 
       if (inputChar == null) {
         // Not yet typed
-        className += "text-neutral-500";
+        className += "text-slate-400";
       } else if (inputChar === char) {
         // Correct
-        className += "text-green-400 bg-green-900/20";
+        className += "text-emerald-600 bg-emerald-100/70";
       } else {
         // Incorrect
-        className += "text-red-400 bg-red-900/20";
+        className += "text-red-600 bg-red-100/80";
       }
 
       // Cursor indicator
       if (index === userInput.length && !isCompleted) {
-          className += " border-b-2 border-brand-blue animate-pulse";
+          className += " border-b-2 border-[#6ab3ea] animate-pulse";
       }
 
       return <span key={index} className={className}>{char}</span>;
@@ -93,17 +93,17 @@ const TypingPractice = ({ practiceText, onComplete }) => {
   };
 
   return (
-    <div className="bg-neutral-900 p-8 rounded-xl border border-neutral-800 shadow-lg mt-8">
+    <div className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm mt-8">
       <div className="mb-6 flex justify-between items-center">
-          <h2 className="text-xl font-semibold text-neutral-200">Typing Practice</h2>
-          <div className="flex gap-4 text-sm font-mono text-neutral-400">
-              <span>WPM: <span className="text-brand-blue font-bold">{stats.wpm}</span></span>
-              <span>Accuracy: <span className={stats.accuracy >= 90 ? "text-green-400" : "text-yellow-400"}>{stats.accuracy}%</span></span>
+        <h2 className="text-xl font-semibold text-slate-900">Typing Practice</h2>
+        <div className="flex gap-4 text-sm font-mono text-slate-500">
+          <span>WPM: <span className="text-[#2f7fb5] font-bold">{stats.wpm}</span></span>
+          <span>Accuracy: <span className={stats.accuracy >= 90 ? "text-emerald-600" : "text-amber-500"}>{stats.accuracy}%</span></span>
           </div>
       </div>
 
       <div 
-        className="mb-8 p-6 bg-neutral-950 rounded-lg border border-neutral-800 min-h-[150px] whitespace-pre-wrap break-words leading-relaxed cursor-text relative"
+      className="mb-8 p-6 bg-slate-50 rounded-lg border border-slate-200 min-h-[150px] whitespace-pre-wrap break-words leading-relaxed cursor-text relative"
         onClick={() => inputRef.current?.focus()}
       >
         {renderText()}
@@ -125,17 +125,17 @@ const TypingPractice = ({ practiceText, onComplete }) => {
 
       {isCompleted && (
           <div className="text-center animate-fade-in-up">
-              <p className="text-green-400 text-lg font-bold mb-4">Lesson Complete!</p>
+              <p className="text-emerald-600 text-lg font-bold mb-4">Lesson Complete!</p>
               <button 
                 onClick={handleRestart}
-                className="bg-brand-blue hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg transition-colors"
+                className="bg-[#6ab3ea] hover:bg-[#4a9ed9] text-white font-semibold py-2 px-6 rounded-lg transition-colors"
             >
                 Restart Lesson
               </button>
           </div>
       )}
 
-      <div className="mt-4 text-xs text-neutral-600 text-center">
+      <div className="mt-4 text-xs text-slate-500 text-center">
           Click the text box and start typing. 
       </div>
     </div>

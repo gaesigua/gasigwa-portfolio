@@ -18,9 +18,9 @@ const LessonCatalogPage = () => {
   if (!lesson) {
     return (
       <Layout>
-        <div className="min-h-screen bg-neutral-950 text-neutral-200 p-8">
+        <div className="min-h-screen bg-white text-slate-800 p-8">
         <h1 className="text-4xl font-bold text-red-500">Lesson not found!</h1>
-        <Link to="/" className="text-brand-blue hover:text-blue-400 hover:underline mt-4 inline-block">
+        <Link to="/" className="text-[#2f7fb5] hover:text-[#21628d] hover:underline mt-4 inline-block">
           &larr; Back to Home
         </Link>
       </div>
@@ -31,18 +31,22 @@ const LessonCatalogPage = () => {
   return (
     <Layout>
       <div className="container mx-auto px-4 py-8 md:py-16">
-      <h1 className="text-4xl md:text-5xl font-extrabold text-neutral-50 mb-4 capitalize">{lesson.title}</h1>
-        <p className="text-lg text-neutral-400 mb-12">{lesson.summary}</p>
+      <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4 capitalize">{lesson.title}</h1>
+        <p className="text-lg text-slate-600 mb-12">{lesson.summary}</p>
         <div className="space-y-4">
           {lesson.sections?.map((section, index) => (
-            <Link to={`/lessons/${lesson.slug}/${section.slug}/${section.pages[0].slug}`} className="block bg-neutral-900 p-6 rounded-xl border border-neutral-800 hover:border-blue-300 transition-colors duration-200">
+            <Link
+              key={section.slug}
+              to={`/lessons/${lesson.slug}/${section.slug}/${section.pages[0].slug}`}
+              className="block bg-white p-6 rounded-xl border border-slate-200 hover:border-[#6ab3ea] hover:shadow-sm transition-all duration-200"
+            >
               <div className="flex justify-between items-center">
                 <div>
-                  <p className="text-sm text-neutral-500">Part {index + 1}</p>
-                  <h2 className="text-2xl font-semibold text-neutral-50">{section.title}</h2>
-                  <p className="text-neutral-400 mt-1">{section.summary}</p>
+                  <p className="text-sm text-slate-500">Part {index + 1}</p>
+                  <h2 className="text-2xl font-semibold text-slate-900">{section.title}</h2>
+                  <p className="text-slate-600 mt-1">{section.summary}</p>
                 </div>
-                <ArrowRight className="w-6 h-6 text-neutral-600" />
+                <ArrowRight className="w-6 h-6 text-[#4a9ed9]" />
               </div>
             </Link>
           ))}
