@@ -1,0 +1,30 @@
+# Data Structures Course — Task List
+
+## Phase 1: Setup
+- [x] Update `src/data/lessons.jsx` — replace placeholder data-structures section with 22 pages
+- [x] Create 13 quiz JS files in `src/data/quizzes/`
+- [x] Update `src/data/quizzes/index.js` with all new DS quizzes
+
+## Phase 2: Markdown Lesson Files (22 total)
+- [x] `dynamic-linked-structures.md` — Topic 1
+- [x] `compiler-drivers-and-program-linking.md` — Topic 2
+- [x] `static-linking.md` — Topic 3
+- [x] `symbol-resolution.md` — Topic 4
+- [x] `relocatable-and-executable-object-files.md` — Topic 5
+- [x] `loading-executable-files.md` — Topic 6
+- [x] `dynamic-linking-with-shared-libraries.md` — Topic 7
+- [x] `loading-and-linking-shared-libraries.md` — Topic 8
+- [x] `position-independent-code.md` — Topic 9
+- [x] `tools-for-manipulating-object-files.md` — Topic 10
+- [x] `sets.md` — Topic 11
+- [x] `information-technologies.md` — Topic 12
+- [x] `stacks.md` — Topic 13
+- [x] `queues.md` — Topic 14
+- [x] `lists.md` — Topic 15
+- [x] `trees.md` — Topics 16+17 merged
+- [x] `graphs.md` — Topic 17
+- [x] `recursion.md` — Topic 18
+- [x] `sorting-and-searching.md` — Topic 19
+- [x] `greedy-algorithms.md` — Topic 20
+- [x] `divide-and-conquer.md` — Topic 21
+- [x] `extensive-analysis-of-computer-algorithms.md` — Topic 22

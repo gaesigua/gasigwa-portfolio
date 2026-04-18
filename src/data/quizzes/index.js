@@ -16,6 +16,21 @@ import cpIoQuiz from "./cp-io";
 import cpControlQuiz from "./cp-control";
 import cpFunctionsQuiz from "./cp-functions";
 
+// Data Structures course quizzes
+import dsDynamicLinkedStructures from "./ds-dynamic-linked-structures";
+import dsCompilerDrivers from "./ds-compiler-drivers";
+import dsStaticLinking from "./ds-static-linking";
+import dsSymbolResolution from "./ds-symbol-resolution";
+import dsObjectFiles from "./ds-object-files";
+import dsLoading from "./ds-loading";
+import dsDynamicLinking from "./ds-dynamic-linking";
+import dsSharedLibraries from "./ds-shared-libraries";
+import dsPIC from "./ds-pic";
+import dsObjectTools from "./ds-object-tools";
+import dsSets from "./ds-sets";
+import dsInformationTechnologies from "./ds-information-technologies";
+import dsStacks from "./ds-stacks";
+
 // I will add new quizzes here as I create them
 export const quizzes = {
   "dc-vs-ac": dcVsAcQuiz,
@@ -31,5 +46,20 @@ export const quizzes = {
   "cp-io": cpIoQuiz,
   "cp-control": cpControlQuiz,
   "cp-functions": cpFunctionsQuiz,
+  // Data Structures
+  "ds-dynamic-linked-structures": dsDynamicLinkedStructures,
+  "ds-compiler-drivers": dsCompilerDrivers,
+  "ds-static-linking": dsStaticLinking,
+  "ds-symbol-resolution": dsSymbolResolution,
+  "ds-object-files": dsObjectFiles,
+  "ds-loading": dsLoading,
+  "ds-dynamic-linking": dsDynamicLinking,
+  "ds-shared-libraries": dsSharedLibraries,
+  "ds-pic": dsPIC,
+  "ds-object-tools": dsObjectTools,
+  "ds-sets": dsSets,
+  "ds-information-technologies": dsInformationTechnologies,
+  "ds-stacks": dsStacks,
 };
-export default quizzes;
+export default quizzes;
+
