@@ -742,13 +742,126 @@ export const lessons = [
         slug: "computer-programming",
         title: "Computer Programming",
         summary:
-          "Introduction to computer programming and how to write code",
+          "A complete, detailed course covering computer programming from foundational methodology through algorithm analysis and dynamic programming, with C language examples, practice problems, and quizzes.",
         pages: [
           {
-            slug: "introduction-to-computer-programming",
-            title: "Introduction to Computer Programming",
+            slug: "introduction-to-computer-programming-methodology",
+            title: "1. Introduction to Computer Programming Methodology",
             summary:
-              "Introduction to computer programming and how to write code",
+              "Learn what computer programming is, its role in problem solving, the Program Development Life Cycle (PDLC), and why programming methodologies matter.",
+            quiz: "cp-intro",
+          },
+          {
+            slug: "problem-definition-and-classification",
+            title: "2. Problem Definition and Classification",
+            summary:
+              "Understand how to define a programming problem, identify inputs, outputs, and constraints, and distinguish between tractable and intractable problems.",
+            quiz: "cp-problem-definition",
+          },
+          {
+            slug: "algorithms",
+            title: "3. Algorithms",
+            summary:
+              "Explore the definition and properties of algorithms, characteristics of good algorithms, how to document them, and stepwise refinement.",
+            quiz: "cp-algorithms",
+          },
+          {
+            slug: "problem-solving-techniques",
+            title: "4. Problem-Solving Techniques",
+            summary:
+              "Master top-down problem solving, problem decomposition, and the bottom-up approach, with C code examples showing how each works.",
+            quiz: "cp-problem-solving",
+          },
+          {
+            slug: "flowcharts",
+            title: "5. Flowcharts",
+            summary:
+              "Learn the standard flowchart symbols, how to draw flowcharts for algorithms, and how to convert flowcharts into working C programs.",
+            quiz: "cp-flowcharts",
+          },
+          {
+            slug: "structured-programming",
+            title: "6. Structured Programming",
+            summary:
+              "Discover the principles of structured programming including sequence, selection, and iteration control structures with C examples.",
+            quiz: "cp-structured",
+          },
+          {
+            slug: "pseudocode",
+            title: "7. Pseudocode",
+            summary:
+              "Learn how to write pseudocode, its rules and conventions, and how it bridges the gap between algorithms and working code.",
+            quiz: "cp-pseudocode",
+          },
+          {
+            slug: "programming-language-fundamentals",
+            title: "8. Programming Language Fundamentals",
+            summary:
+              "Understand syntax vs semantics, C data types, variables and constants, expressions, and statements — the building blocks of any C program.",
+            quiz: "cp-fundamentals",
+          },
+          {
+            slug: "input-and-output",
+            title: "9. Input and Output",
+            summary:
+              "Master printf and scanf in C for formatted input and output, including format specifiers, escape sequences, and best practices.",
+            quiz: "cp-io",
+          },
+          {
+            slug: "control-structures",
+            title: "10. Control Structures",
+            summary:
+              "Learn if, if-else, switch for selection and for, while, do-while for iteration, plus loop control with break and continue in C.",
+            quiz: "cp-control",
+          },
+          {
+            slug: "sub-programming-and-modularization",
+            title: "11. Sub-Programming and Modularization",
+            summary:
+              "Understand modular programming, how to define and call functions in C, parameter passing, and the scope of variables.",
+            quiz: "cp-functions",
+          },
+          {
+            slug: "programming-paradigms",
+            title: "12. Programming Paradigms",
+            summary:
+              "Compare procedural and functional programming paradigms, understand object-oriented concepts, and know when to use each approach.",
+          },
+          {
+            slug: "data-abstraction",
+            title: "13. Data Abstraction",
+            summary:
+              "Learn the concept of abstraction, abstract data types (ADTs), and how encapsulation and information hiding improve program design.",
+          },
+          {
+            slug: "file-management",
+            title: "14. File Management",
+            summary:
+              "Work with files in C: file types, open/read/write/close operations, sequential vs random access, and handling file errors.",
+          },
+          {
+            slug: "programming-standards",
+            title: "15. Programming Standards",
+            summary:
+              "Apply coding standards and conventions, write effective comments and documentation, and use debugging and testing strategies.",
+          },
+          {
+            slug: "writing-correct-and-efficient-programs",
+            title: "16. Writing Correct and Efficient Programs",
+            summary:
+              "Understand program correctness, efficiency considerations, and practical optimization techniques to write better C programs.",
+          },
+          {
+            slug: "algorithm-design-and-analysis",
+            title: "17. Algorithm Design and Analysis",
+            summary:
+              "Analyze algorithms using summations, recurrence relations, and Big-O notation. Understand time and space complexity with examples.",
+          },
+          {
+            slug: "dynamic-programming",
+            title: "18. Dynamic Programming",
+            summary:
+              "Master dynamic programming: optimal substructure, overlapping subproblems, memoization, and classic examples like Fibonacci and knapsack.",
           },
         ],
       },

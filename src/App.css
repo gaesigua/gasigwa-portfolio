@@ -1124,3 +1124,223 @@ tr:hover {
             margin-bottom: 15px;
         }
 
+/* ============================================================
+   COMPUTER PROGRAMMING COURSE – Custom Styles
+   ============================================================ */
+
+/* ---------- Fenced code blocks rendered by ReactMarkdown ---------- */
+.lesson-content pre,
+.prose pre {
+  background: #1e1e1e;
+  border-left: 4px solid #569cd6;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  overflow-x: auto;
+  margin: 1.25rem 0;
+}
+
+.lesson-content pre code,
+.prose pre code {
+  background: transparent;
+  color: #d4d4d4;
+  padding: 0;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  font-family: 'Courier New', Consolas, monospace;
+}
+
+/* Inline code in prose */
+.lesson-content code,
+.prose code {
+  background: #2d2d2d;
+  color: #ce9178;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 0.88em;
+}
+
+/* ---------- <details> / <summary> for hints & solutions ---------- */
+.lesson-content details,
+.prose details {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin: 0.75rem 0;
+}
+
+.lesson-content summary,
+.prose summary {
+  cursor: pointer;
+  color: #38bdf8;
+  font-weight: 600;
+  list-style: none;
+  user-select: none;
+  padding: 0.25rem 0;
+}
+
+.lesson-content summary::-webkit-details-marker { display: none; }
+
+.lesson-content details[open] summary,
+.prose details[open] summary {
+  color: #7dd3fc;
+  margin-bottom: 0.75rem;
+}
+
+/* ---------- Information / warning / tip banners ---------- */
+.cp-note {
+  background: #1e293b;
+  border-left: 4px solid #fbbf24;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  color: #fde68a;
+}
+
+.cp-tip {
+  background: #052e16;
+  border-left: 4px solid #22c55e;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  color: #bbf7d0;
+}
+
+.cp-warning {
+  background: #1c0a00;
+  border-left: 4px solid #ef4444;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  color: #fca5a5;
+}
+
+.cp-info {
+  background: #0c1a2e;
+  border-left: 4px solid #60a5fa;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  color: #bfdbfe;
+}
+
+/* ---------- Algorithm complexity badge ---------- */
+.complexity-badge {
+  display: inline-block;
+  background: #1e293b;
+  color: #7dd3fc;
+  border: 1px solid #38bdf8;
+  border-radius: 20px;
+  padding: 0.2rem 0.75rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0.25rem 0.25rem;
+}
+
+/* ---------- Flowchart container (SVG diagrams) ---------- */
+.flowchart-container {
+  background: #18181b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  overflow-x: auto;
+}
+
+.flowchart-container svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Definition card (CP course variant – dark) ---------- */
+.cp-definition {
+  background: #0f172a;
+  border: 1px solid #1e40af;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.25rem 0;
+}
+
+.cp-definition h4 {
+  color: #93c5fd;
+  font-size: 1.15rem;
+  margin-bottom: 0.6rem;
+}
+
+.cp-definition p,
+.cp-definition li {
+  color: #cbd5e1;
+}
+
+/* ---------- Two-column comparison grid (CP) ---------- */
+.cp-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.cp-comparison-left {
+  background: #052e16;
+  border: 1px solid #16a34a;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  color: #bbf7d0;
+}
+
+.cp-comparison-right {
+  background: #1c0a00;
+  border: 1px solid #dc2626;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  color: #fca5a5;
+}
+
+.cp-comparison-left h5,
+.cp-comparison-right h5 {
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.cp-comparison-left h5 { color: #4ade80; }
+.cp-comparison-right h5 { color: #f87171; }
+
+@media (max-width: 640px) {
+  .cp-comparison { grid-template-columns: 1fr; }
+}
+
+/* ---------- Step/phase list (PDLC, algorithm steps) ---------- */
+.cp-steps {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0;
+}
+
+.cp-steps li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #27272a;
+  color: #d4d4d8;
+}
+
+.cp-steps li:last-child { border-bottom: none; }
+
+.cp-step-num {
+  background: linear-gradient(135deg, #1e40af, #0ea5e9);
+  color: white;
+  min-width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
