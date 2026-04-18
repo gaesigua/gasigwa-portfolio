@@ -8,157 +8,59 @@ export const lessons = [
     logo: "/computer-basics-logo.png",
     sections: [
       {
-        slug: "what-is-a-computer",
-        title: "What is a Computer?",
+        slug: "computer-software",
+        title: "Computer Software",
         summary:
-          "Learn the definition of a computer and its basic functions: storing, retrieving, and processing data.",
-        pages: [],
-      },
-      {
-        slug: "hardware-and-software",
-        title: "Hardware and Software",
-        summary:
-          "Discover the difference between the physical components (hardware) and the instructions that run on them (software).",
-        pages: [],
-      },
-      {
-        slug: "operating-systems",
-        title: "Operating Systems",
-        summary:
-          "An introduction to the most important software on a computer, which manages all other programs.",
-        pages: [],
-      },
-    ],
-  },
-  {
-    slug: "computer-programming-basics",
-    title: "Computer Programming Basics",
-    summary:
-      "before you dive deep into programming, first learn core concepts of computer programming.",
-    tags: "programming basics, big O notation",
-    logo: "/computer-programming-logo.png",
-    sections: [
-      {
-        slug: "big-o-notation",
-        title: "Big O Notation",
-        summary:
-          "Learn the definition of big O notation and its basic functions: storing, retrieving, and processing data.",
+          "Introduction to computer software and parts.",
         pages: [
           {
-            slug: "introduction-to-big-o-notation",
-            title: "Module 1: Introduction to Big O Notation",
+            slug: "what-is-a-computer",
+            title: "What is a computer?",
             summary:
-              "Learn the definition of big O notation and its basic functions: storing, retrieving, and processing data.",
+              "A computer is an electronic device that can store, retrieve, and process data. It is a programmable machine that can be used to perform a wide range of tasks.",
           },
           {
-            slug: "understanding-big-o-notation",
-            title: "Module 2: Understanding Big O Notation",
+            slug: "parts-of-a-computer",
+            title: "Parts of a Computer",
             summary:
-              "Learn the definition of big O notation and its basic functions: storing, retrieving, and processing data.",
+              "A computer is made up of several parts that work together to perform tasks. These parts include the monitor, keyboard, mouse, and CPU.",
           },
           {
-            slug: "time-complexity",
-            title: "Module 3: Time Complexity",
+            slug: "what-makes-a-computer-run",
+            title: "What Makes a Computer Run",
             summary:
-              "Learn the definition of time complexity and its basic functions: storing, retrieving, and processing data.",
+              "A computer runs on electricity and software. The software tells the hardware what to do, and the hardware performs the tasks.",
           },
           {
-            slug: "space-complexity",
-            title: "Module 4: Space Complexity",
+            slug: "using-a-mouse",
+            title: "Using a Mouse",
             summary:
-              "Learn the definition of space complexity and its basic functions: storing, retrieving, and processing data.",
+              "A mouse is a pointing device that is used to interact with the computer. It is used to move the cursor on the screen and to select items.",
           },
           {
-            slug: "practical-applications-and-problems-solving",
-            title: "Module 5: Practical Applications and Problems Solving",
+            slug: "computer-lab-rules",
+            title: "Computer Lab Rules",
             summary:
-              "practical applications and problems solving",
-          },
-          {
-            slug: "advanced-topics-and-best-practices",
-            title: "Module 6: Advanced Topics and Best Practices",
-            summary:
-              "advanced topics and best practices",
-          },
-          {
-            slug: "summary-and-resources",
-            title: "Module 7: Summary and Resources",
-            summary:
-              "summary and resources",
+              "Computer lab rules are guidelines that are put in place to ensure that the computer lab is used safely and effectively. These rules include not eating or drinking in the lab, not using the computers for personal use, and not sharing passwords with others.",
           },
         ],
       },
       {
-        slug: "data-structures",
-        title: "Data Structures",
+        slug: "computer-hardware",
+        title: "Computer Hardware",
         summary:
-          "Learn the definition of data structures and its basic functions: storing, retrieving, and processing data.",
-        pages: [],
+          " ",
+        pages: [
+          {
+            slug: "introduction-to-computer-hardware",
+            title: "Introduction to Computer Hardware",
+            summary:
+              "Computer hardware refers to the physical components of a computer system. These components include the monitor, keyboard, mouse, and CPU.",
+          },
+        ],
       },
-      {
-        slug: "algorithms",
-        title: "Algorithms",
-        summary:
-          "Learn the definition of algorithms and its basic functions: storing, retrieving, and processing data.",
-        pages: [],
-      },
-      {
-        slug: "recursion",
-        title: "Recursion",
-        summary:
-          "Learn the definition of recursion and its basic functions: storing, retrieving, and processing data.",
-        pages: [],
-      },
-      {
-        slug: "sorting-algorithms",
-        title: "Sorting Algorithms",
-        summary:
-          "Learn the definition of sorting algorithms and its basic functions: storing, retrieving, and processing data.",
-        pages: [],
-      },
-      {
-        slug: "searching-algorithms",
-        title: "Searching Algorithms",
-        summary:
-          "Learn the definition of searching algorithms and its basic functions: storing, retrieving, and processing data.",
-        pages: [],
-      },
-      {
-        slug: "graph-algorithms",
-        title: "Graph Algorithms",
-        summary:
-          "Learn the definition of graph algorithms and its basic functions: storing, retrieving, and processing data.",
-        pages: [],
-      },
-      {
-        slug: "dynamic-programming",
-        title: "Dynamic Programming",
-        summary:
-          "Learn the definition of dynamic programming and its basic functions: storing, retrieving, and processing data.",
-        pages: [],
-      },
-      {
-        slug: "backtracking",
-        title: "Backtracking",
-        summary:
-          "Learn the definition of backtracking and its basic functions: storing, retrieving, and processing data.",
-        pages: [],
-      },
-      {
-        slug: "greedy-algorithms",
-        title: "Greedy Algorithms",
-        summary:
-          "Learn the definition of greedy algorithms and its basic functions: storing, retrieving, and processing data.",
-        pages: [],
-      },
-      {
-        slug: "divide-and-conquer",
-        title: "Divide and Conquer",
-        summary:
-          "Learn the definition of divide and conquer and its basic functions: storing, retrieving, and processing data.",
-        pages: [],
-      },
-    ],
+
+    ]
   },
   {
     slug: "digital-electronics-and-electrical-circuits",
@@ -824,6 +726,44 @@ export const lessons = [
           //   summary:
           //     "Two fundamental laws that deal with the conservation of charge and energy in electrical circuits.",
           // },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "computer-programming-and-data-structures",
+    title: "Computer Programming and Data Structures",
+    summary:
+      "learn the fundamentals of computer programming and how to write code",
+    tags: "data structures, algorithms, programming, coding",
+    logo: "/computer-programming-logo.png",
+    sections: [
+      {
+        slug: "computer-programming",
+        title: "Computer Programming",
+        summary:
+          "Introduction to computer programming and how to write code",
+        pages: [
+          {
+            slug: "introduction-to-computer-programming",
+            title: "Introduction to Computer Programming",
+            summary:
+              "Introduction to computer programming and how to write code",
+          },
+        ],
+      },
+      {
+        slug: "data-structures",
+        title: "Data Structures",
+        summary:
+          "Introduction to data structures and how to use them",
+        pages: [
+          {
+            slug: "introduction-to-data-structures",
+            title: "Introduction to Data Structures",
+            summary:
+              "Introduction to data structures and how to use them",
+          },
         ],
       },
     ],
