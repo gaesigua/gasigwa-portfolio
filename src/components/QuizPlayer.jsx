@@ -47,38 +47,38 @@ const QuizPlayer = ({ quiz, onFinish }) => {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
       <header className="mb-6">
-        <h1 className="text-2xl md:text-3xl font-extrabold text-neutral-50">{quiz.title}</h1>
+        <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900">{quiz.title}</h1>
       </header>
 
       {/* Step indicator */}
       <div className="mb-6 flex items-center justify-between">
-        <div className="text-sm text-neutral-400">
+        <div className="text-sm text-slate-500">
           Question {index + 1} of {quiz.questions.length}
         </div>
-        <div className="text-sm text-neutral-400">
+        <div className="text-sm text-slate-500">
           {/* optional score indicator */}
           {answers.filter(a => a?.correct).length} correct
         </div>
       </div>
 
-      <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-6">
-        <div className="mb-4 text-lg text-neutral-100 font-semibold">{q.question}</div>
+      <div className="bg-white border border-slate-200 rounded-lg p-6 shadow-sm">
+        <div className="mb-4 text-lg text-slate-900 font-semibold">{q.question}</div>
 
         <div className="space-y-3">
           {q.options.map((opt, i) => {
             // determine styling
             let base = "w-full text-left px-4 py-3 rounded-lg border transition flex items-center";
-            let className = base + " border-neutral-700 bg-neutral-800 text-neutral-200";
+            let className = base + " border-slate-200 bg-slate-50 text-slate-700";
             if (revealed && selected === i) {
               // user selected this option and answer is revealed
               if (i === q.correctIndex) {
-                className = base + " bg-blue-900 border-blue-700 text-white"; // correct -> dark blue
+                className = base + " bg-[#e8f4fc] border-[#6ab3ea] text-[#1f5f89]";
               } else {
-                className = base + " bg-red-800 border-red-700 text-white"; // incorrect -> dark red
+                className = base + " bg-red-50 border-red-300 text-red-700";
               }
             } else if (revealed && i === q.correctIndex) {
               // show correct answer even if not selected
-              className = base + " bg-blue-900 border-blue-700 text-white";
+              className = base + " bg-[#e8f4fc] border-[#6ab3ea] text-[#1f5f89]";
             }
 
             return (
@@ -97,16 +97,16 @@ const QuizPlayer = ({ quiz, onFinish }) => {
 
         {/* explanation */}
         {revealed && (
-          <div className="mt-4 text-sm text-neutral-200">
+          <div className="mt-4 text-sm text-slate-700">
             <div className="font-semibold">Explanation</div>
-            <div className="mt-2 text-neutral-300">{q.explanation}</div>
+            <div className="mt-2 text-slate-600">{q.explanation}</div>
           </div>
         )}
 
         {/* hint toggle */}
         <div className="mt-4 flex items-center justify-between">
           <button
-            className="text-sm text-neutral-300 hover:underline"
+            className="text-sm text-[#2f7fb5] hover:underline"
             onClick={() => setShowHint(!showHint)}
             type="button"
           >
@@ -115,7 +115,7 @@ const QuizPlayer = ({ quiz, onFinish }) => {
 
           <div>
             <button
-              className="bg-gray-600 hover:bg-gray-500 text-white py-2 px-4 rounded-lg mr-2"
+              className="bg-slate-200 hover:bg-slate-300 text-slate-800 py-2 px-4 rounded-lg mr-2"
               onClick={goPrev}
               disabled={index === 0}
             >
@@ -123,7 +123,7 @@ const QuizPlayer = ({ quiz, onFinish }) => {
             </button>
 
             <button
-              className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg"
+              className="bg-[#6ab3ea] hover:bg-[#4a9ed9] text-white py-2 px-4 rounded-lg"
               onClick={goNext}
               disabled={!revealed}
             >
@@ -133,7 +133,7 @@ const QuizPlayer = ({ quiz, onFinish }) => {
         </div>
 
         {showHint && (
-          <div className="mt-3 text-sm text-neutral-300 bg-neutral-800 p-3 rounded">
+          <div className="mt-3 text-sm text-slate-700 bg-sky-50 border border-sky-100 p-3 rounded">
             {q.hint}
           </div>
         )}

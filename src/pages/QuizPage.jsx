@@ -21,7 +21,7 @@ const QuizPage = () => {
           <h1 className="text-2xl font-bold text-red-500 mb-4">Quiz Not Found</h1>
           <p>The quiz you are looking for does not exist.</p>
           <button
-            className="text-blue-400 hover:underline"
+            className="text-[#2f7fb5] hover:text-[#21628d] hover:underline"
             onClick={() => navigate("-1")}
           >
             &larr; Go Back

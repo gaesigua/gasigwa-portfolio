@@ -400,6 +400,91 @@ tr:hover {
   font-size: 1.2em;
 }
 
+/* Light Theme Overrides for Lesson Content */
+.lesson-content,
+.prose {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 16px rgba(15, 23, 42, 0.06);
+  margin-bottom: 2rem;
+  color: #334155;
+}
+
+.lesson-content h1,
+.prose h1 {
+  color: #0f172a;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.lesson-content h2,
+.prose h2,
+.lesson-content h3,
+.prose h3,
+.lesson-content h4,
+.prose h4 {
+  color: #1e293b;
+}
+
+.lesson-content p,
+.prose p,
+.lesson-content ul,
+.prose ul,
+.lesson-content ol,
+.prose ol,
+.lesson-content li,
+.prose li {
+  color: #475569;
+}
+
+.lesson-content a,
+.prose a {
+  color: #2f7fb5;
+}
+
+.steps {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.step {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.example {
+  background: #f8fcff;
+  border-left: 5px solid #6ab3ea;
+}
+
+.example h4 {
+  color: #0f172a;
+}
+
+.formula,
+.calculation,
+.note,
+.warning {
+  background: #f8fafc;
+  color: #334155;
+}
+
+.formula {
+  border: 1px solid #e2e8f0;
+}
+
+.calculation {
+  border: 1px solid #e2e8f0;
+}
+
+.note {
+  border-left: 4px solid #fbbf24;
+}
+
+.warning {
+  border-left: 4px solid #f59e0b;
+}
+
 .concept-card {
   background: white;
   border: 2px solid #e0e0e0;
