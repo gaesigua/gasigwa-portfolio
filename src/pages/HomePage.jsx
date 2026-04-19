@@ -20,12 +20,14 @@ const HomePage = () => {
           {/* Home/Hero Section */}
           <section id="home" className="text-center mb-24 md:mb-36 pt-16">
             <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
-              Hello, I'm <span className="text-[#2f7fb5]">Gasigwa</span>.
+              Welcome back, <span className="text-[#2f7fb5]">MKU Alien</span>.
             </h1>
-            <p className="text-lg md:text-2xl text-slate-600 max-w-3xl mx-auto mb-8">
+            {/* <p className="text-lg md:text-2xl text-slate-600 max-w-3xl mx-auto mb-8">
               A Java & Springboot Developer with a passion for building robust
               applications and sharing programming knowledge in Rwanda.
-            </p>
+            </p> */}
+            <p className="text-base md:text-2xl text-slate-600 max-w-3xl mx-auto mb-8">
+              Let's learn together at our own pace. Build at our own speed.</p>
             <div className="flex justify-center space-x-4">
               <a
                 href="#projects"

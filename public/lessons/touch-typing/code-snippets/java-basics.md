@@ -1,4 +1,6 @@
-# Java Basics
+# coming soon
+
+<!-- # Java Basics
 
 Type out this standard Java class definition.
-Pay attention to capitalization and braces.
+Pay attention to capitalization and braces. -->

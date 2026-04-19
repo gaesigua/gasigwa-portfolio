@@ -1,6 +1,7 @@
     import React from 'react';
     import ReactDOM from 'react-dom/client';
     import { BrowserRouter } from 'react-router-dom';  // Import BrowserRouter
+    import { Analytics } from '@vercel/analytics/react';
     import App from './App.jsx'; // Note: .jsx extension is common with Vite React
     import './App.css'; // Import custom styles
     import './index.css'; // Import the Tailwind CSS
@@ -10,6 +11,7 @@
       <React.StrictMode>
         <BrowserRouter>          {/*Wrapping our entire App with BrowserRouter so it can handle routing (control the URLs)*/}
           <App />
+          <Analytics />
         </BrowserRouter>
       </React.StrictMode>
     );

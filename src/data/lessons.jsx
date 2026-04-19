@@ -1,66 +1,293 @@
 export const lessons = [
   {
-    slug: "computer-basics",
-    title: "Computer Basics",
+    slug: "computer-programming-and-data-structures",
+    title: "Computer Programming and Data Structures",
     summary:
-      "start your programming journey with computer basics, understand foundational concepts of computer hardware, software, electronic devices, operating systems, and more.",
-    tags: "computer parts, internet basics",
-    logo: "/computer-basics-logo.png",
+      "learn the fundamentals of computer programming and how to write code",
+    tags: "data structures, algorithms, programming, coding",
+    logo: "/computer-programming-logo.png",
     sections: [
       {
-        slug: "computer-software",
-        title: "Computer Software",
+        slug: "computer-programming",
+        title: "Computer Programming",
         summary:
-          "Introduction to computer software and parts.",
+          "A complete, detailed course covering computer programming from foundational methodology through algorithm analysis and dynamic programming, with C language examples, practice problems, and quizzes.",
         pages: [
           {
-            slug: "what-is-a-computer",
-            title: "What is a computer?",
+            slug: "introduction-to-computer-programming-methodology",
+            title: "1. Introduction to Computer Programming Methodology",
             summary:
-              "A computer is an electronic device that can store, retrieve, and process data. It is a programmable machine that can be used to perform a wide range of tasks.",
+              "Learn what computer programming is, its role in problem solving, the Program Development Life Cycle (PDLC), and why programming methodologies matter.",
+            quiz: "cp-intro",
           },
           {
-            slug: "parts-of-a-computer",
-            title: "Parts of a Computer",
+            slug: "problem-definition-and-classification",
+            title: "2. Problem Definition and Classification",
             summary:
-              "A computer is made up of several parts that work together to perform tasks. These parts include the monitor, keyboard, mouse, and CPU.",
+              "Understand how to define a programming problem, identify inputs, outputs, and constraints, and distinguish between tractable and intractable problems.",
+            quiz: "cp-problem-definition",
           },
           {
-            slug: "what-makes-a-computer-run",
-            title: "What Makes a Computer Run",
+            slug: "algorithms",
+            title: "3. Algorithms",
             summary:
-              "A computer runs on electricity and software. The software tells the hardware what to do, and the hardware performs the tasks.",
+              "Explore the definition and properties of algorithms, characteristics of good algorithms, how to document them, and stepwise refinement.",
+            quiz: "cp-algorithms",
           },
           {
-            slug: "using-a-mouse",
-            title: "Using a Mouse",
+            slug: "problem-solving-techniques",
+            title: "4. Problem-Solving Techniques",
             summary:
-              "A mouse is a pointing device that is used to interact with the computer. It is used to move the cursor on the screen and to select items.",
+              "Master top-down problem solving, problem decomposition, and the bottom-up approach, with C code examples showing how each works.",
+            quiz: "cp-problem-solving",
           },
           {
-            slug: "computer-lab-rules",
-            title: "Computer Lab Rules",
+            slug: "flowcharts",
+            title: "5. Flowcharts",
             summary:
-              "Computer lab rules are guidelines that are put in place to ensure that the computer lab is used safely and effectively. These rules include not eating or drinking in the lab, not using the computers for personal use, and not sharing passwords with others.",
+              "Learn the standard flowchart symbols, how to draw flowcharts for algorithms, and how to convert flowcharts into working C programs.",
+            quiz: "cp-flowcharts",
+          },
+          {
+            slug: "structured-programming",
+            title: "6. Structured Programming",
+            summary:
+              "Discover the principles of structured programming including sequence, selection, and iteration control structures with C examples.",
+            quiz: "cp-structured",
+          },
+          {
+            slug: "pseudocode",
+            title: "7. Pseudocode",
+            summary:
+              "Learn how to write pseudocode, its rules and conventions, and how it bridges the gap between algorithms and working code.",
+            quiz: "cp-pseudocode",
+          },
+          {
+            slug: "programming-language-fundamentals",
+            title: "8. Programming Language Fundamentals",
+            summary:
+              "Understand syntax vs semantics, C data types, variables and constants, expressions, and statements — the building blocks of any C program.",
+            quiz: "cp-fundamentals",
+          },
+          {
+            slug: "input-and-output",
+            title: "9. Input and Output",
+            summary:
+              "Master printf and scanf in C for formatted input and output, including format specifiers, escape sequences, and best practices.",
+            quiz: "cp-io",
+          },
+          {
+            slug: "control-structures",
+            title: "10. Control Structures",
+            summary:
+              "Learn if, if-else, switch for selection and for, while, do-while for iteration, plus loop control with break and continue in C.",
+            quiz: "cp-control",
+          },
+          {
+            slug: "sub-programming-and-modularization",
+            title: "11. Sub-Programming and Modularization",
+            summary:
+              "Understand modular programming, how to define and call functions in C, parameter passing, and the scope of variables.",
+            quiz: "cp-functions",
+          },
+          {
+            slug: "programming-paradigms",
+            title: "12. Programming Paradigms",
+            summary:
+              "Compare procedural and functional programming paradigms, understand object-oriented concepts, and know when to use each approach.",
+          },
+          {
+            slug: "data-abstraction",
+            title: "13. Data Abstraction",
+            summary:
+              "Learn the concept of abstraction, abstract data types (ADTs), and how encapsulation and information hiding improve program design.",
+          },
+          {
+            slug: "file-management",
+            title: "14. File Management",
+            summary:
+              "Work with files in C: file types, open/read/write/close operations, sequential vs random access, and handling file errors.",
+          },
+          {
+            slug: "programming-standards",
+            title: "15. Programming Standards",
+            summary:
+              "Apply coding standards and conventions, write effective comments and documentation, and use debugging and testing strategies.",
+          },
+          {
+            slug: "writing-correct-and-efficient-programs",
+            title: "16. Writing Correct and Efficient Programs",
+            summary:
+              "Understand program correctness, efficiency considerations, and practical optimization techniques to write better C programs.",
+          },
+          {
+            slug: "algorithm-design-and-analysis",
+            title: "17. Algorithm Design and Analysis",
+            summary:
+              "Analyze algorithms using summations, recurrence relations, and Big-O notation. Understand time and space complexity with examples.",
+          },
+          {
+            slug: "dynamic-programming",
+            title: "18. Dynamic Programming",
+            summary:
+              "Master dynamic programming: optimal substructure, overlapping subproblems, memoization, and classic examples like Fibonacci and knapsack.",
           },
         ],
       },
       {
-        slug: "computer-hardware",
-        title: "Computer Hardware",
+        slug: "data-structures",
+        title: "Data Structures",
         summary:
-          " ",
+          "A comprehensive course on data structures and algorithms, covering dynamic linked structures, linking, loading, classic ADTs (stacks, queues, lists, trees, graphs), and algorithmic techniques.",
         pages: [
           {
-            slug: "introduction-to-computer-hardware",
-            title: "Introduction to Computer Hardware",
+            slug: "dynamic-linked-structures",
+            title: "1. Dynamic Linked Structures",
             summary:
-              "Computer hardware refers to the physical components of a computer system. These components include the monitor, keyboard, mouse, and CPU.",
+              "Understand dynamic linked structures: definition, characteristics, advantages, disadvantages, and how nodes are allocated at runtime using pointers in C.",
+            quiz: "ds-dynamic-linked-structures",
+          },
+          {
+            slug: "compiler-drivers-and-program-linking",
+            title: "2. Compiler Drivers and Program Linking",
+            summary:
+              "Learn how compiler drivers coordinate the full compilation pipeline — preprocessing, compilation, assembly, and linking — to produce an executable.",
+            quiz: "ds-compiler-drivers",
+          },
+          {
+            slug: "static-linking",
+            title: "3. Static Linking",
+            summary:
+              "Explore static linking: how library code is embedded into executables at compile time, its advantages for portability, and how to create and use static libraries.",
+            quiz: "ds-static-linking",
+          },
+          {
+            slug: "symbol-resolution",
+            title: "4. Symbol Resolution",
+            summary:
+              "Understand how the linker resolves global, local, and external symbols across object files, and what causes common linking errors like undefined references.",
+            quiz: "ds-symbol-resolution",
+          },
+          {
+            slug: "relocatable-and-executable-object-files",
+            title: "5. Relocatable and Executable Object Files",
+            summary:
+              "Distinguish between relocatable object files (produced by the assembler) and executable object files (produced by the linker), and understand their contents and role.",
+            quiz: "ds-object-files",
+          },
+          {
+            slug: "loading-executable-files",
+            title: "6. Loading Executable Files",
+            summary:
+              "Learn how the OS loader prepares an executable for execution: memory allocation, copying code, initializing the runtime environment, and transferring control.",
+            quiz: "ds-loading",
+          },
+          {
+            slug: "dynamic-linking-with-shared-libraries",
+            title: "7. Dynamic Linking with Shared Libraries",
+            summary:
+              "Discover how dynamic linking defers library loading to runtime, how shared libraries (.so/.dll) are used, and the trade-offs versus static linking.",
+            quiz: "ds-dynamic-linking",
+          },
+          {
+            slug: "loading-and-linking-shared-libraries",
+            title: "8. Loading and Linking Shared Libraries from Applications",
+            summary:
+              "Learn how applications explicitly load shared libraries at runtime using dlopen/dlsym on Linux and LoadLibrary on Windows, enabling plugin-based architectures.",
+            quiz: "ds-shared-libraries",
+          },
+          {
+            slug: "position-independent-code",
+            title: "9. Position Independent Code (PIC)",
+            summary:
+              "Understand position-independent code: why it is required for shared libraries, how relative addressing works, and the roles of the GOT and PLT.",
+            quiz: "ds-pic",
+          },
+          {
+            slug: "tools-for-manipulating-object-files",
+            title: "10. Tools for Manipulating Object Files",
+            summary:
+              "Master essential binary tools: objdump, nm, ldd, readelf, and ar — for inspecting, debugging, and managing object files and libraries.",
+            quiz: "ds-object-tools",
+          },
+          {
+            slug: "sets",
+            title: "11. Sets",
+            summary:
+              "Explore sets as unordered collections of distinct elements, their operations (union, intersection, difference), and practical applications in programming.",
+            quiz: "ds-sets",
+          },
+          {
+            slug: "information-technologies",
+            title: "12. Information Technologies",
+            summary:
+              "Overview of IT components — hardware, software, data, networks, and people — with practical programming examples for each component.",
+            quiz: "ds-information-technologies",
+          },
+          {
+            slug: "stacks",
+            title: "13. Stacks",
+            summary:
+              "Master the stack (LIFO) data structure: push, pop, peek operations, array and linked-list implementations in C, and key applications like expression evaluation.",
+            quiz: "ds-stacks",
+          },
+          {
+            slug: "queues",
+            title: "14. Queues",
+            summary:
+              "Understand queues (FIFO), their variants (linear, circular, priority), implementations in C, and applications in scheduling and simulation.",
+          },
+          {
+            slug: "lists",
+            title: "15. Lists",
+            summary:
+              "Comprehensively cover singly, doubly, and circular linked lists in C: node structure, insertion, deletion, traversal, and real-world applications.",
+          },
+          {
+            slug: "trees",
+            title: "16. Trees",
+            summary:
+              "Learn tree data structures: binary trees, BSTs, AVL trees, and heaps — with C implementations for insert, search, delete, and all three traversal orders.",
+          },
+          {
+            slug: "graphs",
+            title: "17. Graphs",
+            summary:
+              "Explore graphs: directed, undirected, and weighted graphs, adjacency matrix and list representations in C, and BFS/DFS traversal algorithms.",
+          },
+          {
+            slug: "recursion",
+            title: "18. Recursion",
+            summary:
+              "Master recursion: base cases, recursive cases, the call stack, and classic examples — factorial, Fibonacci, binary search, and tree traversal — in C and Python.",
+          },
+          {
+            slug: "sorting-and-searching",
+            title: "19. Sorting and Searching",
+            summary:
+              "Study and compare sorting algorithms (bubble, insertion, merge, quick sort) and searching algorithms (linear, binary search) with complexity analysis.",
+          },
+          {
+            slug: "greedy-algorithms",
+            title: "20. Greedy Algorithms",
+            summary:
+              "Understand greedy algorithm strategy, the greedy choice property, and classic examples: Kruskal's MST, Prim's MST, Huffman coding, and fractional knapsack.",
+          },
+          {
+            slug: "divide-and-conquer",
+            title: "21. Divide and Conquer",
+            summary:
+              "Learn the divide-and-conquer paradigm with classic examples: merge sort, quick sort, binary search, and maximum subarray sum with step-by-step analysis.",
+          },
+          {
+            slug: "extensive-analysis-of-computer-algorithms",
+            title: "22. Extensive Analysis of Computer Algorithms",
+            summary:
+              "Deep-dive into algorithm analysis: time complexity (best/average/worst case), space complexity, Big-O notation, and comparison tables for major algorithms.",
           },
         ],
       },
-
-    ]
+    ],
   },
   {
     slug: "digital-electronics-and-electrical-circuits",
@@ -731,294 +958,67 @@ export const lessons = [
     ],
   },
   {
-    slug: "computer-programming-and-data-structures",
-    title: "Computer Programming and Data Structures",
+    slug: "computer-basics",
+    title: "Computer Basics",
     summary:
-      "learn the fundamentals of computer programming and how to write code",
-    tags: "data structures, algorithms, programming, coding",
-    logo: "/computer-programming-logo.png",
+      "start your programming journey with computer basics, understand foundational concepts of computer hardware, software, electronic devices, operating systems, and more.",
+    tags: "computer parts, internet basics",
+    logo: "/computer-basics-logo.png",
     sections: [
       {
-        slug: "computer-programming",
-        title: "Computer Programming",
+        slug: "computer-software",
+        title: "Computer Software",
         summary:
-          "A complete, detailed course covering computer programming from foundational methodology through algorithm analysis and dynamic programming, with C language examples, practice problems, and quizzes.",
+          "Introduction to computer software and parts.",
         pages: [
           {
-            slug: "introduction-to-computer-programming-methodology",
-            title: "1. Introduction to Computer Programming Methodology",
+            slug: "what-is-a-computer",
+            title: "What is a computer?",
             summary:
-              "Learn what computer programming is, its role in problem solving, the Program Development Life Cycle (PDLC), and why programming methodologies matter.",
-            quiz: "cp-intro",
+              "A computer is an electronic device that can store, retrieve, and process data. It is a programmable machine that can be used to perform a wide range of tasks.",
           },
           {
-            slug: "problem-definition-and-classification",
-            title: "2. Problem Definition and Classification",
+            slug: "parts-of-a-computer",
+            title: "Parts of a Computer",
             summary:
-              "Understand how to define a programming problem, identify inputs, outputs, and constraints, and distinguish between tractable and intractable problems.",
-            quiz: "cp-problem-definition",
+              "A computer is made up of several parts that work together to perform tasks. These parts include the monitor, keyboard, mouse, and CPU.",
           },
           {
-            slug: "algorithms",
-            title: "3. Algorithms",
+            slug: "what-makes-a-computer-run",
+            title: "What Makes a Computer Run",
             summary:
-              "Explore the definition and properties of algorithms, characteristics of good algorithms, how to document them, and stepwise refinement.",
-            quiz: "cp-algorithms",
+              "A computer runs on electricity and software. The software tells the hardware what to do, and the hardware performs the tasks.",
           },
           {
-            slug: "problem-solving-techniques",
-            title: "4. Problem-Solving Techniques",
+            slug: "using-a-mouse",
+            title: "Using a Mouse",
             summary:
-              "Master top-down problem solving, problem decomposition, and the bottom-up approach, with C code examples showing how each works.",
-            quiz: "cp-problem-solving",
+              "A mouse is a pointing device that is used to interact with the computer. It is used to move the cursor on the screen and to select items.",
           },
           {
-            slug: "flowcharts",
-            title: "5. Flowcharts",
+            slug: "computer-lab-rules",
+            title: "Computer Lab Rules",
             summary:
-              "Learn the standard flowchart symbols, how to draw flowcharts for algorithms, and how to convert flowcharts into working C programs.",
-            quiz: "cp-flowcharts",
-          },
-          {
-            slug: "structured-programming",
-            title: "6. Structured Programming",
-            summary:
-              "Discover the principles of structured programming including sequence, selection, and iteration control structures with C examples.",
-            quiz: "cp-structured",
-          },
-          {
-            slug: "pseudocode",
-            title: "7. Pseudocode",
-            summary:
-              "Learn how to write pseudocode, its rules and conventions, and how it bridges the gap between algorithms and working code.",
-            quiz: "cp-pseudocode",
-          },
-          {
-            slug: "programming-language-fundamentals",
-            title: "8. Programming Language Fundamentals",
-            summary:
-              "Understand syntax vs semantics, C data types, variables and constants, expressions, and statements — the building blocks of any C program.",
-            quiz: "cp-fundamentals",
-          },
-          {
-            slug: "input-and-output",
-            title: "9. Input and Output",
-            summary:
-              "Master printf and scanf in C for formatted input and output, including format specifiers, escape sequences, and best practices.",
-            quiz: "cp-io",
-          },
-          {
-            slug: "control-structures",
-            title: "10. Control Structures",
-            summary:
-              "Learn if, if-else, switch for selection and for, while, do-while for iteration, plus loop control with break and continue in C.",
-            quiz: "cp-control",
-          },
-          {
-            slug: "sub-programming-and-modularization",
-            title: "11. Sub-Programming and Modularization",
-            summary:
-              "Understand modular programming, how to define and call functions in C, parameter passing, and the scope of variables.",
-            quiz: "cp-functions",
-          },
-          {
-            slug: "programming-paradigms",
-            title: "12. Programming Paradigms",
-            summary:
-              "Compare procedural and functional programming paradigms, understand object-oriented concepts, and know when to use each approach.",
-          },
-          {
-            slug: "data-abstraction",
-            title: "13. Data Abstraction",
-            summary:
-              "Learn the concept of abstraction, abstract data types (ADTs), and how encapsulation and information hiding improve program design.",
-          },
-          {
-            slug: "file-management",
-            title: "14. File Management",
-            summary:
-              "Work with files in C: file types, open/read/write/close operations, sequential vs random access, and handling file errors.",
-          },
-          {
-            slug: "programming-standards",
-            title: "15. Programming Standards",
-            summary:
-              "Apply coding standards and conventions, write effective comments and documentation, and use debugging and testing strategies.",
-          },
-          {
-            slug: "writing-correct-and-efficient-programs",
-            title: "16. Writing Correct and Efficient Programs",
-            summary:
-              "Understand program correctness, efficiency considerations, and practical optimization techniques to write better C programs.",
-          },
-          {
-            slug: "algorithm-design-and-analysis",
-            title: "17. Algorithm Design and Analysis",
-            summary:
-              "Analyze algorithms using summations, recurrence relations, and Big-O notation. Understand time and space complexity with examples.",
-          },
-          {
-            slug: "dynamic-programming",
-            title: "18. Dynamic Programming",
-            summary:
-              "Master dynamic programming: optimal substructure, overlapping subproblems, memoization, and classic examples like Fibonacci and knapsack.",
+              "Computer lab rules are guidelines that are put in place to ensure that the computer lab is used safely and effectively. These rules include not eating or drinking in the lab, not using the computers for personal use, and not sharing passwords with others.",
           },
         ],
       },
       {
-        slug: "data-structures",
-        title: "Data Structures",
+        slug: "computer-hardware",
+        title: "Computer Hardware",
         summary:
-          "A comprehensive course on data structures and algorithms, covering dynamic linked structures, linking, loading, classic ADTs (stacks, queues, lists, trees, graphs), and algorithmic techniques.",
+          " ",
         pages: [
           {
-            slug: "dynamic-linked-structures",
-            title: "1. Dynamic Linked Structures",
+            slug: "introduction-to-computer-hardware",
+            title: "Introduction to Computer Hardware",
             summary:
-              "Understand dynamic linked structures: definition, characteristics, advantages, disadvantages, and how nodes are allocated at runtime using pointers in C.",
-            quiz: "ds-dynamic-linked-structures",
-          },
-          {
-            slug: "compiler-drivers-and-program-linking",
-            title: "2. Compiler Drivers and Program Linking",
-            summary:
-              "Learn how compiler drivers coordinate the full compilation pipeline — preprocessing, compilation, assembly, and linking — to produce an executable.",
-            quiz: "ds-compiler-drivers",
-          },
-          {
-            slug: "static-linking",
-            title: "3. Static Linking",
-            summary:
-              "Explore static linking: how library code is embedded into executables at compile time, its advantages for portability, and how to create and use static libraries.",
-            quiz: "ds-static-linking",
-          },
-          {
-            slug: "symbol-resolution",
-            title: "4. Symbol Resolution",
-            summary:
-              "Understand how the linker resolves global, local, and external symbols across object files, and what causes common linking errors like undefined references.",
-            quiz: "ds-symbol-resolution",
-          },
-          {
-            slug: "relocatable-and-executable-object-files",
-            title: "5. Relocatable and Executable Object Files",
-            summary:
-              "Distinguish between relocatable object files (produced by the assembler) and executable object files (produced by the linker), and understand their contents and role.",
-            quiz: "ds-object-files",
-          },
-          {
-            slug: "loading-executable-files",
-            title: "6. Loading Executable Files",
-            summary:
-              "Learn how the OS loader prepares an executable for execution: memory allocation, copying code, initializing the runtime environment, and transferring control.",
-            quiz: "ds-loading",
-          },
-          {
-            slug: "dynamic-linking-with-shared-libraries",
-            title: "7. Dynamic Linking with Shared Libraries",
-            summary:
-              "Discover how dynamic linking defers library loading to runtime, how shared libraries (.so/.dll) are used, and the trade-offs versus static linking.",
-            quiz: "ds-dynamic-linking",
-          },
-          {
-            slug: "loading-and-linking-shared-libraries",
-            title: "8. Loading and Linking Shared Libraries from Applications",
-            summary:
-              "Learn how applications explicitly load shared libraries at runtime using dlopen/dlsym on Linux and LoadLibrary on Windows, enabling plugin-based architectures.",
-            quiz: "ds-shared-libraries",
-          },
-          {
-            slug: "position-independent-code",
-            title: "9. Position Independent Code (PIC)",
-            summary:
-              "Understand position-independent code: why it is required for shared libraries, how relative addressing works, and the roles of the GOT and PLT.",
-            quiz: "ds-pic",
-          },
-          {
-            slug: "tools-for-manipulating-object-files",
-            title: "10. Tools for Manipulating Object Files",
-            summary:
-              "Master essential binary tools: objdump, nm, ldd, readelf, and ar — for inspecting, debugging, and managing object files and libraries.",
-            quiz: "ds-object-tools",
-          },
-          {
-            slug: "sets",
-            title: "11. Sets",
-            summary:
-              "Explore sets as unordered collections of distinct elements, their operations (union, intersection, difference), and practical applications in programming.",
-            quiz: "ds-sets",
-          },
-          {
-            slug: "information-technologies",
-            title: "12. Information Technologies",
-            summary:
-              "Overview of IT components — hardware, software, data, networks, and people — with practical programming examples for each component.",
-            quiz: "ds-information-technologies",
-          },
-          {
-            slug: "stacks",
-            title: "13. Stacks",
-            summary:
-              "Master the stack (LIFO) data structure: push, pop, peek operations, array and linked-list implementations in C, and key applications like expression evaluation.",
-            quiz: "ds-stacks",
-          },
-          {
-            slug: "queues",
-            title: "14. Queues",
-            summary:
-              "Understand queues (FIFO), their variants (linear, circular, priority), implementations in C, and applications in scheduling and simulation.",
-          },
-          {
-            slug: "lists",
-            title: "15. Lists",
-            summary:
-              "Comprehensively cover singly, doubly, and circular linked lists in C: node structure, insertion, deletion, traversal, and real-world applications.",
-          },
-          {
-            slug: "trees",
-            title: "16. Trees",
-            summary:
-              "Learn tree data structures: binary trees, BSTs, AVL trees, and heaps — with C implementations for insert, search, delete, and all three traversal orders.",
-          },
-          {
-            slug: "graphs",
-            title: "17. Graphs",
-            summary:
-              "Explore graphs: directed, undirected, and weighted graphs, adjacency matrix and list representations in C, and BFS/DFS traversal algorithms.",
-          },
-          {
-            slug: "recursion",
-            title: "18. Recursion",
-            summary:
-              "Master recursion: base cases, recursive cases, the call stack, and classic examples — factorial, Fibonacci, binary search, and tree traversal — in C and Python.",
-          },
-          {
-            slug: "sorting-and-searching",
-            title: "19. Sorting and Searching",
-            summary:
-              "Study and compare sorting algorithms (bubble, insertion, merge, quick sort) and searching algorithms (linear, binary search) with complexity analysis.",
-          },
-          {
-            slug: "greedy-algorithms",
-            title: "20. Greedy Algorithms",
-            summary:
-              "Understand greedy algorithm strategy, the greedy choice property, and classic examples: Kruskal's MST, Prim's MST, Huffman coding, and fractional knapsack.",
-          },
-          {
-            slug: "divide-and-conquer",
-            title: "21. Divide and Conquer",
-            summary:
-              "Learn the divide-and-conquer paradigm with classic examples: merge sort, quick sort, binary search, and maximum subarray sum with step-by-step analysis.",
-          },
-          {
-            slug: "extensive-analysis-of-computer-algorithms",
-            title: "22. Extensive Analysis of Computer Algorithms",
-            summary:
-              "Deep-dive into algorithm analysis: time complexity (best/average/worst case), space complexity, Big-O notation, and comparison tables for major algorithms.",
+              "Computer hardware refers to the physical components of a computer system. These components include the monitor, keyboard, mouse, and CPU.",
           },
         ],
       },
-    ],
+
+    ]
   },
   {
     slug: "effective-communication",
