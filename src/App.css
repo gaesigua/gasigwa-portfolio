@@ -46,11 +46,11 @@ issues; I will keep using Tailwind utility classes like container mx-auto px-4 i
 /* Custom Markdown styling for lesson content container */
 .lesson-content,
 .prose {
-  background: #18181b;
+  background: #ffffff;
   border-radius: 1rem;
   padding: 2rem;
-  border: 1px solid #27272a;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 12px rgba(106, 179, 234, 0.08);
   margin-bottom: 2rem;
 }
 
@@ -59,8 +59,8 @@ issues; I will keep using Tailwind utility classes like container mx-auto px-4 i
 .prose h1 {
   font-size: 2rem;
   font-weight: 900;
-  color: #fff;
-  border-bottom: 2px solid #27272a;
+  color: #0f172a;
+  border-bottom: 2px solid #e2e8f0;
   padding-bottom: 0.75rem;
   margin-bottom: 2rem;
   letter-spacing: -1px;
@@ -72,9 +72,19 @@ issues; I will keep using Tailwind utility classes like container mx-auto px-4 i
 .prose h2 {
   font-size: 1.75rem;
   font-weight: 700;
-  color: #e0e0e0;
+  color: #1e3a5f;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.lesson-content h3,
+.prose h3 {
+  color: #1e3a5f;
+}
+
+.lesson-content h4,
+.prose h4 {
+  color: #1e3a5f;
 }
 
 .lesson-content p,
@@ -84,10 +94,19 @@ issues; I will keep using Tailwind utility classes like container mx-auto px-4 i
 .lesson-content ol,
 .prose ol {
   font-size: 1rem;
-  /* font-size: 1.125rem; */
-  color: #d4d4d8;
+  color: #374151;
   line-height: 1.8;
   margin-bottom: 1rem;
+}
+
+.lesson-content li,
+.prose li {
+  color: #374151;
+}
+
+.lesson-content strong,
+.prose strong {
+  color: #0f172a;
 }
 
 .steps {
@@ -1214,14 +1233,16 @@ tr:hover {
    ============================================================ */
 
 /* ---------- Fenced code blocks rendered by ReactMarkdown ---------- */
+/* Code blocks stay dark — dark-on-light is a universally accepted pattern */
 .lesson-content pre,
 .prose pre {
-  background: #1e1e1e;
-  border-left: 4px solid #569cd6;
+  background: #1a1d23;
+  border-left: 4px solid #6ab3ea;
   border-radius: 8px;
   padding: 1.25rem 1.5rem;
   overflow-x: auto;
   margin: 1.25rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
 }
 
 .lesson-content pre code,
@@ -1234,88 +1255,132 @@ tr:hover {
   font-family: 'Courier New', Consolas, monospace;
 }
 
-/* Inline code in prose */
+/* Inline code in prose — light pill style */
 .lesson-content code,
 .prose code {
-  background: #2d2d2d;
-  color: #ce9178;
-  padding: 0.15em 0.4em;
+  background: #eff6ff;
+  color: #1e40af;
+  padding: 0.15em 0.45em;
   border-radius: 4px;
+  border: 1px solid #bfdbfe;
   font-family: 'Courier New', Consolas, monospace;
   font-size: 0.88em;
 }
 
-/* ---------- <details> / <summary> for hints & solutions ---------- */
+/* Override: code INSIDE a pre block keeps dark style */
+.lesson-content pre code,
+.prose pre code {
+  background: transparent;
+  color: #d4d4d4;
+  border: none;
+  padding: 0;
+}
+
+/* ---------- <details> / <summary> — practice problems & hints ---------- */
 .lesson-content details,
 .prose details {
-  background: #0f172a;
-  border: 1px solid #334155;
+  background: #f0f7ff;
+  border: 1px solid #bfdbfe;
   border-radius: 8px;
   padding: 0.75rem 1rem;
   margin: 0.75rem 0;
+  transition: background 0.2s;
+}
+
+.lesson-content details[open],
+.prose details[open] {
+  background: #fff;
+  border-color: #6ab3ea;
 }
 
 .lesson-content summary,
 .prose summary {
   cursor: pointer;
-  color: #38bdf8;
+  color: #1e40af;
   font-weight: 600;
   list-style: none;
   user-select: none;
-  padding: 0.25rem 0;
+  padding: 0.35rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lesson-content summary::before,
+.prose summary::before {
+  content: '▶';
+  font-size: 0.7em;
+  color: #6ab3ea;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.lesson-content details[open] summary::before,
+.prose details[open] summary::before {
+  transform: rotate(90deg);
 }
 
 .lesson-content summary::-webkit-details-marker { display: none; }
 
 .lesson-content details[open] summary,
 .prose details[open] summary {
-  color: #7dd3fc;
+  color: #1e40af;
   margin-bottom: 0.75rem;
+  border-bottom: 1px solid #e0f0ff;
+  padding-bottom: 0.5rem;
 }
 
-/* ---------- Information / warning / tip banners ---------- */
+/* ---------- Information / warning / tip banners — LIGHT THEME ---------- */
 .cp-note {
-  background: #1e293b;
-  border-left: 4px solid #fbbf24;
+  background: #fffbeb;
+  border-left: 4px solid #f59e0b;
   border-radius: 6px;
   padding: 1rem 1.25rem;
   margin: 1rem 0;
-  color: #fde68a;
+  color: #78350f;
 }
 
+.cp-note strong { color: #92400e; }
+
 .cp-tip {
-  background: #052e16;
+  background: #f0fdf4;
   border-left: 4px solid #22c55e;
   border-radius: 6px;
   padding: 1rem 1.25rem;
   margin: 1rem 0;
-  color: #bbf7d0;
+  color: #14532d;
 }
 
+.cp-tip strong { color: #166534; }
+
 .cp-warning {
-  background: #1c0a00;
+  background: #fff1f2;
   border-left: 4px solid #ef4444;
   border-radius: 6px;
   padding: 1rem 1.25rem;
   margin: 1rem 0;
-  color: #fca5a5;
+  color: #7f1d1d;
 }
 
+.cp-warning strong { color: #991b1b; }
+
 .cp-info {
-  background: #0c1a2e;
-  border-left: 4px solid #60a5fa;
+  background: #eff6ff;
+  border-left: 4px solid #6ab3ea;
   border-radius: 6px;
   padding: 1rem 1.25rem;
   margin: 1rem 0;
-  color: #bfdbfe;
+  color: #1e3a5f;
 }
+
+.cp-info strong { color: #1e40af; }
 
 /* ---------- Algorithm complexity badge ---------- */
 .complexity-badge {
   display: inline-block;
-  background: #1e293b;
-  color: #7dd3fc;
-  border: 1px solid #38bdf8;
+  background: #eff6ff;
+  color: #1e40af;
+  border: 1px solid #6ab3ea;
   border-radius: 20px;
   padding: 0.2rem 0.75rem;
   font-family: 'Courier New', monospace;
@@ -1326,8 +1391,8 @@ tr:hover {
 
 /* ---------- Flowchart container (SVG diagrams) ---------- */
 .flowchart-container {
-  background: #18181b;
-  border: 1px solid #334155;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
   border-radius: 10px;
   padding: 1.5rem;
   margin: 1.5rem 0;
@@ -1340,27 +1405,41 @@ tr:hover {
   height: auto;
 }
 
-/* ---------- Definition card (CP course variant – dark) ---------- */
+/* ---------- Definition card (CP course variant – light) ---------- */
 .cp-definition {
-  background: #0f172a;
-  border: 1px solid #1e40af;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-left: 4px solid #6ab3ea;
   border-radius: 10px;
   padding: 1.25rem 1.5rem;
   margin: 1.25rem 0;
 }
 
-.cp-definition h4 {
-  color: #93c5fd;
-  font-size: 1.15rem;
+.cp-definition h4,
+.cp-definition h5 {
+  color: #1e40af;
+  font-size: 1.1rem;
   margin-bottom: 0.6rem;
 }
 
 .cp-definition p,
 .cp-definition li {
-  color: #cbd5e1;
+  color: #1e3a5f;
 }
 
-/* ---------- Two-column comparison grid (CP) ---------- */
+.cp-definition strong {
+  color: #1e40af;
+}
+
+.cp-definition table {
+  background: #ffffff;
+}
+
+.cp-definition td {
+  color: #1e3a5f;
+}
+
+/* ---------- Two-column comparison grid (CP) – light ---------- */
 .cp-comparison {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1369,19 +1448,21 @@ tr:hover {
 }
 
 .cp-comparison-left {
-  background: #052e16;
-  border: 1px solid #16a34a;
+  background: #f0fdf4;
+  border: 1px solid #86efac;
+  border-left: 4px solid #22c55e;
   border-radius: 8px;
   padding: 1rem 1.25rem;
-  color: #bbf7d0;
+  color: #14532d;
 }
 
 .cp-comparison-right {
-  background: #1c0a00;
-  border: 1px solid #dc2626;
+  background: #fff1f2;
+  border: 1px solid #fca5a5;
+  border-left: 4px solid #ef4444;
   border-radius: 8px;
   padding: 1rem 1.25rem;
-  color: #fca5a5;
+  color: #7f1d1d;
 }
 
 .cp-comparison-left h5,
@@ -1391,14 +1472,14 @@ tr:hover {
   font-weight: 700;
 }
 
-.cp-comparison-left h5 { color: #4ade80; }
-.cp-comparison-right h5 { color: #f87171; }
+.cp-comparison-left h5 { color: #16a34a; }
+.cp-comparison-right h5 { color: #dc2626; }
 
 @media (max-width: 640px) {
   .cp-comparison { grid-template-columns: 1fr; }
 }
 
-/* ---------- Step/phase list (PDLC, algorithm steps) ---------- */
+/* ---------- Step/phase list (PDLC, algorithm steps) – light ---------- */
 .cp-steps {
   list-style: none;
   padding: 0;
@@ -1410,14 +1491,14 @@ tr:hover {
   align-items: flex-start;
   gap: 1rem;
   padding: 0.75rem 0;
-  border-bottom: 1px solid #27272a;
-  color: #d4d4d8;
+  border-bottom: 1px solid #e2e8f0;
+  color: #374151;
 }
 
 .cp-steps li:last-child { border-bottom: none; }
 
 .cp-step-num {
-  background: linear-gradient(135deg, #1e40af, #0ea5e9);
+  background: linear-gradient(135deg, #1e40af, #6ab3ea);
   color: white;
   min-width: 2rem;
   height: 2rem;
@@ -1428,4 +1509,35 @@ tr:hover {
   font-weight: 700;
   font-size: 0.85rem;
   flex-shrink: 0;
+}
+
+/* ---------- Lesson content table overrides for light mode ---------- */
+.lesson-content table,
+.prose table {
+  background: #ffffff;
+}
+
+.lesson-content td,
+.prose td {
+  color: #374151;
+}
+
+/* ---------- Horizontal rule ---------- */
+.lesson-content hr,
+.prose hr {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin: 2rem 0;
+}
+
+/* ---------- Blockquote ---------- */
+.lesson-content blockquote,
+.prose blockquote {
+  border-left: 4px solid #6ab3ea;
+  background: #eff6ff;
+  padding: 0.75rem 1.25rem;
+  margin: 1rem 0;
+  border-radius: 0 6px 6px 0;
+  color: #1e3a5f;
+  font-style: italic;
 }

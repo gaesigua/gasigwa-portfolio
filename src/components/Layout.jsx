@@ -5,14 +5,11 @@ const Layout = ({ children }) => (
   <div className="min-h-screen bg-white text-slate-800 font-sans antialiased flex flex-col">
     {/* Header */}
     <header className="bg-white/95 backdrop-blur border-b border-slate-200 py-4 px-6 flex items-center justify-between sticky top-0 z-20">
-      <Link
-        to="/"
-        className="text-2xl font-bold text-[#4a9ed9] hover:text-[#2f7fb5] transition-colors"
-      >
+      <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
         <img
           src="/gasigwa-logo.png"
-          alt="Gasigwa.dev Home"
-          className="h-12 w-12 md:h-16 md:w-16 rounded-full object-cover"
+          alt="Gasigwa — Learn With Me"
+          className="h-9 md:h-11 w-auto object-contain"
         />
       </Link>
       <nav className="flex space-x-2 md:space-x-4">

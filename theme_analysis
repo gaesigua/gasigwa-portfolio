@@ -1,0 +1,73 @@
+# Theme Audit Report
+
+Overall: **Great progress!** The light-theme migration is ~85% complete. The global structure, homepage, course catalog, and quiz shell are all clean and consistent. There are two clear categories of remaining work.
+
+---
+
+## What Looks Great ✅
+
+````carousel
+![Homepage Hero](C:\Users\gasig\.gemini\antigravity\brain\8ae9a2e6-3810-443e-ac50-eff4b043a042\homepage_top_1776591186155.png)
+<!-- slide -->
+![Homepage Cards](C:\Users\gasig\.gemini\antigravity\brain\8ae9a2e6-3810-443e-ac50-eff4b043a042\homepage_cards_1776591208907.png)
+<!-- slide -->
+![Course Catalog](C:\Users\gasig\.gemini\antigravity\brain\8ae9a2e6-3810-443e-ac50-eff4b043a042\course_catalog_page_1776591237474.png)
+````
+
+| Area | Status | Notes |
+|------|--------|-------|
+| Navbar | ✅ Clean | White bar, dark text, great |
+| Footer | ✅ Clean | Light, minimal, consistent |
+| Homepage hero | ✅ Clean | Light gray bg, blue accent on name |
+| Homepage cards | ✅ Clean | White cards, subtle borders, good hierarchy |
+| Course catalog page | ✅ Clean | Very Coursera-like: clean list layout, light bg |
+| Quiz shell | ✅ Clean | Light card, readable question text |
+
+---
+
+## What Still Needs Work ⚠️
+
+````carousel
+![Lesson page — dark info boxes](C:\Users\gasig\.gemini\antigravity\brain\8ae9a2e6-3810-443e-ac50-eff4b043a042\lesson_page_top_1776591282951.png)
+<!-- slide -->
+![Practice problem headers + warning box](C:\Users\gasig\.gemini\antigravity\brain\8ae9a2e6-3810-443e-ac50-eff4b043a042\quiz_section_1776591336946.png)
+````
+
+### Issue 1 — Dark callout boxes inside lesson content (HIGH PRIORITY)
+
+The markdown renderer still applies old dark CSS to the custom callout/box classes.
+Three specific block types are afflicted:
+
+| Class | Current | Should Be |
+|-------|---------|-----------|
+| `.cp-definition` (blue key-concept boxes) | **Dark navy `#0f172a`** background | Soft blue tint: `#eff6ff` bg, `#1e3a5f` text |
+| `.cp-warning` (warning boxes) | **Dark near-black with red border** | Soft amber: `#fffbeb` bg, `#92400e` text |
+| `.cp-note` / `.cp-tip` | **Dark navy** | Soft yellow/green tint |
+
+> These are defined in `App.css` from the original dark theme. The fix is targeted CSS overrides.
+
+---
+
+### Issue 2 — Practice Problem accordions (HIGH PRIORITY)
+
+The `<details><summary>` practice blocks (🧩 Practice 1, etc.) render with a **solid dark navy header** (`#0f172a` or similar). In the light theme this is jarring — it looks like a broken component.
+
+> The fix is adding light-theme styles for `details` and `summary` in `App.css`.
+
+---
+
+### Summary of Fixes Needed
+
+| Fix | Where | Effort |
+|----|-------|--------|
+| Lighten `.cp-definition`, `.cp-note`, `.cp-warning`, `.cp-tip` boxes | `App.css` | Small |
+| Style `details`/`summary` for light mode (practice problem accordions) | `App.css` | Small |
+| Check `lesson-content code` and `pre` block text colors | `App.css` | Small |
+
+---
+
+## Recommendation
+
+Everything structural is already done — the remaining issues are **all in `App.css`**, specifically the markdown content block classes. No component files need to be touched. This is a targeted, low-risk fix.
+
+Want me to go ahead and apply these fixes?
