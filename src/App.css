@@ -46,11 +46,6 @@ issues; I will keep using Tailwind utility classes like container mx-auto px-4 i
 /* Custom Markdown styling for lesson content container */
 .lesson-content,
 .prose {
-  background: #ffffff;
-  border-radius: 1rem;
-  padding: 2rem;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 2px 12px rgba(106, 179, 234, 0.08);
   margin-bottom: 2rem;
 }
 
@@ -79,12 +74,20 @@ issues; I will keep using Tailwind utility classes like container mx-auto px-4 i
 
 .lesson-content h3,
 .prose h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
   color: #1e3a5f;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .lesson-content h4,
 .prose h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
   color: #1e3a5f;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .lesson-content p,
@@ -93,10 +96,10 @@ issues; I will keep using Tailwind utility classes like container mx-auto px-4 i
 .prose ul,
 .lesson-content ol,
 .prose ol {
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: #374151;
   line-height: 1.8;
-  margin-bottom: 1rem;
+  margin-bottom: 1.125rem;
 }
 
 .lesson-content li,
@@ -173,12 +176,12 @@ table {
 }
 
 th {
-  /* background: #6ab3ea; */
-  background: linear-gradient(135deg, #667eea 0%, #6ab3ea 100%);
-  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
-  color: white;
+  background: #f8fafc;
+  color: #334155;
   padding: 15px;
   text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #e2e8f0;
 }
 
 td {
@@ -214,12 +217,13 @@ tr:hover {
 }
 
 .comparison-table th {
-  background: linear-gradient(135deg, #667eea 0%, #6ab3ea 100%);
-  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
-  color: white;
+  background: #f8fafc;
+  color: #334155;
   padding: 15px;
   text-align: left;
   font-size: 1.1em;
+  font-weight: 600;
+  border-bottom: 2px solid #e2e8f0;
 }
 
 .comparison-table td {
@@ -422,11 +426,6 @@ tr:hover {
 /* Light Theme Overrides for Lesson Content */
 .lesson-content,
 .prose {
-  background: #ffffff;
-  border-radius: 1rem;
-  padding: 2rem;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 2px 16px rgba(15, 23, 42, 0.06);
   margin-bottom: 2rem;
   color: #334155;
 }
@@ -454,7 +453,7 @@ tr:hover {
 .prose ol,
 .lesson-content li,
 .prose li {
-  color: #475569;
+  color: #334155;
 }
 
 .lesson-content a,
@@ -564,12 +563,13 @@ tr:hover {
 }
 
 .data-table th {
-  background: linear-gradient(135deg, #667eea 0%, #6ab3ea 100%);
-  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
-  color: white;
+  background: #f8fafc;
+  color: #334155;
   padding: 15px;
   text-align: left;
   font-size: 1.1em;
+  font-weight: 600;
+  border-bottom: 2px solid #e2e8f0;
 }
 
 .data-table td {

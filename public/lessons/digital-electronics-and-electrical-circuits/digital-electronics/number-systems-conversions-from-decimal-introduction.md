@@ -1,4 +1,4 @@
-# 🔄Converting FROM DECIMAL
+# Converting FROM DECIMAL
 
 In the next lesson, we will learn how to convert numbers from **Decimal** to other number systems (**Binary**, **Octal**, **Hexadecimal**).
 
@@ -13,3 +13,10 @@ But first, let's recall what we have learned previously. The four main number sy
 **- Decimal (Base 10)**: Uses digits 0-9
 
 **- Hexadecimal (Base 16)**: Uses digits 0-9 and A-F
+
+## Why Convert FROM Decimal?
+
+We convert **from** decimal for two main reasons:
+
+1. **Human-Friendly to Machine-Friendly**: Computers understand binary, but humans find decimal easier to read and write.
+2. **Compact Representation**: Hexadecimal (base 16) is much shorter than binary for representing the same value.
