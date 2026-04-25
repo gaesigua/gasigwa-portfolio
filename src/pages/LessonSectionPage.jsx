@@ -125,7 +125,7 @@ const LessonSectionPage = () => {
 
   return (
     <Layout>
-      <div className="max-w-4xl mx-auto px-4 py-8">
+      <div className="max-w-6xl mx-auto py-4">
         {/* Back to lesson (catalog) */}
         <Link to={`/lessons/${lessonSlug}`} className="text-[#2f7fb5] hover:text-[#21628d] hover:underline mb-6 inline-block">
           &larr; Back to {lesson?.title}
