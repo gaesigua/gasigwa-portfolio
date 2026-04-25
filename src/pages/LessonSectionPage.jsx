@@ -6,6 +6,7 @@ import remarkGfm from 'remark-gfm';
 import { lessons } from '../data/lessons';
 import Layout from '../components/Layout.jsx';
 import QuizPlayer from '../components/QuizPlayer.jsx';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import TypingPractice from '../components/TypingPractice.jsx';
 import quizzes from '../data/quizzes'; // adjust path if your quiz file is elsewhere
 
@@ -127,8 +128,8 @@ const LessonSectionPage = () => {
     <Layout>
       <div className="max-w-6xl mx-auto py-4">
         {/* Back to lesson (catalog) */}
-        <Link to={`/lessons/${lessonSlug}`} className="text-[#2f7fb5] hover:text-[#21628d] hover:underline mb-6 inline-block">
-          &larr; Back to {lesson?.title}
+        <Link to={`/lessons/${lessonSlug}`} className="text-[#2f7fb5] hover:text-[#21628d] hover:underline mb-6 inline-flex items-center gap-1">
+          <ChevronLeft className="w-4 h-4" /> Back to {lesson?.title}
         </Link>
 
         {/* Overview mode: section landing with list of pages */}
@@ -153,7 +154,7 @@ const LessonSectionPage = () => {
                       <p className="text-slate-600 mt-1">{p.summary}</p>
                     </div>
 
-                    <div className="text-[#4a9ed9]">Start →</div>
+                    <div className="text-[#4a9ed9] flex items-center gap-1">Start <ChevronRight className="w-5 h-5" /></div>
                   </div>
                 </Link>
               ))}
@@ -162,8 +163,8 @@ const LessonSectionPage = () => {
         ) : (
           // Page mode: render markdown content + quiz + previous/next controls
           <>
-            <Link to={`/lessons/${lessonSlug}/${sectionSlug}`} className="text-[#2f7fb5] hover:text-[#21628d] hover:underline mb-8 inline-block">
-              &larr; Back to {section?.title}
+            <Link to={`/lessons/${lessonSlug}/${sectionSlug}`} className="text-[#2f7fb5] hover:text-[#21628d] hover:underline mb-8 inline-flex items-center gap-1">
+              <ChevronLeft className="w-4 h-4" /> Back to {section?.title}
             </Link>
 
             <article className="lesson-content prose prose-lg max-w-none">
@@ -203,19 +204,19 @@ const LessonSectionPage = () => {
               <div className="flex justify-between mt-8">
                 {getPrevRoute() ? (
                   <button
-                    className="bg-slate-200 hover:bg-slate-300 text-slate-800 py-2 px-5 rounded-lg shadow-sm transition"
+                    className="bg-slate-200 hover:bg-slate-300 text-slate-800 py-2 px-5 rounded-lg shadow-sm transition flex items-center gap-1"
                     onClick={() => navigate(getPrevRoute())}
                   >
-                    &larr; Previous
+                    <ChevronLeft className="w-4 h-4" /> Previous
                   </button>
                 ) : <div />}
 
                 {getNextRoute() ? (
                   <button
-                    className={`${nextPage ? 'bg-[#6ab3ea] hover:bg-[#4a9ed9]' : 'bg-emerald-600 hover:bg-emerald-700'} text-white py-2 px-6 rounded-lg shadow-sm transition`}
+                    className={`${nextPage ? 'bg-[#6ab3ea] hover:bg-[#4a9ed9]' : 'bg-emerald-600 hover:bg-emerald-700'} text-white py-2 px-6 rounded-lg shadow-sm transition flex items-center gap-1`}
                     onClick={() => navigate(getNextRoute())}
                   >
-                    {nextPage ? 'Next →' : `Next Section: ${nextSection?.title} →`}
+                    {nextPage ? <>Next <ChevronRight className="w-4 h-4" /></> : <>Next Section: {nextSection?.title} <ChevronRight className="w-4 h-4" /></>}
                   </button>
                 ) : <div />}
               </div>

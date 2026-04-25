@@ -1,0 +1,119 @@
+# Discrete Mathematics and Logic Course Integration
+
+This document outlines the implementation plan for creating the "Discrete Mathematics and Logic" course from the provided `discrete-mathematics-and-logic.md` draft.
+
+## User Review Required
+
+> [!IMPORTANT]
+> The source draft is quite large and covers a vast array of topics. To ensure the course flows logically for a student without overwhelming them, I propose organizing the content into **7 distinct chapters**.
+> Please review the proposed chapter breakdown below and let me know if you approve or if you'd like to combine or split any sections differently!
+
+## Proposed Changes
+
+### Course Markdown Content
+
+We will generate 7 structured markdown files and place them into `public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/`. They will use the standard UI classes (e.g., `.concept-card`, `.warning`, grids, etc.) for visual consistency.
+
+#### [NEW] [chapter-1-boolean-algebra.md](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-1-boolean-algebra.md)
+
+_Covers Boolean Algebra axioms, laws, and basic simplifications._
+
+#### [NEW] [chapter-2-propositional-logic.md](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-2-propositional-logic.md)
+
+_Combines Propositions, Truth Tables, Logical Equivalence, Tautology/Contradiction, and Contrapositive/Inverse._
+
+#### [NEW] [chapter-3-set-theory.md](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-3-set-theory.md)
+
+_Covers Set basics, Operations, Set Algebra, Power Sets, and Cartesian Products._
+
+#### [NEW] [chapter-4-relations-and-posets.md](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-4-relations-and-posets.md)
+
+_Covers Relations (Reflexive, Symmetric, Transitive), Partially Ordered Sets, and Lattices._
+
+#### [NEW] [chapter-5-proof-techniques.md](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-5-proof-techniques.md)
+
+_Covers Mathematical Induction, Proof by Contrapositive, and Proof by Contradiction._
+
+#### [NEW] [chapter-6-combinatorics.md](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-6-combinatorics.md)
+
+_Covers Permutations and Combinations._
+
+#### [NEW] [chapter-7-graph-theory.md](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-7-graph-theory.md)
+
+_Covers Graph basics, Paths/Circuits, Connectivity, Matrices, and Transport Networks._
+
+---
+
+### Quizzes
+
+The multiple-choice questions provided in the notes for each topic will be consolidated into corresponding interactive quiz components.
+
+#### [NEW] 7 Quiz files in `src/data/quizzes/`
+
+- `boolean-algebra-quiz.js`
+- `propositional-logic-quiz.js`
+- `set-theory-quiz.js`
+- `relations-posets-quiz.js`
+- `proof-techniques-quiz.js`
+- `combinatorics-quiz.js`
+- `graph-theory-quiz.js`
+
+#### [MODIFY] [index.js](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/quizzes/index.js)
+
+Export all 7 new quizzes.
+
+---
+
+### Lesson Data Integration
+
+#### [MODIFY] [lessons.jsx](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/lessons.jsx)
+
+We will create a new parent course object `mathematics-for-computer-scientists` (if it does not already exist) and insert the `discrete-mathematics-and-logic` section into it. This will link to all the newly created pages and quizzes.
+
+## Verification Plan
+
+### Manual Verification
+
+- Launch the application locally (`npm run dev`).
+- Navigate to the new Mathematics course path.
+- Verify that the 7 chapters render cleanly with their quizzes attached and functional.
+
+# Discrete Mathematics and Logic Course Integration
+
+The **Mathematics for Computer Scientists** course path has been successfully initiated, starting with the **Discrete Mathematics and Logic** section!
+
+## What Was Completed:
+
+### 1. Course Pages (7 Chapters)
+
+Given the massive scope of your provided `discrete-mathematics-and-logic.md` draft, I split the content logically into 7 robust chapters. They were placed in `public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/` and styled with your App's aesthetic CSS components (`.concept-card`, grids, `.success`, etc.):
+
+- **Chapter 1:** [Boolean Algebra](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-1-boolean-algebra.md)
+- **Chapter 2:** [Propositional Logic](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-2-propositional-logic.md)
+- **Chapter 3:** [Set Theory](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-3-set-theory.md)
+- **Chapter 4:** [Relations and Posets](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-4-relations-and-posets.md)
+- **Chapter 5:** [Proof Techniques](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-5-proof-techniques.md)
+- **Chapter 6:** [Combinatorics](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-6-combinatorics.md)
+- **Chapter 7:** [Graph Theory](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/mathematics-for-computer-scientists/discrete-mathematics-and-logic/chapter-7-graph-theory.md)
+
+### 2. Quizzes Integration (7 Quizzes)
+
+The end-of-section review questions found in your drafts were translated into 7 interactive JavaScript quizzes:
+
+- `boolean-algebra-quiz.js`
+- `propositional-logic-quiz.js`
+- `set-theory-quiz.js`
+- `relations-posets-quiz.js`
+- `proof-techniques-quiz.js`
+- `combinatorics-quiz.js`
+- `graph-theory-quiz.js`
+
+These were all exported inside [quizzes/index.js](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/quizzes/index.js) so they load correctly into the React application's quiz engine.
+
+### 3. Application Data Linkage
+
+I appended a brand new parent course object called `mathematics-for-computer-scientists` directly to the `lessons.jsx` configuration file. Inside it, I registered the `discrete-mathematics-and-logic` section, hooking up all 7 markdown files and their associated quizzes.
+
+## Verification
+
+You can now navigate to your local dev server and explore the massive new **Mathematics for Computer Scientists** course path. The layout should cleanly list all 7 discrete math chapters!

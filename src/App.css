@@ -714,16 +714,13 @@ tr:hover {
 }
 
 .intro-box {
-  background: black;
-  padding: 30px;
-  border-radius: 12px;
   margin-bottom: 30px;
-  border: 2px solid black;
 }
 
 .intro-box h2 {
-  color: #f5576c;
+  color: #0f172a;
   margin-bottom: 15px;
+  font-weight: 700;
 }
 
 .definition-card {

@@ -1,0 +1,94 @@
+# Web Fundamentals Course Integration
+
+This document details the plan for generating the Web Fundamentals course from the provided `web-fundamentals-course-notes.md` file.
+
+## User Review Required
+
+> [!IMPORTANT]
+> The original draft starts its numbering at "CHAPTER THREE" (likely a continuation from an older curriculum). I propose renaming them to Chapters 1, 2, and 3 for this particular section. Please confirm if this is acceptable.
+>
+> Also, note that I will store the files in the existing `public/lessons/internet-fundamentals-and-web-design/web-fundamentals` directory so that it is properly grouped with the Internet Fundamentals course we just built. Let me know if you would prefer a different location.
+
+## Proposed Changes
+
+### Course Markdown Content
+
+We will create 3 new markdown files using the current templates, enriched with the custom CSS styling components (`.concept-card`, `.note`, `.warning`, grids, etc.).
+
+#### [NEW] [chapter-1-website-interface-design.md](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/internet-fundamentals-and-web-design/web-fundamentals/chapter-1-website-interface-design.md)
+
+_Covers Web Interface Design, principles of UI design, and wireframing (from Chapter 3 of the draft)._
+
+#### [NEW] [chapter-2-html-page-layout-design.md](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/internet-fundamentals-and-web-design/web-fundamentals/chapter-2-html-page-layout-design.md)
+
+_Covers HTML Forms, Iframes, and basic Layouts using Tables and Divs (from Chapter 4 of the draft)._
+
+#### [NEW] [chapter-3-introduction-to-css.md](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/internet-fundamentals-and-web-design/web-fundamentals/chapter-3-introduction-to-css.md)
+
+_Covers CSS syntax, properties, selectors, and the CSS Box Model (from Chapter 5 of the draft)._
+
+---
+
+### Quizzes
+
+The end-of-chapter review questions will be converted into interactive multiple-choice quizzes.
+
+#### [NEW] [web-interface-design-quiz.js](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/quizzes/web-interface-design-quiz.js)
+
+#### [NEW] [html-layout-quiz.js](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/quizzes/html-layout-quiz.js)
+
+#### [NEW] [css-intro-quiz.js](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/quizzes/css-intro-quiz.js)
+
+#### [MODIFY] [index.js](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/quizzes/index.js)
+
+Export the newly created quiz components.
+
+---
+
+### Lesson Data Integration
+
+#### [MODIFY] [lessons.jsx](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/lessons.jsx)
+
+Append a new section called `web-fundamentals` underneath the existing `internet-fundamentals-and-web-design` object. This section will link out to the new `.md` files and `.js` quizzes.
+
+## Verification Plan
+
+### Manual Verification
+
+- Launch the application locally (`npm run dev`).
+- Navigate to the Web Fundamentals section.
+- Test the interactive quizzes and ensure all markdown renders beautifully with the designated UI components.
+
+# Web Fundamentals Course Integration
+
+The second section of the _Internet Fundamentals and Web Design_ course path, **Web Fundamentals**, has been successfully developed and integrated!
+
+## What Was Completed:
+
+### 1. Course Pages
+
+Three robust chapters were generated based on your `web-fundamentals-course-notes.md` file, enhanced with correct Markdown and styled with your App's custom CSS components:
+
+- **Chapter 1:** [Website Interface Design](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/internet-fundamentals-and-web-design/web-fundamentals/chapter-1-website-interface-design.md) - Focuses on basic UI principles, web usability, factors that make a successful website, and wireframing.
+- **Chapter 2:** [HTML Page Layout Design](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/internet-fundamentals-and-web-design/web-fundamentals/chapter-2-html-page-layout-design.md) - Covers essential HTML structures such as Forms, IFrames, and the difference between Table vs Div-based layouts.
+- **Chapter 3:** [Introduction to CSS](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/public/lessons/internet-fundamentals-and-web-design/web-fundamentals/chapter-3-introduction-to-css.md) - Introduces styling logic, different ways to implement CSS, CSS properties, and the CSS Box Model.
+
+All pages heavily utilize elements defined in `App.css`, notably `.concept-card`, grids, `.success`, `.warning`, and `.steps`, ensuring consistent readability and engagement.
+
+### 2. Quizzes Integration
+
+The "Chapter Review Questions" found in your drafts were translated into properly formatted interactive quizzes:
+
+- `web-interface-design-quiz.js`
+- `html-layout-quiz.js`
+- `css-intro-quiz.js`
+
+These were all exported inside [quizzes/index.js](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/quizzes/index.js) so they load correctly inside the app.
+
+### 3. Application Data Linkage
+
+Appended the `web-fundamentals` data schema exactly matching previous structures in [lessons.jsx](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/lessons.jsx#L2060). The application now recognizes both "Internet Fundamentals" and "Web Fundamentals" as two interconnected sections under the single main course card!
+
+## Verification
+
+You can now start the local dev server using `npm run dev` and navigate to the newly added section on the site. Test out the layout differences and quiz interactions—everything should render perfectly!
