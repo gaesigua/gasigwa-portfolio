@@ -31,6 +31,12 @@ import dsSets from "./ds-sets";
 import dsInformationTechnologies from "./ds-information-technologies";
 import dsStacks from "./ds-stacks";
 
+// Internet Fundamentals quizzes
+import internetIntroQuiz from "./internet-intro-quiz";
+import internetWebBasicsQuiz from "./internet-web-basics-quiz";
+import internetProtocolsQuiz from "./internet-protocols-quiz";
+import internetSecurityQuiz from "./internet-security-quiz";
+
 // I will add new quizzes here as I create them
 export const quizzes = {
   "dc-vs-ac": dcVsAcQuiz,
@@ -60,6 +66,11 @@ export const quizzes = {
   "ds-sets": dsSets,
   "ds-information-technologies": dsInformationTechnologies,
   "ds-stacks": dsStacks,
+  // Internet Fundamentals
+  "internet-intro-quiz": internetIntroQuiz,
+  "internet-web-basics-quiz": internetWebBasicsQuiz,
+  "internet-protocols-quiz": internetProtocolsQuiz,
+  "internet-security-quiz": internetSecurityQuiz,
 };
 export default quizzes;
 
