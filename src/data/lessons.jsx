@@ -2012,6 +2012,52 @@ export const lessons = [
     ],
   },
   {
+    slug: "internet-fundamentals-and-web-design",
+    title: "Internet Fundamentals and Web Design",
+    summary:
+      "master the fundamentals of how the internet works, core web technologies, internet security, and the basics of building responsive modern user interfaces.",
+    tags: "internet, www, security, web development",
+    logo: "/internet-fundamentals-logo.png",
+    sections: [
+      {
+        slug: "internet-fundamentals",
+        title: "Internet Fundamentals",
+        summary:
+          "a complete breakdown of the internet architecture, web basics, internet protocols, and cybersecurity practices.",
+        pages: [
+          {
+            slug: "chapter-1-introduction-to-the-internet",
+            title: "1. Introduction to the Internet",
+            summary:
+              "Learn what the internet is, how it works, understand packet switching, and explore the global internet backbone.",
+            quiz: "internet-intro-quiz",
+          },
+          {
+            slug: "chapter-2-web-basics",
+            title: "2. Web Basics",
+            summary:
+              "Differentiate the Internet from the WWW, learn core web technologies and models, and grasp web hosting and deployment.",
+            quiz: "internet-web-basics-quiz",
+          },
+          {
+            slug: "chapter-3-internet-protocols-and-isps",
+            title: "3. Internet Protocols and ISPs",
+            summary:
+              "Dive deep into TCP/IP, understand key application protocols, and learn how Internet Service Providers operate.",
+            quiz: "internet-protocols-quiz",
+          },
+          {
+            slug: "chapter-4-internet-security",
+            title: "4. Internet Security",
+            summary:
+              "Understand the CIA Triad, identify major malware and cyber threats, and practice reliable cybersecurity defense techniques.",
+            quiz: "internet-security-quiz",
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: "html-fundamentals",
     title: "HTML Fundamentals",
     summary:

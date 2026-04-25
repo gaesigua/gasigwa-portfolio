@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const Layout = ({ children }) => (
   <div className="min-h-screen bg-white text-slate-800 font-sans antialiased flex flex-col">
     {/* Header */}
-    <header className="bg-white/95 backdrop-blur border-b border-slate-200 py-4 px-6 flex items-center justify-between sticky top-0 z-20">
+    <header className="bg-white/95 backdrop-blur border-b border-slate-200 py-2.5 md:py-1.5 px-6 flex items-center justify-between sticky top-0 z-20">
       <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
         <img
           src="/gasigwa-logo.png"
           alt="Gasigwa — Learn With Me"
-          className="h-9 md:h-11 w-auto object-contain"
+          className="h-12 md:h-16 w-auto object-contain"
         />
       </Link>
       <nav className="flex space-x-2 md:space-x-4">
