@@ -37,6 +37,20 @@ import internetWebBasicsQuiz from "./internet-web-basics-quiz";
 import internetProtocolsQuiz from "./internet-protocols-quiz";
 import internetSecurityQuiz from "./internet-security-quiz";
 
+// Web Fundamentals quizzes
+import webInterfaceDesignQuiz from "./web-interface-design-quiz";
+import htmlLayoutQuiz from "./html-layout-quiz";
+import cssIntroQuiz from "./css-intro-quiz";
+
+// Discrete Mathematics and Logic quizzes
+import booleanAlgebraQuiz from "./boolean-algebra-quiz";
+import propositionalLogicQuiz from "./propositional-logic-quiz";
+import setTheoryQuiz from "./set-theory-quiz";
+import relationsPosetsQuiz from "./relations-posets-quiz";
+import proofTechniquesQuiz from "./proof-techniques-quiz";
+import combinatoricsQuiz from "./combinatorics-quiz";
+import graphTheoryQuiz from "./graph-theory-quiz";
+
 // I will add new quizzes here as I create them
 export const quizzes = {
   "dc-vs-ac": dcVsAcQuiz,
@@ -71,6 +85,18 @@ export const quizzes = {
   "internet-web-basics-quiz": internetWebBasicsQuiz,
   "internet-protocols-quiz": internetProtocolsQuiz,
   "internet-security-quiz": internetSecurityQuiz,
+  // Web Fundamentals
+  "web-interface-design-quiz": webInterfaceDesignQuiz,
+  "html-layout-quiz": htmlLayoutQuiz,
+  "css-intro-quiz": cssIntroQuiz,
+  // Discrete Mathematics and Logic
+  "boolean-algebra-quiz": booleanAlgebraQuiz,
+  "propositional-logic-quiz": propositionalLogicQuiz,
+  "set-theory-quiz": setTheoryQuiz,
+  "relations-posets-quiz": relationsPosetsQuiz,
+  "proof-techniques-quiz": proofTechniquesQuiz,
+  "combinatorics-quiz": combinatoricsQuiz,
+  "graph-theory-quiz": graphTheoryQuiz,
 };
 export default quizzes;
 

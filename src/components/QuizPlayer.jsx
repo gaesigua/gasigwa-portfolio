@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 /*
  Props:
@@ -115,19 +116,19 @@ const QuizPlayer = ({ quiz, onFinish }) => {
 
           <div>
             <button
-              className="bg-slate-200 hover:bg-slate-300 text-slate-800 py-2 px-4 rounded-lg mr-2"
+              className="bg-slate-200 hover:bg-slate-300 text-slate-800 py-2 px-4 rounded-lg mr-2 inline-flex items-center gap-1"
               onClick={goPrev}
               disabled={index === 0}
             >
-              ← Previous
+              <ChevronLeft className="w-4 h-4" /> Previous
             </button>
 
             <button
-              className="bg-[#6ab3ea] hover:bg-[#4a9ed9] text-white py-2 px-4 rounded-lg"
+              className="bg-[#6ab3ea] hover:bg-[#4a9ed9] text-white py-2 px-4 rounded-lg inline-flex items-center gap-1"
               onClick={goNext}
               disabled={!revealed}
             >
-              {index < quiz.questions.length - 1 ? "Next →" : "Finish"}
+              {index < quiz.questions.length - 1 ? <>Next <ChevronRight className="w-4 h-4" /></> : "Finish"}
             </button>
           </div>
         </div>

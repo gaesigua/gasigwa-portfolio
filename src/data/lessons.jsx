@@ -1,10 +1,70 @@
 export const lessons = [
   {
+    slug: "mathematics-for-computer-scientists",
+    title: "Mathematics for Computer Scientists",
+    summary:
+      "master the core mathematical concepts that power computer science, including boolean algebra, logic, set theory, proof techniques, combinatorics, and graph theory.",
+    tags: "math, logic, sets, discrete",
+    logo: "/math-logo.png",
+    sections: [
+      {
+        slug: "discrete-mathematics-and-logic",
+        title: "Discrete Mathematics and Logic",
+        summary:
+          "a comprehensive guide to the foundational discrete mathematics and logic principles required for computer science and algorithms.",
+        pages: [
+          {
+            slug: "chapter-1-boolean-algebra",
+            title: "1. Boolean Algebra",
+            summary: "Learn the foundational axioms and laws of Boolean Algebra, the core of digital logic.",
+            quiz: "boolean-algebra-quiz",
+          },
+          {
+            slug: "chapter-2-propositional-logic",
+            title: "2. Propositional Logic",
+            summary: "Understand propositions, truth tables, logical equivalence, tautologies, and contradictions.",
+            quiz: "propositional-logic-quiz",
+          },
+          {
+            slug: "chapter-3-set-theory",
+            title: "3. Set Theory",
+            summary: "Dive into set operations, Venn diagrams, set algebra, power sets, and Cartesian products.",
+            quiz: "set-theory-quiz",
+          },
+          {
+            slug: "chapter-4-relations-and-posets",
+            title: "4. Relations and Posets",
+            summary: "Master relations properties, partially ordered sets (posets), and lattices.",
+            quiz: "relations-posets-quiz",
+          },
+          {
+            slug: "chapter-5-proof-techniques",
+            title: "5. Proof Techniques",
+            summary: "Learn how to formally prove statements using mathematical induction, contrapositives, and contradictions.",
+            quiz: "proof-techniques-quiz",
+          },
+          {
+            slug: "chapter-6-combinatorics",
+            title: "6. Combinatorics",
+            summary: "Study permutations and combinations to count possible arrangements and selections.",
+            quiz: "combinatorics-quiz",
+          },
+          {
+            slug: "chapter-7-graph-theory",
+            title: "7. Graph Theory",
+            summary: "Explore the mathematics of networks, including vertices, edges, paths, connectivity, and matrices.",
+            quiz: "graph-theory-quiz",
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: "computer-programming-and-data-structures",
     title: "Computer Programming and Data Structures",
     summary:
       "learn the fundamentals of computer programming and how to write code",
-    tags: "data structures, algorithms, programming, coding",
+    tags: "dsa, pseudocode, programming",
     logo: "/computer-programming-logo.png",
     sections: [
       {
@@ -2052,6 +2112,35 @@ export const lessons = [
             summary:
               "Understand the CIA Triad, identify major malware and cyber threats, and practice reliable cybersecurity defense techniques.",
             quiz: "internet-security-quiz",
+          },
+        ],
+      },
+      {
+        slug: "web-fundamentals",
+        title: "Web Fundamentals",
+        summary:
+          "Dive into the essentials of website interface design, structuring pages with HTML, and styling them with CSS.",
+        pages: [
+          {
+            slug: "chapter-1-website-interface-design",
+            title: "1. Website Interface Design",
+            summary:
+              "Learn the basic principles of designing clean, usable, and well-organized website interfaces and wireframes.",
+            quiz: "web-interface-design-quiz",
+          },
+          {
+            slug: "chapter-2-html-page-layout-design",
+            title: "2. HTML Page Layout Design",
+            summary:
+              "Understand how to structure pages using Forms, IFrames, and modern layout techniques with Divs instead of Tables.",
+            quiz: "html-layout-quiz",
+          },
+          {
+            slug: "chapter-3-introduction-to-css",
+            title: "3. Introduction to CSS",
+            summary:
+              "Master Cascading Style Sheets to separate content from presentation, and learn the foundational CSS Box Model.",
+            quiz: "css-intro-quiz",
           },
         ],
       },
