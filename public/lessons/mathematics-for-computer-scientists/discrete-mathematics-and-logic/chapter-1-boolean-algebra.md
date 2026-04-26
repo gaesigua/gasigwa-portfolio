@@ -8,15 +8,18 @@
 ## 1.1 What is Boolean Algebra?
 
 Boolean algebra is widely used in:
+
 - Digital electronics
 - Computer architecture
 - Logic circuits
 - Programming and algorithms
 
 ### Formal Definition
+
 A Boolean algebra is an algebraic structure defined as: `(B, +, ⋅, ′, 0, 1)`
 
 Where:
+
 - `B` is a non-empty set
 - `+` is the OR operation
 - `⋅` is the AND operation

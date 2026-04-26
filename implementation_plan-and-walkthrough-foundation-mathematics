@@ -1,0 +1,296 @@
+# Foundation Mathematics Course — Implementation Plan
+
+## Goal
+
+Build the complete **Foundation Mathematics** course module under the **Mathematics for Computer Scientists** track in the `gasigwa-portfolio` project. The course is sourced from PDF screenshots of lecture notes and transcribed into structured markdown lesson files, each paired with an interactive multiple-choice quiz.
+
+---
+
+## Architecture
+
+### Content Files
+
+All lesson markdown files live in:
+
+```
+public/lessons/mathematics-for-computer-scientists/foundation-mathematics/
+```
+
+Each file follows the naming convention: `chapter-N[-part]-slug.md`
+
+### Quiz Files
+
+All quiz JavaScript modules live in:
+
+```
+src/data/quizzes/
+```
+
+Naming convention: `foundation-math-chN[-part]-quiz.js`
+Every quiz file **must** include `export default <quizName>;` at the bottom.
+
+### Registration Files
+
+- **`src/data/quizzes/index.js`** — imports all quiz files and exports them in the `quizzes` map.
+- **`src/data/lessons.jsx`** — registers each chapter page under the `foundation-mathematics` section with a `slug`, `title`, `summary`, and `quiz` key.
+
+---
+
+## Completed Chapters
+
+### Chapter 1 — Numbers
+
+#### [MODIFY] chapter-1-numbers.md
+
+Covers: Natural, Integer, Rational, Irrational numbers; surds; complex numbers; intervals; absolute values; sets.
+
+#### [NEW] foundation-math-ch1-quiz.js
+
+5 multiple-choice questions on number systems, surds, and sets.
+
+---
+
+### Chapter 2 — Equations and Inequalities
+
+#### [NEW] chapter-2-equations-and-inequalities.md
+
+Covers: Linear equations, simultaneous equations, the quadratic formula, and inequalities.
+
+#### [NEW] foundation-math-ch2-quiz.js
+
+5 multiple-choice questions on solving equations.
+
+---
+
+### Chapter 3 — Functions (Split into 2 parts)
+
+#### [NEW] chapter-3-1-introduction-to-functions.md
+
+Covers: Domain, codomain, range; injective (one-to-one), surjective (onto), bijective functions; composite functions; inverse functions.
+
+#### [NEW] foundation-math-ch3-2-graphing-functions.md
+
+Covers: Even and odd functions (symmetry); standard graph shapes (constant, identity, absolute value, square root, squaring, cubing); vertical and horizontal asymptotes for rational functions.
+
+#### [NEW] foundation-math-ch3-1-quiz.js & foundation-math-ch3-2-quiz.js
+
+5 questions each on the respective topics.
+
+---
+
+### Chapter 4 — Logarithmic and Exponential Notation
+
+#### [NEW] chapter-4-logarithms-and-exponents.md
+
+Covers: Laws of indices (multiplication, division, power of a power, zero, negative, fractional exponents); definition of logarithms; laws of logarithms (product, quotient, power, log of base, log of one); common logarithms (base 10); natural logarithms (base e).
+
+#### [NEW] foundation-math-ch4-quiz.js
+
+5 questions on exponent laws and logarithm definitions.
+
+---
+
+### Chapter 5 — Matrices and Systems of Equations (Split into 2 parts)
+
+#### [NEW] chapter-5-1-matrices.md
+
+Covers: Matrix definition (m×n); row/column/square matrices; matrix addition, subtraction, and multiplication (row-by-column rule); the identity matrix; determinants of 2×2 matrices; the inverse of a 2×2 matrix (shortcut formula).
+
+#### [NEW] chapter-5-2-systems-of-equations.md
+
+Covers: Systems of linear equations; method of substitution (linear and non-linear, with word problems); method of elimination; inverse matrix method (`AX = B → X = A⁻¹B`) with two full worked examples.
+
+#### [NEW] foundation-math-ch5-1-quiz.js & foundation-math-ch5-2-quiz.js
+
+5 questions each on matrices and systems of equations.
+
+---
+
+### Chapter 6 — Permutations and Combinations (Split into 2 parts)
+
+#### [NEW] chapter-6-1-permutations.md
+
+Covers: Fundamental counting principle; factorial notation (n!); permutation formula ⁿPᵣ = n!/(n-r)!; arrangements with restrictions (subtraction method); circular permutations (n-1)!; permutations with repeated objects (n!/k!).
+
+#### [NEW] chapter-6-2-combinations.md
+
+Covers: Combinations vs permutations (key distinction table); combination formula ⁿCᵣ = n!/((n-r)!×r!); derivation from permutations; worked examples (cards, hockey team); useful properties (symmetry property, Pascal's Identity); decision guide for choosing the correct method.
+
+#### [NEW] foundation-math-ch6-1-quiz.js & foundation-math-ch6-2-quiz.js
+
+5 questions each on permutations and combinations.
+
+---
+
+## Registration Summary
+
+### `src/data/quizzes/index.js`
+
+All 9 foundation mathematics quizzes are imported and exported:
+
+- `foundation-math-ch1-quiz`
+- `foundation-math-ch2-quiz`
+- `foundation-math-ch3-1-quiz`
+- `foundation-math-ch3-2-quiz`
+- `foundation-math-ch4-quiz`
+- `foundation-math-ch5-1-quiz`
+- `foundation-math-ch5-2-quiz`
+- `foundation-math-ch6-1-quiz`
+- `foundation-math-ch6-2-quiz`
+
+### `src/data/lessons.jsx`
+
+The `foundation-mathematics` section has 9 registered page entries:
+
+1. `chapter-1-numbers`
+2. `chapter-2-equations-and-inequalities`
+3. `chapter-3-1-introduction-to-functions`
+4. `chapter-3-2-graphing-functions`
+5. `chapter-4-logarithms-and-exponents`
+6. `chapter-5-1-matrices`
+7. `chapter-5-2-systems-of-equations`
+8. `chapter-6-1-permutations`
+9. `chapter-6-2-combinations`
+
+---
+
+## Key Design Decisions
+
+- **Modular splitting**: Large chapters (3, 5, 6) were split into 2 parts each to keep content digestible and quizzes focused.
+- **`export default`**: Every quiz file includes a named `export default` — this is required for the `index.js` registry to resolve imports correctly (a bug the user found and fixed in early chapters).
+- **Content fidelity**: All content was transcribed from lecture note screenshots (PDF pages 67–90), preserving examples, exercises, and proofs while adding extra explanatory context and formatting.
+- **Consistent structure**: Every markdown chapter uses the project's custom HTML class names (`intro-box`, `module`, `example`) for consistent UI rendering.
+
+# Foundation Mathematics — Walkthrough
+
+## What Was Built
+
+The complete **Foundation Mathematics** course for the `gasigwa-portfolio` project has been implemented, fully integrated into the **Mathematics for Computer Scientists** track. The course spans 6 chapters (9 lesson pages) and 9 interactive quizzes.
+
+---
+
+## Course Structure
+
+| Lesson | Title                              | Markdown File                              | Quiz File                       |
+| ------ | ---------------------------------- | ------------------------------------------ | ------------------------------- |
+| 1      | Numbers                            | `chapter-1-numbers.md`                     | `foundation-math-ch1-quiz.js`   |
+| 2      | Equations and Inequalities         | `chapter-2-equations-and-inequalities.md`  | `foundation-math-ch2-quiz.js`   |
+| 3.1    | Introduction to Functions          | `chapter-3-1-introduction-to-functions.md` | `foundation-math-ch3-1-quiz.js` |
+| 3.2    | Graphing Functions                 | `chapter-3-2-graphing-functions.md`        | `foundation-math-ch3-2-quiz.js` |
+| 4      | Logarithmic & Exponential Notation | `chapter-4-logarithms-and-exponents.md`    | `foundation-math-ch4-quiz.js`   |
+| 5.1    | Matrices                           | `chapter-5-1-matrices.md`                  | `foundation-math-ch5-1-quiz.js` |
+| 5.2    | Systems of Linear Equations        | `chapter-5-2-systems-of-equations.md`      | `foundation-math-ch5-2-quiz.js` |
+| 6.1    | Arrangements and Permutations      | `chapter-6-1-permutations.md`              | `foundation-math-ch6-1-quiz.js` |
+| 6.2    | Combinations                       | `chapter-6-2-combinations.md`              | `foundation-math-ch6-2-quiz.js` |
+
+**Content source:** PDF lecture notes (pages 1–90), transcribed from screenshots 491–566.
+
+---
+
+## Files Modified
+
+### `src/data/quizzes/index.js`
+
+All 9 quizzes imported and exported in the central quiz registry.
+
+### `src/data/lessons.jsx`
+
+The `foundation-mathematics` section in the `mathematics-for-computer-scientists` course now has all 9 chapters registered with correct slugs, titles, summaries, and quiz keys.
+
+---
+
+## Key Decisions Made During Implementation
+
+1. **Modular chapter splitting** — Chapters 3, 5, and 6 were each split into 2 parts to keep lesson length and quiz scope manageable without losing content quality.
+
+2. **`export default` requirement** — Every quiz file must include `export default` for the registry import system to resolve correctly. This was discovered early (the user fixed Ch1 and Ch2 manually) and applied consistently to all subsequent quizzes.
+
+3. **Content enrichment** — Rather than just transcribing raw notes, each chapter was expanded with:
+   - Motivating introductions linking topics to computer science
+   - Clear `<div class="module">` blocks for key rules/formulas
+   - `<div class="example">` blocks with step-by-step worked solutions
+   - Comparison tables (e.g., Permutations vs Combinations)
+   - Blockquote callouts highlighting rules and tips
+
+4. **Consistent UI class usage** — All chapters use the project's custom HTML class names (`intro-box`, `module`, `example`) to ensure consistent visual rendering across the portfolio.
+
+---
+
+## Verification Status
+
+- ✅ Dev server (`npm run dev`) was running throughout — no build errors reported
+- ✅ All quiz files include `export default`
+- ✅ All quizzes registered in `quizzes/index.js`
+- ✅ All chapters registered in `lessons.jsx` with correct slugs matching markdown filenames
+- ✅ Content reviewed against source screenshots for accuracy
+
+# Foundation Mathematics — Task List
+
+## Chapter 1: Numbers
+
+- `[x]` Write `chapter-1-numbers.md`
+- `[x]` Write `foundation-math-ch1-quiz.js` (5 questions) + `export default`
+- `[x]` Register in `quizzes/index.js`
+- `[x]` Register in `lessons.jsx`
+
+## Chapter 2: Equations and Inequalities
+
+- `[x]` Write `chapter-2-equations-and-inequalities.md`
+- `[x]` Write `foundation-math-ch2-quiz.js` (5 questions) + `export default`
+- `[x]` Register in `quizzes/index.js`
+- `[x]` Register in `lessons.jsx`
+
+## Chapter 3: Functions (Part 1 — Introduction)
+
+- `[x]` Write `chapter-3-1-introduction-to-functions.md`
+- `[x]` Write `foundation-math-ch3-1-quiz.js` (5 questions) + `export default`
+- `[x]` Register in `quizzes/index.js`
+- `[x]` Register in `lessons.jsx`
+
+## Chapter 3: Functions (Part 2 — Graphing)
+
+- `[x]` Write `chapter-3-2-graphing-functions.md`
+- `[x]` Write `foundation-math-ch3-2-quiz.js` (5 questions) + `export default`
+- `[x]` Register in `quizzes/index.js`
+- `[x]` Register in `lessons.jsx`
+
+## Chapter 4: Logarithmic and Exponential Notation
+
+- `[x]` Write `chapter-4-logarithms-and-exponents.md`
+- `[x]` Write `foundation-math-ch4-quiz.js` (5 questions) + `export default`
+- `[x]` Register in `quizzes/index.js`
+- `[x]` Register in `lessons.jsx`
+
+## Chapter 5: Matrices (Part 1 — Matrix Operations)
+
+- `[x]` Write `chapter-5-1-matrices.md`
+- `[x]` Write `foundation-math-ch5-1-quiz.js` (5 questions) + `export default`
+- `[x]` Register in `quizzes/index.js`
+- `[x]` Register in `lessons.jsx`
+
+## Chapter 5: Matrices (Part 2 — Systems of Equations)
+
+- `[x]` Write `chapter-5-2-systems-of-equations.md`
+- `[x]` Write `foundation-math-ch5-2-quiz.js` (5 questions) + `export default`
+- `[x]` Register in `quizzes/index.js`
+- `[x]` Register in `lessons.jsx`
+
+## Chapter 6: Permutations and Combinations (Part 1 — Permutations)
+
+- `[x]` Write `chapter-6-1-permutations.md`
+- `[x]` Write `foundation-math-ch6-1-quiz.js` (5 questions) + `export default`
+- `[x]` Register in `quizzes/index.js`
+- `[x]` Register in `lessons.jsx`
+
+## Chapter 6: Permutations and Combinations (Part 2 — Combinations)
+
+- `[x]` Write `chapter-6-2-combinations.md`
+- `[x]` Write `foundation-math-ch6-2-quiz.js` (5 questions) + `export default`
+- `[x]` Register in `quizzes/index.js`
+- `[x]` Register in `lessons.jsx`
+
+## Housekeeping
+
+- `[x]` Update `implementation_plan.md`
+- `[x]` Update `walkthrough.md`
+- `[x]` Update `task.md`
