@@ -8,6 +8,86 @@ export const lessons = [
     logo: "/math-logo.png",
     sections: [
       {
+        slug: "foundation-mathematics",
+        title: "Foundation Mathematics",
+        summary:
+          "a thorough review of core mathematical principles including numbers, algebraic equations, and inequalities to build a strong foundation for computer science.",
+        pages: [
+          {
+            slug: "chapter-1-numbers",
+            title: "1. Numbers",
+            summary: "Learn about different number systems, real numbers, surds, complex numbers, absolute values, and sets.",
+            quiz: "foundation-math-ch1-quiz",
+          },
+          {
+            slug: "chapter-1-7-sets",
+            title: "1.7 Sets",
+            summary: "Master set notation, set-builder notation, subsets, set operations (union, intersection, difference, complement, symmetric difference), power sets, the Cartesian product, and the laws of set algebra including De Morgan's Laws.",
+            quiz: "foundation-math-ch1-7-quiz",
+          },
+          {
+            slug: "chapter-1-8-relations",
+            title: "1.8 Relations",
+            summary: "Explore binary relations, their four key properties (reflexive, symmetric, antisymmetric, transitive), equivalence relations and their partitions, partial orders and Hasse diagrams, and how relations underpin databases, graphs, and scheduling algorithms.",
+            quiz: "foundation-math-ch1-8-quiz",
+          },
+          {
+            slug: "chapter-2-equations-and-inequalities",
+            title: "2. Equations and Inequalities",
+            summary: "Master solving linear equations, simultaneous equations, quadratic equations, and inequalities.",
+            quiz: "foundation-math-ch2-quiz",
+          },
+          {
+            slug: "chapter-3-1-introduction-to-functions",
+            title: "3.1 Introduction to Functions",
+            summary: "Learn about domains, ranges, one-to-one, composite, and inverse functions.",
+            quiz: "foundation-math-ch3-1-quiz",
+          },
+          {
+            slug: "chapter-3-2-graphing-functions",
+            title: "3.2 Graphing Functions",
+            summary: "Understand function symmetry, standard graph shapes, and vertical/horizontal asymptotes.",
+            quiz: "foundation-math-ch3-2-quiz",
+          },
+          {
+            slug: "chapter-4-logarithms-and-exponents",
+            title: "4. Logarithmic and Exponential Notation",
+            summary: "Explore the laws of indices, logarithms, and their applications.",
+            quiz: "foundation-math-ch4-quiz",
+          },
+          {
+            slug: "chapter-5-1-matrices",
+            title: "5.1 Matrices",
+            summary: "Understand matrix notation, addition, subtraction, multiplication, the identity matrix, determinants, and finding the inverse of a 2×2 matrix.",
+            quiz: "foundation-math-ch5-1-quiz",
+          },
+          {
+            slug: "chapter-5-2-systems-of-equations",
+            title: "5.2 Systems of Linear Equations",
+            summary: "Master three methods for solving systems of equations: substitution, elimination, and the inverse matrix method.",
+            quiz: "foundation-math-ch5-2-quiz",
+          },
+          {
+            slug: "chapter-5-3-gaussian-elimination",
+            title: "5.3 Gaussian Elimination Method",
+            summary: "Learn the Gaussian Elimination algorithm: forming augmented matrices, applying elementary row operations, achieving Row Echelon Form, and solving systems via back-substitution.",
+            quiz: "foundation-math-ch5-3-quiz",
+          },
+          {
+            slug: "chapter-6-1-permutations",
+            title: "6.1 Arrangements and Permutations",
+            summary: "Learn the fundamental counting principle, factorial notation, and how to count ordered arrangements using permutations.",
+            quiz: "foundation-math-ch6-1-quiz",
+          },
+          {
+            slug: "chapter-6-2-combinations",
+            title: "6.2 Combinations",
+            summary: "Understand unordered selections, the combination formula nCr, and when to apply combinations vs permutations.",
+            quiz: "foundation-math-ch6-2-quiz",
+          },
+        ],
+      },
+      {
         slug: "discrete-mathematics-and-logic",
         title: "Discrete Mathematics and Logic",
         summary:
@@ -54,68 +134,6 @@ export const lessons = [
             title: "7. Graph Theory",
             summary: "Explore the mathematics of networks, including vertices, edges, paths, connectivity, and matrices.",
             quiz: "graph-theory-quiz",
-          },
-        ],
-      },
-      {
-        slug: "foundation-mathematics",
-        title: "Foundation Mathematics",
-        summary:
-          "a thorough review of core mathematical principles including numbers, algebraic equations, and inequalities to build a strong foundation for computer science.",
-        pages: [
-          {
-            slug: "chapter-1-numbers",
-            title: "1. Numbers",
-            summary: "Learn about different number systems, real numbers, surds, complex numbers, absolute values, and sets.",
-            quiz: "foundation-math-ch1-quiz",
-          },
-          {
-            slug: "chapter-2-equations-and-inequalities",
-            title: "2. Equations and Inequalities",
-            summary: "Master solving linear equations, simultaneous equations, quadratic equations, and inequalities.",
-            quiz: "foundation-math-ch2-quiz",
-          },
-          {
-            slug: "chapter-3-1-introduction-to-functions",
-            title: "3.1 Introduction to Functions",
-            summary: "Learn about domains, ranges, one-to-one, composite, and inverse functions.",
-            quiz: "foundation-math-ch3-1-quiz",
-          },
-          {
-            slug: "chapter-3-2-graphing-functions",
-            title: "3.2 Graphing Functions",
-            summary: "Understand function symmetry, standard graph shapes, and vertical/horizontal asymptotes.",
-            quiz: "foundation-math-ch3-2-quiz",
-          },
-          {
-            slug: "chapter-4-logarithms-and-exponents",
-            title: "4. Logarithmic and Exponential Notation",
-            summary: "Explore the laws of indices, logarithms, and their applications.",
-            quiz: "foundation-math-ch4-quiz",
-          },
-          {
-            slug: "chapter-5-1-matrices",
-            title: "5.1 Matrices",
-            summary: "Understand matrix notation, addition, subtraction, multiplication, the identity matrix, determinants, and finding the inverse of a 2×2 matrix.",
-            quiz: "foundation-math-ch5-1-quiz",
-          },
-          {
-            slug: "chapter-5-2-systems-of-equations",
-            title: "5.2 Systems of Linear Equations",
-            summary: "Master three methods for solving systems of equations: substitution, elimination, and the inverse matrix method.",
-            quiz: "foundation-math-ch5-2-quiz",
-          },
-          {
-            slug: "chapter-6-1-permutations",
-            title: "6.1 Arrangements and Permutations",
-            summary: "Learn the fundamental counting principle, factorial notation, and how to count ordered arrangements using permutations.",
-            quiz: "foundation-math-ch6-1-quiz",
-          },
-          {
-            slug: "chapter-6-2-combinations",
-            title: "6.2 Combinations",
-            summary: "Understand unordered selections, the combination formula nCr, and when to apply combinations vs permutations.",
-            quiz: "foundation-math-ch6-2-quiz",
           },
         ],
       },

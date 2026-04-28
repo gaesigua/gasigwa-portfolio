@@ -10,6 +10,7 @@
 **Definition:** If `m` and `n` are positive integers, then an **m × n matrix** (read "m by n") is a rectangular array of numbers arranged in `m` rows (horizontal lines) and `n` columns (vertical lines).
 
 A general matrix looks like this:
+
 ```
      column 1   column 2  ...  column n
 row 1 [ a₁₁     a₁₂     ...   a₁ₙ ]
@@ -19,17 +20,18 @@ row 2 [ a₂₁     a₂₂     ...   a₂ₙ ]
 The entry in the **i-th row** and **j-th column** is written as `aᵢⱼ`. We call `i` the **row subscript** and `j` the **column subscript**.
 
 ### Key Vocabulary
+
 - If `m = n` (equal rows and columns), the matrix is called a **square matrix** of order `n`.
 - A matrix with only one row is a **row matrix**.
 - A matrix with only one column is a **column matrix**.
 
 ### Concrete Examples
 
-| Name | Order | Matrix |
-|---|---|---|
-| Row matrix | 1 × 4 | `[ 1, -3, 0, ½ ]` |
-| Zero matrix | 2 × 2 | `[ [0, 0], [0, 0] ]` |
-| Rectangular matrix | 2 × 3 | `[ [-1, 0, 5], [2, 1, -4] ]` |
+| Name               | Order | Matrix                         |
+| ------------------ | ----- | ------------------------------ |
+| Row matrix         | 1 × 4 | `[ 1, -3, 0, ½ ]`              |
+| Zero matrix        | 2 × 2 | `[ [0, 0], [0, 0] ]`           |
+| Rectangular matrix | 2 × 3 | `[ [-1, 0, 5], [2, 1, -4] ]`   |
 | Rectangular matrix | 3 × 2 | `[ [5, 0], [2, -2], [-7, 4] ]` |
 
 ---
@@ -41,7 +43,7 @@ The entry in the **i-th row** and **j-th column** is written as `aᵢⱼ`. We ca
 
 You simply add the corresponding entries together.
 
-> **Important:** The sum of two matrices of *different orders* is **undefined**. You can only add matrices of the same dimensions!
+> **Important:** The sum of two matrices of _different orders_ is **undefined**. You can only add matrices of the same dimensions!
 
 <div class="example">
   <h4>Example A: Adding 2×2 Matrices</h4>
@@ -77,6 +79,7 @@ Again, you simply subtract corresponding entries.
 Matrix multiplication is more involved than addition, and it does NOT simply multiply corresponding entries. Instead, it follows a **row-by-column** rule.
 
 **Rule:** If `A` is an `m × n` matrix and `B` is an `n × p` matrix, then the product `A × B` is an `m × p` matrix. The entry `cᵢⱼ` in the product is obtained by:
+
 - Taking the i-th row of A and the j-th column of B
 - Multiplying their corresponding entries
 - Summing the results
@@ -85,16 +88,16 @@ Matrix multiplication is more involved than addition, and it does NOT simply mul
 
 > **Note:** For multiplication to be possible, the **number of columns in A** must equal the **number of rows in B**.
 
-<div class="example">
+<div class="example" style="color: white">
   <h4>Example: Multiplying a 3×2 by a 2×1 (result is 3×1)</h4>
   <pre>
-A = [[1, 2],     B = [[2],
+A = [[1, 2],      B = [[2],
      [2, 1],          [3]]
      [3, 0]]
-
 AB = [[(1×2)+(2×3)],    [[2+6],     [[8],
       [(2×2)+(1×3)],  =  [4+3],  =   [7],
-      [(3×2)+(0×3)]]     [6+0]]      [6]]
+      [(3×2)+(0×3)]] [6+0]] [6]]
+
   </pre>
   <p>The result is a <strong>3×1</strong> column matrix.</p>
 </div>
@@ -129,14 +132,16 @@ Every **square matrix** has an associated number called its **determinant**, den
 ### Determinant of a 2×2 Matrix
 
 For a 2×2 matrix:
+
 ```
 A = [[a₁₁, a₁₂],
      [a₂₁, a₂₂]]
 ```
+
 The determinant is defined as:
 `|A| = a₁₁a₂₂ - a₂₁a₁₂`
 
-*Think of it as: (top-left × bottom-right) minus (bottom-left × top-right).*
+_Think of it as: (top-left × bottom-right) minus (bottom-left × top-right)._
 
 <div class="example">
   <h4>Example: Finding a Determinant</h4>
