@@ -3,9 +3,27 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 /*
  Props:
-  - quiz: { id, title, questions: [{ question, options, correctIndex, hint, explanation }] }
+  - quiz: { id, title, questions: [{ question, options, correctIndex|answer, hint?, explanation }] }
+  Supports two question formats:
+    - { correctIndex: number }  — 0-based index of the correct option
+    - { answer: string }        — the text of the correct option
   - onFinish(optional): callback(answers)
 */
+
+/**
+ * Normalise a question so it always has a 0-based `correctIndex`.
+ * If the question already has `correctIndex`, use it as-is.
+ * If it has `answer`, find the matching option index.
+ */
+const getCorrectIndex = (q) => {
+  if (typeof q.correctIndex === "number") return q.correctIndex;
+  if (typeof q.answer === "string") {
+    const idx = q.options.indexOf(q.answer);
+    return idx >= 0 ? idx : -1; // -1 signals a data error
+  }
+  return -1;
+};
+
 const QuizPlayer = ({ quiz, onFinish }) => {
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null); // selected option index
@@ -14,12 +32,13 @@ const QuizPlayer = ({ quiz, onFinish }) => {
   const [answers, setAnswers] = useState([]); // store {selected, correct}
 
   const q = quiz.questions[index];
+  const correctIndex = getCorrectIndex(q);
 
   const handleSelect = (i) => {
     if (revealed) return; // prevent change after reveal
     setSelected(i);
     setRevealed(true);
-    const correct = i === q.correctIndex;
+    const correct = i === correctIndex;
     setAnswers((a) => [...a, { questionIndex: index, selected: i, correct }]);
   };
 
@@ -72,12 +91,12 @@ const QuizPlayer = ({ quiz, onFinish }) => {
             let className = base + " border-slate-200 bg-slate-50 text-slate-700";
             if (revealed && selected === i) {
               // user selected this option and answer is revealed
-              if (i === q.correctIndex) {
+              if (i === correctIndex) {
                 className = base + " bg-[#e8f4fc] border-[#6ab3ea] text-[#1f5f89]";
               } else {
                 className = base + " bg-red-50 border-red-300 text-red-700";
               }
-            } else if (revealed && i === q.correctIndex) {
+            } else if (revealed && i === correctIndex) {
               // show correct answer even if not selected
               className = base + " bg-[#e8f4fc] border-[#6ab3ea] text-[#1f5f89]";
             }
@@ -104,15 +123,19 @@ const QuizPlayer = ({ quiz, onFinish }) => {
           </div>
         )}
 
-        {/* hint toggle */}
+        {/* hint toggle — only rendered when the question has a hint */}
         <div className="mt-4 flex items-center justify-between">
-          <button
-            className="text-sm text-[#2f7fb5] hover:underline"
-            onClick={() => setShowHint(!showHint)}
-            type="button"
-          >
-            {showHint ? "Hide hint" : "Show hint"}
-          </button>
+          {q.hint ? (
+            <button
+              className="text-sm text-[#2f7fb5] hover:underline"
+              onClick={() => setShowHint(!showHint)}
+              type="button"
+            >
+              {showHint ? "Hide hint" : "Show hint"}
+            </button>
+          ) : (
+            <span />
+          )}
 
           <div>
             <button

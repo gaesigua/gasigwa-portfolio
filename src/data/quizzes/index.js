@@ -53,12 +53,15 @@ import graphTheoryQuiz from "./graph-theory-quiz";
 
 // Foundation Mathematics quizzes
 import foundationMathCh1Quiz from "./foundation-math-ch1-quiz";
+import foundationMathCh17Quiz from "./foundation-math-ch1-7-quiz";
+import foundationMathCh18Quiz from "./foundation-math-ch1-8-quiz";
 import foundationMathCh2Quiz from "./foundation-math-ch2-quiz";
 import foundationMathCh31Quiz from "./foundation-math-ch3-1-quiz";
 import foundationMathCh32Quiz from "./foundation-math-ch3-2-quiz";
 import foundationMathCh4Quiz from "./foundation-math-ch4-quiz";
 import foundationMathCh51Quiz from "./foundation-math-ch5-1-quiz";
 import foundationMathCh52Quiz from "./foundation-math-ch5-2-quiz";
+import foundationMathCh53Quiz from "./foundation-math-ch5-3-quiz";
 import foundationMathCh61Quiz from "./foundation-math-ch6-1-quiz";
 import foundationMathCh62Quiz from "./foundation-math-ch6-2-quiz";
 
@@ -100,6 +103,19 @@ export const quizzes = {
   "web-interface-design-quiz": webInterfaceDesignQuiz,
   "html-layout-quiz": htmlLayoutQuiz,
   "css-intro-quiz": cssIntroQuiz,
+  // Foundation Mathematics
+  "foundation-math-ch1-quiz": foundationMathCh1Quiz,
+  "foundation-math-ch1-7-quiz": foundationMathCh17Quiz,
+  "foundation-math-ch1-8-quiz": foundationMathCh18Quiz,
+  "foundation-math-ch2-quiz": foundationMathCh2Quiz,
+  "foundation-math-ch3-1-quiz": foundationMathCh31Quiz,
+  "foundation-math-ch3-2-quiz": foundationMathCh32Quiz,
+  "foundation-math-ch4-quiz": foundationMathCh4Quiz,
+  "foundation-math-ch5-1-quiz": foundationMathCh51Quiz,
+  "foundation-math-ch5-2-quiz": foundationMathCh52Quiz,
+  "foundation-math-ch5-3-quiz": foundationMathCh53Quiz,
+  "foundation-math-ch6-1-quiz": foundationMathCh61Quiz,
+  "foundation-math-ch6-2-quiz": foundationMathCh62Quiz,
   // Discrete Mathematics and Logic
   "boolean-algebra-quiz": booleanAlgebraQuiz,
   "propositional-logic-quiz": propositionalLogicQuiz,
@@ -108,16 +124,6 @@ export const quizzes = {
   "proof-techniques-quiz": proofTechniquesQuiz,
   "combinatorics-quiz": combinatoricsQuiz,
   "graph-theory-quiz": graphTheoryQuiz,
-  // Foundation Mathematics
-  "foundation-math-ch1-quiz": foundationMathCh1Quiz,
-  "foundation-math-ch2-quiz": foundationMathCh2Quiz,
-  "foundation-math-ch3-1-quiz": foundationMathCh31Quiz,
-  "foundation-math-ch3-2-quiz": foundationMathCh32Quiz,
-  "foundation-math-ch4-quiz": foundationMathCh4Quiz,
-  "foundation-math-ch5-1-quiz": foundationMathCh51Quiz,
-  "foundation-math-ch5-2-quiz": foundationMathCh52Quiz,
-  "foundation-math-ch6-1-quiz": foundationMathCh61Quiz,
-  "foundation-math-ch6-2-quiz": foundationMathCh62Quiz,
 };
 export default quizzes;
-
+

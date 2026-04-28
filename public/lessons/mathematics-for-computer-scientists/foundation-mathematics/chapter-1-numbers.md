@@ -13,7 +13,7 @@ Man started with counting numbers `1, 2, 3, 4, 5...` denoted by **N**. These are
 <div class="steps">
   <div class="step">
     <strong>1. Integers (Z)</strong><br>
-    When we combine positive counting numbers, negative whole numbers (`-3, -2, -1`), and zero (`0`), we get the set of Integers, denoted by **Z**.
+    When we combine positive counting numbers, negative whole numbers (`-3, -2, -1`), and zero (`0`), we get the set of Integers, denoted by <strong> Z </strong>.
   </div>
   <div class="step">
     <strong>2. Rational Numbers (Q)</strong><br>
@@ -51,6 +51,7 @@ Roots such as `√2`, `√3`, and `√5` are called surds. They are examples of 
 </div>
 
 ### Rationalizing the Denominator
+
 When surds appear in the denominator of a fraction, it is usual to eliminate them. This is called rationalizing the denominator.
 For example, to rationalize `3 / 2√7`, multiply both the numerator and denominator by `√7`:
 <code>(3 × √7) / (2√7 × √7) = 3√7 / 14</code>
@@ -59,8 +60,8 @@ To rationalize a fraction like `1 / (a ± √b)`, multiply its numerator and den
 
 ## 1.3 Complex Numbers
 
-It's possible to take the square root of any non-negative real number. However, for negative numbers, there is no real solution. 
-Consider `√-1`. We let `i = √-1`. Then `i² = -1`. But there is no such real number `i`. 
+It's possible to take the square root of any non-negative real number. However, for negative numbers, there is no real solution.
+Consider `√-1`. We let `i = √-1`. Then `i² = -1`. But there is no such real number `i`.
 
 <div class="definition-card">
   <h4>Complex Numbers</h4>
@@ -112,6 +113,7 @@ If `a` and `b` represent real numbers, there are four basic arithmetic operation
 ## 1.5 Algebra of Sets of Real Numbers
 
 Given two sets A and B:
+
 - **Intersection (A ∩ B):** Consists of elements which belong to both A and B.
 - **Union (A ∪ B):** Consists of elements which belong to A or B, or both.
 - **Universal Set (ε):** Represents the set of all elements under consideration.
