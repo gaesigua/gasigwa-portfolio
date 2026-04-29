@@ -138,6 +138,7 @@ export const lessons = [
         ],
       },
     ],
+    finalExams: ["foundation-math-final-1"],
   },
   {
     slug: "computer-programming-and-data-structures",
