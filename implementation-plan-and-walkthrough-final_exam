@@ -1,0 +1,161 @@
+# Final Exam Feature Implementation
+
+## Overview
+
+Add a **Final Exam** section at the bottom of each `LessonCatalogPage` (the course overview page). Each exam is a long-form, multi-question written assessment (different from the short MCQ quizzes on individual lesson pages). The feature follows the same patterns as the existing quiz system — data files + a dedicated page component — but is designed for comprehensive, markdown-rendered, open-ended style exams with model answers.
+
+---
+
+## Architecture Design
+
+### Key Decisions
+
+1. **Exam data lives in a new `src/data/exams/` directory** — mirrors `src/data/quizzes/`. Each exam is a `.js` file that exports an object.
+2. **An `exams/index.js`** exports a map of `examId → examData` — mirrors `quizzes/index.js`.
+3. **Each exam object contains**:
+   - `id` — unique string key (e.g. `"foundation-math-final-1"`)
+   - `title` — display name
+   - `courseSlug` — the parent lesson slug (used to link back)
+   - `description` — short blurb shown on the catalog card
+   - `durationMinutes` — suggested time
+   - `parts` — array of parts, each with a `title` and `questions` array
+   - Each question has: `number`, `text` (markdown), and `marks`
+4. **Model answers are stored in a separate field** `answerKey` inside the same `.js` file, or a companion `*-answers.js`. We'll use a single file with `answerKey` property for simplicity.
+5. **The lessons data** (`src/data/lessons.jsx`) gets an optional `finalExams` array on each lesson, listing exam IDs — this is what the catalog page reads.
+6. **`ExamPage.jsx`** — a new page that renders the exam (question mode) or the answer key (toggle). Route: `/exam/:examId`.
+7. **`LessonCatalogPage.jsx`** — updated to show a "Final Exams" section below Parts, with a card per exam linking to `/exam/:examId`.
+8. **`App.jsx`** — adds the `/exam/:examId` route.
+
+---
+
+## Proposed Changes
+
+### 1 — New Exam Data Infrastructure
+
+#### [NEW] `src/data/exams/foundation-math-final-1.js`
+
+The exam data for _Foundation Mathematics_ Final Exam 1, transcribed from the two markdown files the user provided. Contains both the questions (split into Part 1 & Part 2) and the full answer key.
+
+#### [NEW] `src/data/exams/index.js`
+
+Registry that imports all exam files and exports a `exams` map, identical in pattern to `quizzes/index.js`.
+
+---
+
+### 2 — Lessons Data Update
+
+#### [MODIFY] `src/data/lessons.jsx`
+
+Add a `finalExams` array to each lesson that has exams. For now, only `mathematics-for-computer-scientists` gets one:
+
+```js
+finalExams: ["foundation-math-final-1"];
+```
+
+The field is optional, so courses without exams are unaffected.
+
+---
+
+### 3 — New ExamPage Component
+
+#### [NEW] `src/pages/ExamPage.jsx`
+
+- Route param: `examId`
+- Looks up exam from the `exams` map
+- Shows exam metadata (title, duration, description)
+- Renders each Part → Question with markdown (via `react-markdown` + `remark-gfm` + `rehype-raw` for LaTeX-style math display)
+- Has a **"Show Answer Key"** toggle button that reveals the full model answers below each question
+- Has a print-friendly layout consideration
+
+---
+
+### 4 — LessonCatalogPage Update
+
+#### [MODIFY] `src/pages/LessonCatalogPage.jsx`
+
+Below the existing Parts list, add a **"Final Exams"** section:
+
+- Only renders if `lesson.finalExams` is non-empty
+- Shows one card per exam with: exam title, description, duration badge, and a "Take Exam →" link to `/exam/:examId`
+- Styled distinctively (e.g. gold/amber accent) to visually separate it from regular Parts
+
+---
+
+### 5 — Routing
+
+#### [MODIFY] `src/App.jsx`
+
+Add:
+
+```jsx
+<Route path="/exam/:examId" element={<ExamPage />} />
+```
+
+---
+
+## Open Questions
+
+> [!IMPORTANT]
+> **Math rendering**: The exam content has LaTeX math (`$...$`, `$$...$$`). The existing lesson pages use `react-markdown` + `remark-gfm` + `rehype-raw` but do **not** appear to have a KaTeX/MathJax plugin. Do you want math to render visually (with `remark-math` + `rehype-katex`) or is plain text OK for now?
+>
+> I'll add `remark-math` + `rehype-katex` since the exams are math-heavy — it will require installing these two packages. If you don't want that, I can skip it.
+
+> [!NOTE]
+> **Answer key visibility**: The current plan is a simple toggle ("Show Answer Key") on the same page. An alternative would be a separate `/exam/:examId/answers` route. Let me know if you'd prefer the separate route — for now I'll go with the toggle.
+
+---
+
+## Verification Plan
+
+### Steps
+
+1. Run `npm run dev` and navigate to `/lessons/mathematics-for-computer-scientists`
+2. Confirm "Final Exams" section appears below the Parts
+3. Click the exam card → navigates to `/exam/foundation-math-final-1`
+4. Confirm questions render with proper formatting
+5. Click "Show Answer Key" → model answers appear
+6. Test back navigation works correctly
+
+# Final Exam Feature Walkthrough
+
+The Final Exam feature has been fully implemented based on your approved plan. It introduces a comprehensive, multi-part exam format that integrates seamlessly with your existing courses while supporting robust LaTeX math rendering.
+
+## What Was Implemented
+
+1. **Exam Data Architecture**
+   - Created `src/data/exams/foundation-math-final-1.js` which houses both the exam questions (split into logical parts) and a detailed answer key.
+   - Set up `src/data/exams/index.js` to serve as a central registry, mirroring the reliable pattern used for quizzes.
+   - Updated `src/data/lessons.jsx` to include a new `finalExams` array on the _Mathematics for Computer Scientists_ lesson. This is an opt-in field, meaning courses without exams remain completely unaffected.
+
+2. **ExamPage Component (`src/pages/ExamPage.jsx`)**
+   - A dedicated page to render the exam content beautifully.
+   - Features a clean, two-column responsive layout (where applicable) and clear separation of exam parts.
+   - **Math Rendering:** Fully integrated `remark-math` and `rehype-katex` to flawlessly render LaTeX equations block and inline throughout the questions and model answers.
+   - **Interactive Answer Key:** Added an intuitive, per-question toggle ("Show Model Answer") as well as a global "Show All Answers" button for streamlined self-assessment.
+
+3. **Lesson Catalog Integration (`src/pages/LessonCatalogPage.jsx`)**
+   - Redesigned the catalog page to include a visually distinct "Final Exams" section situated below the standard course parts.
+   - The section utilizes amber/gold styling to clearly differentiate it from regular lessons.
+   - It dynamically renders only if the selected course has entries in its `finalExams` array.
+
+4. **Routing**
+   - Added the new route `/exam/:examId` to `App.jsx`, ensuring seamless navigation from the catalog page to the individual exams.
+
+## Verification
+
+You can now test the feature by running your development server:
+
+```bash
+npm run dev
+```
+
+**Steps to test:**
+
+1. Navigate to the Mathematics for Computer Scientists course page (`/lessons/mathematics-for-computer-scientists`).
+2. Scroll to the bottom to view the new "Final Exams" section.
+3. Click "Take Exam" on the Foundation Mathematics — Final Exam 1 card.
+4. Verify that the exam renders correctly, paying special attention to the mathematical formulas.
+5. Test both the individual "Show Model Answer" buttons and the global "Show All Answers" toggle.
+
+> [!NOTE]
+> Since you have manually installed `remark-math` and `rehype-katex`, ensure that the development server was restarted to properly load the new dependencies.

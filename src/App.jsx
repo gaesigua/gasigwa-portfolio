@@ -1,9 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import LessonCatalogPage from './pages/LessonCatalogPage'; // Renamed for clarity
-import LessonSectionPage from './pages/LessonSectionPage'; // The new page for content
+import LessonCatalogPage from './pages/LessonCatalogPage';
+import LessonSectionPage from './pages/LessonSectionPage';
 import QuizPage from './pages/QuizPage';
+import ExamPage from './pages/ExamPage';
 
 // Main App Component
 const App = () => {
@@ -23,6 +24,9 @@ const App = () => {
 
       {/* or for param-based: <Route path="/quiz/:id" element={<QuizPage />} /> */}
       <Route path="/quiz/:quizId" element={<QuizPage />} />
+
+      {/* Route for Final Exams */}
+      <Route path="/exam/:examId" element={<ExamPage />} />
       
     </Routes>
   );

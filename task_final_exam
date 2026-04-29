@@ -1,0 +1,10 @@
+# Final Exam Feature — Task Checklist
+
+- `[/]` Install `remark-math` + `rehype-katex`
+- `[ ]` Create `src/data/exams/foundation-math-final-1.js`
+- `[ ]` Create `src/data/exams/index.js`
+- `[ ]` Update `src/data/lessons.jsx` — add `finalExams` to mathematics course
+- `[ ]` Create `src/pages/ExamPage.jsx`
+- `[ ]` Update `src/pages/LessonCatalogPage.jsx` — add Final Exams section
+- `[ ]` Update `src/App.jsx` — add `/exam/:examId` route
+- `[ ]` Verify dev server renders correctly
