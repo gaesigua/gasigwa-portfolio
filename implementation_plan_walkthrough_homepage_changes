@@ -1,0 +1,91 @@
+# Hero Section Redesign & Illustration Integration Plan
+
+This document details the architectural and UI changes implemented to enhance the homepage's visual appeal using wave dividers, full-width backgrounds, and illustration placeholders.
+
+## Completed Changes
+
+### 1. Full-Width Layout Architecture
+
+The previous design was constrained by a global container within the `Layout` component, which prevented elements on the homepage from stretching to the edges of the screen.
+
+#### [MODIFY] src/components/Layout.jsx
+
+- Removed the `container mx-auto px-4` wrapper from the `<main>` element.
+- Replaced it with `w-full` to allow children (like `HomePage`) to dictate their own full-bleed sections.
+
+#### [MODIFY] src/pages/LessonSectionPage.jsx
+
+- Re-added the necessary `px-4 md:py-16` padding that was removed from `Layout.jsx` to ensure this specific page doesn't touch the screen edges on mobile devices.
+
+---
+
+### 2. Hero Section Enhancements
+
+The hero section was updated from a simple centered text block to a dynamic, illustration-ready component.
+
+#### [MODIFY] src/pages/HomePage.jsx (Hero Section)
+
+- **Background Gradient:** Wrapped the hero section in a full-width `div` with `bg-gradient-to-b from-slate-50 to-[#e6f3fb]`.
+- **2-Column Layout:** Transitioned the hero content to a `flex flex-col md:flex-row` layout. The left column houses the introduction text, and the right column houses the user's custom SVG (`/hero_illustration_9_SCENE.svg`).
+- **Blend Modes:** Applied `mix-blend-multiply` and `drop-shadow-xl` to the hero image to ensure it blends seamlessly into the gradient background without awkward bounding boxes.
+
+---
+
+### 3. Wave Divider Integration
+
+A custom SVG wave path provided by the user was integrated to create a smooth transition between the blue hero section and the white content below.
+
+#### [MODIFY] src/pages/HomePage.jsx (Divider)
+
+- Placed the SVG directly below the hero section wrapper.
+- **Flipped Effect:** Applied the `rotate-180` utility class. Since the original path was drawn at the bottom of the viewBox, rotating it vertically makes it "hang" from the top, creating a beautiful dripping wave effect.
+- **Color Matching:** Set the SVG `fill` to `#e6f3fb` to perfectly match the bottom of the hero section's gradient.
+- **Full Width:** Added `w-full` and `preserveAspectRatio="none"` to ensure the wave scales horizontally across any screen size without breaking.
+
+---
+
+### 4. Illustration Placeholders
+
+To accommodate the user's request for adding more minimalistic 2D vector illustrations throughout the site, strategic placeholders were added.
+
+#### [MODIFY] src/pages/HomePage.jsx (Placeholders)
+
+- **Spot Illustrations:** Added small, circular dashed placeholders (`w-24 h-24`) directly above the `I want to learn ...` and `My Projects` section titles.
+- **New "About" Section:** Created a brand new section between the courses and the projects titled "Why Learn With MKU Alien?". This section features a 2-column layout with a large square placeholder on the left, specifically designed for another full "scene" illustration to balance the text on the right.
+
+# Hero Section & Layout Walkthrough
+
+This walkthrough summarizes the recent updates made to your portfolio's layout, specifically focusing on the Hero section redesign, the wave divider integration, and the addition of illustration placeholders.
+
+## What Was Accomplished
+
+### 1. Global Layout Fix
+
+Previously, the global `Layout` component restricted the entire website's content to a fixed container width. We removed this global restriction, replacing `container mx-auto px-4` with `w-full`. This unlocked the ability for individual page components (like the Hero section) to stretch all the way to the edges of the browser window. We also made sure to re-add the necessary padding to `LessonSectionPage.jsx` so its text doesn't touch the screen edges on mobile.
+
+### 2. 2-Column Hero Redesign
+
+We completely revamped the Hero section in `HomePage.jsx`:
+
+- **Gradient Background:** Added a subtle gradient background (`bg-gradient-to-b from-slate-50 to-[#e6f3fb]`) to give the section depth and color.
+- **Illustration Integration:** Converted the layout to a responsive 2-column flexbox. The left side holds your introductory text, and the right side holds your custom `hero_illustration_9_SCENE.svg`.
+- **Blending:** We applied CSS `mix-blend-multiply` and a `drop-shadow` to ensure the SVG perfectly meshes with the gradient background.
+
+### 3. "Dripping" Wave Divider
+
+We successfully implemented the custom SVG wave path you provided!
+
+- **Placement:** Positioned it directly below the Hero section.
+- **Flipping Effect:** We applied a `rotate-180` CSS transform. This flips the wave upside down, making the `#e6f3fb` blue color "drip" down into the white section below.
+- **Responsiveness:** Added `w-full` and `preserveAspectRatio="none"` to guarantee the wave seamlessly stretches across any screen size.
+
+### 4. Illustration Placeholders
+
+To support your plan of adding more minimalistic illustrations, we added dedicated UI blocks throughout `HomePage.jsx`:
+
+- **Spot Illustrations:** Created small, dashed circular placeholders above the "I want to learn..." and "My Projects" headings.
+- **New Section:** Built a brand new "Why Learn With MKU Alien?" section. It features a modern layout with a large placeholder designed specifically for another full-scene illustration.
+
+## How to Proceed
+
+All placeholders have clear HTML comments marking their location in `HomePage.jsx`. Whenever you find the perfect illustration, simply delete the placeholder `<div>` and replace it with your `<img src="..." />` tag!

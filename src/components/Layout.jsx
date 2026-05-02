@@ -64,7 +64,7 @@ const Layout = ({ children }) => (
       </header>
 
     {/* Main Content */}
-    <main className="flex-1 container mx-auto px-4 py-8 md:py-16">
+    <main className="flex-1 w-full">
       {children}
     </main>
 
