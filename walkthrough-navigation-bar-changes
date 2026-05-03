@@ -1,0 +1,60 @@
+# Navigation Bar Updates Walkthrough
+
+Here is a summary of the changes we made to your portfolio's navigation bar to incorporate the new authentication buttons.
+
+## What was changed
+
+### 1. Navigation Layout Restructuring
+We updated the `<header>` element in `src/components/Layout.jsx` to restructure how items are aligned.
+- Previously, the header used `justify-between` with the logo on the left and the navigation links (`Home`, `Learn`, `Projects`) on the right.
+- We wrapped the logo and the existing navigation links into a single `div` container on the left side (`flex-start`).
+- We added a new `div` container on the right side (`flex-end`) specifically for the authentication buttons.
+
+### 2. Adding "Sign in" and "Sign up" Buttons
+We introduced two new links on the extreme right of the navigation bar:
+
+- **Sign in Button**:
+  - Styled with a transparent background.
+  - Given a solid border (`border-slate-300`) and rounded corners (`rounded-lg`).
+  - Added hover effects to slightly darken the text and border for a responsive feel.
+  - Hidden on very small mobile screens (`hidden sm:block`) to prevent horizontal overflow, but visible on standard mobile and larger screens.
+
+- **Sign up Button**:
+  - Styled as the primary call-to-action button.
+  - Features the requested light blue background (`bg-[#6ab3ea]`) and matching border.
+  - Uses white text for high contrast.
+  - Includes a subtle shadow (`shadow-sm`) and rounded corners (`rounded-lg`).
+  - Added hover effects to slightly darken the background to `#5aa0d5`.
+
+### 3. Placeholders for Future Pages
+As requested, both buttons are currently configured as placeholder links (`to="#"`). Once the actual Sign In and Sign Up pages are built, these links can easily be updated to point to routes like `/sign-in` and `/sign-up`.
+
+## Code Highlights
+
+Here is the diff of the core layout change we made to `src/components/Layout.jsx`:
+
+```diff
+-      <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
+-        <img src="/gasigwa-logo.png" alt="Logo" className="h-12 md:h-16 w-auto object-contain" />
+-      </Link>
+-      <nav className="flex space-x-2 md:space-x-4">
+-        {/* Navigation Links */}
+-      </nav>
++      <div className="flex items-center space-x-2 md:space-x-8">
++        <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
++          <img src="/gasigwa-logo.png" alt="Logo" className="h-12 md:h-16 w-auto object-contain" />
++        </Link>
++        <nav className="flex space-x-1 md:space-x-4">
++          {/* Navigation Links */}
++        </nav>
++      </div>
++
++      <div className="flex items-center space-x-3">
++        <Link to="#" className="hidden sm:block py-2 px-4 rounded-lg border border-slate-300 text-slate-600 hover:border-slate-400 hover:text-slate-800 transition-colors duration-200 font-medium">
++          Sign in
++        </Link>
++        <Link to="#" className="py-2 px-4 rounded-lg border border-[#6ab3ea] bg-[#6ab3ea] text-white hover:bg-[#5aa0d5] hover:border-[#5aa0d5] transition-colors duration-200 font-medium shadow-sm">
++          Sign up
++        </Link>
++      </div>
+```

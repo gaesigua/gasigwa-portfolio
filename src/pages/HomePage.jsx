@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, ArrowRight } from "lucide-react";
+import { Github, ArrowRight, Target, Zap, Globe, ShieldCheck } from "lucide-react";
 import { lessons } from "../data/lessons";
 import LessonCard from "../components/LessonCard";
 import Layout from "../components/Layout";
@@ -28,7 +28,7 @@ const HomePage = () => {
 
   return (
     <Layout>
-      <div className="min-h-screen bg-white text-slate-800 font-mono antialiased">
+      <div className="min-h-screen bg-white text-slate-800 antialiased">
         {/* Full-width Hero Wrapper */}
         <div className="relative bg-gradient-to-b from-slate-50 to-[#e6f3fb] pt-16 pb-32 md:pb-48">
           <div className="container mx-auto px-4 relative z-10">
@@ -36,7 +36,7 @@ const HomePage = () => {
             <section id="home" className="pt-8 md:pt-16 flex flex-col md:flex-row items-center justify-between gap-12">
               <div className="text-center md:text-left md:w-1/2">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
-                  Welcome back, <span className="text-[#2f7fb5]">MKU Alien</span>.
+                  Welcome back, <span className="text-[#2f7fb5]">Alien</span>.
                 </h1>
                 {/* <p className="text-lg md:text-2xl text-slate-600 max-w-3xl mx-auto mb-8">
                   A Java & Springboot Developer with a passion for building robust
@@ -44,13 +44,19 @@ const HomePage = () => {
                 </p> */}
                 <p className="text-base md:text-2xl text-slate-600 max-w-lg mx-auto md:mx-0 mb-8">
                   Let's learn together at our own pace. Build at our own speed.</p>
-                <div className="flex justify-center md:justify-start space-x-4">
+                <div className="flex flex-wrap justify-center md:justify-start gap-3">
                   <a
-                    href="#projects"
+                    href="#learn-with-me"
                     className="bg-[#6ab3ea] hover:bg-[#4a9ed9] text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 transform hover:-translate-y-1 flex items-center group"
                   >
-                    View my projects
+                    Start Learning
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
+                  </a>
+                  <a
+                    href="#projects"
+                    className="bg-white hover:bg-slate-50 text-slate-700 font-semibold py-3 px-6 rounded-lg border border-slate-300 hover:border-[#6ab3ea] shadow-sm transition-all duration-300 transform hover:-translate-y-1 flex items-center"
+                  >
+                    View my projects
                   </a>
                 </div>
               </div>
@@ -87,15 +93,12 @@ const HomePage = () => {
           {/* Learn to Code Section */}
           <section id="learn-with-me" className="mb-24 md:mb-36 py-12 md:py-16">
             <div className="flex flex-col items-center justify-center mb-12">
-              {/* Decorative Icon/Illustration Placeholder */}
-              {/* <div className="w-24 h-24 mb-6 bg-[#f0f7fc] rounded-full border-2 border-dashed border-[#cde6f9] flex flex-col items-center justify-center text-[#2f7fb5] hover:border-[#6ab3ea] transition-colors cursor-pointer">
-                <span className="text-xs font-semibold text-center px-2">Spot<br/>Image</span>
-              </div> */}
-              
-              
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-3">
                 Courses
               </h2>
+              <p className="text-slate-500 text-center max-w-xl">
+                Structured, self-paced learning paths designed for university students in Rwanda.
+              </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {lessons.map((lesson) => (
@@ -104,41 +107,71 @@ const HomePage = () => {
             </div>
           </section>
 
-          {/* About/Philosophy Section Placeholder */}
+          {/* Why Learn With Us Section */}
           <section className="mb-24 md:mb-36 py-16 md:py-20 bg-gradient-to-br from-[#f8fcff] to-white rounded-[2rem] p-8 md:p-16 border border-[#e6f3fb] shadow-sm">
             <div className="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+
+              {/* Illustration */}
               <div className="md:w-1/2 flex justify-center">
-                {/* Large Illustration Placeholder */}
-                <div className="w-full max-w-sm aspect-square bg-slate-50 rounded-3xl border-2 border-dashed border-slate-300 flex flex-col items-center justify-center text-slate-400 hover:border-[#6ab3ea] transition-colors cursor-pointer group">
-                  <svg className="w-16 h-16 mb-4 opacity-50 group-hover:text-[#6ab3ea] transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  {/* <span className="text-sm font-medium group-hover:text-[#6ab3ea] transition-colors">Add Scene Illustration</span> */}
-                  <img src="/undraw_education_1.png"/>
-                </div>
+                <img
+                  src="/undraw_education_1.png"
+                  alt="Education illustration"
+                  className="w-full max-w-sm object-contain drop-shadow-md"
+                />
               </div>
+
+              {/* Text + Feature Cards */}
               <div className="md:w-1/2 text-center md:text-left">
-                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Why Learn With Us?</h2>
-                <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                  We tailor learning to each student's specific level, abilities, and aptitudes to optimize their educational experience.<br></br>
-                  We Deliver interactive, multimedia, and enjoyable learning experiences that improve student retention.<br></br>
-                  We Provide 24/7 access to education, bridging geographical gaps and supporting diverse learning needs.<br></br>
-                  We Assure users of strict privacy protections and secure, responsible, and compliant data handling.
-                  </p>
-                <ul className="text-left space-y-5 text-slate-600 max-w-md mx-auto md:mx-0">
-                  <li className="flex items-center gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#e6f3fb] flex items-center justify-center text-[#2f7fb5] font-bold">1</div>
-                    <span className="font-medium text-lg">Interactive quizzes and practice</span>
-                  </li>
-                  <li className="flex items-center gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#e6f3fb] flex items-center justify-center text-[#2f7fb5] font-bold">2</div>
-                    <span className="font-medium text-lg">Learn at your own pace</span>
-                  </li>
-                  <li className="flex items-center gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#e6f3fb] flex items-center justify-center text-[#2f7fb5] font-bold">3</div>
-                    <span className="font-medium text-lg">Build real-world projects</span>
-                  </li>
-                </ul>
+                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-3">Why Learn With Us?</h2>
+                <p className="text-slate-500 mb-10 leading-relaxed">
+                  We tailor every experience to help you learn faster, retain more, and build real skills.
+                </p>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {/* Card 1 */}
+                  <div className="flex items-start gap-4 bg-white rounded-2xl p-5 border border-[#e6f3fb] shadow-sm hover:shadow-md hover:border-[#6ab3ea] transition-all duration-200 group">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-[#e6f3fb] flex items-center justify-center text-[#2f7fb5] group-hover:bg-[#2f7fb5] group-hover:text-white transition-colors duration-200">
+                      <Target className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-slate-900 mb-1">Personalized Learning</h3>
+                      <p className="text-sm text-slate-500 leading-snug">Tailored to your level, abilities, and aptitudes.</p>
+                    </div>
+                  </div>
+
+                  {/* Card 2 */}
+                  <div className="flex items-start gap-4 bg-white rounded-2xl p-5 border border-[#e6f3fb] shadow-sm hover:shadow-md hover:border-[#6ab3ea] transition-all duration-200 group">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-[#e6f3fb] flex items-center justify-center text-[#2f7fb5] group-hover:bg-[#2f7fb5] group-hover:text-white transition-colors duration-200">
+                      <Zap className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-slate-900 mb-1">Interactive & Engaging</h3>
+                      <p className="text-sm text-slate-500 leading-snug">Multimedia lessons and quizzes that improve retention.</p>
+                    </div>
+                  </div>
+
+                  {/* Card 3 */}
+                  <div className="flex items-start gap-4 bg-white rounded-2xl p-5 border border-[#e6f3fb] shadow-sm hover:shadow-md hover:border-[#6ab3ea] transition-all duration-200 group">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-[#e6f3fb] flex items-center justify-center text-[#2f7fb5] group-hover:bg-[#2f7fb5] group-hover:text-white transition-colors duration-200">
+                      <Globe className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-slate-900 mb-1">24/7 Access</h3>
+                      <p className="text-sm text-slate-500 leading-snug">Learn anytime, anywhere — no geographical limits.</p>
+                    </div>
+                  </div>
+
+                  {/* Card 4 */}
+                  <div className="flex items-start gap-4 bg-white rounded-2xl p-5 border border-[#e6f3fb] shadow-sm hover:shadow-md hover:border-[#6ab3ea] transition-all duration-200 group">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-[#e6f3fb] flex items-center justify-center text-[#2f7fb5] group-hover:bg-[#2f7fb5] group-hover:text-white transition-colors duration-200">
+                      <ShieldCheck className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-slate-900 mb-1">Private & Secure</h3>
+                      <p className="text-sm text-slate-500 leading-snug">Strict privacy protections and responsible data handling.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
@@ -146,13 +179,12 @@ const HomePage = () => {
           {/* Projects Section */}
           <section id="projects" className="mb-24 md:mb-36 py-12 md:py-16">
             <div className="flex flex-col items-center justify-center mb-12">
-              {/* Decorative Icon/Illustration Placeholder */}
-              {/* <div className="w-24 h-24 mb-6 bg-[#f0f7fc] rounded-full border-2 border-dashed border-[#cde6f9] flex flex-col items-center justify-center text-[#2f7fb5] hover:border-[#6ab3ea] transition-colors cursor-pointer">
-                <span className="text-xs font-semibold text-center px-2">Spot<br/>Image</span>
-              </div> */}
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-3">
                 My Projects
               </h2>
+              <p className="text-slate-500 text-center max-w-xl">
+                A selection of what I've built — from backend APIs to AI-powered tools.
+              </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Project Card 1 */}

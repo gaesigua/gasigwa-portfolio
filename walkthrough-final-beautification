@@ -1,0 +1,171 @@
+# Homepage & Layout Design Improvements
+**Date:** 2026-05-04  
+**Files Modified:** `src/pages/HomePage.jsx`, `src/components/Layout.jsx`
+
+---
+
+## Overview
+
+This session focused on a design critique and overhaul of the homepage and layout component. The goal was to move the UI from a rough "work in progress" feel to a polished, professional standard — with particular attention to the "Why Learn With Us?" section, which had structural and visual issues.
+
+---
+
+## Issues Identified
+
+### `HomePage.jsx`
+
+| # | Issue | Location |
+|---|---|---|
+| 1 | `font-mono` applied to root div conflicted with `font-sans` in Layout, making body text look like code | Line 31 |
+| 2 | "Why Learn With Us?" used a single `<p>` block with `<br/>` separators for 4 distinct points — looked like a wall of text | Lines 122–127 |
+| 3 | A numbered `<ul>` below that paragraph listed 3 *different* points — redundant and contradictory | Lines 128–141 |
+| 4 | The illustration (`undraw_education_1.png`) was nested inside a stray dashed-border placeholder `<div>` that still rendered its SVG icon | Lines 112–118 |
+| 5 | Hero only had one CTA ("View my projects") — missed an obvious "Start Learning" primary action | Lines 47–55 |
+| 6 | "Courses" and "My Projects" section headings had no subtitles, making them feel bare | Lines 96–99, 153–156 |
+
+### `Layout.jsx`
+
+| # | Issue | Location |
+|---|---|---|
+| 7 | Logo and nav links shared the same `flex space-x-2 md:space-x-8` wrapper — cramped on mobile, no visual separation | Line 8 |
+| 8 | Nav links used `block` display unnecessarily inside an inline flex row | Lines 17–34 |
+
+---
+
+## Changes Made
+
+### 1. Removed `font-mono` from the Root Div (`HomePage.jsx`)
+
+**Before:**
+```jsx
+<div className="min-h-screen bg-white text-slate-800 font-mono antialiased">
+```
+**After:**
+```jsx
+<div className="min-h-screen bg-white text-slate-800 antialiased">
+```
+`font-sans` is already applied in `Layout.jsx` on the outer wrapper, so this was redundant and harmful.
+
+---
+
+### 2. Added Dual CTAs in the Hero Section (`HomePage.jsx`)
+
+Replaced the single anchor button with two:
+- **Primary:** "Start Learning" → scrolls to `#learn-with-me`, blue filled, has an `ArrowRight` icon with a slide-right animation on hover
+- **Secondary:** "View my projects" → scrolls to `#projects`, white ghost style with a border that highlights on hover
+
+```jsx
+<div className="flex flex-wrap justify-center md:justify-start gap-3">
+  <a href="#learn-with-me" className="bg-[#6ab3ea] ... flex items-center group">
+    Start Learning
+    <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
+  </a>
+  <a href="#projects" className="bg-white border border-slate-300 hover:border-[#6ab3ea] ...">
+    View my projects
+  </a>
+</div>
+```
+
+> **Note:** `flex-wrap` was used instead of `flex` to prevent buttons from overflowing on small screens.
+
+---
+
+### 3. Added Section Subtitles (`HomePage.jsx`)
+
+Both the "Courses" and "My Projects" headings now have a short descriptor `<p>` beneath them styled `text-slate-500 text-center max-w-xl`.
+
+**Courses subtitle:**
+> *"Structured, self-paced learning paths designed for university students in Rwanda."*
+
+**My Projects subtitle:**
+> *"A selection of what I've built — from backend APIs to AI-powered tools."*
+
+---
+
+### 4. Overhauled "Why Learn With Us?" Section (`HomePage.jsx`)
+
+This was the biggest change. The paragraph+list combo was completely replaced.
+
+**Structural change:**
+- Removed: one `<p>` block with 4 `<br/>`-separated sentences + a `<ul>` with 3 numbered items
+- Added: a `grid grid-cols-1 sm:grid-cols-2 gap-4` containing **4 icon-backed feature cards**
+
+**Each card structure:**
+```jsx
+<div className="flex items-start gap-4 bg-white rounded-2xl p-5 border border-[#e6f3fb] shadow-sm
+                hover:shadow-md hover:border-[#6ab3ea] transition-all duration-200 group">
+  <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-[#e6f3fb] flex items-center justify-center
+                  text-[#2f7fb5] group-hover:bg-[#2f7fb5] group-hover:text-white transition-colors duration-200">
+    <IconName className="w-5 h-5" />
+  </div>
+  <div>
+    <h3 className="font-semibold text-slate-900 mb-1">Card Title</h3>
+    <p className="text-sm text-slate-500 leading-snug">Short description.</p>
+  </div>
+</div>
+```
+
+**Icons used (from `lucide-react`):**
+
+| Card | Icon | Title |
+|---|---|---|
+| 1 | `Target` | Personalized Learning |
+| 2 | `Zap` | Interactive & Engaging |
+| 3 | `Globe` | 24/7 Access |
+| 4 | `ShieldCheck` | Private & Secure |
+
+**Import line updated to:**
+```jsx
+import { Github, ArrowRight, Target, Zap, Globe, ShieldCheck } from "lucide-react";
+```
+
+**Hover effect:** The icon container transitions from `bg-[#e6f3fb] text-[#2f7fb5]` → `bg-[#2f7fb5] text-white` on card hover, using Tailwind's `group` / `group-hover` pattern.
+
+---
+
+### 5. Fixed the Illustration Placeholder (`HomePage.jsx`)
+
+**Before:** The image was nested inside a dashed-border `div` that still rendered a floating SVG icon beside it.
+
+**After:** The placeholder wrapper was removed entirely. The image renders standalone with `drop-shadow-md`:
+```jsx
+<img
+  src="/undraw_education_1.png"
+  alt="Education illustration"
+  className="w-full max-w-sm object-contain drop-shadow-md"
+/>
+```
+
+---
+
+### 6. Decoupled Logo & Nav in the Header (`Layout.jsx`)
+
+**Before:** Logo and nav shared one `flex space-x-2 md:space-x-8` div — tight on mobile.
+
+**After:** They are siblings in a `flex items-center gap-6 md:gap-10` container, with the logo getting `flex-shrink-0` to prevent it from being compressed.
+
+```jsx
+<div className="flex items-center gap-6 md:gap-10">
+  <Link to="/" className="flex items-center hover:opacity-80 transition-opacity flex-shrink-0">
+    <img src="/gasigwa-logo.png" className="h-12 md:h-16 w-auto object-contain" />
+  </Link>
+  <nav className="flex items-center space-x-1 md:space-x-2">
+    {/* nav links */}
+  </nav>
+</div>
+```
+
+Nav link classes were also cleaned up — removed unnecessary `block` and added `text-sm md:text-base` for responsive sizing.
+
+---
+
+## Design Patterns Established
+
+- **Feature card pattern:** `group` on the card container + `group-hover:` on the icon div enables icon color transitions without JS
+- **Section headings:** Always pair an `<h2>` with a `<p className="text-slate-500 ...">` subtitle for professional polish
+- **Dual CTA pattern:** Primary (filled blue) + Secondary (ghost/border) side-by-side using `flex-wrap gap-3`
+- **Color palette reference:**
+  - Primary blue: `#2f7fb5`
+  - Light blue / hover tint: `#6ab3ea`
+  - Icon background: `#e6f3fb`
+  - Border accent: `#e6f3fb` at rest → `#6ab3ea` on hover
