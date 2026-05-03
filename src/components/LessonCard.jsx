@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 
 // We are assuming the component receives a 'lesson' object as a prop
 const LessonCard = ({ lesson }) => {
@@ -13,8 +14,9 @@ const LessonCard = ({ lesson }) => {
       </p>
       <div className='mt-auto flex justify-between items-center text-slate-500'>
         <span className='text-sm'>{lesson.tags}</span>
-        <Link to={`/lessons/${lesson.slug}`} className='text-[#2f7fb5] hover:text-[#21628d] hover:underline flex items-center'>
-          Start Lesson <ArrowRight className='ml-1 w-4 h-4' />
+        <Link to={`/lessons/${lesson.slug}`} className='text-[#2f7fb5] hover:text-[#21628d] border border-slate-200 hover:border-[#2f7fb5] hover:bg-slate-50 px-3 py-1.5 rounded-lg flex items-center transition-all duration-200'>
+          {/* Start Lesson <ArrowRight className='ml-1 w-4 h-4' />  */}
+          Start Lesson <ChevronRight className= 'ml w-4 h-4' />
         </Link>
       </div>
     </div>

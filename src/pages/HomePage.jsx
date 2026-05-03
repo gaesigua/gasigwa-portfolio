@@ -5,6 +5,19 @@ import LessonCard from "../components/LessonCard";
 import Layout from "../components/Layout";
 
 const HomePage = () => {
+  const universityLogos = [
+    "/adventist-university-of-central-africa-logo.png",
+    "/african-leadership-university-logo.png",
+    "/catholic-university-of-rwanda-logo.png",
+    "/kepler-college-logo.png",
+    "/kigali-independent-university-logo.png",
+    "/mount-kigali-university-logo.png",
+    "/rwanda-polytechnic-logo.jpeg",
+    "/university-of-health-equity-logo.png",
+    "/university-of-kigali-logo.png",
+    "/university-of-rwanda-logo.png"
+  ];
+
   const projectCardClass =
     "bg-white p-8 rounded-xl shadow-sm border border-slate-200 hover:border-[#6ab3ea] hover:shadow-md transition-all duration-200 flex flex-col h-full";
   const projectTitleClass = "text-2xl font-semibold text-slate-900 mb-3";
@@ -360,6 +373,36 @@ const HomePage = () => {
             </div>
           </section>
         </div>
+
+        {/* Trusted By Section */}
+        <section className="w-full bg-[#6ab3ea] py-16 md:py-24 overflow-hidden">
+          <div className="container mx-auto px-4 mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-white text-center">
+              Trusted by Students at Top Universities in Rwanda
+            </h2>
+          </div>
+          
+          <div className="relative w-full flex overflow-hidden group">
+            {/* Gradient masks for smooth fade effect at edges */}
+            <div className="absolute top-0 bottom-0 left-0 w-16 md:w-32 z-10 bg-gradient-to-r from-[#6ab3ea] to-transparent pointer-events-none"></div>
+            <div className="absolute top-0 bottom-0 right-0 w-16 md:w-32 z-10 bg-gradient-to-l from-[#6ab3ea] to-transparent pointer-events-none"></div>
+            
+            <div className="animate-marquee flex items-center">
+              {/* First set of logos */}
+              {universityLogos.map((logo, index) => (
+                <div key={`logo-1-${index}`} className="flex-shrink-0 flex items-center justify-center w-40 h-24 md:w-56 md:h-32 bg-white rounded-2xl p-4 md:p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 mx-4 md:mx-6">
+                  <img src={logo} alt={`University Logo ${index + 1}`} className="max-w-full max-h-full object-contain" />
+                </div>
+              ))}
+              {/* Duplicate set for seamless looping */}
+              {universityLogos.map((logo, index) => (
+                <div key={`logo-2-${index}`} className="flex-shrink-0 flex items-center justify-center w-40 h-24 md:w-56 md:h-32 bg-white rounded-2xl p-4 md:p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 mx-4 md:mx-6">
+                  <img src={logo} alt={`University Logo ${index + 1}`} className="max-w-full max-h-full object-contain" />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
       </div>
     </Layout>
   );

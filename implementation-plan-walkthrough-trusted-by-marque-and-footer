@@ -1,0 +1,71 @@
+# Recent Updates Walkthrough
+
+Here is a comprehensive summary of the recent enhancements made to your portfolio website.
+
+## 1. Lesson Card Button Enhancement
+
+We updated the "Start Lesson" link in the `LessonCard` component to look more like a subtle, interactive button rather than just a text link.
+
+**Changes made:**
+
+- Removed the simple underline on hover.
+- Added a subtle border (`border-slate-200`) and rounded corners.
+- Added a hover effect that changes the border to blue (`#2f7fb5`) and applies a very light background (`bg-slate-50`).
+- This makes the call-to-action more prominent while maintaining the clean, minimalist aesthetic of the cards.
+
+## 2. New "Trusted By" Marquee Section
+
+We added a brand new section to the `HomePage` below the Projects section to display the logos of universities whose students trust your content.
+
+**Key Features:**
+
+- **Full-Width Design**: The section spans the entire screen with your primary blue background (`#6ab3ea`).
+- **Seamless Marquee Animation**: We implemented a custom CSS keyframe animation (`scroll-x`) that continuously and seamlessly scrolls the logos from right to left.
+- **Interactive Pause**: The scrolling automatically pauses when a user hovers over the logos.
+- **Uniform Logo Cards**: Placed each logo inside a clean, white, rounded card with a subtle shadow, ensuring transparent PNGs and JPEGs all look unified and professional.
+- **Gradient Edges**: Added smooth gradient masks on the left and right sides of the section, so the logos fade in and out elegantly as they scroll.
+
+## 3. Premium Full-Width Footer Redesign
+
+We upgraded the simple single-line copyright footer into a full-featured, multi-column modern footer.
+
+**Key Features:**
+
+- **Full-Width Spread**: Removed maximum width restrictions so the content (columns and text) expansively spans the entire screen, giving it a highly modern feel.
+- **Brand Column**: Displays your Gasigwa logo alongside an inspiring tagline ("Let's learn together at our own pace. Build at our own speed.").
+- **Quick Links**: Easy navigation back to Home, Courses, and Projects.
+- **Connect Section**: Sleek, circular social media icons (currently set up with placeholders for GitHub, Twitter, LinkedIn, and Email) that have nice hover animations.
+- **Bottom Bar**: A clean divider separating the copyright text and placeholder links for Privacy Policy and Terms of Service.
+- **Aesthetics**: Kept the light `bg-slate-50` background to ensure it blends seamlessly with the light theme of your site while maintaining a clear structural boundary from the main content.
+
+# [COMPLETED] Upgrading the Website Footer
+
+The simple, single-line copyright notice was upgraded into a more substantial, professional component to match the premium, modern aesthetic of the new light theme and homepage sections.
+
+## Executed Changes
+
+### [MODIFY] `src/components/Layout.jsx`
+
+Replaced the existing simple footer with a modern, full-width, multi-column footer layout.
+
+**Implemented Structure:**
+
+1. **Full-Width Layout**:
+   - The footer container was updated to span the entire width of the screen (`w-full`), removing the previous `max-w-6xl` central constraint for a more expansive, modern look.
+2. **Brand Column (Left)**:
+   - Included the Gasigwa logo.
+   - Added the tagline: "Let's learn together at our own pace. Build at our own speed. A premium educational platform for students in Rwanda and beyond."
+3. **Quick Links Column (Middle)**:
+   - Added links to "Home", "Courses", and "Projects" using smooth scrolling hash links.
+4. **Connect/Social Column (Right)**:
+   - Implemented sleek, rounded social media placeholders for GitHub, Twitter, LinkedIn, and Email, complete with hover transition effects.
+5. **Bottom Bar**:
+   - Added the copyright notice dynamically generating the current year.
+   - Included placeholder links for "Privacy Policy" and "Terms of Service".
+
+## Verification
+
+- `Layout.jsx` successfully updated.
+- Footer verified to span full width.
+- Layout remains responsive, stacking vertically on mobile devices while spreading into columns on larger screens.
+- All hover effects on links and social icons are functioning correctly.
