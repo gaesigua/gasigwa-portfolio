@@ -1099,6 +1099,118 @@ export const lessons = [
     ],
   },
   {
+    slug: "overview-of-information-systems-audit",
+    title: "Overview of Information Systems Audit",
+    summary:
+      "",
+    tags: "",
+    logo: "/overview-of-information-systems-audit-logo.png",
+    sections: [
+      {
+        slug: "",
+        title: "",
+        summary:
+          "",
+        pages: [
+          {
+
+          }
+        ],
+      },
+      {
+
+      },
+    ],
+  },
+  {
+    slug: "operating-system",
+    title: "Operating System",
+    summary:
+      "",
+    tags: "",
+    logo: "/operating-system-logo.png",
+    sections: [
+      {
+        slug: "",
+        title: "",
+        summary:
+          "",
+        pages: [
+          {
+
+          }
+        ],
+      },
+      {
+
+      },
+    ],
+  },
+  {
+    slug: "telecommunications-switching-and-transmission-systems",
+    title: "Telecommunications Switching and Transmission Systems",
+    summary:
+      "",
+    tags: "",
+    logo: "/telecomms-switching-and-transmission-systems-logo.png",
+    sections: [
+      {
+        slug: "telecommunications-switching",
+        title: "Telecommunications Switching",
+        summary:
+          "",
+        pages: [
+          {
+
+          }
+        ],
+      },
+      {
+        slug: "transmission-systems",
+        title: "Transmission Systems",
+        summary:
+          "",
+        pages: [
+          {
+
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "information-system-analysis-design-and-management-information-system",
+    title: "Information System Analysis Design and Management Information System",
+    summary:
+      "",
+    tags: "",
+    logo: "/info-sys-analysis-design-and-mngmt-info-sys-logo.png",
+    sections: [
+      {
+        slug: "information-system-analysis",
+        title: "Information System Analysis",
+        summary:
+          "",
+        pages: [
+          {
+
+          }
+        ],
+      },
+      {
+        slug: "design-and-management-information-system",
+        title: "Design and Management Information System",
+        summary:
+          "",
+        pages: [
+          {
+
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: "computer-basics",
     title: "Computer Basics",
     summary:
@@ -1244,7 +1356,7 @@ export const lessons = [
     title: "Touch Typing",
     summary:
       "learn to touch type with all your fingers and become a typing pro and write code faster.",
-    tags: "typing tests, typing lessons, games",
+    tags: "typing tests, lessons, games",
     logo: "/touch-typing-logo.png",
     sections: [
       {
@@ -2157,7 +2269,7 @@ export const lessons = [
     title: "Internet Fundamentals and Web Design",
     summary:
       "master the fundamentals of how the internet works, core web technologies, internet security, and the basics of building responsive modern user interfaces.",
-    tags: "internet, www, security, web development",
+    tags: "internet, web development",
     logo: "/internet-fundamentals-logo.png",
     sections: [
       {
