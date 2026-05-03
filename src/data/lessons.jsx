@@ -3,8 +3,8 @@ export const lessons = [
     slug: "mathematics-for-computer-scientists",
     title: "Mathematics for Computer Scientists",
     summary:
-      "master the core mathematical concepts that power computer science, including boolean algebra, logic, set theory, proof techniques, combinatorics, and graph theory.",
-    tags: "math, logic, sets, discrete",
+      "Learn core mathematical concepts that power computer science including boolean algebra, logic, set theory, combinatorics, and graph theory.",
+    tags: "Logic, Sets, Discrete",
     logo: "/math-logo.png",
     sections: [
       {
@@ -144,8 +144,8 @@ export const lessons = [
     slug: "computer-programming-and-data-structures",
     title: "Computer Programming and Data Structures",
     summary:
-      "learn the fundamentals of computer programming and how to write code",
-    tags: "dsa, pseudocode, programming",
+      "Learn the fundamentals of computer programming and how to write code",
+    tags: "DSA, Pseudocode, Programming",
     logo: "/computer-programming-logo.png",
     sections: [
       {
@@ -434,8 +434,8 @@ export const lessons = [
     slug: "digital-electronics-and-electrical-circuits",
     title: "Digital Electronics and Electrical Circuits",
     summary:
-      "before you dive deep into programming, first learn core concepts of digital electronics and electrical circuits.",
-    tags: "digital systems, electric circuits",
+      "Learn the fundamentals of digital electronics and electrical circuits.",
+    tags: "Digital Systems, Electric Circuits",
     logo: "/digital-electronics-logo.png",
     sections: [
       {
@@ -1214,8 +1214,8 @@ export const lessons = [
     slug: "computer-basics",
     title: "Computer Basics",
     summary:
-      "start your programming journey with computer basics, understand foundational concepts of computer hardware, software, electronic devices, operating systems, and more.",
-    tags: "computer parts, internet basics",
+      "Begin your programming journey with the fundamentals of computers. Understand foundational concepts of computer hardware, software, electronic devices, operating systems, and more.",
+    tags: "Computer Parts, Internet Basics",
     logo: "/computer-basics-logo.png",
     sections: [
       {
@@ -1277,8 +1277,8 @@ export const lessons = [
     slug: "effective-communication",
     title: "Effective Communication",
     summary:
-      "learn to communicate appropriately with your peers, colleagues, friends, and family and build better relationships with your team and the world around you.",
-    tags: "communication skills",
+      "Learn to communicate appropriately with your peers, colleagues, friends, and family, and build better relationships with your team and the world around you.",
+    tags: "Communication Skills",
     logo: "/effective-communication-logo.png",
     sections: [
       {
@@ -1355,8 +1355,8 @@ export const lessons = [
     slug: "touch-typing",
     title: "Touch Typing",
     summary:
-      "learn to touch type with all your fingers and become a typing pro and write code faster.",
-    tags: "typing tests, lessons, games",
+      "Learn to touch type with all your fingers and become a typing pro and write code faster.",
+    tags: "Typing Tests, Lessons, Games",
     logo: "/touch-typing-logo.png",
     sections: [
       {
@@ -1446,8 +1446,8 @@ export const lessons = [
     slug: "sdlc",
     title: "Software Development Lifecycle (SDLC)",
     summary:
-      "understand the various stages of software development lifecycle (SDLC) including planning, analysis, design, implementation, testing, deployment, and maintenance.",
-    tags: "agile, waterfall",
+      "Understand the various stages of software development lifecycle (SDLC) including planning, analysis, design, implementation, testing, deployment, and maintenance.",
+    tags: "Agile, Waterfall",
     logo: "/sdlc-logo.png",
     sections: [
       {
@@ -1514,8 +1514,8 @@ export const lessons = [
     slug: "english-for-programmers",
     title: "English for Programmers",
     summary:
-      "learn the english language with a focus on programming and technology-related vocabulary and concepts.",
-    tags: "grammar, vocabulary, reading, writing",
+      "Learn the english language with a focus on programming and technology-related vocabulary and concepts.",
+    tags: "Reading, Listening, Vocabulary",
     logo: "/english-for-programmers-logo.png",
     sections: [
       {
@@ -1891,8 +1891,8 @@ export const lessons = [
     slug: "german-for-programmers",
     title: "German for Programmers",
     summary:
-      "learn the german language with a focus on programming and technology-related vocabulary and concepts.",
-    tags: "grammar, vocabulary, reading, writing",
+      "Learn the german language with a focus on programming and technology-related vocabulary and concepts.",
+    tags: "Speaking, Reading, Writing",
     logo: "/german-for-programmers-logo.png",
     sections: [
       {
@@ -2268,8 +2268,8 @@ export const lessons = [
     slug: "internet-fundamentals-and-web-design",
     title: "Internet Fundamentals and Web Design",
     summary:
-      "master the fundamentals of how the internet works, core web technologies, internet security, and the basics of building responsive modern user interfaces.",
-    tags: "internet, web development",
+      "Learn the fundamentals of how the internet works, core web technologies, internet security, and the basics of building responsive modern user interfaces.",
+    tags: "Internet, Web Development",
     logo: "/internet-fundamentals-logo.png",
     sections: [
       {
@@ -2343,40 +2343,40 @@ export const lessons = [
     slug: "html-fundamentals",
     title: "HTML Fundamentals",
     summary:
-      "learn the basics of HyperText Markup Language (HTML), and build your first website.",
-    tags: "html basics, webpages, tutorials",
+      "Learn the basics of HyperText Markup Language (HTML), and build your first website.",
+    tags: "HTML, Webpages",
     logo: "/html-logo.png",
   },
   {
     slug: "css-fundamentals",
     title: "CSS Fundamentals",
     summary:
-      "learn the basics of cascading style sheets (css), and style your first html website.",
-    tags: "css basics, css flexbox, css grid",
+      "Learn the basics of cascading style sheets (css), and style your first html website.",
+    tags: "CSS, Flexbox, Grid",
     logo: "/css-logo.png",
   },
   {
     slug: "java-programming-fundamentals",
     title: "Java Fundamentals",
     summary:
-      "start your programming journey with Java, a powerful and versatile language. learn core concepts, object-oriented programming, and build your first applications.",
-    tags: "java, springboot, tutorials",
+      "Start your programming journey with Java, a powerful and versatile language. learn core concepts, object-oriented programming, and build your first applications.",
+    tags: "Java, Springboot",
     logo: "/java-logo.png",
   },
   {
     slug: "python-programming-fundamentals",
     title: "Python Fundamentals",
     summary:
-      "dive into Python, a highly versatile language perfect for web development, data science, and automation. learn syntax, data structures, and foundational programming concepts.",
-    tags: "python, beginners, scripting",
+      "Dive into Python, a highly versatile language perfect for web development, data science, and automation. learn syntax, data structures, and foundational programming concepts.",
+    tags: "Python, Scripting",
     logo: "/python-logo.png",
   },
   {
     slug: "mysql-fundamentals",
     title: "MySQL Fundamentals",
     summary:
-      "we will explore the fundamentals of MySQL, a popular relational database management system. this section covers database design, SQL queries, data manipulation, and basic administration for effective data storage and retrieval.",
-    tags: "mysql, sql, dbm",
+      "We will explore the fundamentals of MySQL, a popular relational database management system. This section covers database design, SQL queries, data manipulation, and basic administration for effective data storage and retrieval.",
+    tags: "MySQL, SQL, DBMS",
     logo: "/mysql-logo.png",
   },
 ];

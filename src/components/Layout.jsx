@@ -5,62 +5,50 @@ const Layout = ({ children }) => (
   <div className="min-h-screen bg-white text-slate-800 font-sans antialiased flex flex-col">
     {/* Header */}
     <header className="bg-white/95 backdrop-blur border-b border-slate-200 py-2.5 md:py-1.5 px-6 flex items-center justify-between sticky top-0 z-20">
-      <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
-        <img
-          src="/gasigwa-logo.png"
-          alt="Gasigwa — Learn With Me"
-          className="h-12 md:h-16 w-auto object-contain"
-        />
-      </Link>
-      <nav className="flex space-x-2 md:space-x-4">
-        <Link
-          to="/"
-          className="block py-2 px-3 rounded-lg text-slate-600 hover:bg-[#6ab3ea1f] hover:text-[#2f7fb5] transition-colors duration-200 font-medium"
-        >
-          Home
+      <div className="flex items-center gap-6 md:gap-10">
+        <Link to="/" className="flex items-center hover:opacity-80 transition-opacity flex-shrink-0">
+          <img
+            src="/gasigwa-logo.png"
+            alt="Gasigwa — Learn With Me"
+            className="h-12 md:h-16 w-auto object-contain"
+          />
         </Link>
-        {/* I am commenting out the links, for now we will use a to use href;  `a` tags for now because they are in-page links */}
-        {/* <Link to="/lessons" className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium">
-          lessons
-        </Link> */}
-        <a
-          href="/#learn-with-me"
-          className="block py-2 px-3 rounded-lg text-slate-600 hover:bg-[#6ab3ea1f] hover:text-[#2f7fb5] transition-colors duration-200 font-medium"
-        >
-          Learn
-        </a>
-        {/* <Link
-          to="/projects"
-          className="block py-2 px-3 rounded-lg text-neutral-400 hover:bg-neutral-800 hover:text-neutral-50 transition-colors duration-200 font-medium"
-        >
-          projects
-        </Link> */}
-        <a
-          href="/#projects"
-          className="block py-2 px-3 rounded-lg text-slate-600 hover:bg-[#6ab3ea1f] hover:text-[#2f7fb5] transition-colors duration-200 font-medium"
-        >
-          Projects
-        </a>
-      </nav>
+        <nav className="flex items-center space-x-1 md:space-x-2">
+          <Link
+            to="/"
+            className="py-2 px-3 rounded-lg text-slate-600 hover:bg-[#6ab3ea1f] hover:text-[#2f7fb5] transition-colors duration-200 font-medium text-sm md:text-base"
+          >
+            Home
+          </Link>
+          <a
+            href="/#learn-with-me"
+            className="py-2 px-3 rounded-lg text-slate-600 hover:bg-[#6ab3ea1f] hover:text-[#2f7fb5] transition-colors duration-200 font-medium text-sm md:text-base"
+          >
+            Learn
+          </a>
+          <a
+            href="/#projects"
+            className="py-2 px-3 rounded-lg text-slate-600 hover:bg-[#6ab3ea1f] hover:text-[#2f7fb5] transition-colors duration-200 font-medium text-sm md:text-base"
+          >
+            Projects
+          </a>
+        </nav>
+      </div>
 
-      {/* This nav is the old code */}
-      {/* <nav className="space-x-6"> */}
-      {/* <Link to="/" className="text-neutral-300 hover:text-blue-400">
-          home
-        </Link> */}
-      {/* <Link to="/lessons" className="text-neutral-300 hover:text-blue-400">
-          lessons
-        </Link> */}
-      {/* Add more links as needed */}
-      {/* </nav> */}
-        {/* <Link to="/lessons" className="text-neutral-300 hover:text-blue-400"> */}
-          {/* learn */}
-        {/* </Link> */}
-        {/* <Link to="/projects" className="text-neutral-300 hover:text-blue-400"> */}
-          {/* projects */}
-        {/* </Link> */}
-        {/* Add more links as needed */}
-      {/* </nav>*/}
+      <div className="flex items-center space-x-3">
+        <Link
+          to="#"
+          className="hidden sm:block py-2 px-4 rounded-lg border border-slate-300 text-slate-600 hover:border-slate-400 hover:text-slate-800 transition-colors duration-200 font-medium"
+        >
+          Sign in
+        </Link>
+        <Link
+          to="#"
+          className="py-2 px-4 rounded-lg border border-[#6ab3ea] bg-[#6ab3ea] text-white hover:bg-[#5aa0d5] hover:border-[#5aa0d5] transition-colors duration-200 font-medium shadow-sm"
+        >
+          Sign up
+        </Link>
+      </div>
       </header>
 
     {/* Main Content */}
