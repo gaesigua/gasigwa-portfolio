@@ -1,64 +1,70 @@
-**🎹 TouchType Academy**
+**🎹 Touch Typing**
 
 **A Complete Touch-Typing Course for Young Learners**
 
-  -----------------------------------------------------------------------------------------
-  **Welcome to TouchType Academy!**
+---
 
-  Touch-typing means typing without looking at the keyboard.
+**Welcome to Touch Typing!**
 
-  It takes practice --- but once you learn it, you\'ll type fast AND accurately for life.
+Touch-typing means typing without looking at the keyboard.
 
-  This course is designed for learners aged 8--17.
+It takes practice --- but once you learn it, you\'ll type fast AND accurately for life.
 
-  Work at your own pace. Accuracy first --- speed comes naturally with practice!
+This course is designed for learners aged 8--17.
 
-  How this course works:
+Work at your own pace. Accuracy first --- speed comes naturally with practice!
 
-  • Each STEP introduces new keys
+How this course works:
 
-  • Each step has multiple SCREENS of exercises
+• Each STEP introduces new keys
 
-  • Screen types: Block Letters, Falling Letter, Game, Standard drills
+• Each step has multiple SCREENS of exercises
 
-  • Always finish one screen before moving to the next
-  -----------------------------------------------------------------------------------------
+• Screen types: Block Letters, Falling Letter, Game, Standard drills
+
+• Always finish one screen before moving to the next
+
+---
 
 **How to Sit & Position Your Hands**
 
 Before you type a single key, let\'s make sure your body and hands are set up correctly. Good posture prevents strain and helps you type faster!
 
-  -----------------------------------------------------------------------
-  **📐 Posture Checklist**
+---
 
-  ✓ Sit up straight --- back touches the chair
+**📐 Posture Checklist**
 
-  ✓ Feet flat on the floor
+✓ Sit up straight --- back touches the chair
 
-  ✓ Elbows at roughly 90° angle
+✓ Feet flat on the floor
 
-  ✓ Wrists slightly elevated --- don\'t rest them while typing
+✓ Elbows at roughly 90° angle
 
-  ✓ Screen at eye level --- about an arm\'s length away
+✓ Wrists slightly elevated --- don\'t rest them while typing
 
-  ✓ Relax your shoulders --- no hunching!
-  -----------------------------------------------------------------------
+✓ Screen at eye level --- about an arm\'s length away
+
+✓ Relax your shoulders --- no hunching!
+
+---
 
 **The Keyboard Layout**
 
 A standard keyboard has 4 main rows of letter keys:
 
-  -----------------------------------------------------------------------
-  **🗺️ Keyboard Rows**
+---
 
-  Number Row: \` 1 2 3 4 5 6 7 8 9 0 - =
+**🗺️ Keyboard Rows**
 
-  Top Row: Q W E R T Y U I O P \[ \] \\
+Number Row: \` 1 2 3 4 5 6 7 8 9 0 - =
 
-  Home Row: A S D F G H J K L ; \' ← YOUR FINGERS START HERE
+Top Row: Q W E R T Y U I O P \[ \] \\
 
-  Bottom Row: Z X C V B N M , . /
-  -----------------------------------------------------------------------
+Home Row: A S D F G H J K L ; \' ← YOUR FINGERS START HERE
+
+Bottom Row: Z X C V B N M , . /
+
+---
 
 The HOME ROW is the most important row. Your fingers always return here between keystrokes.
 
@@ -66,40 +72,45 @@ Look for the tiny bumps on the F and J keys --- these are your anchor points!
 
 **Home Row Finger Placement**
 
-  ----------------------- ----------------------- -----------------------
-  **Finger**              **Left Hand Key**       **Right Hand Key**
+---
 
-  Index (pointer)         F                       J
+**Finger** **Left Hand Key** **Right Hand Key**
 
-  Middle                  D                       K
+Index (pointer) F J
 
-  Ring                    S                       L
+Middle D K
 
-  Pinky (little)          A                       ;
+Ring S L
 
-  Thumbs                  Space Bar               Space Bar
-  ----------------------- ----------------------- -----------------------
+Pinky (little) A ;
 
-  -----------------------------------------------------------------------------------------------------------------------
-  *💡 Tip: Always return your fingers to the home row after pressing any key. This is the golden rule of touch-typing!*
+Thumbs Space Bar Space Bar
 
-  -----------------------------------------------------------------------------------------------------------------------
+---
+
+---
+
+_💡 Tip: Always return your fingers to the home row after pressing any key. This is the golden rule of touch-typing!_
+
+---
 
 **Screen Types Explained**
 
-  -------------------------------------------------------------------------------------
-  **📺 What Each Screen Type Means**
+---
 
-  BLOCK LETTERS --- Large, slow sequences. Focus on finding the key correctly.
+**📺 What Each Screen Type Means**
 
-  FALLING LETTER --- Fast random sequence. Type as quickly and accurately as you can!
+BLOCK LETTERS --- Large, slow sequences. Focus on finding the key correctly.
 
-  GAME IN TREE --- Fun tree-shaped pattern. Read top-to-bottom, left-to-right.
+FALLING LETTER --- Fast random sequence. Type as quickly and accurately as you can!
 
-  STANDARD DRILL --- Normal text flow, like real typing. Build speed and rhythm.
+GAME IN TREE --- Fun tree-shaped pattern. Read top-to-bottom, left-to-right.
 
-  Always prioritize ACCURACY over SPEED. Slow and correct beats fast and wrong!
-  -------------------------------------------------------------------------------------
+STANDARD DRILL --- Normal text flow, like real typing. Build speed and rhythm.
+
+Always prioritize ACCURACY over SPEED. Slow and correct beats fast and wrong!
+
+---
 
 Course Progress: █░░░░░░░░░░░░░░░░░░░ Step 1 of 20 --- J, F, and Space
 
@@ -107,50 +118,56 @@ Course Progress: █░░░░░░░░░░░░░░░░░░░ St
 
 Your very first keys! These are typed with your two index (pointer) fingers --- the strongest fingers on your hands.
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press J with your RIGHT index finger
+**🎯 Learning Goals**
 
-  ✓ Press F with your LEFT index finger
+✓ Press J with your RIGHT index finger
 
-  ✓ Press SPACE with either thumb (whichever feels natural)
+✓ Press F with your LEFT index finger
 
-  ✓ Keep your other fingers lightly resting on the home row
+✓ Press SPACE with either thumb (whichever feels natural)
 
-  ✓ Look at the screen --- NOT the keyboard!
-  -----------------------------------------------------------------------
+✓ Keep your other fingers lightly resting on the home row
 
-  --------------- ---------------------------------------------------------------------------------------------------------
-  **J**           RIGHT index finger. The J key has a small bump on it --- feel it? That\'s your right-hand anchor point!
+✓ Look at the screen --- NOT the keyboard!
 
-  --------------- ---------------------------------------------------------------------------------------------------------
+---
 
-  --------------- -------------------------------------------------------------------------------
-  **F**           LEFT index finger. The F key also has a bump --- your left-hand anchor point!
+---
 
-  --------------- -------------------------------------------------------------------------------
+**J** RIGHT index finger. The J key has a small bump on it --- feel it? That\'s your right-hand anchor point!
 
-  --------------- ---------------------------------------------------------
-  **SPACE**       Either thumb. Press lightly and quickly --- just a tap.
+---
 
-  --------------- ---------------------------------------------------------
+---
 
-  ---------------------------------------------------------------------------------------------------------------------------------
-  *💡 Tip: Don\'t look at your hands! If you cheat and peek, you\'ll never build the muscle memory you need. Trust your fingers.*
+**F** LEFT index finger. The F key also has a bump --- your left-hand anchor point!
 
-  ---------------------------------------------------------------------------------------------------------------------------------
+---
+
+---
+
+**SPACE** Either thumb. Press lightly and quickly --- just a tap.
+
+---
+
+---
+
+_💡 Tip: Don\'t look at your hands! If you cheat and peek, you\'ll never build the muscle memory you need. Trust your fingers._
+
+---
 
 **Screen 1 of 11 --- Introducing: J**
 
 Type only the J key for now. This builds the movement pattern in your right index finger. Type slowly and deliberately.
 
 +-----------------------------------------------------------------------------+
-| **Screen 1 of 11** *▌ Block Letters --- 1 line*                             |
+| **Screen 1 of 11** _▌ Block Letters --- 1 line_ |
 +-----------------------------------------------------------------------------+
-| **j j j j j j j j**                                                         |
-|                                                                             |
-| *💡 Right index finger only. Say \'J\' in your head as you press each key.* |
+| **j j j j j j j j** |
+| |
+| _💡 Right index finger only. Say \'J\' in your head as you press each key._ |
 +-----------------------------------------------------------------------------+
 
 **Screen 2 of 11 --- Introducing: F**
@@ -158,13 +175,13 @@ Type only the J key for now. This builds the movement pattern in your right inde
 Now add the F key with your LEFT index finger. Notice how both hands mirror each other.
 
 +-------------------------------------------------------------------------------------+
-| **Screen 2 of 11** *▌ Block Letters --- 2 lines*                                    |
+| **Screen 2 of 11** _▌ Block Letters --- 2 lines_ |
 +-------------------------------------------------------------------------------------+
-| **f f f j f f f j**                                                                 |
-|                                                                                     |
-| **f f f j f f f j**                                                                 |
-|                                                                                     |
-| *💡 Left then right. Your fingers are like a seesaw --- one goes, the other rests.* |
+| **f f f j f f f j** |
+| |
+| **f f f j f f f j** |
+| |
+| _💡 Left then right. Your fingers are like a seesaw --- one goes, the other rests._ |
 +-------------------------------------------------------------------------------------+
 
 **Screen 3 of 11 --- Mixing J and F**
@@ -172,30 +189,31 @@ Now add the F key with your LEFT index finger. Notice how both hands mirror each
 Time to mix them! Your brain needs to identify which finger to use for each letter. This is where real typing begins.
 
 +---------------------------------------------------------------------------+
-| **Screen 3 of 11** *▌ Falling Letter --- rapid mixed drill*               |
+| **Screen 3 of 11** _▌ Falling Letter --- rapid mixed drill_ |
 +---------------------------------------------------------------------------+
 | **jj ff jj ff jjj fff jf jf f jj fff jj ff jj fff jjjj ff j ff j f j ff** |
-|                                                                           |
-| *💡 Don\'t pause between letters. Keep a steady rhythm.*                  |
+| |
+| _💡 Don\'t pause between letters. Keep a steady rhythm._ |
 +---------------------------------------------------------------------------+
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  *💡 Tip: If you make a mistake, don\'t stop --- keep going! Stopping and correcting is fine in slow drills, but in Falling Letter mode, try to keep your rhythm.*
+---
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+_💡 Tip: If you make a mistake, don\'t stop --- keep going! Stopping and correcting is fine in slow drills, but in Falling Letter mode, try to keep your rhythm._
+
+---
 
 **Screen 4 of 11 --- Introducing: Space**
 
 The spacebar separates words. Press it with a quick thumb tap, then immediately return to home position.
 
 +------------------------------------------------------------------------------+
-| **Screen 4 of 11** *▌ Block Letters --- 2 lines*                             |
+| **Screen 4 of 11** _▌ Block Letters --- 2 lines_ |
 +------------------------------------------------------------------------------+
-| **j \[sp\] j \[sp\] j \[sp\] j \[sp\]**                                      |
-|                                                                              |
-| **j \[sp\] j \[sp\] j \[sp\] j \[sp\]**                                      |
-|                                                                              |
-| *💡 \[sp\] = Space bar. Tap it like a quick bounce --- don\'t hold it down.* |
+| **j \[sp\] j \[sp\] j \[sp\] j \[sp\]** |
+| |
+| **j \[sp\] j \[sp\] j \[sp\] j \[sp\]** |
+| |
+| _💡 \[sp\] = Space bar. Tap it like a quick bounce --- don\'t hold it down._ |
 +------------------------------------------------------------------------------+
 
 **Screen 5 of 11 --- J, F, and Space Together**
@@ -203,15 +221,15 @@ The spacebar separates words. Press it with a quick thumb tap, then immediately 
 Now combine all three! Think of this as writing your first \'words\' --- even if they\'re just letters.
 
 +-------------------------------------------------------------------------------------------+
-| **Screen 5 of 11** *▌ Block Letters --- 3 lines*                                          |
+| **Screen 5 of 11** _▌ Block Letters --- 3 lines_ |
 +-------------------------------------------------------------------------------------------+
-| **j j j f f f**                                                                           |
-|                                                                                           |
-| **f f f j j j**                                                                           |
-|                                                                                           |
-| **f f j j f f**                                                                           |
-|                                                                                           |
-| *💡 The space between groups of letters is the spacebar. Press thumb between each group.* |
+| **j j j f f f** |
+| |
+| **f f f j j j** |
+| |
+| **f f j j f f** |
+| |
+| _💡 The space between groups of letters is the spacebar. Press thumb between each group._ |
 +-------------------------------------------------------------------------------------------+
 
 **Screen 6 of 11 --- Game in Tree**
@@ -219,17 +237,17 @@ Now combine all three! Think of this as writing your first \'words\' --- even if
 The Game in Tree is a fun visual pattern. Read it top to bottom, left to right --- just like reading a book!
 
 +---------------------------------------------------------------------------------+
-| **Screen 6 of 11** *▌ Game in Tree*                                             |
+| **Screen 6 of 11** _▌ Game in Tree_ |
 +---------------------------------------------------------------------------------+
-| **jjj**                                                                         |
-|                                                                                 |
-| **fff jjf**                                                                     |
-|                                                                                 |
-| **ffj jfj fjf**                                                                 |
-|                                                                                 |
-| **ffjj jjff**                                                                   |
-|                                                                                 |
-| *💡 Keep your eyes on the screen. Type each cluster before moving to the next.* |
+| **jjj** |
+| |
+| **fff jjf** |
+| |
+| **ffj jfj fjf** |
+| |
+| **ffjj jjff** |
+| |
+| _💡 Keep your eyes on the screen. Type each cluster before moving to the next._ |
 +---------------------------------------------------------------------------------+
 
 **Screen 7 of 11 --- Standard Drill (Short)**
@@ -237,15 +255,15 @@ The Game in Tree is a fun visual pattern. Read it top to bottom, left to right -
 Standard drills look like real text. Practice the natural flow of typing --- finger down, finger up, next key.
 
 +--------------------------------------------------------------------------------------------+
-| **Screen 7 of 11** *▌ Standard --- 3 lines*                                                |
+| **Screen 7 of 11** _▌ Standard --- 3 lines_ |
 +--------------------------------------------------------------------------------------------+
-| **jjf jjf**                                                                                |
-|                                                                                            |
-| **jjf jjf**                                                                                |
-|                                                                                            |
-| **jj ff jj**                                                                               |
-|                                                                                            |
-| *💡 Tap the space between words with your thumb. Keep a steady beat --- like a metronome.* |
+| **jjf jjf** |
+| |
+| **jjf jjf** |
+| |
+| **jj ff jj** |
+| |
+| _💡 Tap the space between words with your thumb. Keep a steady beat --- like a metronome._ |
 +--------------------------------------------------------------------------------------------+
 
 **Screen 8 of 11 --- Falling Letter Speed Drill**
@@ -253,11 +271,11 @@ Standard drills look like real text. Practice the natural flow of typing --- fin
 This is a longer Falling Letter exercise. It will feel fast! Just do your best --- accuracy matters more than finishing.
 
 +-------------------------------------------------------------------------------------+
-| **Screen 8 of 11** *▌ Falling Letter --- long sequence*                             |
+| **Screen 8 of 11** _▌ Falling Letter --- long sequence_ |
 +-------------------------------------------------------------------------------------+
 | **j f j j f j j f j j f j j j f j jj f jj f jj f j f j ff j ff j ff j f ff j ff j** |
-|                                                                                     |
-| *💡 Find your rhythm. After a few letters you\'ll stop thinking and just type!*     |
+| |
+| _💡 Find your rhythm. After a few letters you\'ll stop thinking and just type!_ |
 +-------------------------------------------------------------------------------------+
 
 **Screen 9 of 11 --- Standard Drill (Medium)**
@@ -265,13 +283,13 @@ This is a longer Falling Letter exercise. It will feel fast! Just do your best -
 Longer clusters now. Your fingers are getting used to the patterns!
 
 +---------------------------------------------------------------------------------------------------------------+
-| **Screen 9 of 11** *▌ Standard --- 2 lines*                                                                   |
+| **Screen 9 of 11** _▌ Standard --- 2 lines_ |
 +---------------------------------------------------------------------------------------------------------------+
-| **jjff fffjj fjjfjfj fjfjfjjf**                                                                               |
-|                                                                                                               |
-| **ffjjf fff ffjjj jfjjjf ffjf**                                                                               |
-|                                                                                                               |
-| *💡 Read ahead --- look at the next letter while you type the current one. This is called \'reading ahead.\'* |
+| **jjff fffjj fjjfjfj fjfjfjjf** |
+| |
+| **ffjjf fff ffjjj jfjjjf ffjf** |
+| |
+| _💡 Read ahead --- look at the next letter while you type the current one. This is called \'reading ahead.\'_ |
 +---------------------------------------------------------------------------------------------------------------+
 
 **Screen 10 of 11 --- Game in Tree (Extended)**
@@ -279,21 +297,21 @@ Longer clusters now. Your fingers are getting used to the patterns!
 The tree gets bigger! This version tests your ability to handle longer clusters without losing your place.
 
 +----------------------------------------------------------------------------------------------+
-| **Screen 10 of 11** *▌ Game in Tree --- extended*                                            |
+| **Screen 10 of 11** _▌ Game in Tree --- extended_ |
 +----------------------------------------------------------------------------------------------+
-| **j**                                                                                        |
-|                                                                                              |
-| **f jj**                                                                                     |
-|                                                                                              |
-| **ff jjj fff**                                                                               |
-|                                                                                              |
-| **jjjj ffff jjjjj**                                                                          |
-|                                                                                              |
-| **fffff jjjj ffff jf**                                                                       |
-|                                                                                              |
-| **fj jjf**                                                                                   |
-|                                                                                              |
-| *💡 Take a breath before you start. Work down the tree slowly --- accuracy over speed here.* |
+| **j** |
+| |
+| **f jj** |
+| |
+| **ff jjj fff** |
+| |
+| **jjjj ffff jjjjj** |
+| |
+| **fffff jjjj ffff jf** |
+| |
+| **fj jjf** |
+| |
+| _💡 Take a breath before you start. Work down the tree slowly --- accuracy over speed here._ |
 +----------------------------------------------------------------------------------------------+
 
 **Screen 11 of 11 --- Final Challenge**
@@ -301,30 +319,32 @@ The tree gets bigger! This version tests your ability to handle longer clusters 
 You\'ve made it to the last screen of Step 1! This is your longest standard drill yet. You\'re ready.
 
 +-----------------------------------------------------------------------+
-| **Screen 11 of 11** *▌ Standard --- 4 lines*                          |
+| **Screen 11 of 11** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **jjfjff ffjfjj**                                                     |
-|                                                                       |
-| **jffjf jfjf**                                                        |
-|                                                                       |
-| **ffjffj ffjjjffj**                                                   |
-|                                                                       |
-| **fjfjfjfj**                                                          |
-|                                                                       |
-| *💡 No peeking! You know where J and F are. Trust your fingers.*      |
+| **jjfjff ffjfjj** |
+| |
+| **jffjf jfjf** |
+| |
+| **ffjffj ffjjjffj** |
+| |
+| **fjfjfjfj** |
+| |
+| _💡 No peeking! You know where J and F are. Trust your fingers._ |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 1 Complete!**
+---
 
-  Amazing work! You\'ve learned your first 3 keys.
+**🌟 Step 1 Complete!**
 
-  You can now type J, F, and Space without looking.
+Amazing work! You\'ve learned your first 3 keys.
 
-  Before moving on, make sure you can do Screen 11 comfortably.
+You can now type J, F, and Space without looking.
 
-  Coming up in Step 2: D and K --- your middle fingers join the party!
-  -----------------------------------------------------------------------
+Before moving on, make sure you can do Screen 11 comfortably.
+
+Coming up in Step 2: D and K --- your middle fingers join the party!
+
+---
 
 Course Progress: ██░░░░░░░░░░░░░░░░░░ Step 2 of 20 --- D and K
 
@@ -332,166 +352,173 @@ Course Progress: ██░░░░░░░░░░░░░░░░░░ St
 
 Bring in your middle fingers! D is typed with your LEFT middle finger, K with your RIGHT middle finger.
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press D with your LEFT middle finger
+**🎯 Learning Goals**
 
-  ✓ Press K with your RIGHT middle finger
+✓ Press D with your LEFT middle finger
 
-  ✓ Keep index fingers on F and J (your anchors)
+✓ Press K with your RIGHT middle finger
 
-  ✓ Return all fingers to home row after each keystroke
-  -----------------------------------------------------------------------
+✓ Keep index fingers on F and J (your anchors)
 
-  --------------- -------------------------------------------------------------------------
-  **D**           LEFT middle finger. Just one step to the right of your ring finger (S).
+✓ Return all fingers to home row after each keystroke
 
-  --------------- -------------------------------------------------------------------------
+---
 
-  --------------- --------------------------------------------------------------------
-  **K**           RIGHT middle finger. One step to the left of your ring finger (L).
+---
 
-  --------------- --------------------------------------------------------------------
+**D** LEFT middle finger. Just one step to the right of your ring finger (S).
 
-  ----------------------------------------------------------------------------------------------------------------------------------
-  *💡 Tip: Think of your fingers as piano keys. Each finger has exactly ONE key it\'s responsible for. Don\'t let fingers wander!*
+---
 
-  ----------------------------------------------------------------------------------------------------------------------------------
+---
+
+**K** RIGHT middle finger. One step to the left of your ring finger (L).
+
+---
+
+---
+
+_💡 Tip: Think of your fingers as piano keys. Each finger has exactly ONE key it\'s responsible for. Don\'t let fingers wander!_
+
+---
 
 **Screen 1 of 10 --- Introducing: D**
 
 +--------------------------------------------------------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 1 line*                                                                    |
+| **Screen 1 of 10** _▌ Block Letters --- 1 line_ |
 +--------------------------------------------------------------------------------------------------------------------+
-| **d d d d d d d d**                                                                                                |
-|                                                                                                                    |
-| *💡 Left middle finger only. Feel the groove between your ring finger position (S) and index finger position (F).* |
+| **d d d d d d d d** |
+| |
+| _💡 Left middle finger only. Feel the groove between your ring finger position (S) and index finger position (F)._ |
 +--------------------------------------------------------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Introducing: K**
 
 +-----------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 1 line*                       |
+| **Screen 2 of 10** _▌ Block Letters --- 1 line_ |
 +-----------------------------------------------------------------------+
-| **k k k k k k k k**                                                   |
-|                                                                       |
-| *💡 Right middle finger. Symmetric to D on the left.*                 |
+| **k k k k k k k k** |
+| |
+| _💡 Right middle finger. Symmetric to D on the left._ |
 +-----------------------------------------------------------------------+
 
 **Screen 3 of 10 --- D and K Together**
 
 +--------------------------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Block Letters --- 2 lines*                                     |
+| **Screen 3 of 10** _▌ Block Letters --- 2 lines_ |
 +--------------------------------------------------------------------------------------+
-| **d k d k d k d k**                                                                  |
-|                                                                                      |
-| **dd kk dd kk dkdk kdkd**                                                            |
-|                                                                                      |
-| *💡 Alternate hands. Left-right-left-right. This is the most natural typing rhythm.* |
+| **d k d k d k d k** |
+| |
+| **dd kk dd kk dkdk kdkd** |
+| |
+| _💡 Alternate hands. Left-right-left-right. This is the most natural typing rhythm._ |
 +--------------------------------------------------------------------------------------+
 
 **Screen 4 of 10 --- Review: All Keys So Far**
 
 +--------------------------------------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Block Letters --- 3 lines*                                                 |
+| **Screen 4 of 10** _▌ Block Letters --- 3 lines_ |
 +--------------------------------------------------------------------------------------------------+
-| **f j d k f j d k**                                                                              |
-|                                                                                                  |
-| **fd jk df kj fdjk kjdf**                                                                        |
-|                                                                                                  |
-| **fj dk fj dk fdjk dkfj**                                                                        |
-|                                                                                                  |
-| *💡 Four keys, four fingers --- but only two on each hand. You\'re building a complete picture!* |
+| **f j d k f j d k** |
+| |
+| **fd jk df kj fdjk kjdf** |
+| |
+| **fj dk fj dk fdjk dkfj** |
+| |
+| _💡 Four keys, four fingers --- but only two on each hand. You\'re building a complete picture!_ |
 +--------------------------------------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Falling Letter: D and K Focus**
 
 +-------------------------------------------------------------------------------------+
-| **Screen 5 of 10** *▌ Falling Letter*                                               |
+| **Screen 5 of 10** _▌ Falling Letter_ |
 +-------------------------------------------------------------------------------------+
-| **d k d d k d k k d dk kd dkk kdd dkdk kdkd dkkd kdd dk d kk dd**                   |
-|                                                                                     |
-| *💡 Stay focused. If you lose your place, just pick it back up --- don\'t give up!* |
+| **d k d d k d k k d dk kd dkk kdd dkdk kdkd dkkd kdd dk d kk dd** |
+| |
+| _💡 Stay focused. If you lose your place, just pick it back up --- don\'t give up!_ |
 +-------------------------------------------------------------------------------------+
 
 **Screen 6 of 10 --- Adding Space**
 
 +--------------------------------------------------------------------------+
-| **Screen 6 of 10** *▌ Block Letters --- 2 lines*                         |
+| **Screen 6 of 10** _▌ Block Letters --- 2 lines_ |
 +--------------------------------------------------------------------------+
-| **dk dk fj fj dk fj fj dk**                                              |
-|                                                                          |
-| **dkfj fjdk dfjk jkfd**                                                  |
-|                                                                          |
-| *💡 Space between each \'word\'. Thumb tap, then back to home position.* |
+| **dk dk fj fj dk fj fj dk** |
+| |
+| **dkfj fjdk dfjk jkfd** |
+| |
+| _💡 Space between each \'word\'. Thumb tap, then back to home position._ |
 +--------------------------------------------------------------------------+
 
 **Screen 7 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Game in Tree*                                         |
+| **Screen 7 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------------+
-| **dk**                                                                      |
-|                                                                             |
-| **fj kd**                                                                   |
-|                                                                             |
-| **dkfj fjdk**                                                               |
-|                                                                             |
-| **dkk fjj fdjk**                                                            |
-|                                                                             |
-| *💡 Read the tree patiently. You don\'t have to rush --- just be accurate.* |
+| **dk** |
+| |
+| **fj kd** |
+| |
+| **dkfj fjdk** |
+| |
+| **dkk fjj fdjk** |
+| |
+| _💡 Read the tree patiently. You don\'t have to rush --- just be accurate._ |
 +-----------------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Standard Drill**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 8 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **df jk fd kj djfk**                                                  |
-|                                                                       |
-| **fdjk kjfd dkfj fjdk**                                               |
-|                                                                       |
-| **dkdk fjfj dfkj jkfd dfjk**                                          |
-|                                                                       |
-| *💡 Real typing rhythm: steady, relaxed, accurate.*                   |
+| **df jk fd kj djfk** |
+| |
+| **fdjk kjfd dkfj fjdk** |
+| |
+| **dkdk fjfj dfkj jkfd dfjk** |
+| |
+| _💡 Real typing rhythm: steady, relaxed, accurate._ |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Falling Letter (All 4 Keys)**
 
 +-----------------------------------------------------------------------+
-| **Screen 9 of 10** *▌ Falling Letter --- all 4 keys*                  |
+| **Screen 9 of 10** _▌ Falling Letter --- all 4 keys_ |
 +-----------------------------------------------------------------------+
-| **f d j k fd jk df kj fdjk kjfd jfkd dkfj fjkd dfjk dkdkdkjfjfjf**    |
-|                                                                       |
-| *💡 Four keys, two hands, one rhythm. You\'re typing now!*            |
+| **f d j k fd jk df kj fdjk kjfd jfkd dkfj fjkd dfjk dkdkdkjfjfjf** |
+| |
+| _💡 Four keys, two hands, one rhythm. You\'re typing now!_ |
 +-----------------------------------------------------------------------+
 
 **Screen 10 of 10 --- Final Challenge**
 
 +--------------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                             |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +--------------------------------------------------------------------------+
-| **fjdk kjfd dfkj jkdf**                                                  |
-|                                                                          |
-| **fdjkfj dkfjdk jkdfjk**                                                 |
-|                                                                          |
-| **dkdkfj fjfjdk dfjkfdjk**                                               |
-|                                                                          |
-| **fjdkfjdk dkfjdkfj fdjkfj**                                             |
-|                                                                          |
-| *💡 Your longest drill so far! Read ahead and trust your muscle memory.* |
+| **fjdk kjfd dfkj jkdf** |
+| |
+| **fdjkfj dkfjdk jkdfjk** |
+| |
+| **dkdkfj fjfjdk dfjkfdjk** |
+| |
+| **fjdkfjdk dkfjdkfj fdjkfj** |
+| |
+| _💡 Your longest drill so far! Read ahead and trust your muscle memory._ |
 +--------------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 2 Complete!**
+---
 
-  You now have 4 home-row keys under your belt: F, J, D, K.
+**🌟 Step 2 Complete!**
 
-  Your index and middle fingers are working as a team.
+You now have 4 home-row keys under your belt: F, J, D, K.
 
-  Coming up in Step 3: S and L --- ring fingers activate!
-  -----------------------------------------------------------------------
+Your index and middle fingers are working as a team.
+
+Coming up in Step 3: S and L --- ring fingers activate!
+
+---
 
 Course Progress: ███░░░░░░░░░░░░░░░░░ Step 3 of 20 --- S and L
 
@@ -499,160 +526,171 @@ Course Progress: ███░░░░░░░░░░░░░░░░░ St
 
 Ring fingers are next. These fingers are often the weakest and least independent --- so this step takes patience. That\'s completely normal!
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press S with your LEFT ring finger
+**🎯 Learning Goals**
 
-  ✓ Press L with your RIGHT ring finger
+✓ Press S with your LEFT ring finger
 
-  ✓ Keep middle fingers relaxed on D and K
+✓ Press L with your RIGHT ring finger
 
-  ✓ Practice extra slowly --- ring fingers need more repetition
-  -----------------------------------------------------------------------
+✓ Keep middle fingers relaxed on D and K
 
-  --------------- ------------------------------------------------------------
-  **S**           LEFT ring finger. Between A (pinky) and D (middle finger).
+✓ Practice extra slowly --- ring fingers need more repetition
 
-  --------------- ------------------------------------------------------------
+---
 
-  --------------- -------------------------------------------------------
-  **L**           RIGHT ring finger. Between K (middle) and ; (pinky).
+---
 
-  --------------- -------------------------------------------------------
+**S** LEFT ring finger. Between A (pinky) and D (middle finger).
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  *💡 Tip: Ring fingers often lift their neighbors when moving. Try to move ONLY the ring finger --- keep the others still. It feels weird at first, but this independence is the key to speed!*
+---
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+
+**L** RIGHT ring finger. Between K (middle) and ; (pinky).
+
+---
+
+---
+
+_💡 Tip: Ring fingers often lift their neighbors when moving. Try to move ONLY the ring finger --- keep the others still. It feels weird at first, but this independence is the key to speed!_
+
+---
 
 **Screen 1 of 10 --- Introducing: S**
 
 +----------------------------------------------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 1 line*                                                          |
+| **Screen 1 of 10** _▌ Block Letters --- 1 line_ |
 +----------------------------------------------------------------------------------------------------------+
-| **s s s s s s s s**                                                                                      |
-|                                                                                                          |
-| *💡 Left ring finger only. Press slowly --- feel how your middle finger wants to move too. Resist that!* |
+| **s s s s s s s s** |
+| |
+| _💡 Left ring finger only. Press slowly --- feel how your middle finger wants to move too. Resist that!_ |
 +----------------------------------------------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Introducing: L**
 
 +-----------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 1 line*                       |
+| **Screen 2 of 10** _▌ Block Letters --- 1 line_ |
 +-----------------------------------------------------------------------+
-| **l l l l l l l l**                                                   |
-|                                                                       |
-| *💡 Right ring finger. Keep K still while L moves.*                   |
+| **l l l l l l l l** |
+| |
+| _💡 Right ring finger. Keep K still while L moves._ |
 +-----------------------------------------------------------------------+
 
 **Screen 3 of 10 --- S and L Together**
 
 +---------------------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Block Letters --- 2 lines*                                |
+| **Screen 3 of 10** _▌ Block Letters --- 2 lines_ |
 +---------------------------------------------------------------------------------+
-| **s l s l s l s l**                                                             |
-|                                                                                 |
-| **ss ll sl ls ssl lls sls lsl**                                                 |
-|                                                                                 |
-| *💡 Alternate hands --- left ring, right ring. Build the independent movement.* |
+| **s l s l s l s l** |
+| |
+| **ss ll sl ls ssl lls sls lsl** |
+| |
+| _💡 Alternate hands --- left ring, right ring. Build the independent movement._ |
 +---------------------------------------------------------------------------------+
 
 **Screen 4 of 10 --- All 6 Keys**
 
 +-----------------------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Block Letters --- 3 lines*                                  |
+| **Screen 4 of 10** _▌ Block Letters --- 3 lines_ |
 +-----------------------------------------------------------------------------------+
-| **s d f j k l**                                                                   |
-|                                                                                   |
-| **sl dk fj fj dk sl**                                                             |
-|                                                                                   |
-| **sdf jkl sdfjkl lkjfds**                                                         |
-|                                                                                   |
-| *💡 Six keys --- three fingers on each hand. You\'re building the full home row!* |
+| **s d f j k l** |
+| |
+| **sl dk fj fj dk sl** |
+| |
+| **sdf jkl sdfjkl lkjfds** |
+| |
+| _💡 Six keys --- three fingers on each hand. You\'re building the full home row!_ |
 +-----------------------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Falling Letter: S and L Focus**
 
-  -----------------------------------------------------------------------
-  **Screen 5 of 10** *▌ Falling Letter*
+---
 
-  **s l s s l sl ls ssl lls sls lsl slsl lsls ssll llss slsl**
-  -----------------------------------------------------------------------
+**Screen 5 of 10** _▌ Falling Letter_
+
+**s l s s l sl ls ssl lls sls lsl slsl lsls ssll llss slsl**
+
+---
 
 **Screen 6 of 10 --- Review Drill with Space**
 
 +-----------------------------------------------------------------------------------------+
-| **Screen 6 of 10** *▌ Standard --- 2 lines*                                             |
+| **Screen 6 of 10** _▌ Standard --- 2 lines_ |
 +-----------------------------------------------------------------------------------------+
-| **sl dk fj fj dk sl sdf jkl**                                                           |
-|                                                                                         |
-| **lkj fds sdfjkl lkjfds sl**                                                            |
-|                                                                                         |
-| *💡 Notice how \'sdf\' and \'jkl\' feel? Those are real patterns that appear in words!* |
+| **sl dk fj fj dk sl sdf jkl** |
+| |
+| **lkj fds sdfjkl lkjfds sl** |
+| |
+| _💡 Notice how \'sdf\' and \'jkl\' feel? Those are real patterns that appear in words!_ |
 +-----------------------------------------------------------------------------------------+
 
 **Screen 7 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Game in Tree*                                   |
+| **Screen 7 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **sl**                                                                |
-|                                                                       |
-| **dk ls**                                                             |
-|                                                                       |
-| **fj sl jk**                                                          |
-|                                                                       |
-| **sdf jkl dfs**                                                       |
-|                                                                       |
-| **lkj sdfjkl**                                                        |
+| **sl** |
+| |
+| **dk ls** |
+| |
+| **fj sl jk** |
+| |
+| **sdf jkl dfs** |
+| |
+| **lkj sdfjkl** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Standard Drill (All 6 Keys)**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 8 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **sdf jkl fds lkj dsf klj**                                           |
-|                                                                       |
-| **sdjf kdls flsj dklf**                                               |
-|                                                                       |
-| **fjdksl slkdfj sdfljk**                                              |
+| **sdf jkl fds lkj dsf klj** |
+| |
+| **sdjf kdls flsj dklf** |
+| |
+| **fjdksl slkdfj sdfljk** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Falling Letter (All 6 Keys)**
 
-  ---------------------------------------------------------------------------
-  **Screen 9 of 10** *▌ Falling Letter*
+---
 
-  **s d f j k l sd fj kl sf jk dl sdf jkl fds lkj sdfjkl lkjfds sdfj lkjs**
-  ---------------------------------------------------------------------------
+**Screen 9 of 10** _▌ Falling Letter_
+
+**s d f j k l sd fj kl sf jk dl sdf jkl fds lkj sdfjkl lkjfds sdfj lkjs**
+
+---
 
 **Screen 10 of 10 --- Final Challenge**
 
 +--------------------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                                   |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +--------------------------------------------------------------------------------+
-| **sdfj jkls fdsl lksd dfjk jlsd**                                              |
-|                                                                                |
-| **sdfjkl lkjfds fjsdlk dlkjfs**                                                |
-|                                                                                |
-| **sldfkj jkfdls skdjfl flkdjs**                                                |
-|                                                                                |
-| **sdjfkl lkfjds dskljf fjklsd**                                                |
-|                                                                                |
-| *💡 Six keys, perfect rhythm. You\'re more than halfway to the full home row!* |
+| **sdfj jkls fdsl lksd dfjk jlsd** |
+| |
+| **sdfjkl lkjfds fjsdlk dlkjfs** |
+| |
+| **sldfkj jkfdls skdjfl flkdjs** |
+| |
+| **sdjfkl lkfjds dskljf fjklsd** |
+| |
+| _💡 Six keys, perfect rhythm. You\'re more than halfway to the full home row!_ |
 +--------------------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 3 Complete!**
+---
 
-  Six home-row keys mastered: S, D, F, J, K, L.
+**🌟 Step 3 Complete!**
 
-  Your ring fingers are getting stronger!
+Six home-row keys mastered: S, D, F, J, K, L.
 
-  Coming up in Step 4: A and ; --- the full home row unlocked!
-  -----------------------------------------------------------------------
+Your ring fingers are getting stronger!
+
+Coming up in Step 4: A and ; --- the full home row unlocked!
+
+---
 
 Course Progress: ████░░░░░░░░░░░░░░░░ Step 4 of 20 --- A and ; --- Complete Home Row
 
@@ -660,63 +698,68 @@ Course Progress: ████░░░░░░░░░░░░░░░░ St
 
 Your pinky fingers get their turn. These are the smallest and weakest fingers, but they carry important letters --- especially A, one of the most common letters in English!
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press A with your LEFT pinky finger
+**🎯 Learning Goals**
 
-  ✓ Press ; (semicolon) with your RIGHT pinky finger
+✓ Press A with your LEFT pinky finger
 
-  ✓ Feel the edge of the keyboard --- pinky keys are at the ends
+✓ Press ; (semicolon) with your RIGHT pinky finger
 
-  ✓ Don\'t let your wrist drop when stretching to pinky keys
+✓ Feel the edge of the keyboard --- pinky keys are at the ends
 
-  ✓ Celebrate! After this step you\'ll know the FULL home row
-  -----------------------------------------------------------------------
+✓ Don\'t let your wrist drop when stretching to pinky keys
 
-  --------------- ---------------------------------------------------------
-  **A**           LEFT pinky finger. The leftmost letter on the home row.
+✓ Celebrate! After this step you\'ll know the FULL home row
 
-  --------------- ---------------------------------------------------------
+---
 
-  --------------- ---------------------------------------------------------------------------
-  **;**           RIGHT pinky finger. The rightmost letter on the home row (semicolon key).
+---
 
-  --------------- ---------------------------------------------------------------------------
+**A** LEFT pinky finger. The leftmost letter on the home row.
 
-  --------------------------------------------------------------------------------------------------------------------------------------
-  *💡 Tip: Pinky fingers are short! You might need to angle your wrist slightly. That\'s OK --- just don\'t drop it flat on the desk.*
+---
 
-  --------------------------------------------------------------------------------------------------------------------------------------
+---
+
+**;** RIGHT pinky finger. The rightmost letter on the home row (semicolon key).
+
+---
+
+---
+
+_💡 Tip: Pinky fingers are short! You might need to angle your wrist slightly. That\'s OK --- just don\'t drop it flat on the desk._
+
+---
 
 **Screen 1 of 12 --- Introducing: A**
 
 +---------------------------------------------------------------------------------+
-| **Screen 1 of 12** *▌ Block Letters --- 1 line*                                 |
+| **Screen 1 of 12** _▌ Block Letters --- 1 line_ |
 +---------------------------------------------------------------------------------+
-| **a a a a a a a a**                                                             |
-|                                                                                 |
-| *💡 Left pinky only. Reach to the far left --- it\'s the first key in the row!* |
+| **a a a a a a a a** |
+| |
+| _💡 Left pinky only. Reach to the far left --- it\'s the first key in the row!_ |
 +---------------------------------------------------------------------------------+
 
 **Screen 2 of 12 --- Introducing: ;**
 
 +--------------------------------------------------------------------------+
-| **Screen 2 of 12** *▌ Block Letters --- 1 line*                          |
+| **Screen 2 of 12** _▌ Block Letters --- 1 line_ |
 +--------------------------------------------------------------------------+
-| **; ; ; ; ; ; ; ;**                                                      |
-|                                                                          |
-| *💡 Right pinky. Mirror of A on the right side. Reach to the far right.* |
+| **; ; ; ; ; ; ; ;** |
+| |
+| _💡 Right pinky. Mirror of A on the right side. Reach to the far right._ |
 +--------------------------------------------------------------------------+
 
 **Screen 3 of 12 --- A and ; Together**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 12** *▌ Block Letters --- 2 lines*                      |
+| **Screen 3 of 12** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **a ; a ; a ; a ;**                                                   |
-|                                                                       |
-| **aa ;; a; ;a aa;; ;;aa**                                             |
+| **a ; a ; a ; a ;** |
+| |
+| **aa ;; a; ;a aa;; ;;aa** |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 12 --- Full Home Row Introduction**
@@ -724,49 +767,51 @@ Your pinky fingers get their turn. These are the smallest and weakest fingers, b
 This is a huge moment --- all 8 home-row positions in order!
 
 +---------------------------------------------------------------------------------------------+
-| **Screen 4 of 12** *▌ Block Letters --- 2 lines*                                            |
+| **Screen 4 of 12** _▌ Block Letters --- 2 lines_ |
 +---------------------------------------------------------------------------------------------+
-| **a s d f j k l ;**                                                                         |
-|                                                                                             |
-| **; l k j f d s a**                                                                         |
-|                                                                                             |
-| *💡 Say the letters out loud as you type: A-S-D-F-J-K-L-semicolon. Forwards and backwards!* |
+| **a s d f j k l ;** |
+| |
+| **; l k j f d s a** |
+| |
+| _💡 Say the letters out loud as you type: A-S-D-F-J-K-L-semicolon. Forwards and backwards!_ |
 +---------------------------------------------------------------------------------------------+
 
 **Screen 5 of 12 --- Falling Letter: Pinkies**
 
-  -----------------------------------------------------------------------
-  **Screen 5 of 12** *▌ Falling Letter*
+---
 
-  **a ; a a ; ;a a; aa ;; aaa ;;; a; ;a a;a ;a; a;;a ;aa; a;a ;a;**
-  -----------------------------------------------------------------------
+**Screen 5 of 12** _▌ Falling Letter_
+
+**a ; a a ; ;a a; aa ;; aaa ;;; a; ;a a;a ;a; a;;a ;aa; a;a ;a;**
+
+---
 
 **Screen 6 of 12 --- All Home Row Keys with Space**
 
 +------------------------------------------------------------------------------+
-| **Screen 6 of 12** *▌ Block Letters --- 3 lines*                             |
+| **Screen 6 of 12** _▌ Block Letters --- 3 lines_ |
 +------------------------------------------------------------------------------+
-| **asdf jkl; ;lkj fdsa**                                                      |
-|                                                                              |
-| **asdfjkl; ;lkjfdsa**                                                        |
-|                                                                              |
-| **asdf ;lkj fdsa jkl;**                                                      |
-|                                                                              |
-| *💡 Notice: \'asdf\' and \';lkj\' are the full home row, each hand\'s side!* |
+| **asdf jkl; ;lkj fdsa** |
+| |
+| **asdfjkl; ;lkjfdsa** |
+| |
+| **asdf ;lkj fdsa jkl;** |
+| |
+| _💡 Notice: \'asdf\' and \';lkj\' are the full home row, each hand\'s side!_ |
 +------------------------------------------------------------------------------+
 
 **Screen 7 of 12 --- Game in Tree (Full Home Row)**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 12** *▌ Game in Tree*                                   |
+| **Screen 7 of 12** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **asdf**                                                              |
-|                                                                       |
-| **jkl; ;lkj**                                                         |
-|                                                                       |
-| **fdsa asdf fdsa**                                                    |
-|                                                                       |
-| **jkl; fdsa asdf ;lkj**                                               |
+| **asdf** |
+| |
+| **jkl; ;lkj** |
+| |
+| **fdsa asdf fdsa** |
+| |
+| **jkl; fdsa asdf ;lkj** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 12 --- Standard Drill: Home Row Words**
@@ -774,15 +819,15 @@ This is a huge moment --- all 8 home-row positions in order!
 Fun fact: some real words can be spelled using only home-row keys!
 
 +----------------------------------------------------------------------------------------+
-| **Screen 8 of 12** *▌ Standard --- 3 lines*                                            |
+| **Screen 8 of 12** _▌ Standard --- 3 lines_ |
 +----------------------------------------------------------------------------------------+
-| **as ask flask lads fads fall**                                                        |
-|                                                                                        |
-| **shall all glad flash lash lass**                                                     |
-|                                                                                        |
-| **sad dads salad flag flak alf**                                                       |
-|                                                                                        |
-| *💡 These are REAL WORDS! You\'re officially writing English with only home-row keys.* |
+| **as ask flask lads fads fall** |
+| |
+| **shall all glad flash lash lass** |
+| |
+| **sad dads salad flag flak alf** |
+| |
+| _💡 These are REAL WORDS! You\'re officially writing English with only home-row keys._ |
 +----------------------------------------------------------------------------------------+
 
 **Screen 9 of 12 --- Standard Drill: Sentences**
@@ -790,66 +835,70 @@ Fun fact: some real words can be spelled using only home-row keys!
 Yes --- complete sentences using only home-row keys!
 
 +--------------------------------------------------------------------------------------------+
-| **Screen 9 of 12** *▌ Standard --- 3 lines*                                                |
+| **Screen 9 of 12** _▌ Standard --- 3 lines_ |
 +--------------------------------------------------------------------------------------------+
-| **a lad asks dad;**                                                                        |
-|                                                                                            |
-| **all flags fall;**                                                                        |
-|                                                                                            |
-| **flask and salad;**                                                                       |
-|                                                                                            |
-| *💡 The semicolons act like periods here. Notice how the home row can already say things!* |
+| **a lad asks dad;** |
+| |
+| **all flags fall;** |
+| |
+| **flask and salad;** |
+| |
+| _💡 The semicolons act like periods here. Notice how the home row can already say things!_ |
 +--------------------------------------------------------------------------------------------+
 
 **Screen 10 of 12 --- Falling Letter (Full Home Row)**
 
-  ------------------------------------------------------------------------------
-  **Screen 10 of 12** *▌ Falling Letter*
+---
 
-  **a s d f j k l ; as df jk l; asd fjk lsa ;lk asdf jkl; fdsa ;lkj asdfjkl;**
-  ------------------------------------------------------------------------------
+**Screen 10 of 12** _▌ Falling Letter_
+
+**a s d f j k l ; as df jk l; asd fjk lsa ;lk asdf jkl; fdsa ;lkj asdfjkl;**
+
+---
 
 **Screen 11 of 12 --- Standard: Mixed Speed Drill**
 
 +-----------------------------------------------------------------------+
-| **Screen 11 of 12** *▌ Standard --- 4 lines*                          |
+| **Screen 11 of 12** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **asdfjkl; ;lkjfdsa asdf jkl;**                                       |
-|                                                                       |
-| **fdsa;lkj fdjsakl; ;akljfds**                                        |
-|                                                                       |
-| **ask lads flash shall salad glad**                                   |
-|                                                                       |
-| **a sad dad; all flags fall; flask;**                                 |
+| **asdfjkl; ;lkjfdsa asdf jkl;** |
+| |
+| **fdsa;lkj fdjsakl; ;akljfds** |
+| |
+| **ask lads flash shall salad glad** |
+| |
+| **a sad dad; all flags fall; flask;** |
 +-----------------------------------------------------------------------+
 
 **Screen 12 of 12 --- Grand Final: Full Home Row Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 12 of 12** *▌ Standard --- 4 lines*                          |
+| **Screen 12 of 12** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **ask flask salad all lads dads flag**                                |
-|                                                                       |
-| **shall fall glad flash lash lass fads**                              |
-|                                                                       |
-| **a lad asks dad; all flags fall;**                                   |
-|                                                                       |
-| **glad dads ask; salad flask falls;**                                 |
-|                                                                       |
-| *💡 FULL HOME ROW --- no help needed. You\'ve got this!*              |
+| **ask flask salad all lads dads flag** |
+| |
+| **shall fall glad flash lash lass fads** |
+| |
+| **a lad asks dad; all flags fall;** |
+| |
+| **glad dads ask; salad flask falls;** |
+| |
+| _💡 FULL HOME ROW --- no help needed. You\'ve got this!_ |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🏆 MILESTONE: Full Home Row Mastered!**
+---
 
-  You\'ve learned all 8 home-row keys: A S D F J K L ;
+**🏆 MILESTONE: Full Home Row Mastered!**
 
-  This is the MOST IMPORTANT milestone in touch-typing.
+You\'ve learned all 8 home-row keys: A S D F J K L ;
 
-  Every key you learn from here builds ON TOP of this foundation.
+This is the MOST IMPORTANT milestone in touch-typing.
 
-  Coming up in Step 5: E and I --- your first reach to the top row!
-  -----------------------------------------------------------------------
+Every key you learn from here builds ON TOP of this foundation.
+
+Coming up in Step 5: E and I --- your first reach to the top row!
+
+---
 
 Course Progress: █████░░░░░░░░░░░░░░░ Step 5 of 20 --- E and I --- First Top-Row Keys
 
@@ -857,162 +906,173 @@ Course Progress: █████░░░░░░░░░░░░░░░ St
 
 Time to leave the home row (briefly)! E and I are the first top-row keys. They\'re typed by reaching your middle fingers UP one row, then immediately returning to home position.
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press E by reaching LEFT middle finger UP from D
+**🎯 Learning Goals**
 
-  ✓ Press I by reaching RIGHT middle finger UP from K
+✓ Press E by reaching LEFT middle finger UP from D
 
-  ✓ Immediately return to D and K after each press
+✓ Press I by reaching RIGHT middle finger UP from K
 
-  ✓ Keep other fingers on home row while reaching
-  -----------------------------------------------------------------------
+✓ Immediately return to D and K after each press
 
-  --------------- -------------------------------------------------------------------
-  **E**           LEFT middle finger --- reach UP from D. Think: D reaches up to E.
+✓ Keep other fingers on home row while reaching
 
-  --------------- -------------------------------------------------------------------
+---
 
-  --------------- --------------------------------------------------------------------
-  **I**           RIGHT middle finger --- reach UP from K. Think: K reaches up to I.
+---
 
-  --------------- --------------------------------------------------------------------
+**E** LEFT middle finger --- reach UP from D. Think: D reaches up to E.
 
-  -------------------------------------------------------------------------------------------------------------------------
-  *💡 Tip: The golden rule of top-row keys: REACH up, tap the key, RETURN home. Don\'t rest your fingers on the top row!*
+---
 
-  -------------------------------------------------------------------------------------------------------------------------
+---
+
+**I** RIGHT middle finger --- reach UP from K. Think: K reaches up to I.
+
+---
+
+---
+
+_💡 Tip: The golden rule of top-row keys: REACH up, tap the key, RETURN home. Don\'t rest your fingers on the top row!_
+
+---
 
 **Screen 1 of 10 --- Introducing: E**
 
 +----------------------------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 2 lines*                                       |
+| **Screen 1 of 10** _▌ Block Letters --- 2 lines_ |
 +----------------------------------------------------------------------------------------+
-| **e e e e e e e e**                                                                    |
-|                                                                                        |
-| **d e d e d e d e**                                                                    |
-|                                                                                        |
-| *💡 Feel the reach from D up to E. Count: \'down on D\... up to E\... down to D\...\'* |
+| **e e e e e e e e** |
+| |
+| **d e d e d e d e** |
+| |
+| _💡 Feel the reach from D up to E. Count: \'down on D\... up to E\... down to D\...\'_ |
 +----------------------------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Introducing: I**
 
 +------------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 2 lines*                       |
+| **Screen 2 of 10** _▌ Block Letters --- 2 lines_ |
 +------------------------------------------------------------------------+
-| **i i i i i i i i**                                                    |
-|                                                                        |
-| **k i k i k i k i**                                                    |
-|                                                                        |
-| *💡 Right middle finger reaches up from K to I and back. Mirror of E.* |
+| **i i i i i i i i** |
+| |
+| **k i k i k i k i** |
+| |
+| _💡 Right middle finger reaches up from K to I and back. Mirror of E._ |
 +------------------------------------------------------------------------+
 
 **Screen 3 of 10 --- E and I Mixed**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 3 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **e i e i e i e i**                                                   |
-|                                                                       |
-| **ei ie ee ii eei iie eie iei**                                       |
+| **e i e i e i e i** |
+| |
+| **ei ie ee ii eei iie eie iei** |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 10 --- With Home Row Keys**
 
 +-----------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Block Letters --- 3 lines*                      |
+| **Screen 4 of 10** _▌ Block Letters --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **de ki ed ik dei kei**                                               |
-|                                                                       |
-| **feed side idea leaf silk**                                          |
-|                                                                       |
-| **like file life else self**                                          |
-|                                                                       |
-| *💡 Real words! E and I are in so many everyday words.*               |
+| **de ki ed ik dei kei** |
+| |
+| **feed side idea leaf silk** |
+| |
+| **like file life else self** |
+| |
+| _💡 Real words! E and I are in so many everyday words._ |
 +-----------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Falling Letter: E and I**
 
-  -----------------------------------------------------------------------
-  **Screen 5 of 10** *▌ Falling Letter*
+---
 
-  **e i e i ei ie de ki ed ik dei kie eide kide eide iedek edki idek**
-  -----------------------------------------------------------------------
+**Screen 5 of 10** _▌ Falling Letter_
+
+**e i e i ei ie de ki ed ik dei kie eide kide eide iedek edki idek**
+
+---
 
 **Screen 6 of 10 --- Standard Drill: Words with E and I**
 
 +-----------------------------------------------------------------------------+
-| **Screen 6 of 10** *▌ Standard --- 3 lines*                                 |
+| **Screen 6 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------------+
-| **side idea file like life self silk**                                      |
-|                                                                             |
-| **feed else leaf desk said sail fail**                                      |
-|                                                                             |
-| **ideal field slide false diesel**                                          |
-|                                                                             |
-| *💡 Notice how common these words are! You\'re typing real vocabulary now.* |
+| **side idea file like life self silk** |
+| |
+| **feed else leaf desk said sail fail** |
+| |
+| **ideal field slide false diesel** |
+| |
+| _💡 Notice how common these words are! You\'re typing real vocabulary now._ |
 +-----------------------------------------------------------------------------+
 
 **Screen 7 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Game in Tree*                                   |
+| **Screen 7 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **ei**                                                                |
-|                                                                       |
-| **de ki**                                                             |
-|                                                                       |
-| **idea file side**                                                    |
-|                                                                       |
-| **like life else self**                                               |
+| **ei** |
+| |
+| **de ki** |
+| |
+| **idea file side** |
+| |
+| **like life else self** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Standard: Sentences**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 8 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **slide the file;**                                                   |
-|                                                                       |
-| **a sad idea fails;**                                                 |
-|                                                                       |
-| **life is ideal;**                                                    |
+| **slide the file;** |
+| |
+| **a sad idea fails;** |
+| |
+| **life is ideal;** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Falling Letter (Full Mix)**
 
-  -----------------------------------------------------------------------------------------------
-  **Screen 9 of 10** *▌ Falling Letter*
+---
 
-  **side file like self idea ideal field slide fail sail desk said leaf else feed silk diesel**
-  -----------------------------------------------------------------------------------------------
+**Screen 9 of 10** _▌ Falling Letter_
+
+**side file like self idea ideal field slide fail sail desk said leaf else feed silk diesel**
+
+---
 
 **Screen 10 of 10 --- Final Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                          |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **life is ideal; sail the lake;**                                     |
-|                                                                       |
-| **a silk file slides; ideas fail;**                                   |
-|                                                                       |
-| **feed the fish; else ideas die;**                                    |
-|                                                                       |
-| **file all ideas; life is a slide;**                                  |
-|                                                                       |
-| *💡 Full sentences! You\'re writing real English now.*                |
+| **life is ideal; sail the lake;** |
+| |
+| **a silk file slides; ideas fail;** |
+| |
+| **feed the fish; else ideas die;** |
+| |
+| **file all ideas; life is a slide;** |
+| |
+| _💡 Full sentences! You\'re writing real English now._ |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 5 Complete!**
+---
 
-  E and I --- two of the most common letters in English --- are yours!
+**🌟 Step 5 Complete!**
 
-  You\'re now leaving the home row and coming back cleanly.
+E and I --- two of the most common letters in English --- are yours!
 
-  Coming up in Step 6: R and U --- more index finger top-row keys!
-  -----------------------------------------------------------------------
+You\'re now leaving the home row and coming back cleanly.
+
+Coming up in Step 6: R and U --- more index finger top-row keys!
+
+---
 
 Course Progress: ██████░░░░░░░░░░░░░░ Step 6 of 20 --- R and U
 
@@ -1020,151 +1080,161 @@ Course Progress: ██████░░░░░░░░░░░░░░ St
 
 Your index fingers reach up! R is above F (left index), and U is above J (right index). This is the first time your index fingers leave the home row.
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press R by reaching LEFT index finger UP from F
+**🎯 Learning Goals**
 
-  ✓ Press U by reaching RIGHT index finger UP from J
+✓ Press R by reaching LEFT index finger UP from F
 
-  ✓ Return to F and J immediately after each press
+✓ Press U by reaching RIGHT index finger UP from J
 
-  ✓ Combine with E and I for a full top-row workout
-  -----------------------------------------------------------------------
+✓ Return to F and J immediately after each press
 
-  --------------- ------------------------------------------------------------------
-  **R**           LEFT index finger --- reach UP from F. Think: F reaches up to R.
+✓ Combine with E and I for a full top-row workout
 
-  --------------- ------------------------------------------------------------------
+---
 
-  --------------- -------------------------------------------------------------------
-  **U**           RIGHT index finger --- reach UP from J. Think: J reaches up to U.
+---
 
-  --------------- -------------------------------------------------------------------
+**R** LEFT index finger --- reach UP from F. Think: F reaches up to R.
+
+---
+
+---
+
+**U** RIGHT index finger --- reach UP from J. Think: J reaches up to U.
+
+---
 
 **Screen 1 of 10 --- Introducing: R**
 
 +-------------------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 2 lines*                              |
+| **Screen 1 of 10** _▌ Block Letters --- 2 lines_ |
 +-------------------------------------------------------------------------------+
-| **r r r r r r r r**                                                           |
-|                                                                               |
-| **f r f r f r f r**                                                           |
-|                                                                               |
-| *💡 Left index reaches up from F to R and back. Smooth reach --- no tension!* |
+| **r r r r r r r r** |
+| |
+| **f r f r f r f r** |
+| |
+| _💡 Left index reaches up from F to R and back. Smooth reach --- no tension!_ |
 +-------------------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Introducing: U**
 
 +-----------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 2 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **u u u u u u u u**                                                   |
-|                                                                       |
-| **j u j u j u j u**                                                   |
-|                                                                       |
-| *💡 Right index reaches up from J to U and back.*                     |
+| **u u u u u u u u** |
+| |
+| **j u j u j u j u** |
+| |
+| _💡 Right index reaches up from J to U and back._ |
 +-----------------------------------------------------------------------+
 
 **Screen 3 of 10 --- R and U Mixed**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 3 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **r u r u r u r u**                                                   |
-|                                                                       |
-| **ru ur rr uu rru uur rur uru**                                       |
+| **r u r u r u r u** |
+| |
+| **ru ur rr uu rru uur rur uru** |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 10 --- All Top Row Keys So Far: E, I, R, U**
 
 +------------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Standard --- 3 lines*                            |
+| **Screen 4 of 10** _▌ Standard --- 3 lines_ |
 +------------------------------------------------------------------------+
-| **re ir er ri rude rule**                                              |
-|                                                                        |
-| **ride ride sure fire**                                                |
-|                                                                        |
-| **rude fuel rule risky**                                               |
-|                                                                        |
-| *💡 Can you see real words forming? R and U fill in so many patterns!* |
+| **re ir er ri rude rule** |
+| |
+| **ride ride sure fire** |
+| |
+| **rude fuel rule risky** |
+| |
+| _💡 Can you see real words forming? R and U fill in so many patterns!_ |
 +------------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Falling Letter**
 
-  --------------------------------------------------------------------------
-  **Screen 5 of 10** *▌ Falling Letter*
+---
 
-  **r u r u ru ur fr ju rf uj ruf jur rude rule ride sure fire fuel rule**
-  --------------------------------------------------------------------------
+**Screen 5 of 10** _▌ Falling Letter_
+
+**r u r u ru ur fr ju rf uj ruf jur rude rule ride sure fire fuel rule**
+
+---
 
 **Screen 6 of 10 --- Standard: Words (All Keys Learned)**
 
 +-----------------------------------------------------------------------+
-| **Screen 6 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 6 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **rule ride sure fire fuel rude rise**                                |
-|                                                                       |
-| **first dark real risk used**                                         |
-|                                                                       |
-| **slide ruled fired raised desire**                                   |
+| **rule ride sure fire fuel rude rise** |
+| |
+| **first dark real risk used** |
+| |
+| **slide ruled fired raised desire** |
 +-----------------------------------------------------------------------+
 
 **Screen 7 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Game in Tree*                                   |
+| **Screen 7 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **ru**                                                                |
-|                                                                       |
-| **re ui**                                                             |
-|                                                                       |
-| **ride rule sure**                                                    |
-|                                                                       |
-| **fire fuel rude rise**                                               |
+| **ru** |
+| |
+| **re ui** |
+| |
+| **ride rule sure** |
+| |
+| **fire fuel rude rise** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Standard: Sentences**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 8 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **rule all files;**                                                   |
-|                                                                       |
-| **a rude riser fails;**                                               |
-|                                                                       |
-| **fire is useful;**                                                   |
+| **rule all files;** |
+| |
+| **a rude riser fails;** |
+| |
+| **fire is useful;** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Falling Letter (All Keys)**
 
-  --------------------------------------------------------------------------------------------
-  **Screen 9 of 10** *▌ Falling Letter*
+---
 
-  **rule ride sure fire fuel rude rise used real risk first dark slide ruled raised desire**
-  --------------------------------------------------------------------------------------------
+**Screen 9 of 10** _▌ Falling Letter_
+
+**rule ride sure fire fuel rude rise used real risk first dark slide ruled raised desire**
+
+---
 
 **Screen 10 of 10 --- Final Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                          |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **ride the rise; rules are sure;**                                    |
-|                                                                       |
-| **fuel a fire; dark desires fade;**                                   |
-|                                                                       |
-| **rise and rule; real ideas slide;**                                  |
-|                                                                       |
-| **a rude lad fails; slide rules all;**                                |
+| **ride the rise; rules are sure;** |
+| |
+| **fuel a fire; dark desires fade;** |
+| |
+| **rise and rule; real ideas slide;** |
+| |
+| **a rude lad fails; slide rules all;** |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 6 Complete!**
+---
 
-  R and U --- great work! Your index fingers are getting adventurous.
+**🌟 Step 6 Complete!**
 
-  Coming up in Step 7: T and Y --- the tricky center keys!
-  -----------------------------------------------------------------------
+R and U --- great work! Your index fingers are getting adventurous.
+
+Coming up in Step 7: T and Y --- the tricky center keys!
+
+---
 
 Course Progress: ███████░░░░░░░░░░░░░ Step 7 of 20 --- T and Y --- Center Top Row
 
@@ -1172,158 +1242,169 @@ Course Progress: ███████░░░░░░░░░░░░░ St
 
 The center top-row keys. T is typed with your LEFT index finger (stretching slightly inward from F), and Y with your RIGHT index finger (stretching inward from J). These are slightly awkward at first --- take your time!
 
-  -------------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press T with LEFT index finger --- reach UP and slightly RIGHT from F
+**🎯 Learning Goals**
 
-  ✓ Press Y with RIGHT index finger --- reach UP and slightly LEFT from J
+✓ Press T with LEFT index finger --- reach UP and slightly RIGHT from F
 
-  ✓ Both fingers stretch toward the center of the keyboard
+✓ Press Y with RIGHT index finger --- reach UP and slightly LEFT from J
 
-  ✓ Return to F and J every single time
-  -------------------------------------------------------------------------
+✓ Both fingers stretch toward the center of the keyboard
 
-  --------------- -------------------------------------------------------
-  **T**           LEFT index --- reach UP and toward center from F.
+✓ Return to F and J every single time
 
-  --------------- -------------------------------------------------------
+---
 
-  --------------- -------------------------------------------------------
-  **Y**           RIGHT index --- reach UP and toward center from J.
+---
 
-  --------------- -------------------------------------------------------
+**T** LEFT index --- reach UP and toward center from F.
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-  *💡 Tip: T and Y are the most commonly mis-assigned keys for beginners. Some people use the wrong finger! Always use LEFT index for T and RIGHT index for Y.*
+---
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+
+**Y** RIGHT index --- reach UP and toward center from J.
+
+---
+
+---
+
+_💡 Tip: T and Y are the most commonly mis-assigned keys for beginners. Some people use the wrong finger! Always use LEFT index for T and RIGHT index for Y._
+
+---
 
 **Screen 1 of 10 --- Introducing: T**
 
 +-------------------------------------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 2 lines*                                                |
+| **Screen 1 of 10** _▌ Block Letters --- 2 lines_ |
 +-------------------------------------------------------------------------------------------------+
-| **t t t t t t t t**                                                                             |
-|                                                                                                 |
-| **f t f t f t f t**                                                                             |
-|                                                                                                 |
-| *💡 Reach up and slightly right from F. The angle is different from R --- feel the difference!* |
+| **t t t t t t t t** |
+| |
+| **f t f t f t f t** |
+| |
+| _💡 Reach up and slightly right from F. The angle is different from R --- feel the difference!_ |
 +-------------------------------------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Introducing: Y**
 
 +-----------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 2 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **y y y y y y y y**                                                   |
-|                                                                       |
-| **j y j y j y j y**                                                   |
-|                                                                       |
-| *💡 Reach up and slightly left from J. Mirror of T!*                  |
+| **y y y y y y y y** |
+| |
+| **j y j y j y j y** |
+| |
+| _💡 Reach up and slightly left from J. Mirror of T!_ |
 +-----------------------------------------------------------------------+
 
 **Screen 3 of 10 --- T and Y Mixed**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 3 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **t y t y t y t y**                                                   |
-|                                                                       |
-| **ty yt tt yy tty yyt tyt yty**                                       |
+| **t y t y t y t y** |
+| |
+| **ty yt tt yy tty yyt tyt yty** |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 10 --- With Previously Learned Keys**
 
 +----------------------------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Standard --- 3 lines*                                            |
+| **Screen 4 of 10** _▌ Standard --- 3 lines_ |
 +----------------------------------------------------------------------------------------+
-| **type they that this your**                                                           |
-|                                                                                        |
-| **style start style story try**                                                        |
-|                                                                                        |
-| **rusty dusty trust tried stead**                                                      |
-|                                                                                        |
-| *💡 The word \'they\', \'type\', \'that\', \'this\' --- you use T and Y all the time!* |
+| **type they that this your** |
+| |
+| **style start style story try** |
+| |
+| **rusty dusty trust tried stead** |
+| |
+| _💡 The word \'they\', \'type\', \'that\', \'this\' --- you use T and Y all the time!_ |
 +----------------------------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Falling Letter: T and Y**
 
-  -----------------------------------------------------------------------
-  **Screen 5 of 10** *▌ Falling Letter*
+---
 
-  **t y t y ty yt ft jy tf yj tye yet try yty tyt they type that this**
-  -----------------------------------------------------------------------
+**Screen 5 of 10** _▌ Falling Letter_
+
+**t y t y ty yt ft jy tf yj tye yet try yty tyt they type that this**
+
+---
 
 **Screen 6 of 10 --- Standard: Common Words**
 
 +-----------------------------------------------------------------------+
-| **Screen 6 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 6 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **they type that this your try yet**                                  |
-|                                                                       |
-| **style start story trust tried true**                                |
-|                                                                       |
-| **thirty forty dusty rusty lusty**                                    |
+| **they type that this your try yet** |
+| |
+| **style start story trust tried true** |
+| |
+| **thirty forty dusty rusty lusty** |
 +-----------------------------------------------------------------------+
 
 **Screen 7 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Game in Tree*                                   |
+| **Screen 7 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **they**                                                              |
-|                                                                       |
-| **type that**                                                         |
-|                                                                       |
-| **try yet style**                                                     |
-|                                                                       |
-| **trust story true rusty**                                            |
+| **they** |
+| |
+| **type that** |
+| |
+| **try yet style** |
+| |
+| **trust story true rusty** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Standard: Sentences**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 8 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **try this style;**                                                   |
-|                                                                       |
-| **they trust the idea;**                                              |
-|                                                                       |
-| **yet it is true;**                                                   |
+| **try this style;** |
+| |
+| **they trust the idea;** |
+| |
+| **yet it is true;** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Falling Letter (All Top Row + Home)**
 
-  --------------------------------------------------------------------------------------
-  **Screen 9 of 10** *▌ Falling Letter*
+---
 
-  **they type that this your try yet style start story trust tried true rusty thirty**
-  --------------------------------------------------------------------------------------
+**Screen 9 of 10** _▌ Falling Letter_
+
+**they type that this your try yet style start story trust tried true rusty thirty**
+
+---
 
 **Screen 10 of 10 --- Final Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                          |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **they tried this style;**                                            |
-|                                                                       |
-| **type the true story;**                                              |
-|                                                                       |
-| **that rusty slide is dusty;**                                        |
-|                                                                       |
-| **trust yourself; try your best;**                                    |
+| **they tried this style;** |
+| |
+| **type the true story;** |
+| |
+| **that rusty slide is dusty;** |
+| |
+| **trust yourself; try your best;** |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 7 Complete!**
+---
 
-  T and Y --- done! The full top row is within sight.
+**🌟 Step 7 Complete!**
 
-  You now know: Q? W? --- almost! Let\'s finish the row.
+T and Y --- done! The full top row is within sight.
 
-  Coming up in Step 8: W and O --- ring finger top-row keys!
-  -----------------------------------------------------------------------
+You now know: Q? W? --- almost! Let\'s finish the row.
+
+Coming up in Step 8: W and O --- ring finger top-row keys!
+
+---
 
 Course Progress: ████████░░░░░░░░░░░░ Step 8 of 20 --- W and O
 
@@ -1331,145 +1412,155 @@ Course Progress: ████████░░░░░░░░░░░░ St
 
 Ring fingers reach up now. W is above S (left ring), and O is above L (right ring). Your ring fingers already know S and L --- now they just need to reach higher!
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press W with LEFT ring finger --- reach UP from S
+**🎯 Learning Goals**
 
-  ✓ Press O with RIGHT ring finger --- reach UP from L
+✓ Press W with LEFT ring finger --- reach UP from S
 
-  ✓ Always return to S and L between presses
-  -----------------------------------------------------------------------
+✓ Press O with RIGHT ring finger --- reach UP from L
 
-  --------------- -------------------------------------------------------
-  **W**           LEFT ring --- reach UP from S.
+✓ Always return to S and L between presses
 
-  --------------- -------------------------------------------------------
+---
 
-  --------------- -------------------------------------------------------
-  **O**           RIGHT ring --- reach UP from L.
+---
 
-  --------------- -------------------------------------------------------
+**W** LEFT ring --- reach UP from S.
+
+---
+
+---
+
+**O** RIGHT ring --- reach UP from L.
+
+---
 
 **Screen 1 of 10 --- Introducing: W**
 
 +-----------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 1 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **w w w w w w w w**                                                   |
-|                                                                       |
-| **s w s w s w s w**                                                   |
+| **w w w w w w w w** |
+| |
+| **s w s w s w s w** |
 +-----------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Introducing: O**
 
 +-----------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 2 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **o o o o o o o o**                                                   |
-|                                                                       |
-| **l o l o l o l o**                                                   |
+| **o o o o o o o o** |
+| |
+| **l o l o l o l o** |
 +-----------------------------------------------------------------------+
 
 **Screen 3 of 10 --- W and O Mixed**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 3 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **w o w o w o w o**                                                   |
-|                                                                       |
-| **wo ow ww oo two owl row low**                                       |
+| **w o w o w o w o** |
+| |
+| **wo ow ww oo two owl row low** |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 10 --- Building Words**
 
 +-----------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 4 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **word work wore world worry woke**                                   |
-|                                                                       |
-| **open over only older other**                                        |
-|                                                                       |
-| **flow slow glow blow grow**                                          |
-|                                                                       |
-| *💡 SO many words use W and O! These are incredibly common letters.*  |
+| **word work wore world worry woke** |
+| |
+| **open over only older other** |
+| |
+| **flow slow glow blow grow** |
+| |
+| _💡 SO many words use W and O! These are incredibly common letters._ |
 +-----------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Falling Letter**
 
-  -----------------------------------------------------------------------
-  **Screen 5 of 10** *▌ Falling Letter*
+---
 
-  **w o w o wo ow sw lo ws ol word work wore open over only flow slow**
-  -----------------------------------------------------------------------
+**Screen 5 of 10** _▌ Falling Letter_
+
+**w o w o wo ow sw lo ws ol word work wore open over only flow slow**
+
+---
 
 **Screen 6 of 10 --- Standard: More Words**
 
 +-----------------------------------------------------------------------+
-| **Screen 6 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 6 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **word world worry wore woke work**                                   |
-|                                                                       |
-| **outer order older other often**                                     |
-|                                                                       |
-| **below elbow widow tower lower**                                     |
+| **word world worry wore woke work** |
+| |
+| **outer order older other often** |
+| |
+| **below elbow widow tower lower** |
 +-----------------------------------------------------------------------+
 
 **Screen 7 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Game in Tree*                                   |
+| **Screen 7 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **word**                                                              |
-|                                                                       |
-| **work wore**                                                         |
-|                                                                       |
-| **open over only**                                                    |
-|                                                                       |
-| **flow slow glow grow**                                               |
+| **word** |
+| |
+| **work wore** |
+| |
+| **open over only** |
+| |
+| **flow slow glow grow** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Standard: Sentences**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 8 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **slow work flows well;**                                             |
-|                                                                       |
-| **the world worries often;**                                          |
-|                                                                       |
-| **words grow over time;**                                             |
+| **slow work flows well;** |
+| |
+| **the world worries often;** |
+| |
+| **words grow over time;** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Falling Letter (Full Mix)**
 
-  -------------------------------------------------------------------------------------
-  **Screen 9 of 10** *▌ Falling Letter*
+---
 
-  **word world worry wore work open over only flow slow glow blow below tower lower**
-  -------------------------------------------------------------------------------------
+**Screen 9 of 10** _▌ Falling Letter_
+
+**word world worry wore work open over only flow slow glow blow below tower lower**
+
+---
 
 **Screen 10 of 10 --- Final Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                          |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **slow words flow; worlds worry often;**                              |
-|                                                                       |
-| **work it out; only the true story;**                                 |
-|                                                                       |
-| **type it well; words are powerful;**                                 |
-|                                                                       |
-| **glow lower; over the tower; try;**                                  |
+| **slow words flow; worlds worry often;** |
+| |
+| **work it out; only the true story;** |
+| |
+| **type it well; words are powerful;** |
+| |
+| **glow lower; over the tower; try;** |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 8 Complete!**
+---
 
-  W and O in the bag! The top row is almost fully covered.
+**🌟 Step 8 Complete!**
 
-  Coming up in Step 9: Q and P --- the pinky top-row keys!
-  -----------------------------------------------------------------------
+W and O in the bag! The top row is almost fully covered.
+
+Coming up in Step 9: Q and P --- the pinky top-row keys!
+
+---
 
 Course Progress: █████████░░░░░░░░░░░ Step 9 of 20 --- Q and P
 
@@ -1477,157 +1568,165 @@ Course Progress: █████████░░░░░░░░░░░ St
 
 The final top-row keys! Q is above A (left pinky), and P is above ; (right pinky). Pinky reaches are the longest --- but you\'ve done this before with A and ;!
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press Q with LEFT pinky --- reach UP from A
+**🎯 Learning Goals**
 
-  ✓ Press P with RIGHT pinky --- reach UP from ;
+✓ Press Q with LEFT pinky --- reach UP from A
 
-  ✓ Q is rare --- don\'t worry if it feels awkward
+✓ Press P with RIGHT pinky --- reach UP from ;
 
-  ✓ P is very common --- it will get plenty of practice!
-  -----------------------------------------------------------------------
+✓ Q is rare --- don\'t worry if it feels awkward
 
-  --------------- -----------------------------------------------------------------------------
-  **Q**           LEFT pinky --- reach UP from A. Q is rare in English but important to know.
+✓ P is very common --- it will get plenty of practice!
 
-  --------------- -----------------------------------------------------------------------------
+---
 
-  --------------- -----------------------------------------------------------------------------
-  **P**           RIGHT pinky --- reach UP from ;. P is very common (play, people, type\...).
+---
 
-  --------------- -----------------------------------------------------------------------------
+**Q** LEFT pinky --- reach UP from A. Q is rare in English but important to know.
+
+---
+
+---
+
+**P** RIGHT pinky --- reach UP from ;. P is very common (play, people, type\...).
+
+---
 
 **Screen 1 of 10 --- Introducing: Q**
 
 +-------------------------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 2 lines*                                    |
+| **Screen 1 of 10** _▌ Block Letters --- 2 lines_ |
 +-------------------------------------------------------------------------------------+
-| **q q q q q q q q**                                                                 |
-|                                                                                     |
-| **a q a q a q a q**                                                                 |
-|                                                                                     |
-| *💡 Q always comes before U in English (quick, queen, quiet). Remember: Q needs U!* |
+| **q q q q q q q q** |
+| |
+| **a q a q a q a q** |
+| |
+| _💡 Q always comes before U in English (quick, queen, quiet). Remember: Q needs U!_ |
 +-------------------------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Introducing: P**
 
 +--------------------------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 2 lines*                                     |
+| **Screen 2 of 10** _▌ Block Letters --- 2 lines_ |
 +--------------------------------------------------------------------------------------+
-| **p p p p p p p p**                                                                  |
-|                                                                                      |
-| **; p ; p ; p ; p**                                                                  |
-|                                                                                      |
-| *💡 Right pinky up from semicolon. P is powerful --- used in almost every sentence!* |
+| **p p p p p p p p** |
+| |
+| **; p ; p ; p ; p** |
+| |
+| _💡 Right pinky up from semicolon. P is powerful --- used in almost every sentence!_ |
 +--------------------------------------------------------------------------------------+
 
 **Screen 3 of 10 --- Q and P Together**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 3 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **q p q p q p q p**                                                   |
-|                                                                       |
-| **qp pq qq pp quip pique**                                            |
+| **q p q p q p q p** |
+| |
+| **qp pq qq pp quip pique** |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 10 --- Common P Words**
 
 +-----------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 4 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **play people part post past**                                        |
-|                                                                       |
-| **push pull park pale pretty**                                        |
-|                                                                       |
-| **sport sport type super drip**                                       |
+| **play people part post past** |
+| |
+| **push pull park pale pretty** |
+| |
+| **sport sport type super drip** |
 +-----------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Q Words (always qu-)**
 
 +----------------------------------------------------------------------------------------+
-| **Screen 5 of 10** *▌ Standard --- 2 lines*                                            |
+| **Screen 5 of 10** _▌ Standard --- 2 lines_ |
 +----------------------------------------------------------------------------------------+
-| **quick queen quiet quite quiz**                                                       |
-|                                                                                        |
-| **quest quill equal square**                                                           |
-|                                                                                        |
-| *💡 Every Q word in English uses QU together. So after Q, your right index presses U!* |
+| **quick queen quiet quite quiz** |
+| |
+| **quest quill equal square** |
+| |
+| _💡 Every Q word in English uses QU together. So after Q, your right index presses U!_ |
 +----------------------------------------------------------------------------------------+
 
 **Screen 6 of 10 --- Falling Letter**
 
-  ---------------------------------------------------------------------------------------
-  **Screen 6 of 10** *▌ Falling Letter*
+---
 
-  **p q p p pq qp play people quick quiet quite queen quest push pull park sport type**
-  ---------------------------------------------------------------------------------------
+**Screen 6 of 10** _▌ Falling Letter_
+
+**p q p p pq qp play people quick quiet quite queen quest push pull park sport type**
+
+---
 
 **Screen 7 of 10 --- Full Top Row: Q W E R T Y U I O P**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 7 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **q w e r t y u i o p**                                               |
-|                                                                       |
-| **p o i u y t r e w q**                                               |
-|                                                                       |
-| *💡 THE COMPLETE TOP ROW! Forward and backward.*                      |
+| **q w e r t y u i o p** |
+| |
+| **p o i u y t r e w q** |
+| |
+| _💡 THE COMPLETE TOP ROW! Forward and backward._ |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Standard: Sentences**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 8 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **people play quite well;**                                           |
-|                                                                       |
-| **quite a few people type;**                                          |
-|                                                                       |
-| **push past your limits;**                                            |
+| **people play quite well;** |
+| |
+| **quite a few people type;** |
+| |
+| **push past your limits;** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------+
-| **Screen 9 of 10** *▌ Game in Tree*                                   |
+| **Screen 9 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **qp**                                                                |
-|                                                                       |
-| **quick play**                                                        |
-|                                                                       |
-| **quite people push**                                                 |
-|                                                                       |
-| **queen sport pretty pull**                                           |
+| **qp** |
+| |
+| **quick play** |
+| |
+| **quite people push** |
+| |
+| **queen sport pretty pull** |
 +-----------------------------------------------------------------------+
 
 **Screen 10 of 10 --- Top Row + Home Row Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                          |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **type quite well; people play fair;**                                |
-|                                                                       |
-| **push your limits; work is rewarding;**                              |
-|                                                                       |
-| **quick writers surprise people;**                                    |
-|                                                                       |
-| **pretty words flow quite easily;**                                   |
+| **type quite well; people play fair;** |
+| |
+| **push your limits; work is rewarding;** |
+| |
+| **quick writers surprise people;** |
+| |
+| **pretty words flow quite easily;** |
 +-----------------------------------------------------------------------+
 
-  -------------------------------------------------------------------------
-  **🏆 MILESTONE: Full Top Row Complete!**
+---
 
-  You now know ALL top-row letters: Q W E R T Y U I O P
+**🏆 MILESTONE: Full Top Row Complete!**
 
-  Plus the complete home row: A S D F J K L ;
+You now know ALL top-row letters: Q W E R T Y U I O P
 
-  That\'s 18 of 26 letters already! Only the bottom row remains.
+Plus the complete home row: A S D F J K L ;
 
-  Coming up in Step 10: G and H --- the center home row keys you skipped!
-  -------------------------------------------------------------------------
+That\'s 18 of 26 letters already! Only the bottom row remains.
+
+Coming up in Step 10: G and H --- the center home row keys you skipped!
+
+---
 
 Course Progress: ██████████░░░░░░░░░░ Step 10 of 20 --- G and H --- Center Home Row
 
@@ -1635,155 +1734,165 @@ Course Progress: ██████████░░░░░░░░░░ St
 
 Surprise! There were two keys hiding in the middle of the home row that we skipped. G is pressed by the LEFT index finger (stretching right from F), and H by the RIGHT index finger (stretching left from J).
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press G with LEFT index --- stretch slightly RIGHT from F
+**🎯 Learning Goals**
 
-  ✓ Press H with RIGHT index --- stretch slightly LEFT from J
+✓ Press G with LEFT index --- stretch slightly RIGHT from F
 
-  ✓ Both fingers reach toward the center from home position
+✓ Press H with RIGHT index --- stretch slightly LEFT from J
 
-  ✓ G and H appear in hundreds of common words!
-  -----------------------------------------------------------------------
+✓ Both fingers reach toward the center from home position
 
-  --------------- --------------------------------------------------------------------------------------
-  **G**           LEFT index --- stretch toward center, same row as F. Like reaching past your anchor.
+✓ G and H appear in hundreds of common words!
 
-  --------------- --------------------------------------------------------------------------------------
+---
 
-  --------------- ------------------------------------------------------------
-  **H**           RIGHT index --- stretch toward center from J. Mirror of G.
+---
 
-  --------------- ------------------------------------------------------------
+**G** LEFT index --- stretch toward center, same row as F. Like reaching past your anchor.
+
+---
+
+---
+
+**H** RIGHT index --- stretch toward center from J. Mirror of G.
+
+---
 
 **Screen 1 of 10 --- Introducing: G**
 
 +-----------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 1 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **g g g g g g g g**                                                   |
-|                                                                       |
-| **f g f g f g f g**                                                   |
-|                                                                       |
-| *💡 Reach right from F --- just one step. Return to F each time!*     |
+| **g g g g g g g g** |
+| |
+| **f g f g f g f g** |
+| |
+| _💡 Reach right from F --- just one step. Return to F each time!_ |
 +-----------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Introducing: H**
 
 +-----------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 2 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **h h h h h h h h**                                                   |
-|                                                                       |
-| **j h j h j h j h**                                                   |
-|                                                                       |
-| *💡 Reach left from J --- one step. Return to J each time!*           |
+| **h h h h h h h h** |
+| |
+| **j h j h j h j h** |
+| |
+| _💡 Reach left from J --- one step. Return to J each time!_ |
 +-----------------------------------------------------------------------+
 
 **Screen 3 of 10 --- G and H Together**
 
 +-----------------------------------------------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Block Letters --- 2 lines*                                                          |
+| **Screen 3 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------------------------------------------+
-| **g h g h g h g h**                                                                                       |
-|                                                                                                           |
-| **gh hg gg hh ggh hhg ghg hgh**                                                                           |
-|                                                                                                           |
-| *💡 GH together appears in words like \'the\', \'this\', \'they\', \'high\', \'right\' --- super common!* |
+| **g h g h g h g h** |
+| |
+| **gh hg gg hh ggh hhg ghg hgh** |
+| |
+| _💡 GH together appears in words like \'the\', \'this\', \'they\', \'high\', \'right\' --- super common!_ |
 +-----------------------------------------------------------------------------------------------------------+
 
 **Screen 4 of 10 --- Words with G and H**
 
 +-----------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 4 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **the this that there their they**                                    |
-|                                                                       |
-| **high light right sight fight**                                      |
-|                                                                       |
-| **ghost great grain grass grade**                                     |
-|                                                                       |
-| *💡 The most common word in English is \'the\' --- and it needs H!*   |
+| **the this that there their they** |
+| |
+| **high light right sight fight** |
+| |
+| **ghost great grain grass grade** |
+| |
+| _💡 The most common word in English is \'the\' --- and it needs H!_ |
 +-----------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Falling Letter**
 
-  -------------------------------------------------------------------------------------
-  **Screen 5 of 10** *▌ Falling Letter*
+---
 
-  **g h g h gh hg the this that there their they high light right sight ghost great**
-  -------------------------------------------------------------------------------------
+**Screen 5 of 10** _▌ Falling Letter_
+
+**g h g h gh hg the this that there their they high light right sight ghost great**
+
+---
 
 **Screen 6 of 10 --- Standard: Common Phrases**
 
 +-----------------------------------------------------------------------+
-| **Screen 6 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 6 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **the right sight; their great fight;**                               |
-|                                                                       |
-| **this high light; that ghost;**                                      |
-|                                                                       |
-| **they grew grapes; high grade;**                                     |
+| **the right sight; their great fight;** |
+| |
+| **this high light; that ghost;** |
+| |
+| **they grew grapes; high grade;** |
 +-----------------------------------------------------------------------+
 
 **Screen 7 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Game in Tree*                                   |
+| **Screen 7 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **the**                                                               |
-|                                                                       |
-| **high light**                                                        |
-|                                                                       |
-| **right ghost great**                                                 |
-|                                                                       |
-| **their there fight sight**                                           |
+| **the** |
+| |
+| **high light** |
+| |
+| **right ghost great** |
+| |
+| **their there fight sight** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Standard: Sentences**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 8 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **the ghost is high;**                                                |
-|                                                                       |
-| **their right sight fails;**                                          |
-|                                                                       |
-| **great light grows there;**                                          |
+| **the ghost is high;** |
+| |
+| **their right sight fails;** |
+| |
+| **great light grows there;** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Falling Letter (Full Home + Top + G/H)**
 
-  -----------------------------------------------------------------------------------------------
-  **Screen 9 of 10** *▌ Falling Letter*
+---
 
-  **the this that there their they high light right sight fight ghost great grain grass grade**
-  -----------------------------------------------------------------------------------------------
+**Screen 9 of 10** _▌ Falling Letter_
+
+**the this that there their they high light right sight fight ghost great grain grass grade**
+
+---
 
 **Screen 10 of 10 --- Final Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                          |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **the right people push higher;**                                     |
-|                                                                       |
-| **their great ideas grow slowly;**                                    |
-|                                                                       |
-| **this fight is quite fair;**                                         |
-|                                                                       |
-| **great stories flow from the heart;**                                |
+| **the right people push higher;** |
+| |
+| **their great ideas grow slowly;** |
+| |
+| **this fight is quite fair;** |
+| |
+| **great stories flow from the heart;** |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 10 Complete!**
+---
 
-  G and H --- the hidden center keys are now yours!
+**🌟 Step 10 Complete!**
 
-  You know 20 of the 26 letters on a keyboard.
+G and H --- the hidden center keys are now yours!
 
-  Coming up in Steps 11--15: The bottom row --- V, M, C, , X . Z /
-  -----------------------------------------------------------------------
+You know 20 of the 26 letters on a keyboard.
+
+Coming up in Steps 11--15: The bottom row --- V, M, C, , X . Z /
+
+---
 
 Course Progress: ███████████░░░░░░░░░ Step 11 of 20 --- V and M --- Bottom Row Begins
 
@@ -1791,154 +1900,165 @@ Course Progress: ███████████░░░░░░░░░ St
 
 Welcome to the bottom row! Your fingers now need to reach DOWN instead of up. V is below F (left index reaches down), and M is below J (right index reaches down).
 
-  -----------------------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press V with LEFT index --- reach DOWN from F
+**🎯 Learning Goals**
 
-  ✓ Press M with RIGHT index --- reach DOWN from J
+✓ Press V with LEFT index --- reach DOWN from F
 
-  ✓ The angle is different from top-row reaches --- point fingers slightly downward
+✓ Press M with RIGHT index --- reach DOWN from J
 
-  ✓ Return to home row after every keystroke
-  -----------------------------------------------------------------------------------
+✓ The angle is different from top-row reaches --- point fingers slightly downward
 
-  --------------- -------------------------------------------------------
-  **V**           LEFT index --- reach DOWN from F.
+✓ Return to home row after every keystroke
 
-  --------------- -------------------------------------------------------
+---
 
-  --------------- -------------------------------------------------------
-  **M**           RIGHT index --- reach DOWN from J.
+---
 
-  --------------- -------------------------------------------------------
+**V** LEFT index --- reach DOWN from F.
 
-  --------------------------------------------------------------------------------------------------------------------------------------
-  *💡 Tip: Bottom-row reaches feel different! Your wrist might want to drop. Keep it elevated and curl your fingers downward instead.*
+---
 
-  --------------------------------------------------------------------------------------------------------------------------------------
+---
+
+**M** RIGHT index --- reach DOWN from J.
+
+---
+
+---
+
+_💡 Tip: Bottom-row reaches feel different! Your wrist might want to drop. Keep it elevated and curl your fingers downward instead._
+
+---
 
 **Screen 1 of 10 --- Introducing: V**
 
 +-----------------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 2 lines*                            |
+| **Screen 1 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------------+
-| **v v v v v v v v**                                                         |
-|                                                                             |
-| **f v f v f v f v**                                                         |
-|                                                                             |
-| *💡 Reach down from F. The V key is directly below and slightly left of F.* |
+| **v v v v v v v v** |
+| |
+| **f v f v f v f v** |
+| |
+| _💡 Reach down from F. The V key is directly below and slightly left of F._ |
 +-----------------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Introducing: M**
 
 +-----------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 2 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **m m m m m m m m**                                                   |
-|                                                                       |
-| **j m j m j m j m**                                                   |
-|                                                                       |
-| *💡 Reach down from J. M is directly below J.*                        |
+| **m m m m m m m m** |
+| |
+| **j m j m j m j m** |
+| |
+| _💡 Reach down from J. M is directly below J._ |
 +-----------------------------------------------------------------------+
 
 **Screen 3 of 10 --- V and M Together**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 3 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **v m v m v m v m**                                                   |
-|                                                                       |
-| **vm mv vv mm vvm mmv vmv mvm**                                       |
+| **v m v m v m v m** |
+| |
+| **vm mv vv mm vvm mmv vmv mvm** |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 10 --- Words with V and M**
 
 +-----------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 4 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **move over very live give**                                          |
-|                                                                       |
-| **make most must more might**                                         |
-|                                                                       |
-| **every move five more solve**                                        |
+| **move over very live give** |
+| |
+| **make most must more might** |
+| |
+| **every move five more solve** |
 +-----------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Falling Letter**
 
-  ---------------------------------------------------------------------------------------
-  **Screen 5 of 10** *▌ Falling Letter*
+---
 
-  **v m v m vm mv move over very live give make most must more might every five solve**
-  ---------------------------------------------------------------------------------------
+**Screen 5 of 10** _▌ Falling Letter_
+
+**v m v m vm mv move over very live give make most must more might every five solve**
+
+---
 
 **Screen 6 of 10 --- Standard: Words (All Keys)**
 
 +-----------------------------------------------------------------------+
-| **Screen 6 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 6 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **move the world; very great work;**                                  |
-|                                                                       |
-| **live your life; make it right;**                                    |
-|                                                                       |
-| **five more moves; give more light;**                                 |
+| **move the world; very great work;** |
+| |
+| **live your life; make it right;** |
+| |
+| **five more moves; give more light;** |
 +-----------------------------------------------------------------------+
 
 **Screen 7 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Game in Tree*                                   |
+| **Screen 7 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **move**                                                              |
-|                                                                       |
-| **very make**                                                         |
-|                                                                       |
-| **give live most**                                                    |
-|                                                                       |
-| **might more every solve**                                            |
+| **move** |
+| |
+| **very make** |
+| |
+| **give live most** |
+| |
+| **might more every solve** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Standard: Sentences**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 8 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **move every problem forward;**                                       |
-|                                                                       |
-| **give most people more time;**                                       |
-|                                                                       |
-| **very great people solve this;**                                     |
+| **move every problem forward;** |
+| |
+| **give most people more time;** |
+| |
+| **very great people solve this;** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Falling Letter (Big Mix)**
 
-  --------------------------------------------------------------------------------------------
-  **Screen 9 of 10** *▌ Falling Letter*
+---
 
-  **move very live give make most must more might every five solve world great people time**
-  --------------------------------------------------------------------------------------------
+**Screen 9 of 10** _▌ Falling Letter_
+
+**move very live give make most must more might every five solve world great people time**
+
+---
 
 **Screen 10 of 10 --- Final Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                          |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **move the world with great ideas;**                                  |
-|                                                                       |
-| **very few people make it this far;**                                 |
-|                                                                       |
-| **give more time to live your life;**                                 |
-|                                                                       |
-| **most moves solve the right problem;**                               |
+| **move the world with great ideas;** |
+| |
+| **very few people make it this far;** |
+| |
+| **give more time to live your life;** |
+| |
+| **most moves solve the right problem;** |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 11 Complete!**
+---
 
-  V and M --- excellent! Your fingers now reach in all directions.
+**🌟 Step 11 Complete!**
 
-  Coming up in Step 12: C and , --- more bottom-row keys!
-  -----------------------------------------------------------------------
+V and M --- excellent! Your fingers now reach in all directions.
+
+Coming up in Step 12: C and , --- more bottom-row keys!
+
+---
 
 Course Progress: ████████████░░░░░░░░ Step 12 of 20 --- C and , (Comma)
 
@@ -1946,151 +2066,161 @@ Course Progress: ████████████░░░░░░░░ St
 
 Middle fingers go down now. C is below D (left middle), and the comma , is below L (right middle). The comma is punctuation --- super important for sentences!
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press C with LEFT middle finger --- reach DOWN from D
+**🎯 Learning Goals**
 
-  ✓ Press , (comma) with RIGHT middle finger --- reach DOWN from K
+✓ Press C with LEFT middle finger --- reach DOWN from D
 
-  ✓ Practice comma placement for natural sentence flow
-  -----------------------------------------------------------------------
+✓ Press , (comma) with RIGHT middle finger --- reach DOWN from K
 
-  --------------- -------------------------------------------------------
-  **C**           LEFT middle --- reach DOWN from D.
+✓ Practice comma placement for natural sentence flow
 
-  --------------- -------------------------------------------------------
+---
 
-  --------------- ------------------------------------------------------------------------------
-  **,**           RIGHT middle --- reach DOWN from K. This is a comma --- used in all writing!
+---
 
-  --------------- ------------------------------------------------------------------------------
+**C** LEFT middle --- reach DOWN from D.
+
+---
+
+---
+
+**,** RIGHT middle --- reach DOWN from K. This is a comma --- used in all writing!
+
+---
 
 **Screen 1 of 10 --- Introducing: C**
 
 +-----------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 1 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **c c c c c c c c**                                                   |
-|                                                                       |
-| **d c d c d c d c**                                                   |
+| **c c c c c c c c** |
+| |
+| **d c d c d c d c** |
 +-----------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Introducing: ,**
 
 +-----------------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 2 lines*                            |
+| **Screen 2 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------------+
-| **, , , , , , , ,**                                                         |
-|                                                                             |
-| **k , k , k , k ,**                                                         |
-|                                                                             |
-| *💡 The comma is used to separate items in a list, or in longer sentences.* |
+| **, , , , , , , ,** |
+| |
+| **k , k , k , k ,** |
+| |
+| _💡 The comma is used to separate items in a list, or in longer sentences._ |
 +-----------------------------------------------------------------------------+
 
 **Screen 3 of 10 --- C and Words**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 3 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **come cool call could check**                                        |
-|                                                                       |
-| **clean clear close catch click**                                     |
-|                                                                       |
-| **voice price piece since dance**                                     |
+| **come cool call could check** |
+| |
+| **clean clear close catch click** |
+| |
+| **voice price piece since dance** |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 10 --- Using Commas**
 
 +-----------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 4 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **cool, clear, crisp water;**                                         |
-|                                                                       |
-| **come, go, check, click;**                                           |
-|                                                                       |
-| **voice, price, piece, dance;**                                       |
-|                                                                       |
-| *💡 Notice how commas separate items. This is real writing!*          |
+| **cool, clear, crisp water;** |
+| |
+| **come, go, check, click;** |
+| |
+| **voice, price, piece, dance;** |
+| |
+| _💡 Notice how commas separate items. This is real writing!_ |
 +-----------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Falling Letter**
 
-  --------------------------------------------------------------------------------
-  **Screen 5 of 10** *▌ Falling Letter*
+---
 
-  **c , c c , c come cool call could check clean clear close voice price dance**
-  --------------------------------------------------------------------------------
+**Screen 5 of 10** _▌ Falling Letter_
+
+**c , c c , c come cool call could check clean clear close voice price dance**
+
+---
 
 **Screen 6 of 10 --- Standard: Sentences with Commas**
 
 +-----------------------------------------------------------------------+
-| **Screen 6 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 6 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **come, check, and click;**                                           |
-|                                                                       |
-| **cool, clear, very cool;**                                           |
-|                                                                       |
-| **voice, price, style, and grace;**                                   |
+| **come, check, and click;** |
+| |
+| **cool, clear, very cool;** |
+| |
+| **voice, price, style, and grace;** |
 +-----------------------------------------------------------------------+
 
 **Screen 7 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Game in Tree*                                   |
+| **Screen 7 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **come**                                                              |
-|                                                                       |
-| **cool call**                                                         |
-|                                                                       |
-| **check clear close**                                                 |
-|                                                                       |
-| **catch click voice price**                                           |
+| **come** |
+| |
+| **cool call** |
+| |
+| **check clear close** |
+| |
+| **catch click voice price** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Standard: Paragraph Style**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Standard --- 4 lines*                           |
+| **Screen 8 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **type clearly, write well;**                                         |
-|                                                                       |
-| **check your work, correct errors;**                                  |
-|                                                                       |
-| **cool ideas come from practice;**                                    |
-|                                                                       |
-| **write, check, correct, publish;**                                   |
+| **type clearly, write well;** |
+| |
+| **check your work, correct errors;** |
+| |
+| **cool ideas come from practice;** |
+| |
+| **write, check, correct, publish;** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Falling Letter (All Keys)**
 
-  -------------------------------------------------------------------------------------------
-  **Screen 9 of 10** *▌ Falling Letter*
+---
 
-  **come cool call could check clean clear close voice price piece since dance write type**
-  -------------------------------------------------------------------------------------------
+**Screen 9 of 10** _▌ Falling Letter_
+
+**come cool call could check clean clear close voice price piece since dance write type**
+
+---
 
 **Screen 10 of 10 --- Final Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                          |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **clear, cool water; quite crisp;**                                   |
-|                                                                       |
-| **check your style, voice, and flow;**                                |
-|                                                                       |
-| **come, write, practice, improve;**                                   |
-|                                                                       |
-| **voice your ideas, check, correct;**                                 |
+| **clear, cool water; quite crisp;** |
+| |
+| **check your style, voice, and flow;** |
+| |
+| **come, write, practice, improve;** |
+| |
+| **voice your ideas, check, correct;** |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 12 Complete!**
+---
 
-  C and comma --- your sentences just got more powerful!
+**🌟 Step 12 Complete!**
 
-  Coming up in Step 13: X and . (period) --- ring fingers bottom row!
-  -----------------------------------------------------------------------
+C and comma --- your sentences just got more powerful!
+
+Coming up in Step 13: X and . (period) --- ring fingers bottom row!
+
+---
 
 Course Progress: █████████████░░░░░░░ Step 13 of 20 --- X and . (Period)
 
@@ -2098,151 +2228,161 @@ Course Progress: █████████████░░░░░░░ St
 
 Ring fingers go down! X is below S (left ring), and the period . is below L (right ring). The period ends every sentence --- you\'ll use it constantly!
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press X with LEFT ring --- reach DOWN from S
+**🎯 Learning Goals**
 
-  ✓ Press . (period) with RIGHT ring --- reach DOWN from L
+✓ Press X with LEFT ring --- reach DOWN from S
 
-  ✓ Now you can write complete sentences that end properly!
-  -----------------------------------------------------------------------
+✓ Press . (period) with RIGHT ring --- reach DOWN from L
 
-  --------------- -------------------------------------------------------------------------------
-  **X**           LEFT ring --- reach DOWN from S. X is rare but important (exit, exact, next).
+✓ Now you can write complete sentences that end properly!
 
-  --------------- -------------------------------------------------------------------------------
+---
 
-  --------------- --------------------------------------------------------------------------
-  **.**           RIGHT ring --- reach DOWN from L. Period! Every sentence ends with this.
+---
 
-  --------------- --------------------------------------------------------------------------
+**X** LEFT ring --- reach DOWN from S. X is rare but important (exit, exact, next).
+
+---
+
+---
+
+**.** RIGHT ring --- reach DOWN from L. Period! Every sentence ends with this.
+
+---
 
 **Screen 1 of 10 --- Introducing: X**
 
 +-----------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 1 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **x x x x x x x x**                                                   |
-|                                                                       |
-| **s x s x s x s x**                                                   |
+| **x x x x x x x x** |
+| |
+| **s x s x s x s x** |
 +-----------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Introducing: . (Period)**
 
 +-----------------------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 2 lines*                                  |
+| **Screen 2 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------------------+
-| **. . . . . . . .**                                                               |
-|                                                                                   |
-| **l . l . l . l .**                                                               |
-|                                                                                   |
-| *💡 After every complete thought --- period! Let that finger reach down and tap.* |
+| **. . . . . . . .** |
+| |
+| **l . l . l . l .** |
+| |
+| _💡 After every complete thought --- period! Let that finger reach down and tap._ |
 +-----------------------------------------------------------------------------------+
 
 **Screen 3 of 10 --- Words with X**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 3 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **exit next text extra exact**                                        |
-|                                                                       |
-| **expert express expect exist**                                       |
-|                                                                       |
-| **relax mix fox fix six**                                             |
+| **exit next text extra exact** |
+| |
+| **expert express expect exist** |
+| |
+| **relax mix fox fix six** |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 10 --- Writing Complete Sentences**
 
 +---------------------------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Standard --- 3 lines*                                           |
+| **Screen 4 of 10** _▌ Standard --- 3 lines_ |
 +---------------------------------------------------------------------------------------+
-| **the exit is next to you.**                                                          |
-|                                                                                       |
-| **check the text exactly.**                                                           |
-|                                                                                       |
-| **expect great results.**                                                             |
-|                                                                                       |
-| *💡 Real sentences with proper periods! Notice the period right after the last word.* |
+| **the exit is next to you.** |
+| |
+| **check the text exactly.** |
+| |
+| **expect great results.** |
+| |
+| _💡 Real sentences with proper periods! Notice the period right after the last word._ |
 +---------------------------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Falling Letter**
 
-  ------------------------------------------------------------------------------------
-  **Screen 5 of 10** *▌ Falling Letter*
+---
 
-  **x . x . x. .x exit next text exact expert express exist relax mix fox fix six.**
-  ------------------------------------------------------------------------------------
+**Screen 5 of 10** _▌ Falling Letter_
+
+**x . x . x. .x exit next text exact expert express exist relax mix fox fix six.**
+
+---
 
 **Screen 6 of 10 --- Standard: Proper Sentences**
 
 +-----------------------------------------------------------------------+
-| **Screen 6 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 6 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **expect the next exit.**                                             |
-|                                                                       |
-| **fix the text, relax.**                                              |
-|                                                                       |
-| **six experts exist here.**                                           |
+| **expect the next exit.** |
+| |
+| **fix the text, relax.** |
+| |
+| **six experts exist here.** |
 +-----------------------------------------------------------------------+
 
 **Screen 7 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Game in Tree*                                   |
+| **Screen 7 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **exit.**                                                             |
-|                                                                       |
-| **next text.**                                                        |
-|                                                                       |
-| **exact expert express.**                                             |
-|                                                                       |
-| **exist relax mix fix six.**                                          |
+| **exit.** |
+| |
+| **next text.** |
+| |
+| **exact expert express.** |
+| |
+| **exist relax mix fix six.** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Standard: Paragraph**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Standard --- 4 lines*                           |
+| **Screen 8 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **fix the exit. check the text.**                                     |
-|                                                                       |
-| **six experts exist. relax now.**                                     |
-|                                                                       |
-| **the next exit is exact. check it.**                                 |
-|                                                                       |
-| **express yourself. type with style.**                                |
+| **fix the exit. check the text.** |
+| |
+| **six experts exist. relax now.** |
+| |
+| **the next exit is exact. check it.** |
+| |
+| **express yourself. type with style.** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Falling Letter (Full Mix)**
 
-  -----------------------------------------------------------------------------------------
-  **Screen 9 of 10** *▌ Falling Letter*
+---
 
-  **exit next text exact expert express exist relax mix fix six. type check write flow.**
-  -----------------------------------------------------------------------------------------
+**Screen 9 of 10** _▌ Falling Letter_
+
+**exit next text exact expert express exist relax mix fix six. type check write flow.**
+
+---
 
 **Screen 10 of 10 --- Final Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                          |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **the exact exit is next to six.**                                    |
-|                                                                       |
-| **express your ideas. write well.**                                   |
-|                                                                       |
-| **experts relax. they trust themselves.**                             |
-|                                                                       |
-| **fix text. check. express. exist.**                                  |
+| **the exact exit is next to six.** |
+| |
+| **express your ideas. write well.** |
+| |
+| **experts relax. they trust themselves.** |
+| |
+| **fix text. check. express. exist.** |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 13 Complete!**
+---
 
-  X and period --- now your sentences are complete!
+**🌟 Step 13 Complete!**
 
-  Coming up in Step 14: Z and / --- the final pinky bottom-row keys!
-  -----------------------------------------------------------------------
+X and period --- now your sentences are complete!
+
+Coming up in Step 14: Z and / --- the final pinky bottom-row keys!
+
+---
 
 Course Progress: ██████████████░░░░░░ Step 14 of 20 --- Z and / --- Bottom Row Pinkies
 
@@ -2250,153 +2390,163 @@ Course Progress: ██████████████░░░░░░ St
 
 The last bottom-row keys! Z is below A (left pinky reaches all the way down), and / is below ; (right pinky reaches down). These are the furthest reaches on the keyboard!
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press Z with LEFT pinky --- reach DOWN from A (farthest reach!)
+**🎯 Learning Goals**
 
-  ✓ Press / (slash) with RIGHT pinky --- reach DOWN from ;
+✓ Press Z with LEFT pinky --- reach DOWN from A (farthest reach!)
 
-  ✓ Be extra careful --- pinky bottom-row reaches are the longest
+✓ Press / (slash) with RIGHT pinky --- reach DOWN from ;
 
-  ✓ Z is rare; / is used in dates, fractions, and web addresses
-  -----------------------------------------------------------------------
+✓ Be extra careful --- pinky bottom-row reaches are the longest
 
-  --------------- ----------------------------------------------------------------------------
-  **Z**           LEFT pinky --- reach all the way DOWN from A. The most extreme left reach!
+✓ Z is rare; / is used in dates, fractions, and web addresses
 
-  --------------- ----------------------------------------------------------------------------
+---
 
-  --------------- --------------------------------------------------------------------------------
-  **/**           RIGHT pinky --- reach DOWN from ;. Used in dates like 5/15/2026 and web links.
+---
 
-  --------------- --------------------------------------------------------------------------------
+**Z** LEFT pinky --- reach all the way DOWN from A. The most extreme left reach!
+
+---
+
+---
+
+**/** RIGHT pinky --- reach DOWN from ;. Used in dates like 5/15/2026 and web links.
+
+---
 
 **Screen 1 of 10 --- Introducing: Z**
 
 +---------------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 2 lines*                          |
+| **Screen 1 of 10** _▌ Block Letters --- 2 lines_ |
 +---------------------------------------------------------------------------+
-| **z z z z z z z z**                                                       |
-|                                                                           |
-| **a z a z a z a z**                                                       |
-|                                                                           |
-| *💡 This is the farthest your left pinky will travel. Stretch carefully!* |
+| **z z z z z z z z** |
+| |
+| **a z a z a z a z** |
+| |
+| _💡 This is the farthest your left pinky will travel. Stretch carefully!_ |
 +---------------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Introducing: /**
 
 +------------------------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 2 lines*                                   |
+| **Screen 2 of 10** _▌ Block Letters --- 2 lines_ |
 +------------------------------------------------------------------------------------+
-| **/ / / / / / / /**                                                                |
-|                                                                                    |
-| **; / ; / ; / ; /**                                                                |
-|                                                                                    |
-| *💡 Right pinky reaches down. Think of typing a web address: www.example.com/page* |
+| **/ / / / / / / /** |
+| |
+| **; / ; / ; / ; /** |
+| |
+| _💡 Right pinky reaches down. Think of typing a web address: www.example.com/page_ |
 +------------------------------------------------------------------------------------+
 
 **Screen 3 of 10 --- Words with Z**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 3 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **zero zone size prize**                                              |
-|                                                                       |
-| **zeal fizz jazz fuzz buzz**                                          |
-|                                                                       |
-| **freeze breeze sneeze seize**                                        |
+| **zero zone size prize** |
+| |
+| **zeal fizz jazz fuzz buzz** |
+| |
+| **freeze breeze sneeze seize** |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 10 --- Using /**
 
 +-----------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Standard --- 2 lines*                           |
+| **Screen 4 of 10** _▌ Standard --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **5/15/2026 and/or yes/no**                                           |
-|                                                                       |
-| **w/o s/he pass/fail**                                                |
-|                                                                       |
-| *💡 Slash is used in dates, abbreviations, and web addresses.*        |
+| **5/15/2026 and/or yes/no** |
+| |
+| **w/o s/he pass/fail** |
+| |
+| _💡 Slash is used in dates, abbreviations, and web addresses._ |
 +-----------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Falling Letter**
 
-  ---------------------------------------------------------------------------------
-  **Screen 5 of 10** *▌ Falling Letter*
+---
 
-  **z / z / zero zone size prize zeal jazz freeze breeze seize yes/no pass/fail**
-  ---------------------------------------------------------------------------------
+**Screen 5 of 10** _▌ Falling Letter_
+
+**z / z / zero zone size prize zeal jazz freeze breeze seize yes/no pass/fail**
+
+---
 
 **Screen 6 of 10 --- Standard: Mixing Z and /**
 
 +-----------------------------------------------------------------------+
-| **Screen 6 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 6 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **zero/size: pass/fail.**                                             |
-|                                                                       |
-| **jazz and fizz are cool.**                                           |
-|                                                                       |
-| **seize the prize. freeze!**                                          |
+| **zero/size: pass/fail.** |
+| |
+| **jazz and fizz are cool.** |
+| |
+| **seize the prize. freeze!** |
 +-----------------------------------------------------------------------+
 
 **Screen 7 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Game in Tree*                                   |
+| **Screen 7 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **zero**                                                              |
-|                                                                       |
-| **zone size**                                                         |
-|                                                                       |
-| **prize zeal jazz**                                                   |
-|                                                                       |
-| **freeze breeze seize fizz**                                          |
+| **zero** |
+| |
+| **zone size** |
+| |
+| **prize zeal jazz** |
+| |
+| **freeze breeze seize fizz** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Standard: Sentences**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 8 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **zero is the start. seize the prize.**                               |
-|                                                                       |
-| **jazz or fizz? yes/no.**                                             |
-|                                                                       |
-| **a breeze froze the zone.**                                          |
+| **zero is the start. seize the prize.** |
+| |
+| **jazz or fizz? yes/no.** |
+| |
+| **a breeze froze the zone.** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Falling Letter (All Keys)**
 
-  ----------------------------------------------------------------------------------------
-  **Screen 9 of 10** *▌ Falling Letter*
+---
 
-  **zero zone size prize zeal jazz freeze breeze seize fizz type write check flow move**
-  ----------------------------------------------------------------------------------------
+**Screen 9 of 10** _▌ Falling Letter_
+
+**zero zone size prize zeal jazz freeze breeze seize fizz type write check flow move**
+
+---
 
 **Screen 10 of 10 --- Final Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                          |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **seize the prize. zero excuses.**                                    |
-|                                                                       |
-| **jazz is cool. fizz and freeze.**                                    |
-|                                                                       |
-| **zone/size: pass or fail?**                                          |
-|                                                                       |
-| **a breeze. zero stress. just type.**                                 |
+| **seize the prize. zero excuses.** |
+| |
+| **jazz is cool. fizz and freeze.** |
+| |
+| **zone/size: pass or fail?** |
+| |
+| **a breeze. zero stress. just type.** |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 14 Complete!**
+---
 
-  Z and / --- the final bottom-row keys are yours!
+**🌟 Step 14 Complete!**
 
-  You now know 24 of the 26 alphabet letters.
+Z and / --- the final bottom-row keys are yours!
 
-  Coming up in Step 15: B and N --- the last two letters!
-  -----------------------------------------------------------------------
+You now know 24 of the 26 alphabet letters.
+
+Coming up in Step 15: B and N --- the last two letters!
+
+---
 
 Course Progress: ███████████████░░░░░ Step 15 of 20 --- B and N --- All 26 Letters!
 
@@ -2404,65 +2554,70 @@ Course Progress: ███████████████░░░░░ St
 
 The FINAL two letters! B is pressed by the LEFT index finger (reaching down and right from F, past V), and N is pressed by the RIGHT index finger (reaching down and left from J, past M).
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Press B with LEFT index --- reach DOWN and toward center from F
+**🎯 Learning Goals**
 
-  ✓ Press N with RIGHT index --- reach DOWN and toward center from J
+✓ Press B with LEFT index --- reach DOWN and toward center from F
 
-  ✓ After this step: you know ALL 26 letters of the alphabet!
+✓ Press N with RIGHT index --- reach DOWN and toward center from J
 
-  ✓ CELEBRATE this achievement!
-  -----------------------------------------------------------------------
+✓ After this step: you know ALL 26 letters of the alphabet!
 
-  --------------- -------------------------------------------------------------------------------------
-  **B**           LEFT index --- reach DOWN and toward center from F. B is below and between V and N.
+✓ CELEBRATE this achievement!
 
-  --------------- -------------------------------------------------------------------------------------
+---
 
-  --------------- ------------------------------------------------------------------------------------------------------
-  **N**           RIGHT index --- reach DOWN and toward center from J. N is one of the most common letters in English!
+---
 
-  --------------- ------------------------------------------------------------------------------------------------------
+**B** LEFT index --- reach DOWN and toward center from F. B is below and between V and N.
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------
-  *💡 Tip: B and N are center bottom-row keys --- similar to how T and Y are center top-row keys. Both index fingers handle their side\'s center bottom key.*
+---
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+
+**N** RIGHT index --- reach DOWN and toward center from J. N is one of the most common letters in English!
+
+---
+
+---
+
+_💡 Tip: B and N are center bottom-row keys --- similar to how T and Y are center top-row keys. Both index fingers handle their side\'s center bottom key._
+
+---
 
 **Screen 1 of 10 --- Introducing: B**
 
 +--------------------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 2 lines*                               |
+| **Screen 1 of 10** _▌ Block Letters --- 2 lines_ |
 +--------------------------------------------------------------------------------+
-| **b b b b b b b b**                                                            |
-|                                                                                |
-| **f b v b f b v b**                                                            |
-|                                                                                |
-| *💡 Reach down and slightly toward center from F. Feel the difference from V!* |
+| **b b b b b b b b** |
+| |
+| **f b v b f b v b** |
+| |
+| _💡 Reach down and slightly toward center from F. Feel the difference from V!_ |
 +--------------------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Introducing: N**
 
 +-----------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 2 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **n n n n n n n n**                                                   |
-|                                                                       |
-| **j n m n j n m n**                                                   |
-|                                                                       |
-| *💡 Reach down and toward center from J. N is everywhere in English!* |
+| **n n n n n n n n** |
+| |
+| **j n m n j n m n** |
+| |
+| _💡 Reach down and toward center from J. N is everywhere in English!_ |
 +-----------------------------------------------------------------------+
 
 **Screen 3 of 10 --- B and N Together**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 3 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **b n b n b n b n**                                                   |
-|                                                                       |
-| **bn nb bb nn born burn bend**                                        |
+| **b n b n b n b n** |
+| |
+| **bn nb bb nn born burn bend** |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 10 --- ALL 26 LETTERS!**
@@ -2470,96 +2625,102 @@ The FINAL two letters! B is pressed by the LEFT index finger (reaching down and 
 Here it is --- the entire alphabet. Type it slowly and proudly!
 
 +-----------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 4 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **a b c d e f g h i j k l m**                                         |
-|                                                                       |
-| **n o p q r s t u v w x y z**                                         |
-|                                                                       |
-| *💡 Every single letter. You know them all!*                          |
+| **a b c d e f g h i j k l m** |
+| |
+| **n o p q r s t u v w x y z** |
+| |
+| _💡 Every single letter. You know them all!_ |
 +-----------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Words with B and N**
 
 +-----------------------------------------------------------------------+
-| **Screen 5 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 5 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **be been bend bone born burn**                                       |
-|                                                                       |
-| **name note nice nine never**                                         |
-|                                                                       |
-| **broken number bone burns never**                                    |
+| **be been bend bone born burn** |
+| |
+| **name note nice nine never** |
+| |
+| **broken number bone burns never** |
 +-----------------------------------------------------------------------+
 
 **Screen 6 of 10 --- Falling Letter**
 
-  ---------------------------------------------------------------------------------
-  **Screen 6 of 10** *▌ Falling Letter*
+---
 
-  **b n b n be been bend bone born burn name note nice nine never broken number**
-  ---------------------------------------------------------------------------------
+**Screen 6 of 10** _▌ Falling Letter_
+
+**b n b n be been bend bone born burn name note nice nine never broken number**
+
+---
 
 **Screen 7 of 10 --- Standard: Common Sentences**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 7 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **be nice. never burn bridges.**                                      |
-|                                                                       |
-| **broken bones need time.**                                           |
-|                                                                       |
-| **nine numbers note the number.**                                     |
+| **be nice. never burn bridges.** |
+| |
+| **broken bones need time.** |
+| |
+| **nine numbers note the number.** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Game in Tree*                                   |
+| **Screen 8 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **be**                                                                |
-|                                                                       |
-| **bend bone**                                                         |
-|                                                                       |
-| **burn born name**                                                    |
-|                                                                       |
-| **note nice nine never**                                              |
+| **be** |
+| |
+| **bend bone** |
+| |
+| **burn born name** |
+| |
+| **note nice nine never** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Falling Letter (Full Alphabet Mix)**
 
-  -------------------------------------------------------------------------------------
-  **Screen 9 of 10** *▌ Falling Letter*
+---
 
-  **be nice. never burn broken bones. nine numbers. born to write. type every word.**
-  -------------------------------------------------------------------------------------
+**Screen 9 of 10** _▌ Falling Letter_
+
+**be nice. never burn broken bones. nine numbers. born to write. type every word.**
+
+---
 
 **Screen 10 of 10 --- Grand Final: All 26 Letters**
 
 +-----------------------------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                                            |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------------------------+
-| **the quick brown fox jumps over the lazy dog.**                                        |
-|                                                                                         |
-| **born to be nice, never broken.**                                                      |
-|                                                                                         |
-| **nine brave explorers found six gems.**                                                |
-|                                                                                         |
-| **be quick. type every single word.**                                                   |
-|                                                                                         |
-| *💡 \'The quick brown fox jumps over the lazy dog\' uses every letter of the alphabet!* |
+| **the quick brown fox jumps over the lazy dog.** |
+| |
+| **born to be nice, never broken.** |
+| |
+| **nine brave explorers found six gems.** |
+| |
+| **be quick. type every single word.** |
+| |
+| _💡 \'The quick brown fox jumps over the lazy dog\' uses every letter of the alphabet!_ |
 +-----------------------------------------------------------------------------------------+
 
-  -------------------------------------------------------------------------------
-  **🏆 ULTIMATE MILESTONE: All 26 Letters Mastered!**
+---
 
-  You now know EVERY letter on a QWERTY keyboard.
+**🏆 ULTIMATE MILESTONE: All 26 Letters Mastered!**
 
-  A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z.
+You now know EVERY letter on a QWERTY keyboard.
 
-  ALL of them. With the right finger. Every time.
+A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z.
 
-  Coming up: Step 16 --- Shift keys for CAPITAL LETTERS!
-  -------------------------------------------------------------------------------
+ALL of them. With the right finger. Every time.
+
+Coming up: Step 16 --- Shift keys for CAPITAL LETTERS!
+
+---
 
 Course Progress: ████████████████░░░░ Step 16 of 20 --- Shift Keys --- Capital Letters
 
@@ -2567,157 +2728,167 @@ Course Progress: ████████████████░░░░ St
 
 Capital letters are typed by holding SHIFT with the OPPOSITE pinky while pressing the letter. Left pinky holds Shift for right-hand letters; right pinky holds Shift for left-hand letters.
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Use RIGHT Shift for left-hand letters (A S D F G Q W E R T \...)
+**🎯 Learning Goals**
 
-  ✓ Use LEFT Shift for right-hand letters (J K L ; H Y U I O P \...)
+✓ Use RIGHT Shift for left-hand letters (A S D F G Q W E R T \...)
 
-  ✓ Hold shift, press the letter, release shift
+✓ Use LEFT Shift for right-hand letters (J K L ; H Y U I O P \...)
 
-  ✓ Capital letters begin sentences and proper nouns (names, places)
-  -----------------------------------------------------------------------
+✓ Hold shift, press the letter, release shift
 
-  -----------------------------------------------------------------------
-  **🔄 Shift Key Rule**
+✓ Capital letters begin sentences and proper nouns (names, places)
 
-  Letter on LEFT side of keyboard → Hold RIGHT Shift
+---
 
-  Letter on RIGHT side of keyboard → Hold LEFT Shift
+---
 
-  This keeps both pinkies balanced and prevents finger tangles.
+**🔄 Shift Key Rule**
 
-  Always use the OPPOSITE pinky for Shift!
-  -----------------------------------------------------------------------
+Letter on LEFT side of keyboard → Hold RIGHT Shift
+
+Letter on RIGHT side of keyboard → Hold LEFT Shift
+
+This keeps both pinkies balanced and prevents finger tangles.
+
+Always use the OPPOSITE pinky for Shift!
+
+---
 
 **Screen 1 of 10 --- Shift + Right-Side Letters**
 
 +-----------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 1 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **J K L H Y U I O P**                                                 |
-|                                                                       |
-| **Jj Kk Ll Hh Yy Uu Ii Oo Pp**                                        |
-|                                                                       |
-| *💡 Left Shift + right-side letter = capital right-side letter.*      |
+| **J K L H Y U I O P** |
+| |
+| **Jj Kk Ll Hh Yy Uu Ii Oo Pp** |
+| |
+| _💡 Left Shift + right-side letter = capital right-side letter._ |
 +-----------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Shift + Left-Side Letters**
 
 +-----------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Block Letters --- 2 lines*                      |
+| **Screen 2 of 10** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **A S D F G Q W E R T**                                               |
-|                                                                       |
-| **Aa Ss Dd Ff Gg Qq Ww Ee Rr Tt**                                     |
-|                                                                       |
-| *💡 Right Shift + left-side letter = capital left-side letter.*       |
+| **A S D F G Q W E R T** |
+| |
+| **Aa Ss Dd Ff Gg Qq Ww Ee Rr Tt** |
+| |
+| _💡 Right Shift + left-side letter = capital left-side letter._ |
 +-----------------------------------------------------------------------+
 
 **Screen 3 of 10 --- Names (Proper Nouns)**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 3 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **Alice Bob Clara David Eve**                                         |
-|                                                                       |
-| **France Japan Kenya Spain**                                          |
-|                                                                       |
-| **Monday Friday August April**                                        |
-|                                                                       |
-| *💡 Names of people, places, and months always start with a capital.* |
+| **Alice Bob Clara David Eve** |
+| |
+| **France Japan Kenya Spain** |
+| |
+| **Monday Friday August April** |
+| |
+| _💡 Names of people, places, and months always start with a capital._ |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 10 --- Sentences Starting with Capitals**
 
 +-----------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 4 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **Every sentence starts with a capital.**                             |
-|                                                                       |
-| **Type carefully. Check your work.**                                  |
-|                                                                       |
-| **Speed grows with practice.**                                        |
+| **Every sentence starts with a capital.** |
+| |
+| **Type carefully. Check your work.** |
+| |
+| **Speed grows with practice.** |
 +-----------------------------------------------------------------------+
 
 **Screen 5 of 10 --- Falling Letter: Mixed Case**
 
-  -----------------------------------------------------------------------
-  **Screen 5 of 10** *▌ Falling Letter*
+---
 
-  **A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p**
-  -----------------------------------------------------------------------
+**Screen 5 of 10** _▌ Falling Letter_
+
+**A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p**
+
+---
 
 **Screen 6 of 10 --- Standard: Real Sentences**
 
 +-----------------------------------------------------------------------+
-| **Screen 6 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 6 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **She types quickly. He checks work.**                                |
-|                                                                       |
-| **Paris is in France. Tokyo is in Japan.**                            |
-|                                                                       |
-| **Friday is my favorite day of the week.**                            |
+| **She types quickly. He checks work.** |
+| |
+| **Paris is in France. Tokyo is in Japan.** |
+| |
+| **Friday is my favorite day of the week.** |
 +-----------------------------------------------------------------------+
 
 **Screen 7 of 10 --- Game in Tree**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Game in Tree*                                   |
+| **Screen 7 of 10** _▌ Game in Tree_ |
 +-----------------------------------------------------------------------+
-| **Alice**                                                             |
-|                                                                       |
-| **Bob Clara**                                                         |
-|                                                                       |
-| **David France Kenya**                                                |
-|                                                                       |
-| **Monday Friday August April**                                        |
+| **Alice** |
+| |
+| **Bob Clara** |
+| |
+| **David France Kenya** |
+| |
+| **Monday Friday August April** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Standard: Paragraph**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Standard --- 4 lines*                           |
+| **Screen 8 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **Alice and Bob live in France.**                                     |
-|                                                                       |
-| **They work every Friday in Paris.**                                  |
-|                                                                       |
-| **Clara visits Japan in August.**                                     |
-|                                                                       |
-| **David types quickly. Eve checks.**                                  |
+| **Alice and Bob live in France.** |
+| |
+| **They work every Friday in Paris.** |
+| |
+| **Clara visits Japan in August.** |
+| |
+| **David types quickly. Eve checks.** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Falling Letter (Full Capitals Mix)**
 
-  ----------------------------------------------------------------------------------
-  **Screen 9 of 10** *▌ Falling Letter*
+---
 
-  **Alice Bob France Japan Monday Friday Every She He They Type Well Quick Fast.**
-  ----------------------------------------------------------------------------------
+**Screen 9 of 10** _▌ Falling Letter_
+
+**Alice Bob France Japan Monday Friday Every She He They Type Well Quick Fast.**
+
+---
 
 **Screen 10 of 10 --- Final Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 4 lines*                          |
+| **Screen 10 of 10** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **Every good typist checks their work.**                              |
-|                                                                       |
-| **Alice types quickly. Bob is slower.**                               |
-|                                                                       |
-| **Practice makes perfect. Trust yourself.**                           |
-|                                                                       |
-| **Type well. Write clearly. Be great.**                               |
+| **Every good typist checks their work.** |
+| |
+| **Alice types quickly. Bob is slower.** |
+| |
+| **Practice makes perfect. Trust yourself.** |
+| |
+| **Type well. Write clearly. Be great.** |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 16 Complete!**
+---
 
-  Capital letters --- done! You\'re writing real English now.
+**🌟 Step 16 Complete!**
 
-  Coming up in Steps 17--18: Numbers! The top number row.
-  -----------------------------------------------------------------------
+Capital letters --- done! You\'re writing real English now.
+
+Coming up in Steps 17--18: Numbers! The top number row.
+
+---
 
 Course Progress: █████████████████░░░ Step 17 of 20 --- Numbers 1--5 (Left Hand)
 
@@ -2725,141 +2896,149 @@ Course Progress: █████████████████░░░ St
 
 The number row sits above the top letter row. Numbers 1--5 are typed with the LEFT hand, reaching UP from the top-row letter positions.
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ 1 → Left pinky reaches up from Q
+**🎯 Learning Goals**
 
-  ✓ 2 → Left ring reaches up from W
+✓ 1 → Left pinky reaches up from Q
 
-  ✓ 3 → Left middle reaches up from E
+✓ 2 → Left ring reaches up from W
 
-  ✓ 4 → Left index reaches up from R
+✓ 3 → Left middle reaches up from E
 
-  ✓ 5 → Left index stretches further up from T
-  -----------------------------------------------------------------------
+✓ 4 → Left index reaches up from R
 
-  -----------------------------------------------------------------------
-  **Number Row --- Left Side**
+✓ 5 → Left index stretches further up from T
 
-  Key 1: Left pinky (above Q/A)
+---
 
-  Key 2: Left ring (above W/S)
+---
 
-  Key 3: Left middle (above E/D)
+**Number Row --- Left Side**
 
-  Key 4: Left index (above R/F)
+Key 1: Left pinky (above Q/A)
 
-  Key 5: Left index stretch (above T/G)
-  -----------------------------------------------------------------------
+Key 2: Left ring (above W/S)
+
+Key 3: Left middle (above E/D)
+
+Key 4: Left index (above R/F)
+
+Key 5: Left index stretch (above T/G)
+
+---
 
 **Screen 1 of 8 --- Introducing 1, 2, 3, 4, 5**
 
 +----------------------------------------------------------------------------------+
-| **Screen 1 of 8** *▌ Block Letters --- 1 line each*                              |
+| **Screen 1 of 8** _▌ Block Letters --- 1 line each_ |
 +----------------------------------------------------------------------------------+
-| **1 1 1 1 1 1 1 1**                                                              |
-|                                                                                  |
-| **2 2 2 2 2 2 2 2**                                                              |
-|                                                                                  |
-| **3 3 3 3 3 3 3 3**                                                              |
-|                                                                                  |
-| **4 4 4 4 4 4 4 4**                                                              |
-|                                                                                  |
-| **5 5 5 5 5 5 5 5**                                                              |
-|                                                                                  |
-| *💡 Each number gets its own line. Practice them in order, slow and deliberate.* |
+| **1 1 1 1 1 1 1 1** |
+| |
+| **2 2 2 2 2 2 2 2** |
+| |
+| **3 3 3 3 3 3 3 3** |
+| |
+| **4 4 4 4 4 4 4 4** |
+| |
+| **5 5 5 5 5 5 5 5** |
+| |
+| _💡 Each number gets its own line. Practice them in order, slow and deliberate._ |
 +----------------------------------------------------------------------------------+
 
 **Screen 2 of 8 --- Numbers in Sequence**
 
 +---------------------------------------------------------------------------------------------+
-| **Screen 2 of 8** *▌ Block Letters --- 2 lines*                                             |
+| **Screen 2 of 8** _▌ Block Letters --- 2 lines_ |
 +---------------------------------------------------------------------------------------------+
-| **1 2 3 4 5**                                                                               |
-|                                                                                             |
-| **5 4 3 2 1**                                                                               |
-|                                                                                             |
-| *💡 Forward and backward. Your left hand moves in a \'wave\' motion across the number row.* |
+| **1 2 3 4 5** |
+| |
+| **5 4 3 2 1** |
+| |
+| _💡 Forward and backward. Your left hand moves in a \'wave\' motion across the number row._ |
 +---------------------------------------------------------------------------------------------+
 
 **Screen 3 of 8 --- Mixed Number Drills**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 8** *▌ Standard --- 3 lines*                            |
+| **Screen 3 of 8** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **12 23 34 45 12345 54321**                                           |
-|                                                                       |
-| **13 24 35 14 25 15 51423**                                           |
-|                                                                       |
-| **1234 2345 3451 4512 5123**                                          |
+| **12 23 34 45 12345 54321** |
+| |
+| **13 24 35 14 25 15 51423** |
+| |
+| **1234 2345 3451 4512 5123** |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 8 --- Numbers with Letters**
 
 +-----------------------------------------------------------------------+
-| **Screen 4 of 8** *▌ Standard --- 3 lines*                            |
+| **Screen 4 of 8** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **3 cats. 5 dogs. 4 birds.**                                          |
-|                                                                       |
-| **call 1-2-3. try 4-5.**                                              |
-|                                                                       |
-| **4th grade. 3rd place. 1st prize.**                                  |
+| **3 cats. 5 dogs. 4 birds.** |
+| |
+| **call 1-2-3. try 4-5.** |
+| |
+| **4th grade. 3rd place. 1st prize.** |
 +-----------------------------------------------------------------------+
 
 **Screen 5 of 8 --- Falling Letter: 1-5**
 
-  -------------------------------------------------------------------------
-  **Screen 5 of 8** *▌ Falling Letter*
+---
 
-  **1 2 3 4 5 12 23 34 45 123 234 345 1234 2345 12345 54321 4321 321 21**
-  -------------------------------------------------------------------------
+**Screen 5 of 8** _▌ Falling Letter_
+
+**1 2 3 4 5 12 23 34 45 123 234 345 1234 2345 12345 54321 4321 321 21**
+
+---
 
 **Screen 6 of 8 --- Standard: Dates and Data**
 
 +-----------------------------------------------------------------------+
-| **Screen 6 of 8** *▌ Standard --- 3 lines*                            |
+| **Screen 6 of 8** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **born in 2015. grade 4 test.**                                       |
-|                                                                       |
-| **chapter 3. section 5. page 12.**                                    |
-|                                                                       |
-| **5 steps. 3 rules. 4 days. 1 goal.**                                 |
+| **born in 2015. grade 4 test.** |
+| |
+| **chapter 3. section 5. page 12.** |
+| |
+| **5 steps. 3 rules. 4 days. 1 goal.** |
 +-----------------------------------------------------------------------+
 
 **Screen 7 of 8 --- Standard: Sentences with Numbers**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 8** *▌ Standard --- 3 lines*                            |
+| **Screen 7 of 8** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **Alice runs 5 miles every day.**                                     |
-|                                                                       |
-| **She has 3 cats and 2 dogs.**                                        |
-|                                                                       |
-| **Grade 4 students read chapter 5.**                                  |
+| **Alice runs 5 miles every day.** |
+| |
+| **She has 3 cats and 2 dogs.** |
+| |
+| **Grade 4 students read chapter 5.** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 8 --- Final Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 8** *▌ Standard --- 4 lines*                            |
+| **Screen 8 of 8** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **She scored 4 out of 5. nice work.**                                 |
-|                                                                       |
-| **3 students passed. 2 need help.**                                   |
-|                                                                       |
-| **Try 5 times. succeed on try 4.**                                    |
-|                                                                       |
-| **1, 2, 3, go. reach for 5 stars.**                                   |
+| **She scored 4 out of 5. nice work.** |
+| |
+| **3 students passed. 2 need help.** |
+| |
+| **Try 5 times. succeed on try 4.** |
+| |
+| **1, 2, 3, go. reach for 5 stars.** |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 17 Complete!**
+---
 
-  Numbers 1--5 --- your left hand can type digits now!
+**🌟 Step 17 Complete!**
 
-  Coming up in Step 18: Numbers 6--0 --- right hand\'s turn!
-  -----------------------------------------------------------------------
+Numbers 1--5 --- your left hand can type digits now!
+
+Coming up in Step 18: Numbers 6--0 --- right hand\'s turn!
+
+---
 
 Course Progress: ██████████████████░░ Step 18 of 20 --- Numbers 6--0 (Right Hand)
 
@@ -2867,125 +3046,131 @@ Course Progress: ██████████████████░░ St
 
 The right hand handles the other half of the number row. Now you can type ANY number!
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ 6 → Right index stretch up from Y/J area
+**🎯 Learning Goals**
 
-  ✓ 7 → Right index reaches up from U
+✓ 6 → Right index stretch up from Y/J area
 
-  ✓ 8 → Right middle reaches up from I
+✓ 7 → Right index reaches up from U
 
-  ✓ 9 → Right ring reaches up from O
+✓ 8 → Right middle reaches up from I
 
-  ✓ 0 → Right pinky reaches up from P
-  -----------------------------------------------------------------------
+✓ 9 → Right ring reaches up from O
+
+✓ 0 → Right pinky reaches up from P
+
+---
 
 **Screen 1 of 8 --- Introducing 6, 7, 8, 9, 0**
 
 +-----------------------------------------------------------------------+
-| **Screen 1 of 8** *▌ Block Letters --- 1 line each*                   |
+| **Screen 1 of 8** _▌ Block Letters --- 1 line each_ |
 +-----------------------------------------------------------------------+
-| **6 6 6 6 6 6 6 6**                                                   |
-|                                                                       |
-| **7 7 7 7 7 7 7 7**                                                   |
-|                                                                       |
-| **8 8 8 8 8 8 8 8**                                                   |
-|                                                                       |
-| **9 9 9 9 9 9 9 9**                                                   |
-|                                                                       |
-| **0 0 0 0 0 0 0 0**                                                   |
+| **6 6 6 6 6 6 6 6** |
+| |
+| **7 7 7 7 7 7 7 7** |
+| |
+| **8 8 8 8 8 8 8 8** |
+| |
+| **9 9 9 9 9 9 9 9** |
+| |
+| **0 0 0 0 0 0 0 0** |
 +-----------------------------------------------------------------------+
 
 **Screen 2 of 8 --- Numbers in Sequence**
 
 +-----------------------------------------------------------------------+
-| **Screen 2 of 8** *▌ Block Letters --- 2 lines*                       |
+| **Screen 2 of 8** _▌ Block Letters --- 2 lines_ |
 +-----------------------------------------------------------------------+
-| **6 7 8 9 0**                                                         |
-|                                                                       |
-| **0 9 8 7 6**                                                         |
+| **6 7 8 9 0** |
+| |
+| **0 9 8 7 6** |
 +-----------------------------------------------------------------------+
 
 **Screen 3 of 8 --- Mixed: 6-0**
 
 +-----------------------------------------------------------------------+
-| **Screen 3 of 8** *▌ Standard --- 3 lines*                            |
+| **Screen 3 of 8** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **67 78 89 90 6789 7890 8906**                                        |
-|                                                                       |
-| **60 70 80 69 79 690 780 870**                                        |
-|                                                                       |
-| **67890 09876 6078 9067 8796**                                        |
+| **67 78 89 90 6789 7890 8906** |
+| |
+| **60 70 80 69 79 690 780 870** |
+| |
+| **67890 09876 6078 9067 8796** |
 +-----------------------------------------------------------------------+
 
 **Screen 4 of 8 --- Full Number Row: 0-9**
 
 +---------------------------------------------------------------------------------------+
-| **Screen 4 of 8** *▌ Block Letters --- 2 lines*                                       |
+| **Screen 4 of 8** _▌ Block Letters --- 2 lines_ |
 +---------------------------------------------------------------------------------------+
-| **1 2 3 4 5 6 7 8 9 0**                                                               |
-|                                                                                       |
-| **0 9 8 7 6 5 4 3 2 1**                                                               |
-|                                                                                       |
-| *💡 The complete number row! Forward and backward --- can you do it without looking?* |
+| **1 2 3 4 5 6 7 8 9 0** |
+| |
+| **0 9 8 7 6 5 4 3 2 1** |
+| |
+| _💡 The complete number row! Forward and backward --- can you do it without looking?_ |
 +---------------------------------------------------------------------------------------+
 
 **Screen 5 of 8 --- Falling Letter: All Numbers**
 
-  --------------------------------------------------------------------------
-  **Screen 5 of 8** *▌ Falling Letter*
+---
 
-  **1 2 3 4 5 6 7 8 9 0 12 34 56 78 90 123 456 789 1234 5678 9012 567890**
-  --------------------------------------------------------------------------
+**Screen 5 of 8** _▌ Falling Letter_
+
+**1 2 3 4 5 6 7 8 9 0 12 34 56 78 90 123 456 789 1234 5678 9012 567890**
+
+---
 
 **Screen 6 of 8 --- Standard: Numbers in Context**
 
 +-----------------------------------------------------------------------+
-| **Screen 6 of 8** *▌ Standard --- 3 lines*                            |
+| **Screen 6 of 8** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **phone: 079 680 1234.**                                              |
-|                                                                       |
-| **date: 05/15/2026.**                                                 |
-|                                                                       |
-| **score: 78/100. price: 6.90.**                                       |
+| **phone: 079 680 1234.** |
+| |
+| **date: 05/15/2026.** |
+| |
+| **score: 78/100. price: 6.90.** |
 +-----------------------------------------------------------------------+
 
 **Screen 7 of 8 --- Standard: Sentences with All Numbers**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 8** *▌ Standard --- 3 lines*                            |
+| **Screen 7 of 8** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **She turned 17 on July 6, 2026.**                                    |
-|                                                                       |
-| **Score: 98 out of 100. excellent.**                                  |
-|                                                                       |
-| **80 students. 9 classes. 7 days.**                                   |
+| **She turned 17 on July 6, 2026.** |
+| |
+| **Score: 98 out of 100. excellent.** |
+| |
+| **80 students. 9 classes. 7 days.** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 8 --- Final Challenge**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 8** *▌ Standard --- 4 lines*                            |
+| **Screen 8 of 8** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **call 079 680 1234 at 6:00 pm.**                                     |
-|                                                                       |
-| **Alice scored 87. Bob scored 90.**                                   |
-|                                                                       |
-| **9 steps to 100. take step 7 first.**                                |
-|                                                                       |
-| **all 10 fingers. all 26 letters. all 10 digits.**                    |
+| **call 079 680 1234 at 6:00 pm.** |
+| |
+| **Alice scored 87. Bob scored 90.** |
+| |
+| **9 steps to 100. take step 7 first.** |
+| |
+| **all 10 fingers. all 26 letters. all 10 digits.** |
 +-----------------------------------------------------------------------+
 
-  ---------------------------------------------------------------------------------
-  **🏆 MILESTONE: Full Keyboard Mastered!**
+---
 
-  You can now type ALL letters, ALL digits, capital letters, and key punctuation.
+**🏆 MILESTONE: Full Keyboard Mastered!**
 
-  Home row ✓ Top row ✓ Bottom row ✓ Number row ✓ Shift ✓
+You can now type ALL letters, ALL digits, capital letters, and key punctuation.
 
-  Coming up in Step 19: Real word practice --- common English words at speed!
-  ---------------------------------------------------------------------------------
+Home row ✓ Top row ✓ Bottom row ✓ Number row ✓ Shift ✓
+
+Coming up in Step 19: Real word practice --- common English words at speed!
+
+---
 
 Course Progress: ███████████████████░ Step 19 of 20 --- Full Word Practice
 
@@ -2993,174 +3178,179 @@ Course Progress: ███████████████████░ St
 
 Now we practice with REAL common English words --- the 100 most used words in everyday writing. This is where your speed really starts to build!
 
-  ------------------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Focus on accuracy first --- let speed come naturally
+**🎯 Learning Goals**
 
-  ✓ Try not to look at your hands at all
+✓ Focus on accuracy first --- let speed come naturally
 
-  ✓ Read slightly ahead --- look at the next word while typing the current one
+✓ Try not to look at your hands at all
 
-  ✓ Aim for a smooth, even rhythm --- not bursts of speed
-  ------------------------------------------------------------------------------
+✓ Read slightly ahead --- look at the next word while typing the current one
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  *💡 Tip: Speed is just accuracy practiced faster. If you\'re making lots of errors, slow down. Your fingers will naturally speed up as the patterns become automatic.*
+✓ Aim for a smooth, even rhythm --- not bursts of speed
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+
+---
+
+_💡 Tip: Speed is just accuracy practiced faster. If you\'re making lots of errors, slow down. Your fingers will naturally speed up as the patterns become automatic._
+
+---
 
 **Screen 1 of 10 --- The 50 Most Common Words**
 
 +-----------------------------------------------------------------------+
-| **Screen 1 of 10** *▌ Standard --- 5 lines*                           |
+| **Screen 1 of 10** _▌ Standard --- 5 lines_ |
 +-----------------------------------------------------------------------+
-| **the of and a to in is it that he**                                  |
-|                                                                       |
-| **was for on are with as I his they**                                 |
-|                                                                       |
-| **be at one have this from or had by**                                |
-|                                                                       |
-| **not but what all were when we there**                               |
-|                                                                       |
-| **can an your which their said if do**                                |
-|                                                                       |
-| *💡 These 50 words make up more than 50% of everyday English text!*   |
+| **the of and a to in is it that he** |
+| |
+| **was for on are with as I his they** |
+| |
+| **be at one have this from or had by** |
+| |
+| **not but what all were when we there** |
+| |
+| **can an your which their said if do** |
+| |
+| _💡 These 50 words make up more than 50% of everyday English text!_ |
 +-----------------------------------------------------------------------+
 
 **Screen 2 of 10 --- Words 51--100**
 
 +-----------------------------------------------------------------------+
-| **Screen 2 of 10** *▌ Standard --- 5 lines*                           |
+| **Screen 2 of 10** _▌ Standard --- 5 lines_ |
 +-----------------------------------------------------------------------+
-| **will each about how up out them she**                               |
-|                                                                       |
-| **many some so these would other into**                               |
-|                                                                       |
-| **has more her two like him see time**                                |
-|                                                                       |
-| **could no make than first been its**                                 |
-|                                                                       |
-| **who now people my made over did down**                              |
+| **will each about how up out them she** |
+| |
+| **many some so these would other into** |
+| |
+| **has more her two like him see time** |
+| |
+| **could no make than first been its** |
+| |
+| **who now people my made over did down** |
 +-----------------------------------------------------------------------+
 
 **Screen 3 of 10 --- 3-Letter Words Sprint**
 
 +--------------------------------------------------------------------------------+
-| **Screen 3 of 10** *▌ Standard --- 3 lines*                                    |
+| **Screen 3 of 10** _▌ Standard --- 3 lines_ |
 +--------------------------------------------------------------------------------+
-| **the and for are but not you all can**                                        |
-|                                                                                |
-| **her was one our out day get has him**                                        |
-|                                                                                |
-| **his how its may new now old our own**                                        |
-|                                                                                |
-| *💡 Short words are the glue of the English language. Type them effortlessly!* |
+| **the and for are but not you all can** |
+| |
+| **her was one our out day get has him** |
+| |
+| **his how its may new now old our own** |
+| |
+| _💡 Short words are the glue of the English language. Type them effortlessly!_ |
 +--------------------------------------------------------------------------------+
 
 **Screen 4 of 10 --- 4-Letter Words**
 
 +-----------------------------------------------------------------------+
-| **Screen 4 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 4 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **also back been call come does even**                                |
-|                                                                       |
-| **feel find from give good hand here**                                |
-|                                                                       |
-| **know last life like look make much**                                |
+| **also back been call come does even** |
+| |
+| **feel find from give good hand here** |
+| |
+| **know last life like look make much** |
 +-----------------------------------------------------------------------+
 
 **Screen 5 of 10 --- 5-Letter Words**
 
 +-----------------------------------------------------------------------+
-| **Screen 5 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 5 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **about after again every great**                                     |
-|                                                                       |
-| **never place shall small think**                                     |
-|                                                                       |
-| **those three under where which**                                     |
+| **about after again every great** |
+| |
+| **never place shall small think** |
+| |
+| **those three under where which** |
 +-----------------------------------------------------------------------+
 
 **Screen 6 of 10 --- Longer Words**
 
 +-----------------------------------------------------------------------+
-| **Screen 6 of 10** *▌ Standard --- 3 lines*                           |
+| **Screen 6 of 10** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **better people around school before**                                |
-|                                                                       |
-| **family through should always answer**                               |
-|                                                                       |
-| **because between things another**                                    |
+| **better people around school before** |
+| |
+| **family through should always answer** |
+| |
+| **because between things another** |
 +-----------------------------------------------------------------------+
 
 **Screen 7 of 10 --- Word Pairs and Phrases**
 
 +---------------------------------------------------------------------------------------+
-| **Screen 7 of 10** *▌ Standard --- 4 lines*                                           |
+| **Screen 7 of 10** _▌ Standard --- 4 lines_ |
 +---------------------------------------------------------------------------------------+
-| **in the at the of the on the**                                                       |
-|                                                                                       |
-| **to be will be can be must be**                                                      |
-|                                                                                       |
-| **and the but the for the with the**                                                  |
-|                                                                                       |
-| **it is he is she is they are**                                                       |
-|                                                                                       |
-| *💡 These word pairs appear so often that your fingers will type them automatically!* |
+| **in the at the of the on the** |
+| |
+| **to be will be can be must be** |
+| |
+| **and the but the for the with the** |
+| |
+| **it is he is she is they are** |
+| |
+| _💡 These word pairs appear so often that your fingers will type them automatically!_ |
 +---------------------------------------------------------------------------------------+
 
 **Screen 8 of 10 --- Speed Drill: Common Words**
 
 +---------------------------------------------------------------------------------+
-| **Screen 8 of 10** *▌ Falling Letter*                                           |
+| **Screen 8 of 10** _▌ Falling Letter_ |
 +---------------------------------------------------------------------------------+
 | **the and for are can you all get him her his how its may new now day but not** |
-|                                                                                 |
-| *💡 Go as fast as you can while staying accurate!*                              |
+| |
+| _💡 Go as fast as you can while staying accurate!_ |
 +---------------------------------------------------------------------------------+
 
 **Screen 9 of 10 --- Paragraph Practice**
 
 +-----------------------------------------------------------------------+
-| **Screen 9 of 10** *▌ Standard --- 5 lines*                           |
+| **Screen 9 of 10** _▌ Standard --- 5 lines_ |
 +-----------------------------------------------------------------------+
-| **Learning to type is a great skill.**                                |
-|                                                                       |
-| **It helps you write faster and think more clearly.**                 |
-|                                                                       |
-| **The more you practice, the better you get.**                        |
-|                                                                       |
-| **Every expert started as a beginner.**                               |
-|                                                                       |
-| **Keep going. You are doing well.**                                   |
+| **Learning to type is a great skill.** |
+| |
+| **It helps you write faster and think more clearly.** |
+| |
+| **The more you practice, the better you get.** |
+| |
+| **Every expert started as a beginner.** |
+| |
+| **Keep going. You are doing well.** |
 +-----------------------------------------------------------------------+
 
 **Screen 10 of 10 --- Challenge Paragraph**
 
 +-------------------------------------------------------------------------+
-| **Screen 10 of 10** *▌ Standard --- 5 lines*                            |
+| **Screen 10 of 10** _▌ Standard --- 5 lines_ |
 +-------------------------------------------------------------------------+
-| **Touch-typing is one of the best skills**                              |
-|                                                                         |
-| **you can learn. Once your fingers know**                               |
-|                                                                         |
-| **where every key is, you stop thinking**                               |
-|                                                                         |
-| **about the keyboard and start thinking**                               |
-|                                                                         |
-| **about your words. That is the goal.**                                 |
-|                                                                         |
-| *💡 This is real writing. Read ahead. Stay smooth. Trust your fingers.* |
+| **Touch-typing is one of the best skills** |
+| |
+| **you can learn. Once your fingers know** |
+| |
+| **where every key is, you stop thinking** |
+| |
+| **about the keyboard and start thinking** |
+| |
+| **about your words. That is the goal.** |
+| |
+| _💡 This is real writing. Read ahead. Stay smooth. Trust your fingers._ |
 +-------------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🌟 Step 19 Complete!**
+---
 
-  Real words at real speed --- you\'re a touch-typist!
+**🌟 Step 19 Complete!**
 
-  Final step coming up: Step 20 --- Full sentences and speed building!
-  -----------------------------------------------------------------------
+Real words at real speed --- you\'re a touch-typist!
+
+Final step coming up: Step 20 --- Full sentences and speed building!
+
+---
 
 Course Progress: ████████████████████ Step 20 of 20 --- Sentences & Speed --- Final Step
 
@@ -3168,250 +3358,256 @@ Course Progress: ████████████████████ St
 
 This is it --- the final step! Here you\'ll type full paragraphs, build your speed, and become a confident touch-typist. The goal is fluency: typing that feels natural and effortless.
 
-  -----------------------------------------------------------------------
-  **🎯 Learning Goals**
+---
 
-  ✓ Type complete paragraphs without pausing
+**🎯 Learning Goals**
 
-  ✓ Read ahead by 1-2 words at all times
+✓ Type complete paragraphs without pausing
 
-  ✓ Maintain a consistent speed --- no bursts, no stops
+✓ Read ahead by 1-2 words at all times
 
-  ✓ Accept small errors and keep moving (fix them at the end)
+✓ Maintain a consistent speed --- no bursts, no stops
 
-  ✓ CELEBRATE --- you\'ve made it to the final step!
-  -----------------------------------------------------------------------
+✓ Accept small errors and keep moving (fix them at the end)
 
-  ---------------------------------------------------------------------------------
-  **🚀 Speed Tips**
+✓ CELEBRATE --- you\'ve made it to the final step!
 
-  1\. Read ahead: your eyes should be 1-2 words ahead of what you\'re typing.
+---
 
-  2\. Rhythm: type like music --- steady tempo, not stop-and-start.
+---
 
-  3\. Relax: tension in hands SLOWS you down. Breathe and relax your fingers.
+**🚀 Speed Tips**
 
-  4\. Trust: stop second-guessing. Your fingers know where the keys are.
+1\. Read ahead: your eyes should be 1-2 words ahead of what you\'re typing.
 
-  5\. Keep going: professional typists make errors too --- they just keep moving!
-  ---------------------------------------------------------------------------------
+2\. Rhythm: type like music --- steady tempo, not stop-and-start.
+
+3\. Relax: tension in hands SLOWS you down. Breathe and relax your fingers.
+
+4\. Trust: stop second-guessing. Your fingers know where the keys are.
+
+5\. Keep going: professional typists make errors too --- they just keep moving!
+
+---
 
 **Screen 1 of 12 --- Warm-Up: Home Row Mastery**
 
 +-----------------------------------------------------------------------+
-| **Screen 1 of 12** *▌ Standard --- 3 lines*                           |
+| **Screen 1 of 12** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **ask the glad lads; all flags fall.**                                |
-|                                                                       |
-| **flash the flask; salad shall fall.**                                |
-|                                                                       |
-| **a sad dad asks; glad all is well.**                                 |
-|                                                                       |
-| *💡 Start slow. Warm up your fingers before going fast.*              |
+| **ask the glad lads; all flags fall.** |
+| |
+| **flash the flask; salad shall fall.** |
+| |
+| **a sad dad asks; glad all is well.** |
+| |
+| _💡 Start slow. Warm up your fingers before going fast._ |
 +-----------------------------------------------------------------------+
 
 **Screen 2 of 12 --- Speed Build: Short Sentences**
 
 +-----------------------------------------------------------------------+
-| **Screen 2 of 12** *▌ Standard --- 4 lines*                           |
+| **Screen 2 of 12** _▌ Standard --- 4 lines_ |
 +-----------------------------------------------------------------------+
-| **She runs fast. He works hard.**                                     |
-|                                                                       |
-| **Type every word. Check each line.**                                 |
-|                                                                       |
-| **Build your speed. Trust the process.**                              |
-|                                                                       |
-| **Practice daily. Progress is certain.**                              |
+| **She runs fast. He works hard.** |
+| |
+| **Type every word. Check each line.** |
+| |
+| **Build your speed. Trust the process.** |
+| |
+| **Practice daily. Progress is certain.** |
 +-----------------------------------------------------------------------+
 
 **Screen 3 of 12 --- Punctuation Practice**
 
 +--------------------------------------------------------------------------+
-| **Screen 3 of 12** *▌ Standard --- 4 lines*                              |
+| **Screen 3 of 12** _▌ Standard --- 4 lines_ |
 +--------------------------------------------------------------------------+
-| **Wait: first, check; then type.**                                       |
-|                                                                          |
-| **Yes, it works! Really? Are you sure?**                                 |
-|                                                                          |
-| **Type quickly, carefully, and well.**                                   |
-|                                                                          |
-| **She said: \'Type every day.\' He did.**                                |
-|                                                                          |
-| *💡 Punctuation is part of real typing. Practice it like any other key.* |
+| **Wait: first, check; then type.** |
+| |
+| **Yes, it works! Really? Are you sure?** |
+| |
+| **Type quickly, carefully, and well.** |
+| |
+| **She said: \'Type every day.\' He did.** |
+| |
+| _💡 Punctuation is part of real typing. Practice it like any other key._ |
 +--------------------------------------------------------------------------+
 
 **Screen 4 of 12 --- Numbers in Sentences**
 
 +-----------------------------------------------------------------------+
-| **Screen 4 of 12** *▌ Standard --- 3 lines*                           |
+| **Screen 4 of 12** _▌ Standard --- 3 lines_ |
 +-----------------------------------------------------------------------+
-| **She has 3 cats, 2 dogs, and 1 bird.**                               |
-|                                                                       |
-| **Turn to page 47. Read chapter 6.**                                  |
-|                                                                       |
-| **Score: 92/100. Grade: A. Well done!**                               |
+| **She has 3 cats, 2 dogs, and 1 bird.** |
+| |
+| **Turn to page 47. Read chapter 6.** |
+| |
+| **Score: 92/100. Grade: A. Well done!** |
 +-----------------------------------------------------------------------+
 
 **Screen 5 of 12 --- Falling Letter: Speed Challenge**
 
 +-------------------------------------------------------------------------------------------+
-| **Screen 5 of 12** *▌ Falling Letter --- fast*                                            |
+| **Screen 5 of 12** _▌ Falling Letter --- fast_ |
 +-------------------------------------------------------------------------------------------+
 | **the quick brown fox jumps over the lazy dog. pack my box with five dozen liquor jugs.** |
-|                                                                                           |
-| *💡 Two classic pangrams (sentences using all 26 letters). Push your speed here!*         |
+| |
+| _💡 Two classic pangrams (sentences using all 26 letters). Push your speed here!_ |
 +-------------------------------------------------------------------------------------------+
 
 **Screen 6 of 12 --- Paragraph: About Typing**
 
 +-----------------------------------------------------------------------+
-| **Screen 6 of 12** *▌ Standard --- 5 lines*                           |
+| **Screen 6 of 12** _▌ Standard --- 5 lines_ |
 +-----------------------------------------------------------------------+
-| **Touch-typing is a skill that lasts a lifetime.**                    |
-|                                                                       |
-| **Once you learn it, you never forget it.**                           |
-|                                                                       |
-| **Your fingers will move faster every week.**                         |
-|                                                                       |
-| **The goal is not just speed, but fluency.**                          |
-|                                                                       |
-| **Fluent typists think in words, not letters.**                       |
+| **Touch-typing is a skill that lasts a lifetime.** |
+| |
+| **Once you learn it, you never forget it.** |
+| |
+| **Your fingers will move faster every week.** |
+| |
+| **The goal is not just speed, but fluency.** |
+| |
+| **Fluent typists think in words, not letters.** |
 +-----------------------------------------------------------------------+
 
 **Screen 7 of 12 --- Paragraph: School and Learning**
 
 +-----------------------------------------------------------------------+
-| **Screen 7 of 12** *▌ Standard --- 5 lines*                           |
+| **Screen 7 of 12** _▌ Standard --- 5 lines_ |
 +-----------------------------------------------------------------------+
-| **Studying is easier when you type quickly.**                         |
-|                                                                       |
-| **You can take notes faster than you write.**                         |
-|                                                                       |
-| **Your ideas flow when your fingers keep up.**                        |
-|                                                                       |
-| **School essays take half the time.**                                 |
-|                                                                       |
-| **Good typing is a superpower in school.**                            |
+| **Studying is easier when you type quickly.** |
+| |
+| **You can take notes faster than you write.** |
+| |
+| **Your ideas flow when your fingers keep up.** |
+| |
+| **School essays take half the time.** |
+| |
+| **Good typing is a superpower in school.** |
 +-----------------------------------------------------------------------+
 
 **Screen 8 of 12 --- Paragraph: Technology**
 
 +-----------------------------------------------------------------------+
-| **Screen 8 of 12** *▌ Standard --- 5 lines*                           |
+| **Screen 8 of 12** _▌ Standard --- 5 lines_ |
 +-----------------------------------------------------------------------+
-| **We use keyboards every single day.**                                |
-|                                                                       |
-| **Computers, tablets, and phones all have them.**                     |
-|                                                                       |
-| **The faster you type, the more you get done.**                       |
-|                                                                       |
-| **Coders type millions of keys in their careers.**                    |
-|                                                                       |
-| **Writers type entire books, word by word.**                          |
+| **We use keyboards every single day.** |
+| |
+| **Computers, tablets, and phones all have them.** |
+| |
+| **The faster you type, the more you get done.** |
+| |
+| **Coders type millions of keys in their careers.** |
+| |
+| **Writers type entire books, word by word.** |
 +-----------------------------------------------------------------------+
 
 **Screen 9 of 12 --- Game in Tree: Final**
 
 +-----------------------------------------------------------------------+
-| **Screen 9 of 12** *▌ Game in Tree --- Full*                          |
+| **Screen 9 of 12** _▌ Game in Tree --- Full_ |
 +-----------------------------------------------------------------------+
-| **type**                                                              |
-|                                                                       |
-| **well clearly**                                                      |
-|                                                                       |
-| **every word matters**                                                |
-|                                                                       |
-| **practice makes perfect always**                                     |
-|                                                                       |
-| **trust your fingers believe in yourself**                            |
+| **type** |
+| |
+| **well clearly** |
+| |
+| **every word matters** |
+| |
+| **practice makes perfect always** |
+| |
+| **trust your fingers believe in yourself** |
 +-----------------------------------------------------------------------+
 
 **Screen 10 of 12 --- Speed Test Paragraph 1**
 
 +-----------------------------------------------------------------------+
-| **Screen 10 of 12** *▌ Standard --- 5 lines*                          |
+| **Screen 10 of 12** _▌ Standard --- 5 lines_ |
 +-----------------------------------------------------------------------+
-| **Every great typist started as a beginner.**                         |
-|                                                                       |
-| **They sat at a keyboard and tried their best.**                      |
-|                                                                       |
-| **Some days were slow. Some felt impossible.**                        |
-|                                                                       |
-| **But they kept going, one keystroke at a time.**                     |
-|                                                                       |
-| **And slowly, surely, their fingers learned.**                        |
-|                                                                       |
-| *💡 Type this at your fastest comfortable speed. No peeking!*         |
+| **Every great typist started as a beginner.** |
+| |
+| **They sat at a keyboard and tried their best.** |
+| |
+| **Some days were slow. Some felt impossible.** |
+| |
+| **But they kept going, one keystroke at a time.** |
+| |
+| **And slowly, surely, their fingers learned.** |
+| |
+| _💡 Type this at your fastest comfortable speed. No peeking!_ |
 +-----------------------------------------------------------------------+
 
 **Screen 11 of 12 --- Speed Test Paragraph 2**
 
 +-----------------------------------------------------------------------+
-| **Screen 11 of 12** *▌ Standard --- 5 lines*                          |
+| **Screen 11 of 12** _▌ Standard --- 5 lines_ |
 +-----------------------------------------------------------------------+
-| **The keyboard is like a musical instrument.**                        |
-|                                                                       |
-| **At first, every note takes thought and effort.**                    |
-|                                                                       |
-| **But with enough practice, the music flows.**                        |
-|                                                                       |
-| **Your fingers find their way without thinking.**                     |
-|                                                                       |
-| **That is the moment when typing becomes fun.**                       |
+| **The keyboard is like a musical instrument.** |
+| |
+| **At first, every note takes thought and effort.** |
+| |
+| **But with enough practice, the music flows.** |
+| |
+| **Your fingers find their way without thinking.** |
+| |
+| **That is the moment when typing becomes fun.** |
 +-----------------------------------------------------------------------+
 
 **Screen 12 of 12 --- GRAND FINALE**
 
 +-----------------------------------------------------------------------+
-| **Screen 12 of 12** *▌ Standard --- 6 lines*                          |
+| **Screen 12 of 12** _▌ Standard --- 6 lines_ |
 +-----------------------------------------------------------------------+
-| **You started with J and F, two tiny keys.**                          |
-|                                                                       |
-| **You learned the home row, then the top row.**                       |
-|                                                                       |
-| **You mastered the bottom row and the numbers.**                      |
-|                                                                       |
-| **You can now type every letter, every digit,**                       |
-|                                                                       |
-| **every punctuation mark --- all without looking.**                   |
-|                                                                       |
-| **You are a touch-typist. Well done.**                                |
-|                                                                       |
-| *💡 Read this one slowly and proudly. You earned every word.*         |
+| **You started with J and F, two tiny keys.** |
+| |
+| **You learned the home row, then the top row.** |
+| |
+| **You mastered the bottom row and the numbers.** |
+| |
+| **You can now type every letter, every digit,** |
+| |
+| **every punctuation mark --- all without looking.** |
+| |
+| **You are a touch-typist. Well done.** |
+| |
+| _💡 Read this one slowly and proudly. You earned every word._ |
 +-----------------------------------------------------------------------+
 
-  -----------------------------------------------------------------------
-  **🏆 COURSE COMPLETE --- You Are a Touch-Typist!**
+---
 
-  You have completed all 20 steps of TouchType Academy.
+**🏆 COURSE COMPLETE --- You Are a Touch-Typist!**
 
-  Here is what you learned:
+You have completed all 20 steps of Touch Typing.
 
-  ✓ All 26 letters (home row, top row, bottom row)
+Here is what you learned:
 
-  ✓ All 10 digits (number row, both hands)
+✓ All 26 letters (home row, top row, bottom row)
 
-  ✓ Capital letters (Shift key, correct hand)
+✓ All 10 digits (number row, both hands)
 
-  ✓ Key punctuation (. , ; : ! ? / - \...)
+✓ Capital letters (Shift key, correct hand)
 
-  ✓ Real words, sentences, and paragraphs
+✓ Key punctuation (. , ; : ! ? / - \...)
 
-  ✓ Speed, rhythm, and reading ahead
+✓ Real words, sentences, and paragraphs
 
-  What to do next:
+✓ Speed, rhythm, and reading ahead
 
-  → Practice 10-15 minutes every day
+What to do next:
 
-  → Try online typing tests to measure your WPM
+→ Practice 10-15 minutes every day
 
-  → Set a goal: 40 WPM, then 60, then 80+
+→ Try online typing tests to measure your WPM
 
-  → Type your homework, emails, and notes to keep improving
+→ Set a goal: 40 WPM, then 60, then 80+
 
-  REMEMBER: The average adult types 40 WPM. With daily practice,
+→ Type your homework, emails, and notes to keep improving
 
-  you can reach 60-80+ WPM within a few months.
+REMEMBER: The average adult types 40 WPM. With daily practice,
 
-  Well done. Keep typing. Never stop.
-  -----------------------------------------------------------------------
+you can reach 60-80+ WPM within a few months.
+
+Well done. Keep typing. Never stop.
+
+---

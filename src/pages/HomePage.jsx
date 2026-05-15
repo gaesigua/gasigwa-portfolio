@@ -8,14 +8,36 @@ const HomePage = () => {
   const universityLogos = [
     "/adventist-university-of-central-africa-logo.png",
     "/african-leadership-university-logo.png",
-    "/catholic-university-of-rwanda-logo.png",
     "/kepler-college-logo.png",
     "/kigali-independent-university-logo.png",
     "/mount-kigali-university-logo.png",
     "/rwanda-polytechnic-logo.jpeg",
+    "/strathmore-university-logo.png",
+    "/mount-kenya-university-logo.png",
+    "/usiu-africa-logo.png",
+    "/university-of-nairobi-logo.png",
+    "/intl-school-of-kenya.png",
+    "/hillcrest-international-schools-logo.svg",
+    "/intl-school-of-tanganyika-logo.jpg",
+    "/dar-international-academy-logo.svg",
+    "/netzah-international-school-logo.jpg",
+    "/galaxy-international-school-uganda-logo.png",
+    "/st-kizito-namugongo-logo.png",
+    "/makerere-university-logo.svg",
+    "/rwanda-coding-academy-logo.png",
+    "/ntare-louisenlund-logo.png",
+    "/riviera-high-logo.png",
+    "/path-to-success-logo.jpg",
+    "/cmu-africa-logo.png",
+    "/ines_ruhengeri.png",
+    "/green-hills-academy-logo.png",
+    "/dove-intl-montessori-school-logo.png",
+    "/aims-rwanda-logo.jpg",
+    "/intl-school-kigali-logo.jpg",
+    "/two-wings-intl-school-logo.png",
     "/university-of-health-equity-logo.png",
     "/university-of-kigali-logo.png",
-    "/university-of-rwanda-logo.png"
+    "/university-of-rwanda-logo.png",
   ];
 
   const projectCardClass =
@@ -101,12 +123,12 @@ const HomePage = () => {
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* TouchType Academy Custom Card */}
+              {/* Touch Typing Custom Card */}
               <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-200 hover:border-[#6ab3ea] hover:shadow-md transition-all duration-200 flex flex-col h-full">
                 <div className="h-20 w-20 mx-auto mb-4 bg-[#e0f0fa] text-[#4a9ed9] rounded-xl flex items-center justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 8h.01"/><path d="M12 12h.01"/><path d="M14 8h.01"/><path d="M16 12h.01"/><path d="M18 8h.01"/><path d="M6 8h.01"/><path d="M7 16h10"/><path d="M8 12h.01"/><rect width="20" height="16" x="2" y="4" rx="2"/></svg>
                 </div>
-                <h3 className='text-2xl font-semibold text-slate-900 mb-3 text-center'>TouchType Academy</h3>
+                <h3 className='text-2xl font-semibold text-slate-900 mb-3 text-center'>Touch Typing</h3>
                 <p className='text-slate-600 mb-4 flex-grow'>
                   Master the keyboard with our interactive 20-step curriculum. Build muscle memory and typing fluency from scratch.
                 </p>
@@ -427,7 +449,7 @@ const HomePage = () => {
         <section className="w-full bg-[#6ab3ea] py-16 md:py-24 overflow-hidden">
           <div className="container mx-auto px-4 mb-12 md:mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white text-center">
-              Trusted by Students at Top Universities in Rwanda
+              Trusted by Students at Top Universities and Schools in East Africa
             </h2>
           </div>
           

@@ -1,4 +1,4 @@
-// TouchType Academy — Full 20-step curriculum data
+// Touch Typing — Full 20-step curriculum data
 // Screen types: "block-letters", "falling-letter", "game-in-tree", "standard"
 
 export const typingSteps = [
