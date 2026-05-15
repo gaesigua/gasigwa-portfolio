@@ -5,6 +5,9 @@ import LessonCatalogPage from './pages/LessonCatalogPage';
 import LessonSectionPage from './pages/LessonSectionPage';
 import QuizPage from './pages/QuizPage';
 import ExamPage from './pages/ExamPage';
+import TypingCoursePage from './pages/TypingCoursePage';
+import TypingStepPage from './pages/TypingStepPage';
+import TypingExercisePage from './pages/TypingExercisePage';
 
 // Main App Component
 const App = () => {
@@ -12,6 +15,11 @@ const App = () => {
     <Routes>
       {/* When the URL is exactly "/", render the HomePage component */}
       <Route path="/" element={<HomePage />} />
+
+      {/* Typing Academy Routes */}
+      <Route path="/typing-academy" element={<TypingCoursePage />} />
+      <Route path="/typing-academy/step/:stepNumber" element={<TypingStepPage />} />
+      <Route path="/typing-academy/step/:stepNumber/exercise/:screenNumber" element={<TypingExercisePage />} />
 
       {/* When the URL is "/lessons/some-slug", render the LessonCatalogPage */}
       {/* The ":lessonSlug" part is a URL parameter that we can access */}

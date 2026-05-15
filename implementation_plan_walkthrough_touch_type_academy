@@ -1,0 +1,254 @@
+# TouchType Academy — Interactive Typing Course on Portfolio
+
+Build the entire `touch-typing.md` curriculum as a fully interactive, playable course on the portfolio website, complete with a virtual keyboard visualizer, progress/gamification system, and all 4 screen types (Block Letters, Falling Letter, Game in Tree, Standard Drill).
+
+## User Review Required
+
+> [!IMPORTANT]
+> **This is a large feature.** I'll build it in 4 phases, each producing a working, non-breaking commit. Each phase builds on the previous one. You can test after each phase.
+
+> [!IMPORTANT]  
+> **No new npm dependencies required.** Everything will be built with React, existing Tailwind CSS, and vanilla JS. The only dependency already in use is `lucide-react` for icons.
+
+## Proposed Changes
+
+We'll build this as a **self-contained module** — new files only, minimal edits to existing files — so nothing breaks.
+
+---
+
+### Phase 1: Data Layer + Routing + Step Landing Page
+
+Create the typing course data, add routing, and build the course landing/catalog page.
+
+#### [NEW] [typingCourseData.js](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/typingCourseData.js)
+
+- Structured JS data extracted from `touch-typing.md`
+- Each of the 20 steps as an object with: `stepNumber`, `title`, `keys`, `description`, `learningGoals[]`, `screens[]`
+- Each screen has: `screenNumber`, `totalScreens`, `type` (block-letters | falling-letter | game-in-tree | standard), `lines[]`, `tip`
+- Start with **Steps 1–4** (Home Row) fully populated; remaining steps as stubs to be filled in Phase 4
+
+#### [NEW] [TypingCoursePage.jsx](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/pages/TypingCoursePage.jsx)
+
+- Course landing page at `/typing-academy`
+- Hero section with course title, description, posture checklist, keyboard layout diagram
+- 20-step grid showing step cards with: step number, title (e.g., "J, F, and Space"), keys badge, lock/unlock status
+- Progress bar at top (reads from localStorage)
+- Uses existing `Layout.jsx` wrapper
+
+#### [MODIFY] [App.jsx](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/App.jsx)
+
+- Add route: `/typing-academy` → `<TypingCoursePage />`
+- Add route: `/typing-academy/:stepNumber` → `<TypingStepPage />`
+- Add route: `/typing-academy/:stepNumber/:screenNumber` → `<TypingExercisePage />`
+
+#### [MODIFY] [HomePage.jsx](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/pages/HomePage.jsx)
+
+- Add a "TouchType Academy" card in the Courses section alongside existing lesson cards
+- Uses a keyboard/typing emoji icon, links to `/typing-academy`
+
+---
+
+### Phase 2: Core Exercise Engine + Screen Types
+
+Build the interactive typing exercise component that powers all 4 screen types.
+
+#### [NEW] [TypingExercisePage.jsx](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/pages/TypingExercisePage.jsx)
+
+- Renders the exercise for a specific step + screen
+- Shows step title, screen X of Y, screen type badge
+- Contains the exercise component + stats bar (WPM, accuracy, timer)
+- Previous/Next screen navigation
+- "Step Complete!" celebration when last screen is done
+
+#### [NEW] [TypingExercise.jsx](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/components/typing/TypingExercise.jsx)
+
+- The core engine — enhanced version of existing `TypingPractice.jsx` (existing component stays untouched)
+- Supports 4 modes:
+
+| Screen Type        | Behavior                                                                   |
+| ------------------ | -------------------------------------------------------------------------- |
+| **Block Letters**  | Large monospace text, slow single-key focus, gentle highlighting           |
+| **Falling Letter** | Rapid sequence, compact layout, speed-focused with timer pressure          |
+| **Game in Tree**   | Tree-shaped visual layout (centered, cascading rows), top-to-bottom typing |
+| **Standard Drill** | Normal paragraph flow, real words/sentences                                |
+
+- Shared logic: character-by-character matching, cursor position, real-time WPM/accuracy, backspace support
+- Visual feedback: correct (green), incorrect (red), current cursor (blue pulse), untyped (gray)
+- Completion: confetti-style animation, stats summary, "Next Screen" button
+
+#### [NEW] [TypingStepPage.jsx](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/pages/TypingStepPage.jsx)
+
+- Step overview page at `/typing-academy/:stepNumber`
+- Shows step intro, learning goals, key assignments (which finger → which key)
+- Grid of all screens for this step (clickable cards showing screen type icon + number)
+- Tips section
+
+---
+
+### Phase 3: Virtual Keyboard Visualizer + Gamification
+
+#### [NEW] [VirtualKeyboard.jsx](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/components/typing/VirtualKeyboard.jsx)
+
+- SVG/CSS-based QWERTY keyboard rendered below the exercise
+- Features:
+  - **Finger color-coding**: Each finger gets a unique color zone (left pinky = rose, left ring = orange, etc.)
+  - **Active key highlight**: Currently expected key glows/pulses
+  - **Finger indicator**: Shows which finger to use with a label
+  - **Home row markers**: F and J keys have bump indicators
+  - **Key press animation**: Brief scale + color flash on correct press
+  - **Learned vs. unlearned keys**: Learned keys are bright, unlearned keys are dimmed
+- Responsive — collapses on mobile with a "Show Keyboard" toggle
+
+#### [NEW] [useTypingProgress.js](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/hooks/useTypingProgress.js)
+
+- Custom React hook for localStorage-based progress tracking
+- Stores per-step/per-screen: `{ completed: bool, bestWpm: number, bestAccuracy: number, attempts: number }`
+- Exposes: `getStepProgress()`, `markScreenComplete()`, `getOverallProgress()`, `resetProgress()`
+- Step unlocking logic: Step N+1 unlocks when Step N is completed (all screens done)
+
+#### Progress & Gamification UI (integrated into existing pages):
+
+- **Step cards** on course page show: ⭐ stars (based on accuracy), 🔒 locked / ✅ completed / 🔵 current
+- **Stats summary** on step completion: WPM, accuracy, time, personal best comparison
+- **Course progress bar**: animated fill showing X/20 steps complete
+- **Achievement badges** (stretch): "Home Row Hero", "Top Row Explorer", "Speed Demon (>40 WPM)"
+
+---
+
+### Phase 4: Full Content Population + Polish
+
+#### [MODIFY] [typingCourseData.js](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/data/typingCourseData.js)
+
+- Populate all remaining steps (5–20) with full screen data from `touch-typing.md`
+- Steps 5–8: Top row keys (E, I, R, U, T, Y, W, O)
+- Steps 9–10: Remaining top row (Q, P)
+- Steps 11–14: Bottom row keys (N, M, V, B, C, X, Z)
+- Steps 15–16: Shift key and capitals
+- Steps 17–18: Numbers and punctuation
+- Steps 19–20: Real words, sentences, speed building
+
+#### CSS Polish
+
+- Add new CSS classes for typing exercise modes to `App.css`
+- Keyboard animations, cursor blink, screen type visual themes
+- Mobile responsive adjustments
+- Smooth transitions between screens
+
+---
+
+## Architecture Diagram
+
+```mermaid
+graph TD
+    A["HomePage.jsx"] -->|"Link to /typing-academy"| B["TypingCoursePage.jsx"]
+    B -->|"Click step card"| C["TypingStepPage.jsx"]
+    C -->|"Click screen / Start"| D["TypingExercisePage.jsx"]
+    D --> E["TypingExercise.jsx"]
+    D --> F["VirtualKeyboard.jsx"]
+    E -->|"on complete"| G["useTypingProgress.js"]
+    B -->|"reads progress"| G
+    C -->|"reads progress"| G
+    G -->|"localStorage"| H["Browser Storage"]
+    E -->|"exercise data"| I["typingCourseData.js"]
+```
+
+## File Summary
+
+| File                                        | Type      | Phase |
+| ------------------------------------------- | --------- | ----- |
+| `src/data/typingCourseData.js`              | Data      | 1, 4  |
+| `src/pages/TypingCoursePage.jsx`            | Page      | 1     |
+| `src/pages/TypingStepPage.jsx`              | Page      | 2     |
+| `src/pages/TypingExercisePage.jsx`          | Page      | 2     |
+| `src/components/typing/TypingExercise.jsx`  | Component | 2     |
+| `src/components/typing/VirtualKeyboard.jsx` | Component | 3     |
+| `src/hooks/useTypingProgress.js`            | Hook      | 3     |
+| `src/App.jsx`                               | Modify    | 1     |
+| `src/pages/HomePage.jsx`                    | Modify    | 1     |
+| `src/App.css`                               | Modify    | 2, 4  |
+
+## Verification Plan
+
+### Manual Verification
+
+After each phase, you can run `npm run dev` and verify:
+
+- **Phase 1**: Navigate to `/typing-academy`, see the course landing page with 20 step cards
+- **Phase 2**: Click a step → see screens → click a screen → type the exercise → see WPM/accuracy
+- **Phase 3**: Virtual keyboard appears below exercises, progress persists across page reloads
+- **Phase 4**: All 20 steps are fully playable end-to-end
+
+## Open Questions
+
+> [!NOTE]
+> **Step unlock policy**: Should all 20 steps be available from the start (free exploration), or should steps be locked until the previous step is completed? I'm defaulting to **locked progression** (more educational), but can change to open.
+
+> [!NOTE]
+> **Mobile keyboard**: The virtual keyboard visualizer works best on desktop. On mobile, should I hide it entirely, or show a simplified version? I'm defaulting to **toggleable with "Show Keyboard" button**.
+
+# TouchType Academy Implementation Summary
+
+The TouchType Academy has been successfully integrated into your portfolio! The entire 20-step curriculum is now an interactive, gamified learning experience directly accessible from the home page.
+
+## What Was Accomplished
+
+### 1. Data Layer & Curriculum
+
+- Created `src/data/typingCourseData.js` parsing the entire 3,400+ lines of your markdown into a structured format.
+- Includes all **20 steps**, covering the home row, top row, bottom row, numbers, capital letters, and full speed practice.
+- Supports 4 specific exercise modes for variety.
+
+### 2. Progress Engine
+
+- Created `src/hooks/useTypingProgress.js`.
+- Implemented robust `localStorage` tracking for best WPM, accuracy, and attempts per screen.
+- Includes step-locking logic ensuring users must master foundational keys before advancing.
+
+### 3. Application Routing & Pages
+
+- **Course Landing Page**: `TypingCoursePage.jsx` provides a beautiful dashboard tracking overall progress and listing the 20 steps.
+- **Step Overview Page**: `TypingStepPage.jsx` dives into learning goals and specific exercises.
+- **Exercise Wrapper**: `TypingExercisePage.jsx` houses the active typing session and keyboard toggle.
+- Added a custom card on `HomePage.jsx` driving users straight to the course.
+
+### 4. Interactive Typing Engine (4 Modes)
+
+- **Standard Mode**: Continuous flow typing for building speed.
+- **Block Letters Mode**: Renders single isolated keys as large blocks to force absolute focus on new finger movements.
+- **Falling Letter Mode**: Provides a smooth scrolling ticker-tape layout, enforcing steady rhythm.
+- **Game In Tree Mode**: Arranges keys in a vertical tree pattern, improving look-ahead reading skills.
+- Implemented a unified `useTypingEngine` hook that powers all these variations with strict error and WPM calculations.
+
+### 5. Interactive Virtual Keyboard
+
+- Created `VirtualKeyboard.jsx` utilizing custom color-coding mapped to the standard touch-typing finger assignments.
+- Includes active event listeners that physically depress and light up keys on screen exactly when you type them.
+
+> [!TIP]
+> **Next Steps for You:** Run the app locally (`npm run dev`) and test out the new `TouchType Academy` card on the home page. You can click through Step 1 exercises and watch the progress bars and locks update in real time!
+
+# TouchType Academy — Build Tasks
+
+## Phase 1: Data Layer + Routing + Course Landing Page
+
+- [x] Create `src/data/typingCourseData.js` — structured data for all 20 steps
+- [x] Create `src/pages/TypingCoursePage.jsx` — course landing page
+- [x] Modify `src/App.jsx` — add typing academy routes
+- [x] Modify `src/pages/HomePage.jsx` — add typing academy course card
+
+## Phase 2: Core Exercise Engine + Screen Types
+
+- [x] Create `src/components/typing/TypingExercise.jsx` — core exercise engine (4 screen types)
+- [x] Create `src/pages/TypingStepPage.jsx` — step overview page
+- [x] Create `src/pages/TypingExercisePage.jsx` — exercise page wrapper
+
+## Phase 3: Virtual Keyboard + Gamification
+
+- [x] Create `src/components/typing/VirtualKeyboard.jsx` — SVG keyboard visualizer
+- [x] Create `src/hooks/useTypingProgress.js` — localStorage progress hook
+
+## Phase 4: Content Population + Polish
+
+- [x] Populate all 20 steps in typingCourseData.js
+- [x] Add CSS for typing components to App.css
+- [x] Final polish and verification

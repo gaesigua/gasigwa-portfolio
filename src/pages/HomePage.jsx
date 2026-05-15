@@ -101,6 +101,23 @@ const HomePage = () => {
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* TouchType Academy Custom Card */}
+              <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-200 hover:border-[#6ab3ea] hover:shadow-md transition-all duration-200 flex flex-col h-full">
+                <div className="h-20 w-20 mx-auto mb-4 bg-[#e0f0fa] text-[#4a9ed9] rounded-xl flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 8h.01"/><path d="M12 12h.01"/><path d="M14 8h.01"/><path d="M16 12h.01"/><path d="M18 8h.01"/><path d="M6 8h.01"/><path d="M7 16h10"/><path d="M8 12h.01"/><rect width="20" height="16" x="2" y="4" rx="2"/></svg>
+                </div>
+                <h3 className='text-2xl font-semibold text-slate-900 mb-3 text-center'>TouchType Academy</h3>
+                <p className='text-slate-600 mb-4 flex-grow'>
+                  Master the keyboard with our interactive 20-step curriculum. Build muscle memory and typing fluency from scratch.
+                </p>
+                <div className='mt-auto flex justify-between items-center text-slate-500'>
+                  <span className='text-sm'>Typing Lessons, Typing Games</span>
+                  <a href="/typing-academy" className='text-[#2f7fb5] hover:text-[#21628d] border border-slate-200 hover:border-[#2f7fb5] hover:bg-slate-50 px-3 py-1.5 rounded-lg flex items-center transition-all duration-200'>
+                    Start Course <ArrowRight className='ml-1 w-4 h-4' />
+                  </a>
+                </div>
+              </div>
+
               {lessons.map((lesson) => (
                 <LessonCard key={lesson.slug} lesson={lesson} />
               ))}
