@@ -1,4 +1,4 @@
-# TouchType Academy — Interactive Typing Course on Portfolio
+# Touch Typing — Interactive Typing Course on Portfolio
 
 Build the entire `touch-typing.md` curriculum as a fully interactive, playable course on the portfolio website, complete with a virtual keyboard visualizer, progress/gamification system, and all 4 screen types (Block Letters, Falling Letter, Game in Tree, Standard Drill).
 
@@ -43,7 +43,7 @@ Create the typing course data, add routing, and build the course landing/catalog
 
 #### [MODIFY] [HomePage.jsx](file:///c:/Users/gasig/Documents/my_projects/gasigwa-portfolio/src/pages/HomePage.jsx)
 
-- Add a "TouchType Academy" card in the Courses section alongside existing lesson cards
+- Add a "Touch Typing" card in the Courses section alongside existing lesson cards
 - Uses a keyboard/typing emoji icon, links to `/typing-academy`
 
 ---
@@ -186,9 +186,9 @@ After each phase, you can run `npm run dev` and verify:
 > [!NOTE]
 > **Mobile keyboard**: The virtual keyboard visualizer works best on desktop. On mobile, should I hide it entirely, or show a simplified version? I'm defaulting to **toggleable with "Show Keyboard" button**.
 
-# TouchType Academy Implementation Summary
+# Touch Typing Implementation Summary
 
-The TouchType Academy has been successfully integrated into your portfolio! The entire 20-step curriculum is now an interactive, gamified learning experience directly accessible from the home page.
+The Touch Typing has been successfully integrated into your portfolio! The entire 20-step curriculum is now an interactive, gamified learning experience directly accessible from the home page.
 
 ## What Was Accomplished
 
@@ -225,9 +225,9 @@ The TouchType Academy has been successfully integrated into your portfolio! The 
 - Includes active event listeners that physically depress and light up keys on screen exactly when you type them.
 
 > [!TIP]
-> **Next Steps for You:** Run the app locally (`npm run dev`) and test out the new `TouchType Academy` card on the home page. You can click through Step 1 exercises and watch the progress bars and locks update in real time!
+> **Next Steps for You:** Run the app locally (`npm run dev`) and test out the new `Touch Typing` card on the home page. You can click through Step 1 exercises and watch the progress bars and locks update in real time!
 
-# TouchType Academy — Build Tasks
+# Touch Typing — Build Tasks
 
 ## Phase 1: Data Layer + Routing + Course Landing Page
 

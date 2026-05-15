@@ -21,7 +21,7 @@ const TypingCoursePage = () => {
               <Keyboard className="w-8 h-8" />
             </div>
             <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900">
-              TouchType Academy
+              Touch Typing
             </h1>
           </div>
           <p className="text-lg text-slate-600 mb-6 max-w-3xl">
